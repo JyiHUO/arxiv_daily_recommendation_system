@@ -1,0 +1,76 @@
+name: alphaxiv Daily Paper Fetch
+
+on:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'  # 每6小时执行一次 (UTC)
+  workflow_dispatch:               # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run fetch script
+        env:
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          AZURE_TRANSLATOR_KEY: ${{ secrets.AZURE_TRANSLATOR_KEY }}
+          AZURE_TRANSLATOR_REGION: ${{ secrets.AZURE_TRANSLATOR_REGION }}
+        run: node alphaxiv_daily/fetch.js
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add alphaxiv_daily/seen.json alphaxiv_daily/feed.xml alphaxiv_daily/releases/ || true
+          git diff --staged --quiet && echo "no changes" && exit 0
+          git commit -m "chore: update alphaxiv daily papers $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create GitHub Releases for new papers
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: |
+          # 找出本次新增的 release 文件（今天日期目录下）
+          TODAY=$(date -u '+%Y-%m-%d')
+          RELEASE_DIR="alphaxiv_daily/releases/${TODAY}"
+
+          if [ ! -d "$RELEASE_DIR" ]; then
+            echo "今日无新论文目录，跳过 release 创建"
+            exit 0
+          fi
+
+          for md_file in "$RELEASE_DIR"/*.md; do
+            [ -f "$md_file" ] || continue
+            PAPER_ID=$(basename "$md_file" .md)
+
+            # 检查 tag 是否已存在
+            if gh release view "$PAPER_ID" --repo "${{ github.repository }}" > /dev/null 2>&1; then
+              echo "Release $PAPER_ID 已存在，跳过"
+              continue
+            fi
+
+            # 从 markdown 第一行提取标题
+            TITLE=$(head -1 "$md_file" | sed 's/^# //')
+
+            echo "创建 Release: $PAPER_ID - $TITLE"
+            gh release create "$PAPER_ID" \
+              --title "$TITLE" \
+              --notes-file "$md_file" \
+              --repo "${{ github.repository }}" || echo "创建 Release $PAPER_ID 失败，继续"
+          done
