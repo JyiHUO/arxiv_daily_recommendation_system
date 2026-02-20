@@ -6,7 +6,231 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 20 Feb 2026 12:11:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 18:13:48 GMT</lastBuildDate>
+  <item>
+    <title>Bending the Scaling Law Curve in Large-Scale Recommendation Systems</title>
+    <link>https://arxiv.org/abs/2602.16986</link>
+    <guid isPermaLink="false">2602.16986</guid>
+    <pubDate>Thu, 19 Feb 2026 01:15:17 GMT</pubDate>
+    <description>Learning from user interaction history through sequential models has become a cornerstone of large-scale recommender systems. Recent advances in large language models have revealed promising scaling laws, sparking a surge of research into long-sequence modeling and deeper architectures for recommendation tasks. However, many recent approaches rely heavily on cross-attention mechanisms to address the quadratic computational bottleneck in sequential modeling, which can limit the representational p...</description>
+  </item>
+  <item>
+    <title>RankEvolve: Automating the Discovery of Retrieval Algorithms via LLM-Driven Evolution</title>
+    <link>https://arxiv.org/abs/2602.16932</link>
+    <guid isPermaLink="false">2602.16932</guid>
+    <pubDate>Wed, 18 Feb 2026 22:53:18 GMT</pubDate>
+    <description>Retrieval algorithms like BM25 and query likelihood with Dirichlet smoothing remain strong and efficient first-stage rankers, yet improvements have mostly relied on parameter tuning and human intuition. We investigate whether a large language model, guided by an evaluator and evolutionary search, can automatically discover improved lexical retrieval algorithms. We introduce RankEvolve, a program evolution setup based on AlphaEvolve, in which candidate ranking algorithms are represented as execut...</description>
+  </item>
+  <item>
+    <title>Mine and Refine: Optimizing Graded Relevance in E-commerce Search Retrieval</title>
+    <link>https://arxiv.org/abs/2602.17654</link>
+    <guid isPermaLink="false">2602.17654</guid>
+    <pubDate>Thu, 19 Feb 2026 18:56:36 GMT</pubDate>
+    <description>We propose a two-stage &quot;Mine and Refine&quot; contrastive training framework for semantic text embeddings to enhance multi-category e-commerce search retrieval. Large scale e-commerce search demands embeddings that generalize to long tail, noisy queries while adhering to scalable supervision compatible with product and policy constraints. A practical challenge is that relevance is often graded: users accept substitutes or complements beyond exact matches, and production systems benefit from clear sep...</description>
+  </item>
+  <item>
+    <title>When LLM Judges Inflate Scores: Exploring Overrating in Relevance Assessment</title>
+    <link>https://arxiv.org/abs/2602.17170</link>
+    <guid isPermaLink="false">2602.17170</guid>
+    <pubDate>Thu, 19 Feb 2026 08:37:21 GMT</pubDate>
+    <description>Human relevance assessment is time-consuming and cognitively intensive, limiting the scalability of Information Retrieval evaluation. This has led to growing interest in using large language models (LLMs) as proxies for human judges. However, it remains an open question whether LLM-based relevance judgments are reliable, stable, and rigorous enough to match humans for relevance assessment. In this work, we conduct a systematic study of overrating behavior in LLM-based relevance judgments across ...</description>
+  </item>
+  <item>
+    <title>Improving LLM-based Recommendation with Self-Hard Negatives from Intermediate Layers</title>
+    <link>https://arxiv.org/abs/2602.17410</link>
+    <guid isPermaLink="false">2602.17410</guid>
+    <pubDate>Thu, 19 Feb 2026 14:37:43 GMT</pubDate>
+    <description>Large language models (LLMs) have shown great promise in recommender systems, where supervised fine-tuning (SFT) is commonly used for adaptation. Subsequent studies further introduce preference learning to incorporate negative samples into the training process. However, existing methods rely on sequence-level, offline-generated negatives, making them less discriminative and informative when adapting LLMs to recommendation tasks with large negative item spaces. To address these challenges, we pro...</description>
+  </item>
+  <item>
+    <title>WebFAQ 2.0: A Multilingual QA Dataset with Mined Hard Negatives for Dense Retrieval</title>
+    <link>https://arxiv.org/abs/2602.17327</link>
+    <guid isPermaLink="false">2602.17327</guid>
+    <pubDate>Thu, 19 Feb 2026 12:45:58 GMT</pubDate>
+    <description>We introduce WebFAQ 2.0, a new version of the WebFAQ dataset, containing 198 million FAQ-based natural question-answer pairs across 108 languages. Compared to the previous version, it significantly expands multilingual coverage and the number of bilingual aligned QA pairs to over 14.3M, making it the largest FAQ-based resource. Unlike the original release, WebFAQ 2.0 uses a novel data collection strategy that directly crawls and extracts relevant web content, resulting in a substantially more di...</description>
+  </item>
+  <item>
+    <title>A Picture of Agentic Search</title>
+    <link>https://arxiv.org/abs/2602.17518</link>
+    <guid isPermaLink="false">2602.17518</guid>
+    <pubDate>Thu, 19 Feb 2026 16:32:34 GMT</pubDate>
+    <description>With automated systems increasingly issuing search queries alongside humans, Information Retrieval (IR) faces a major shift. Yet IR remains human-centred, with systems, evaluation metrics, user models, and datasets designed around human queries and behaviours. Consequently, IR operates under assumptions that no longer hold in practice, with changes to workload volumes, predictability, and querying behaviours. This misalignment affects system performance and optimisation: caching may lose effecti...</description>
+  </item>
+  <item>
+    <title>Evaluating Chain-of-Thought Reasoning through Reusability and Verifiability</title>
+    <link>https://arxiv.org/abs/2602.17544</link>
+    <guid isPermaLink="false">2602.17544</guid>
+    <pubDate>Thu, 19 Feb 2026 16:59:11 GMT</pubDate>
+    <description>In multi-agent IR pipelines for tasks such as search and ranking, LLM-based agents exchange intermediate reasoning in terms of Chain-of-Thought (CoT) with each other. Current CoT evaluation narrowly focuses on target task accuracy. However, this metric fails to assess the quality or utility of the reasoning process itself. To address this limitation, we introduce two novel measures: reusability and verifiability. We decouple CoT generation from execution using a Thinker-Executor framework. Reusa...</description>
+  </item>
+  <item>
+    <title>On the Reliability of User-Centric Evaluation of Conversational Recommender Systems</title>
+    <link>https://arxiv.org/abs/2602.17264</link>
+    <guid isPermaLink="false">2602.17264</guid>
+    <pubDate>Thu, 19 Feb 2026 11:10:11 GMT</pubDate>
+    <description>User-centric evaluation has become a key paradigm for assessing Conversational Recommender Systems (CRS), aiming to capture subjective qualities such as satisfaction, trust, and rapport. To enable scalable evaluation, recent work increasingly relies on third-party annotations of static dialogue logs by crowd workers or large language models. However, the reliability of this practice remains largely unexamined. In this paper, we present a large-scale empirical study investigating the reliability ...</description>
+  </item>
+  <item>
+    <title>SAGE: Structure Aware Graph Expansion for Retrieval of Heterogeneous Data</title>
+    <link>https://arxiv.org/abs/2602.16964</link>
+    <guid isPermaLink="false">2602.16964</guid>
+    <pubDate>Wed, 18 Feb 2026 23:57:19 GMT</pubDate>
+    <description>Retrieval-augmented question answering over heterogeneous corpora requires connected evidence across text, tables, and graph nodes. While entity-level knowledge graphs support structured access, they are costly to construct and maintain, and inefficient to traverse at query time. In contrast, standard retriever-reader pipelines use flat similarity search over independently chunked text, missing multi-hop evidence chains across modalities. We propose SAGE (Structure Aware Graph Expansion) framewo...</description>
+  </item>
+  <item>
+    <title>Asynchronous Verified Semantic Caching for Tiered LLM Architectures</title>
+    <link>https://arxiv.org/abs/2602.13165</link>
+    <guid isPermaLink="false">2602.13165</guid>
+    <pubDate>Fri, 13 Feb 2026 18:25:00 GMT</pubDate>
+    <description>Large language models (LLMs) now sit in the critical path of search, assistance, and agentic workflows, making semantic caching essential for reducing inference cost and latency. Production deployments typically use a tiered static-dynamic design: a static cache of curated, offline vetted responses mined from logs, backed by a dynamic cache populated online. In practice, both tiers are commonly governed by a single embedding similarity threshold, which induces a hard tradeoff: conservative thres...</description>
+  </item>
+  <item>
+    <title>Predicting New Concept-Object Associations in Astronomy by Mining the Literature</title>
+    <link>https://arxiv.org/abs/2602.14335</link>
+    <guid isPermaLink="false">2602.14335</guid>
+    <pubDate>Sun, 15 Feb 2026 23:07:10 GMT</pubDate>
+    <description>We construct a concept-object knowledge graph from the full astro-ph corpus through July 2025. Using an automated pipeline, we extract named astrophysical objects from OCR-processed papers, resolve them to SIMBAD identifiers, and link them to scientific concepts annotated in the source corpus. We then test whether historical graph structure can forecast new concept-object associations before they appear in print. Because the concepts are derived from clustering and therefore overlap semantically...</description>
+  </item>
+  <item>
+    <title>Index Light, Reason Deep: Deferred Visual Ingestion for Visual-Dense Document Question Answering</title>
+    <link>https://arxiv.org/abs/2602.14162</link>
+    <guid isPermaLink="false">2602.14162</guid>
+    <pubDate>Sun, 15 Feb 2026 14:23:50 GMT</pubDate>
+    <description>Existing multimodal document question answering methods universally adopt a supply-side ingestion strategy: running a Vision-Language Model (VLM) on every page during indexing to generate comprehensive descriptions, then answering questions through text retrieval. However, this &quot;pre-ingestion&quot; approach is costly (a 113-page engineering drawing package requires approximately 80,000 VLM tokens), end-to-end unreliable (VLM outputs may fail to be correctly retrieved due to format mismatches in the r...</description>
+  </item>
+  <item>
+    <title>Analytical Search</title>
+    <link>https://arxiv.org/abs/2602.11581</link>
+    <guid isPermaLink="false">2602.11581</guid>
+    <pubDate>Thu, 12 Feb 2026 05:06:29 GMT</pubDate>
+    <description>Analytical information needs, such as trend analysis and causal impact assessment, are prevalent across various domains including law, finance, science, and much more. However, existing information retrieval paradigms, whether based on relevance-oriented document ranking or retrieval-augmented generation (RAG) with large language models (LLMs), often struggle to meet the end-to-end requirements of such tasks at the corpus scale. They either emphasize information finding rather than end-to-end pr...</description>
+  </item>
+  <item>
+    <title>Awakening Dormant Users: Generative Recommendation with Counterfactual Functional Role Reasoning</title>
+    <link>https://arxiv.org/abs/2602.13134</link>
+    <guid isPermaLink="false">2602.13134</guid>
+    <pubDate>Fri, 13 Feb 2026 17:33:48 GMT</pubDate>
+    <description>Awakening dormant users, who remain engaged but exhibit low conversion, is a pivotal driver for incremental GMV growth in large-scale e-commerce platforms. However, existing approaches often yield suboptimal results since they typically rely on single-step estimation of an item&apos;s intrinsic value (e.g., immediate click probability). This mechanism overlooks the instrumental effect of items, where specific interactions act as triggers to shape latent intent and drive subsequent decisions along a c...</description>
+  </item>
+  <item>
+    <title>RGAlign-Rec: Ranking-Guided Alignment for Latent Query Reasoning in Recommendation Systems</title>
+    <link>https://arxiv.org/abs/2602.12968</link>
+    <guid isPermaLink="false">2602.12968</guid>
+    <pubDate>Fri, 13 Feb 2026 14:38:02 GMT</pubDate>
+    <description>Proactive intent prediction is a critical capability in modern e-commerce chatbots, enabling &quot;zero-query&quot; recommendations by anticipating user needs from behavioral and contextual signals. However, existing industrial systems face two fundamental challenges: (1) the semantic gap between discrete user features and the semantic intents within the chatbot&apos;s Knowledge Base, and (2) the objective misalignment between general-purpose LLM outputs and task-specific ranking utilities. To address these is...</description>
+  </item>
+  <item>
+    <title>SQuTR: A Robustness Benchmark for Spoken Query to Text Retrieval under Acoustic Noise</title>
+    <link>https://arxiv.org/abs/2602.12783</link>
+    <guid isPermaLink="false">2602.12783</guid>
+    <pubDate>Fri, 13 Feb 2026 10:08:27 GMT</pubDate>
+    <description>Spoken query retrieval is an important interaction mode in modern information retrieval. However, existing evaluation datasets are often limited to simple queries under constrained noise conditions, making them inadequate for assessing the robustness of spoken query retrieval systems under complex acoustic perturbations. To address this limitation, we present SQuTR, a robustness benchmark for spoken query retrieval that includes a large-scale dataset and a unified evaluation protocol. SQuTR aggr...</description>
+  </item>
+  <item>
+    <title>Improving Neural Retrieval with Attribution-Guided Query Rewriting</title>
+    <link>https://arxiv.org/abs/2602.11841</link>
+    <guid isPermaLink="false">2602.11841</guid>
+    <pubDate>Thu, 12 Feb 2026 11:34:06 GMT</pubDate>
+    <description>Neural retrievers are effective but brittle: underspecified or ambiguous queries can misdirect ranking even when relevant documents exist. Existing approaches address this brittleness only partially: LLMs rewrite queries without retriever feedback, and explainability methods identify misleading tokens but are used for post-hoc analysis. We close this loop and propose an attribution-guided query rewriting method that uses token-level explanations to guide query rewriting. For each query, we compu...</description>
+  </item>
+  <item>
+    <title>Unleashing the Potential of Sparse Attention on Long-term Behaviors for CTR Prediction</title>
+    <link>https://arxiv.org/abs/2601.17836</link>
+    <guid isPermaLink="false">2601.17836</guid>
+    <pubDate>Sun, 25 Jan 2026 13:39:26 GMT</pubDate>
+    <description>In recent years, the success of large language models (LLMs) has driven the exploration of scaling laws in recommender systems. However, models that demonstrate scaling laws are actually challenging to deploy in industrial settings for modeling long sequences of user behaviors, due to the high computational complexity of the standard self-attention mechanism. Despite various sparse self-attention mechanisms proposed in other fields, they are not fully suited for recommendation scenarios. This is...</description>
+  </item>
+  <item>
+    <title>OwlerLite: Scope- and Freshness-Aware Web Retrieval for LLM Assistants</title>
+    <link>https://arxiv.org/abs/2601.17824</link>
+    <guid isPermaLink="false">2601.17824</guid>
+    <pubDate>Sun, 25 Jan 2026 13:11:14 GMT</pubDate>
+    <description>Browser-based language models often use retrieval-augmented generation (RAG) but typically rely on fixed, outdated indices that give users no control over which sources are consulted. This can lead to answers that mix trusted and untrusted content or draw on stale information. We present OwlerLite, a browser-based RAG system that makes user-defined scopes and data freshness central to retrieval. Users define reusable scopes-sets of web pages or sources-and select them when querying. A freshness-...</description>
+  </item>
+  <item>
+    <title>LegalMALR:Multi-Agent Query Understanding and LLM-Based Reranking for Chinese Statute Retrieval</title>
+    <link>https://arxiv.org/abs/2601.17692</link>
+    <guid isPermaLink="false">2601.17692</guid>
+    <pubDate>Sun, 25 Jan 2026 04:44:56 GMT</pubDate>
+    <description>Statute retrieval is essential for legal assistance and judicial decision support, yet real-world legal queries are often implicit, multi-issue, and expressed in colloquial or underspecified forms. These characteristics make it difficult for conventional retrieval-augmented generation pipelines to recover the statutory elements required for accurate retrieval. Dense retrievers focus primarily on the literal surface form of the query, whereas lightweight rerankers lack the legal-reasoning capacit...</description>
+  </item>
+  <item>
+    <title>Memento: Towards Proactive Visualization of Everyday Memories with Personal Wearable AR Assistant</title>
+    <link>https://arxiv.org/abs/2601.17622</link>
+    <guid isPermaLink="false">2601.17622</guid>
+    <pubDate>Sat, 31 Jan 2026 01:46:44 GMT</pubDate>
+    <description>We introduce Memento, a conversational AR assistant that permanently captures and memorizes user&apos;s verbal queries alongside their spatiotemporal and activity contexts. By storing these &quot;memories,&quot; Memento discovers connections between users&apos; recurring interests and the contexts that trigger them. Upon detection of similar or identical spatiotemporal activity, Memento proactively recalls user interests and delivers up-to-date responses through AR, seamlessly integrating AR experience into their d...</description>
+  </item>
+  <item>
+    <title>Why They Link: An Intent Taxonomy for Including Hyperlinks in Social Posts</title>
+    <link>https://arxiv.org/abs/2601.17601</link>
+    <guid isPermaLink="false">2601.17601</guid>
+    <pubDate>Sat, 24 Jan 2026 21:32:28 GMT</pubDate>
+    <description>URLs serve as bridges between social media platforms and the broader web, linking user-generated content to external information resources. On Twitter (X), approximately one in five tweets contains at least one URL, underscoring their central role in information dissemination. While prior studies have examined the motivations of authors who share URLs, such author-centered intentions are difficult to observe in practice. To enable broader downstream use, this work investigates reader-centered in...</description>
+  </item>
+  <item>
+    <title>SpecTran: Spectral-Aware Transformer-based Adapter for LLM-Enhanced Sequential Recommendation</title>
+    <link>https://arxiv.org/abs/2601.21986</link>
+    <guid isPermaLink="false">2601.21986</guid>
+    <pubDate>Thu, 29 Jan 2026 17:00:27 GMT</pubDate>
+    <description>Traditional sequential recommendation (SR) models learn low-dimensional item ID embeddings from user-item interactions, often overlooking textual information such as item titles or descriptions. Recent advances in Large Language Models (LLMs) have inspired a surge of research that encodes item textual information with high-dimensional semantic embeddings, and designs transformation methods to inject such embeddings into SR models. These embedding transformation strategies can be categorized into...</description>
+  </item>
+  <item>
+    <title>BEAR: Towards Beam-Search-Aware Optimization for Recommendation with Large Language Models</title>
+    <link>https://arxiv.org/abs/2601.22925</link>
+    <guid isPermaLink="false">2601.22925</guid>
+    <pubDate>Fri, 30 Jan 2026 12:45:02 GMT</pubDate>
+    <description>Recent years have witnessed a rapid surge in research leveraging Large Language Models (LLMs) for recommendation. These methods typically employ supervised fine-tuning (SFT) to adapt LLMs to recommendation scenarios, and utilize beam search during inference to efficiently retrieve $B$ top-ranked recommended items. However, we identify a critical training-inference inconsistency: while SFT optimizes the overall probability of positive items, it does not guarantee that such items will be retrieved...</description>
+  </item>
+  <item>
+    <title>OrLog: Resolving Complex Queries with LLMs and Probabilistic Reasoning</title>
+    <link>https://arxiv.org/abs/2601.23085</link>
+    <guid isPermaLink="false">2601.23085</guid>
+    <pubDate>Fri, 30 Jan 2026 15:31:58 GMT</pubDate>
+    <description>Resolving complex information needs that come with multiple constraints should consider enforcing the logical operators encoded in the query (i.e., conjunction, disjunction, negation) on the candidate answer set. Current retrieval systems either ignore these constraints in neural embeddings or approximate them in a generative reasoning process that can be inconsistent and unreliable. Although well-suited to structured reasoning, existing neuro-symbolic approaches remain confined to formal logic ...</description>
+  </item>
+  <item>
+    <title>SCaLRec: Semantic Calibration for LLM-enabled Cloud-Device Sequential Recommendation</title>
+    <link>https://arxiv.org/abs/2601.22543</link>
+    <guid isPermaLink="false">2601.22543</guid>
+    <pubDate>Fri, 30 Jan 2026 04:28:50 GMT</pubDate>
+    <description>Cloud-device collaborative recommendation partitions computation across the cloud and user devices: the cloud provides semantic user modeling, while the device leverages recent interactions and cloud semantic signals for privacy-preserving, responsive reranking. With large language models (LLMs) on the cloud, semantic user representations can improve sequential recommendation by capturing high-level intent. However, regenerating such representations via cloud LLM inference for every request is o...</description>
+  </item>
+  <item>
+    <title>Robust Generalizable Heterogeneous Legal Link Prediction</title>
+    <link>https://arxiv.org/abs/2602.04812</link>
+    <guid isPermaLink="false">2602.04812</guid>
+    <pubDate>Wed, 04 Feb 2026 17:59:13 GMT</pubDate>
+    <description>Recent work has applied link prediction to large heterogeneous legal citation networks \new{with rich meta-features}. We find that this approach can be improved by including edge dropout and feature concatenation for the learning of more robust representations, which reduces error rates by up to 45%. We also propose an approach based on multilingual node features with an improved asymmetric decoder for compatibility, which allows us to generalize and extend the prediction to more, geographically...</description>
+  </item>
+  <item>
+    <title>Agentic Search in the Wild: Intents and Trajectory Dynamics from 14M+ Real Search Requests</title>
+    <link>https://arxiv.org/abs/2601.17617?tab=social</link>
+    <guid isPermaLink="false">2601.17617?tab=social</guid>
+    <pubDate>Tue, 03 Feb 2026 04:41:15 GMT</pubDate>
+    <description>LLM-powered search agents are increasingly being used for multi-step information seeking tasks, yet the IR community lacks empirical understanding of how agentic search sessions unfold and how retrieved evidence is used. This paper presents a large-scale log analysis of agentic search based on 14.44M search requests (3.97M sessions) collected from DeepResearchGym, i.e. an open-source search API accessed by external agentic clients. We sessionize the logs, assign session-level intents and step-wi...</description>
+  </item>
+  <item>
+    <title>$\mathbb{R}^{2k}$ is Theoretically Large Enough for Embedding-based Top-$k$ Retrieval</title>
+    <link>https://arxiv.org/abs/2601.20844?tab=social</link>
+    <guid isPermaLink="false">2601.20844?tab=social</guid>
+    <pubDate>Thu, 29 Jan 2026 03:54:29 GMT</pubDate>
+    <description>This paper studies the minimal dimension required to embed subset memberships ($m$ elements and ${m\choose k}$ subsets of at most $k$ elements) into vector spaces, denoted as Minimal Embeddable Dimension (MED). The tight bounds of MED are derived theoretically and supported empirically for various notions of &quot;distances&quot; or &quot;similarities,&quot; including the $\ell_2$ metric, inner product, and cosine similarity. In addition, we conduct numerical simulation in a more achievable setting, where the ${m\c...</description>
+  </item>
+  <item>
+    <title>RAG without Forgetting: Continual Query-Infused Key Memory</title>
+    <link>https://arxiv.org/abs/2602.05152</link>
+    <guid isPermaLink="false">2602.05152</guid>
+    <pubDate>Thu, 05 Feb 2026 00:12:45 GMT</pubDate>
+    <description>Retrieval-augmented generation (RAG) systems commonly improve robustness via query-time adaptations such as query expansion and iterative retrieval. While effective, these approaches are inherently stateless: adaptations are recomputed for each query and discarded thereafter, precluding cumulative learning and repeatedly incurring inference-time cost. Index-side approaches like key expansion introduce persistence but rely on offline preprocessing or heuristic updates that are weakly aligned with...</description>
+  </item>
+  <item>
+    <title>Bagging-Based Model Merging for Robust General Text Embeddings</title>
+    <link>https://arxiv.org/abs/2602.05787</link>
+    <guid isPermaLink="false">2602.05787</guid>
+    <pubDate>Thu, 05 Feb 2026 15:45:08 GMT</pubDate>
+    <description>General-purpose text embedding models underpin a wide range of NLP and information retrieval applications, and are typically trained on large-scale multi-task corpora to encourage broad generalization. However, it remains unclear how different multi-task training strategies compare in practice, and how to efficiently adapt embedding models as new domains and data types continually emerge. In this work, we present a systematic study of multi-task training for text embeddings from two perspectives...</description>
+  </item>
   <item>
     <title>To Case or Not to Case: An Empirical Study in Learned Sparse Retrieval</title>
     <link>https://arxiv.org/abs/2601.17500</link>
@@ -61,7 +285,7 @@
     <link>https://arxiv.org/abs/2602.12301</link>
     <guid isPermaLink="false">2602.12301</guid>
     <pubDate>Wed, 11 Feb 2026 10:52:38 GMT</pubDate>
-    <description>Although annotated music descriptor datasets for user queries are increasingly common, few consider the user&amp;apos;s intent behind these descriptors, which is essential for effectively meeting their needs. We introduce MusicRecoIntent, a manually annotated corpus of 2,291 Reddit music requests, labeling musical descriptors across seven categories with positive, negative, or referential preference-bearing roles. We then investigate how reliably large language models (LLMs) can extract these music descr...</description>
+    <description>Although annotated music descriptor datasets for user queries are increasingly common, few consider the user&amp;amp;apos;s intent behind these descriptors, which is essential for effectively meeting their needs. We introduce MusicRecoIntent, a manually annotated corpus of 2,291 Reddit music requests, labeling musical descriptors across seven categories with positive, negative, or referential preference-bearing roles. We then investigate how reliably large language models (LLMs) can extract these music descr...</description>
   </item>
   <item>
     <title>Recurrent Preference Memory for Efficient Long-Sequence Generative Recommendation</title>
@@ -110,7 +334,7 @@
     <link>https://arxiv.org/abs/2602.16673</link>
     <guid isPermaLink="false">2602.16673</guid>
     <pubDate>Wed, 18 Feb 2026 18:09:47 GMT</pubDate>
-    <description>Clustering-based Approximate Nearest Neighbor Search (ANNS) organizes a set of points into partitions, and searches only a few of them to find the nearest neighbors of a query. Despite its popularity, there are virtually no analytical tools to determine the suitability of clustering-based ANNS for a given dataset -- what we call &amp;amp;quot;searchability.&amp;amp;quot; To address that gap, we present two measures for flat clusterings of high-dimensional points in Euclidean space. First is Clustering-Neighborhood Stabil...</description>
+    <description>Clustering-based Approximate Nearest Neighbor Search (ANNS) organizes a set of points into partitions, and searches only a few of them to find the nearest neighbors of a query. Despite its popularity, there are virtually no analytical tools to determine the suitability of clustering-based ANNS for a given dataset -- what we call &amp;amp;amp;quot;searchability.&amp;amp;amp;quot; To address that gap, we present two measures for flat clusterings of high-dimensional points in Euclidean space. First is Clustering-Neighborhood Stabil...</description>
   </item>
   <item>
     <title>PT-RAG: Structure-Fidelity Retrieval-Augmented Generation for Academic Papers</title>
@@ -124,7 +348,7 @@
     <link>https://arxiv.org/abs/2602.11664</link>
     <guid isPermaLink="false">2602.11664</guid>
     <pubDate>Thu, 12 Feb 2026 07:35:06 GMT</pubDate>
-    <description>Next Point of Interest (POI) recommendation is essential for modern mobility and location-based services. To provide a smooth user experience, models must understand several components of a journey holistically: &amp;amp;quot;when to depart&amp;amp;quot;, &amp;amp;quot;how to travel&amp;amp;quot;, &amp;amp;quot;where to go&amp;amp;quot;, and &amp;amp;quot;what needs arise via the route&amp;amp;quot;. However, current research is limited by fragmented datasets that focus merely on next POI recommendation (&amp;amp;quot;where to go&amp;amp;quot;), neglecting the departure time, travel mode, and situational requirements along...</description>
+    <description>Next Point of Interest (POI) recommendation is essential for modern mobility and location-based services. To provide a smooth user experience, models must understand several components of a journey holistically: &amp;amp;amp;quot;when to depart&amp;amp;amp;quot;, &amp;amp;amp;quot;how to travel&amp;amp;amp;quot;, &amp;amp;amp;quot;where to go&amp;amp;amp;quot;, and &amp;amp;amp;quot;what needs arise via the route&amp;amp;amp;quot;. However, current research is limited by fragmented datasets that focus merely on next POI recommendation (&amp;amp;amp;quot;where to go&amp;amp;amp;quot;), neglecting the departure time, travel mode, and situational requirements along...</description>
   </item>
   <item>
     <title>Compute Only Once: UG-Separation for Efficient Large Recommendation Models</title>
@@ -167,7 +391,7 @@
     <guid isPermaLink="false">2601.17218</guid>
     <pubDate>Fri, 23 Jan 2026 23:05:46 GMT</pubDate>
     <description>Entity matching is a crucial component in various recommender systems, including conversational recommender systems (CRS) and knowledge-based recommender systems. However, the lack of rigorous evaluation frameworks for cross-dataset entity matching impedes progress in areas such as LLM-driven conversational recommendations and knowledge-grounded dataset construction.
-In this paper, we introduce Reddit-Amazon-EM, a novel dataset comprising naturally occurring items from Reddit and the Amazon &amp;amp;apos;23 ...</description>
+In this paper, we introduce Reddit-Amazon-EM, a novel dataset comprising naturally occurring items from Reddit and the Amazon &amp;amp;amp;apos;23 ...</description>
   </item>
   <item>
     <title>Frequency-aware Adaptive Contrastive Learning for Sequential Recommendation</title>
@@ -293,7 +517,7 @@ In this paper, we introduce Reddit-Amazon-EM, a novel dataset comprising natural
     <link>https://arxiv.org/abs/2601.16155</link>
     <guid isPermaLink="false">2601.16155</guid>
     <pubDate>Thu, 22 Jan 2026 17:57:42 GMT</pubDate>
-    <description>The success of CLIP has driven substantial progress in text-video retrieval. However, current methods often suffer from &amp;amp;amp;quot;blind&amp;amp;amp;quot; feature interaction, where the model struggles to discern key visual information from background noise due to the sparsity of textual queries. To bridge this gap, we draw inspiration from human cognitive behavior and propose the Human Vision-Driven (HVD) model. Our framework establishes a coarse-to-fine alignment mechanism comprising two key components: the Frame Featur...</description>
+    <description>The success of CLIP has driven substantial progress in text-video retrieval. However, current methods often suffer from &amp;amp;amp;amp;quot;blind&amp;amp;amp;amp;quot; feature interaction, where the model struggles to discern key visual information from background noise due to the sparsity of textual queries. To bridge this gap, we draw inspiration from human cognitive behavior and propose the Human Vision-Driven (HVD) model. Our framework establishes a coarse-to-fine alignment mechanism comprising two key components: the Frame Featur...</description>
   </item>
   <item>
     <title>Explaining Group Recommendations via Counterfactuals</title>
@@ -321,7 +545,7 @@ In this paper, we introduce Reddit-Amazon-EM, a novel dataset comprising natural
     <link>https://arxiv.org/abs/2601.21916</link>
     <guid isPermaLink="false">2601.21916</guid>
     <pubDate>Thu, 29 Jan 2026 16:06:44 GMT</pubDate>
-    <description>The evolution of Retrieval-Augmented Generation (RAG) has shifted from static retrieval pipelines to dynamic, agentic workflows where a central planner orchestrates multi-turn reasoning. However, existing paradigms face a critical dichotomy: they either optimize modules jointly within rigid, fixed-graph architectures, or empower dynamic planning while treating executors as frozen, black-box tools. We identify that this \textit{decoupled optimization} creates a ``strategic-operational mismatch,&amp;amp;amp;apos;&amp;amp;amp;apos;...</description>
+    <description>The evolution of Retrieval-Augmented Generation (RAG) has shifted from static retrieval pipelines to dynamic, agentic workflows where a central planner orchestrates multi-turn reasoning. However, existing paradigms face a critical dichotomy: they either optimize modules jointly within rigid, fixed-graph architectures, or empower dynamic planning while treating executors as frozen, black-box tools. We identify that this \textit{decoupled optimization} creates a ``strategic-operational mismatch,&amp;amp;amp;amp;apos;&amp;amp;amp;amp;apos;...</description>
   </item>
   <item>
     <title>When &amp;quot;Better&amp;quot; Prompts Hurt: Evaluation-Driven Iteration for LLM Applications</title>
@@ -364,7 +588,7 @@ We introduce the Minimum Viable Evaluation Suite (MVES), a tiered set of recomme
     <link>https://arxiv.org/abs/2602.15019</link>
     <guid isPermaLink="false">2602.15019</guid>
     <pubDate>Mon, 16 Feb 2026 18:57:49 GMT</pubDate>
-    <description>Bio-pharmaceutical innovation has shifted: many new drug assets now originate outside the United States and are disclosed primarily via regional, non-English channels. Recent data suggests &amp;amp;amp;amp;gt;85% of patent filings originate outside the U.S., with China accounting for nearly half of the global total; a growing share of scholarly output is also non-U.S. Industry estimates put China at ~30% of global drug development, spanning 1,200+ novel candidates. In this high-stakes environment, failing to surfa...</description>
+    <description>Bio-pharmaceutical innovation has shifted: many new drug assets now originate outside the United States and are disclosed primarily via regional, non-English channels. Recent data suggests &amp;amp;amp;amp;amp;gt;85% of patent filings originate outside the U.S., with China accounting for nearly half of the global total; a growing share of scholarly output is also non-U.S. Industry estimates put China at ~30% of global drug development, spanning 1,200+ novel candidates. In this high-stakes environment, failing to surfa...</description>
   </item>
   <item>
     <title>The Diversity Paradox revisited: Systemic Effects of Feedback Loops in Recommender Systems</title>
@@ -420,7 +644,7 @@ We introduce the Minimum Viable Evaluation Suite (MVES), a tiered set of recomme
     <link>https://arxiv.org/abs/2602.14755</link>
     <guid isPermaLink="false">2602.14755</guid>
     <pubDate>Mon, 16 Feb 2026 13:58:47 GMT</pubDate>
-    <description>Measuring the relatedness between scientific publications is essential in many areas of bibliometrics and science policy. Controlled vocabularies provide a promising basis for measuring relatedness and are widely used in combination with Salton&amp;amp;amp;amp;apos;s cosine similarity. The latter is problematic because it only considers exact matches between terms. This article introduces two alternative methods - soft cosine and maximum term similarities - that account for the semantic similarity between non-matchi...</description>
+    <description>Measuring the relatedness between scientific publications is essential in many areas of bibliometrics and science policy. Controlled vocabularies provide a promising basis for measuring relatedness and are widely used in combination with Salton&amp;amp;amp;amp;amp;apos;s cosine similarity. The latter is problematic because it only considers exact matches between terms. This article introduces two alternative methods - soft cosine and maximum term similarities - that account for the semantic similarity between non-matchi...</description>
   </item>
   <item>
     <title>GaiaFlow: Semantic-Guided Diffusion Tuning for Carbon-Frugal Search</title>
@@ -441,7 +665,7 @@ We introduce the Minimum Viable Evaluation Suite (MVES), a tiered set of recomme
     <link>https://arxiv.org/abs/2602.13631</link>
     <guid isPermaLink="false">2602.13631</guid>
     <pubDate>Sat, 14 Feb 2026 06:42:56 GMT</pubDate>
-    <description>While generative recommendations (GR) possess strong sequential reasoning capabilities, they face significant challenges when processing extremely long user behavior sequences: the high computational cost forces practical sequence lengths to be limited, preventing models from capturing users&amp;amp;amp;amp;apos; lifelong interests; meanwhile, the inherent &amp;amp;amp;amp;quot;recency bias&amp;amp;amp;amp;quot; of attention mechanisms further weakens learning from long-term history. To overcome this bottleneck, we propose GEMs (Generative rEcommendation wi...</description>
+    <description>While generative recommendations (GR) possess strong sequential reasoning capabilities, they face significant challenges when processing extremely long user behavior sequences: the high computational cost forces practical sequence lengths to be limited, preventing models from capturing users&amp;amp;amp;amp;amp;apos; lifelong interests; meanwhile, the inherent &amp;amp;amp;amp;amp;quot;recency bias&amp;amp;amp;amp;amp;quot; of attention mechanisms further weakens learning from long-term history. To overcome this bottleneck, we propose GEMs (Generative rEcommendation wi...</description>
   </item>
   <item>
     <title>AgenticShop: Benchmarking Agentic Product Curation for Personalized Web Shopping</title>
@@ -484,230 +708,6 @@ We introduce the Minimum Viable Evaluation Suite (MVES), a tiered set of recomme
     <guid isPermaLink="false">2602.10016</guid>
     <pubDate>Tue, 10 Feb 2026 17:37:55 GMT</pubDate>
     <description>Deriving predictable scaling laws that govern the relationship between model performance and computational investment is crucial for designing and allocating resources in massive-scale recommendation systems. While such laws are established for large language models, they remain challenging for recommendation systems, especially those processing both user history and context features. We identify poor scaling efficiency as the main barrier to predictable power-law scaling, stemming from ineffici...</description>
-  </item>
-  <item>
-    <title>Unleash the Potential of Long Semantic IDs for Generative Recommendation</title>
-    <link>https://arxiv.org/abs/2602.13573</link>
-    <guid isPermaLink="false">2602.13573</guid>
-    <pubDate>Sat, 14 Feb 2026 03:15:31 GMT</pubDate>
-    <description>Semantic ID-based generative recommendation represents items as sequences of discrete tokens, but it inherently faces a trade-off between representational expressiveness and computational efficiency. Residual Quantization (RQ)-based approaches restrict semantic IDs to be short to enable tractable sequential modeling, while Optimized Product Quantization (OPQ)-based methods compress long semantic IDs through naive rigid aggregation, inevitably discarding fine-grained semantic information. To reso...</description>
-  </item>
-  <item>
-    <title>RQ-GMM: Residual Quantized Gaussian Mixture Model for Multimodal Semantic Discretization in CTR Prediction</title>
-    <link>https://arxiv.org/abs/2602.12593</link>
-    <guid isPermaLink="false">2602.12593</guid>
-    <pubDate>Fri, 13 Feb 2026 04:11:24 GMT</pubDate>
-    <description>Multimodal content is crucial for click-through rate (CTR) prediction. However, directly incorporating continuous embeddings from pre-trained models into CTR models yields suboptimal results due to misaligned optimization objectives and convergence speed inconsistency during joint training. Discretizing embeddings into semantic IDs before feeding them into CTR models offers a more effective solution, yet existing methods suffer from limited codebook utilization, reconstruction accuracy, and sema...</description>
-  </item>
-  <item>
-    <title>Can Recommender Systems Teach Themselves? A Recursive Self-Improving Framework with Fidelity Control</title>
-    <link>https://arxiv.org/abs/2602.15659</link>
-    <guid isPermaLink="false">2602.15659</guid>
-    <pubDate>Tue, 17 Feb 2026 15:31:32 GMT</pubDate>
-    <description>The scarcity of high-quality training data presents a fundamental bottleneck to scaling machine learning models. This challenge is particularly acute in recommendation systems, where extreme sparsity in user interactions leads to rugged optimization landscapes and poor generalization. We propose the Recursive Self-Improving Recommendation (RSIR) framework, a paradigm in which a model bootstraps its own performance without reliance on external data or teacher models. RSIR operates in a closed loo...</description>
-  </item>
-  <item>
-    <title>da Costa and Tarski meet Goguen and Carnap: a novel approach for ontological heterogeneity based on consequence systems</title>
-    <link>https://arxiv.org/abs/2602.15158</link>
-    <guid isPermaLink="false">2602.15158</guid>
-    <pubDate>Mon, 16 Feb 2026 19:58:35 GMT</pubDate>
-    <description>This paper presents a novel approach for ontological heterogeneity that draws heavily from Carnapian-Goguenism, as presented by Kutz, Mossakowski and Lücke (2010). The approach is provisionally designated da Costian-Tarskianism, named after da Costa&amp;amp;amp;amp;apos;s Principle of Tolerance in Mathematics and after Alfred Tarski&amp;amp;amp;amp;apos;s work on the concept of a consequence operator. The approach is based on the machinery of consequence systems, as developed by Carnielli et al. (2008) and Citkin and Muravitsky (2022), ...</description>
-  </item>
-  <item>
-    <title>ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT models</title>
-    <link>https://arxiv.org/abs/2602.16609</link>
-    <guid isPermaLink="false">2602.16609</guid>
-    <pubDate>Wed, 18 Feb 2026 17:03:32 GMT</pubDate>
-    <description>Current state-of-the-art multi-vector models are obtained through a small Knowledge Distillation (KD) training step on top of strong single-vector models, leveraging the large-scale pre-training of these models. In this paper, we study the pre-training of multi-vector models and show that large-scale multi-vector pre-training yields much stronger multi-vector models. Notably, a fully ColBERT-pre-trained model, ColBERT-Zero, trained only on public data, outperforms GTE-ModernColBERT as well as it...</description>
-  </item>
-  <item>
-    <title>tensorFM: Low-Rank Approximations of Cross-Order Feature Interactions</title>
-    <link>https://arxiv.org/abs/2602.15229</link>
-    <guid isPermaLink="false">2602.15229</guid>
-    <pubDate>Mon, 16 Feb 2026 22:21:48 GMT</pubDate>
-    <description>We address prediction problems on tabular categorical data, where each instance is defined by multiple categorical attributes, each taking values from a finite set. These attributes are often referred to as fields, and their categorical values as features. Such problems frequently arise in practical applications, including click-through rate prediction and social sciences. We introduce and analyze {tensorFM}, a new model that efficiently captures high-order interactions between attributes via a ...</description>
-  </item>
-  <item>
-    <title>FeDecider: An LLM-Based Framework for Federated Cross-Domain Recommendation</title>
-    <link>https://arxiv.org/abs/2602.16034</link>
-    <guid isPermaLink="false">2602.16034</guid>
-    <pubDate>Tue, 17 Feb 2026 21:42:28 GMT</pubDate>
-    <description>Federated cross-domain recommendation (Federated CDR) aims to collaboratively learn personalized recommendation models across heterogeneous domains while preserving data privacy. Recently, large language model (LLM)-based recommendation models have demonstrated impressive performance by leveraging LLMs&amp;amp;amp;amp;apos; strong reasoning capabilities and broad knowledge. However, adopting LLM-based recommendation models in Federated CDR scenarios introduces new challenges. First, there exists a risk of overfittin...</description>
-  </item>
-  <item>
-    <title>AttentionRetriever: Attention Layers are Secretly Long Document Retrievers</title>
-    <link>https://arxiv.org/abs/2602.12278</link>
-    <guid isPermaLink="false">2602.12278</guid>
-    <pubDate>Thu, 12 Feb 2026 18:59:35 GMT</pubDate>
-    <description>Retrieval augmented generation (RAG) has been widely adopted to help Large Language Models (LLMs) to process tasks involving long documents. However, existing retrieval models are not designed for long document retrieval and fail to address several key challenges of long document retrieval, including context-awareness, causal dependence, and scope of retrieval. In this paper, we proposed AttentionRetriever, a novel long document retrieval model that leverages attention mechanism and entity-based...</description>
-  </item>
-  <item>
-    <title>MTFM: A Scalable and Alignment-free Foundation Model for Industrial Recommendation in Meituan</title>
-    <link>https://arxiv.org/abs/2602.11235</link>
-    <guid isPermaLink="false">2602.11235</guid>
-    <pubDate>Wed, 11 Feb 2026 16:37:29 GMT</pubDate>
-    <description>Industrial recommendation systems typically involve multiple scenarios, yet existing cross-domain (CDR) and multi-scenario (MSR) methods often require prohibitive resources and strict input alignment, limiting their extensibility. We propose MTFM (Meituan Foundation Model for Recommendation), a transformer-based framework that addresses these challenges. Instead of pre-aligning inputs, MTFM transforms cross-domain data into heterogeneous tokens, capturing multi-scenario knowledge in an alignment...</description>
-  </item>
-  <item>
-    <title>Climber-Pilot: A Non-Myopic Generative Recommendation Model Towards Better Instruction-Following</title>
-    <link>https://arxiv.org/abs/2602.13581</link>
-    <guid isPermaLink="false">2602.13581</guid>
-    <pubDate>Sat, 14 Feb 2026 03:46:06 GMT</pubDate>
-    <description>Generative retrieval has emerged as a promising paradigm in recommender systems, offering superior sequence modeling capabilities over traditional dual-tower architectures. However, in large-scale industrial scenarios, such models often suffer from inherent myopia: due to single-step inference and strict latency constraints, they tend to collapse diverse user intents into locally optimal predictions, failing to capture long-horizon and multi-item consumption patterns. Moreover, real-world retrie...</description>
-  </item>
-  <item>
-    <title>DiffuRank: Effective Document Reranking with Diffusion Language Models</title>
-    <link>https://arxiv.org/abs/2602.12528</link>
-    <guid isPermaLink="false">2602.12528</guid>
-    <pubDate>Fri, 13 Feb 2026 02:18:14 GMT</pubDate>
-    <description>Recent advances in large language models (LLMs) have inspired new paradigms for document reranking. While this paradigm better exploits the reasoning and contextual understanding capabilities of LLMs, most existing LLM-based rerankers rely on autoregressive generation, which limits their efficiency and flexibility. In particular, token-by-token decoding incurs high latency, while the fixed left-to-right generation order causes early prediction errors to propagate and is difficult to revise. To a...</description>
-  </item>
-  <item>
-    <title>QP-OneModel: A Unified Generative LLM for Multi-Task Query Understanding in Xiaohongshu Search</title>
-    <link>https://arxiv.org/abs/2602.09901</link>
-    <guid isPermaLink="false">2602.09901</guid>
-    <pubDate>Tue, 10 Feb 2026 15:38:17 GMT</pubDate>
-    <description>Query Processing (QP) bridges user intent and content supply in large-scale Social Network Service (SNS) search engines. Traditional QP systems rely on pipelines of isolated discriminative models (e.g., BERT), suffering from limited semantic understanding and high maintenance overhead. While Large Language Models (LLMs) offer a potential solution, existing approaches often optimize sub-tasks in isolation, neglecting intrinsic semantic synergy and necessitating independent iterations. Moreover, s...</description>
-  </item>
-  <item>
-    <title>Uncertainty-aware Generative Recommendation</title>
-    <link>https://arxiv.org/abs/2602.11719</link>
-    <guid isPermaLink="false">2602.11719</guid>
-    <pubDate>Thu, 12 Feb 2026 08:48:51 GMT</pubDate>
-    <description>Generative Recommendation has emerged as a transformative paradigm, reformulating recommendation as an end-to-end autoregressive sequence generation task. Despite its promise, existing preference optimization methods typically rely on binary outcome correctness, suffering from a systemic limitation we term uncertainty blindness. This issue manifests in the neglect of the model&amp;amp;amp;amp;apos;s intrinsic generation confidence, the variation in sample learning difficulty, and the lack of explicit confidence expr...</description>
-  </item>
-  <item>
-    <title>Semantic Search At LinkedIn</title>
-    <link>https://arxiv.org/abs/2602.07309</link>
-    <guid isPermaLink="false">2602.07309</guid>
-    <pubDate>Sat, 07 Feb 2026 01:59:03 GMT</pubDate>
-    <description>Semantic search with large language models (LLMs) enables retrieval by meaning rather than keyword overlap, but scaling it requires major inference efficiency advances. We present LinkedIn&amp;amp;amp;amp;apos;s LLM-based semantic search framework for AI Job Search and AI People Search, combining an LLM relevance judge, embedding-based retrieval, and a compact Small Language Model trained via multi-teacher distillation to jointly optimize relevance and engagement. A prefill-oriented inference architecture co-designe...</description>
-  </item>
-  <item>
-    <title>KuaiSearch: A Large-Scale E-Commerce Search Dataset for Recall, Ranking, and Relevance</title>
-    <link>https://arxiv.org/abs/2602.11518</link>
-    <guid isPermaLink="false">2602.11518</guid>
-    <pubDate>Thu, 12 Feb 2026 03:22:05 GMT</pubDate>
-    <description>E-commerce search serves as a central interface, connecting user demands with massive product inventories and plays a vital role in our daily lives. However, in real-world applications, it faces challenges, including highly ambiguous queries, noisy product texts with weak semantic order, and diverse user preferences, all of which make it difficult to accurately capture user intent and fine-grained product semantics. In recent years, significant advances in large language models (LLMs) for semant...</description>
-  </item>
-  <item>
-    <title>Filtered Approximate Nearest Neighbor Search in Vector Databases: System Design and Performance Analysis</title>
-    <link>https://arxiv.org/abs/2602.11443</link>
-    <guid isPermaLink="false">2602.11443</guid>
-    <pubDate>Wed, 11 Feb 2026 23:40:26 GMT</pubDate>
-    <description>Retrieval-Augmented Generation (RAG) applications increasingly rely on Filtered Approximate Nearest Neighbor Search (FANNS) to combine semantic retrieval with metadata constraints. While algorithmic innovations for FANNS have been proposed, there remains a lack of understanding regarding how generic filtering strategies perform within Vector Databases. In this work, we systematize the taxonomy of filtering strategies and evaluate their integration into FAISS, Milvus, and pgvector. To provide a r...</description>
-  </item>
-  <item>
-    <title>DeepImageSearch: Benchmarking Multimodal Agents for Context-Aware Image Retrieval in Visual Histories</title>
-    <link>https://arxiv.org/abs/2602.10809</link>
-    <guid isPermaLink="false">2602.10809</guid>
-    <pubDate>Wed, 11 Feb 2026 12:51:10 GMT</pubDate>
-    <description>Existing multimodal retrieval systems excel at semantic matching but implicitly assume that query-image relevance can be measured in isolation. This paradigm overlooks the rich dependencies inherent in realistic visual streams, where information is distributed across temporal sequences rather than confined to single snapshots. To bridge this gap, we introduce DeepImageSearch, a novel agentic paradigm that reformulates image retrieval as an autonomous exploration task. Models must plan and perfor...</description>
-  </item>
-  <item>
-    <title>End-to-End Semantic ID Generation for Generative Advertisement Recommendation</title>
-    <link>https://arxiv.org/abs/2602.10445</link>
-    <guid isPermaLink="false">2602.10445</guid>
-    <pubDate>Thu, 12 Feb 2026 09:56:10 GMT</pubDate>
-    <description>Generative Recommendation (GR) has excelled by framing recommendation as next-token prediction. This paradigm relies on Semantic IDs (SIDs) to tokenize large-scale items into discrete sequences. Existing GR approaches predominantly generate SIDs via Residual Quantization (RQ), where items are encoded into embeddings and then quantized to discrete SIDs. However, this paradigm suffers from inherent limitations: 1) Objective misalignment and semantic degradation stemming from the two-stage compress...</description>
-  </item>
-  <item>
-    <title>Fix Before Search: Benchmarking Agentic Query Visual Pre-processing in Multimodal Retrieval-augmented Generation</title>
-    <link>https://arxiv.org/abs/2602.13179</link>
-    <guid isPermaLink="false">2602.13179</guid>
-    <pubDate>Fri, 13 Feb 2026 18:39:48 GMT</pubDate>
-    <description>Multimodal Retrieval-Augmented Generation (MRAG) has emerged as a key paradigm for grounding MLLMs with external knowledge. While query pre-processing (e.g., rewriting) is standard in text-based RAG, existing MRAG pipelines predominantly treat visual inputs as static and immutable, implicitly assuming they are noise-free. However, real-world visual queries are often ``imperfect&amp;amp;amp;amp;apos;&amp;amp;amp;amp;apos; -- suffering from geometric distortions, quality degradation, or semantic ambiguity -- leading to catastrophic retrie...</description>
-  </item>
-  <item>
-    <title>From Data to Behavior: Predicting Unintended Model Behaviors Before Training</title>
-    <link>https://arxiv.org/abs/2602.04735</link>
-    <guid isPermaLink="false">2602.04735</guid>
-    <pubDate>Wed, 04 Feb 2026 16:37:17 GMT</pubDate>
-    <description>Large Language Models (LLMs) can acquire unintended biases from seemingly benign training data even without explicit cues or malicious content. Existing methods struggle to detect such risks before fine-tuning, making post hoc evaluation costly and inefficient. To address this challenge, we introduce Data2Behavior, a new task for predicting unintended model behaviors prior to training. We also propose Manipulating Data Features (MDF), a lightweight approach that summarizes candidate data through...</description>
-  </item>
-  <item>
-    <title>EST: Towards Efficient Scaling Laws in Click-Through Rate Prediction via Unified Modeling</title>
-    <link>https://arxiv.org/abs/2602.10811</link>
-    <guid isPermaLink="false">2602.10811</guid>
-    <pubDate>Wed, 11 Feb 2026 12:51:54 GMT</pubDate>
-    <description>Efficiently scaling industrial Click-Through Rate (CTR) prediction has recently attracted significant research attention. Existing approaches typically employ early aggregation of user behaviors to maintain efficiency. However, such non-unified or partially unified modeling creates an information bottleneck by discarding fine-grained, token-level signals essential for unlocking scaling gains. In this work, we revisit the fundamental distinctions between CTR prediction and Large Language Models (...</description>
-  </item>
-  <item>
-    <title>Assessing the impact of Open Research Information Infrastructures using NLP driven full-text Scientometrics: A case study of the LXCat open-access platform</title>
-    <link>https://arxiv.org/abs/2602.07664</link>
-    <guid isPermaLink="false">2602.07664</guid>
-    <pubDate>Sat, 07 Feb 2026 19:15:40 GMT</pubDate>
-    <description>Open research information (ORI) play a central role in shaping how scientific knowledge is produced, disseminated, validated, and reused across the research lifecycle. While the visibility of such ORI infrastructures is often assessed through citation-based metrics, in this study, we present a full-text, natural language processing (NLP) driven scientometric framework to systematically quantify the impact of ORI infrastructures beyond citation counts, using the LXCat platform for low temperature...</description>
-  </item>
-  <item>
-    <title>Reasoning to Rank: An End-to-End Solution for Exploiting Large Language Models for Recommendation</title>
-    <link>https://arxiv.org/abs/2602.12530</link>
-    <guid isPermaLink="false">2602.12530</guid>
-    <pubDate>Fri, 13 Feb 2026 02:22:48 GMT</pubDate>
-    <description>Recommender systems are tasked to infer users&amp;amp;amp;amp;apos; evolving preferences and rank items aligned with their intents, which calls for in-depth reasoning beyond pattern-based scoring. Recent efforts start to leverage large language models (LLMs) for recommendation, but how to effectively optimize the model for improved recommendation utility is still under explored. In this work, we propose Reasoning to Rank, an end-to-end training framework that internalizes recommendation utility optimization into the...</description>
-  </item>
-  <item>
-    <title>Query-Mixed Interest Extraction and Heterogeneous Interaction: A Scalable CTR Model for Industrial Recommender Systems</title>
-    <link>https://arxiv.org/abs/2602.09387</link>
-    <guid isPermaLink="false">2602.09387</guid>
-    <pubDate>Tue, 10 Feb 2026 03:56:14 GMT</pubDate>
-    <description>Learning effective feature interactions is central to modern recommender systems, yet remains challenging in industrial settings due to sparse multi-field inputs and ultra-long user behavior sequences. While recent scaling efforts have improved model capacity, they often fail to construct both context-aware and context-independent user intent from the long-term and real-time behavior sequence. Meanwhile, recent work also suffers from inefficient and homogeneous interaction mechanisms, leading to...</description>
-  </item>
-  <item>
-    <title>Chamfer-Linkage for Hierarchical Agglomerative Clustering</title>
-    <link>https://arxiv.org/abs/2602.10444</link>
-    <guid isPermaLink="false">2602.10444</guid>
-    <pubDate>Wed, 11 Feb 2026 02:36:14 GMT</pubDate>
-    <description>Hierarchical Agglomerative Clustering (HAC) is a widely-used clustering method based on repeatedly merging the closest pair of clusters, where inter-cluster distances are determined by a linkage function. Unlike many clustering methods, HAC does not optimize a single explicit global objective; clustering quality is therefore primarily evaluated empirically, and the choice of linkage function plays a crucial role in practice. However, popular classical linkages, such as single-linkage, average-li...</description>
-  </item>
-  <item>
-    <title>An Industrial-Scale Sequential Recommender for LinkedIn Feed Ranking</title>
-    <link>https://arxiv.org/abs/2602.12354</link>
-    <guid isPermaLink="false">2602.12354</guid>
-    <pubDate>Thu, 12 Feb 2026 19:27:15 GMT</pubDate>
-    <description>LinkedIn Feed enables professionals worldwide to discover relevant content, build connections, and share knowledge at scale. We present Feed Sequential Recommender (Feed-SR), a transformer-based sequential ranking model for LinkedIn Feed that replaces a DCNv2-based ranker and meets strict production constraints. We detail the modeling choices, training techniques, and serving optimizations that enable deployment at LinkedIn scale. Feed-SR is currently the primary member experience on LinkedIn&amp;amp;amp;amp;apos;s ...</description>
-  </item>
-  <item>
-    <title>Towards Personalized Bangla Book Recommendation: A Large-Scale Multi-Entity Book Graph Dataset</title>
-    <link>https://arxiv.org/abs/2602.12129</link>
-    <guid isPermaLink="false">2602.12129</guid>
-    <pubDate>Thu, 12 Feb 2026 16:18:55 GMT</pubDate>
-    <description>Personalized book recommendation in Bangla literature has been constrained by the lack of structured, large-scale, and publicly available datasets. This work introduces RokomariBG, a large-scale, multi-entity heterogeneous book graph dataset designed to support research on personalized recommendation in a low-resource language setting. The dataset comprises 127,302 books, 63,723 users, 16,601 authors, 1,515 categories, 2,757 publishers, and 209,602 reviews, connected through eight relation types...</description>
-  </item>
-  <item>
-    <title>RankGR: Rank-Enhanced Generative Retrieval with Listwise Direct Preference Optimization in Recommendation</title>
-    <link>https://arxiv.org/abs/2602.08575</link>
-    <guid isPermaLink="false">2602.08575</guid>
-    <pubDate>Mon, 09 Feb 2026 12:13:43 GMT</pubDate>
-    <description>Generative retrieval (GR) has emerged as a promising paradigm in recommendation systems by autoregressively decoding identifiers of target items. Despite its potential, current approaches typically rely on the next-token prediction schema, which treats each token of the next interacted items as the sole target. This narrow focus 1) limits their ability to capture the nuanced structure of user preferences, and 2) overlooks the deep interaction between decoded identifiers and user behavior sequenc...</description>
-  </item>
-  <item>
-    <title>Automatic In-Domain Exemplar Construction and LLM-Based Refinement of Multi-LLM Expansions for Query Expansion</title>
-    <link>https://arxiv.org/abs/2602.08917</link>
-    <guid isPermaLink="false">2602.08917</guid>
-    <pubDate>Mon, 09 Feb 2026 17:16:39 GMT</pubDate>
-    <description>Query expansion with large language models is promising but often relies on hand-crafted prompts, manually chosen exemplars, or a single LLM, making it non-scalable and sensitive to domain shift. We present an automated, domain-adaptive QE framework that builds in-domain exemplar pools by harvesting pseudo-relevant passages using a BM25-MonoT5 pipeline. A training-free cluster-based strategy selects diverse demonstrations, yielding strong and stable in-context QE without supervision. To further ...</description>
-  </item>
-  <item>
-    <title>Generative Reasoning Re-ranker</title>
-    <link>https://arxiv.org/abs/2602.07774</link>
-    <guid isPermaLink="false">2602.07774</guid>
-    <pubDate>Thu, 12 Feb 2026 09:37:17 GMT</pubDate>
-    <description>Recent studies increasingly explore Large Language Models (LLMs) as a new paradigm for recommendation systems due to their scalability and world knowledge. However, existing work has three key limitations: (1) most efforts focus on retrieval and ranking, while the reranking phase, critical for refining final recommendations, is largely overlooked; (2) LLMs are typically used in zero-shot or supervised fine-tuning settings, leaving their reasoning abilities, especially those enhanced through rein...</description>
-  </item>
-  <item>
-    <title>GraphSeek: Next-Generation Graph Analytics with LLMs</title>
-    <link>https://arxiv.org/abs/2602.11052</link>
-    <guid isPermaLink="false">2602.11052</guid>
-    <pubDate>Wed, 11 Feb 2026 17:20:06 GMT</pubDate>
-    <description>Graphs are foundational across domains but remain hard to use without deep expertise. LLMs promise accessible natural language (NL) graph analytics, yet they fail to process industry-scale property graphs effectively and efficiently: such datasets are large, highly heterogeneous, structurally complex, and evolve dynamically. To address this, we devise a novel abstraction for complex multi-query analytics over such graphs. Its key idea is to replace brittle generation of graph queries directly fr...</description>
-  </item>
-  <item>
-    <title>TokenMixer-Large: Scaling Up Large Ranking Models in Industrial Recommenders</title>
-    <link>https://arxiv.org/abs/2602.06563</link>
-    <guid isPermaLink="false">2602.06563</guid>
-    <pubDate>Tue, 10 Feb 2026 02:17:46 GMT</pubDate>
-    <description>While scaling laws for recommendation models have gained significant traction, existing architectures such as Wukong, HiFormer and DHEN, often struggle with sub-optimal designs and hardware under-utilization, limiting their practical scalability. Our previous TokenMixer architecture (introduced in RankMixer paper) addressed effectiveness and efficiency by replacing self-attention with a ightweight token-mixing operator; however, it faced critical bottlenecks in deeper configurations, including s...</description>
   </item>
   </channel>
 </rss>
