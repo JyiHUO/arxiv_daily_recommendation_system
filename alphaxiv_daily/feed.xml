@@ -6,7 +6,28 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 27 Feb 2026 00:20:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 06:17:52 GMT</lastBuildDate>
+  <item>
+    <title>Decomposing Retrieval Failures in RAG for Long-Document Financial Question Answering</title>
+    <link>https://arxiv.org/abs/2602.17981</link>
+    <guid isPermaLink="false">2602.17981</guid>
+    <pubDate>Fri, 20 Feb 2026 04:31:40 GMT</pubDate>
+    <description>Retrieval-augmented generation is increasingly used for financial question answering over long regulatory filings, yet reliability depends on retrieving the exact context needed to justify answers in high stakes settings. We study a frequent failure mode in which the correct document is retrieved but the page or chunk that contains the answer is missed, leading the generator to extrapolate from incomplete context. Despite its practical significance, this within-document retrieval failure mode ha...</description>
+  </item>
+  <item>
+    <title>JAG: Joint Attribute Graphs for Filtered Nearest Neighbor Search</title>
+    <link>https://arxiv.org/abs/2602.10258</link>
+    <guid isPermaLink="false">2602.10258</guid>
+    <pubDate>Tue, 10 Feb 2026 20:00:51 GMT</pubDate>
+    <description>Despite filtered nearest neighbor search being a fundamental task in modern vector search systems, the performance of existing algorithms is highly sensitive to query selectivity and filter type. In particular, existing solutions excel either at specific filter categories (e.g., label equality) or within narrow selectivity bands (e.g., pre-filtering for low selectivity) and are therefore a poor fit for practical deployments that demand generalization to new filter types and unknown query selecti...</description>
+  </item>
+  <item>
+    <title>MLDocRAG: Multimodal Long-Context Document Retrieval Augmented Generation</title>
+    <link>https://arxiv.org/abs/2602.10271</link>
+    <guid isPermaLink="false">2602.10271</guid>
+    <pubDate>Fri, 13 Feb 2026 03:25:41 GMT</pubDate>
+    <description>Understanding multimodal long-context documents that comprise multimodal chunks such as paragraphs, figures, and tables is challenging due to (1) cross-modal heterogeneity to localize relevant information across modalities, (2) cross-page reasoning to aggregate dispersed evidence across pages. To address these challenges, we are motivated to adopt a query-centric formulation that projects cross-modal and cross-page information into a unified query representation space, with queries acting as abs...</description>
+  </item>
   <item>
     <title>LiCQA : A Lightweight Complex Question Answering System</title>
     <link>https://arxiv.org/abs/2602.22182</link>
@@ -33,8 +54,8 @@
     <link>https://arxiv.org/abs/2602.21247</link>
     <guid isPermaLink="false">2602.21247</guid>
     <pubDate>Tue, 17 Feb 2026 02:18:17 GMT</pubDate>
-    <description>The fastest indexes for Approximate Nearest Neighbor Search today are also the slowest to build: graph-based methods like HNSW and Vamana achieve state-of-the-art query performance but have large construction times due to relying on random-access-heavy beam searches. We introduce PiPNN (Pick-in-Partitions Nearest Neighbors), an ultra-scalable graph construction algorithm that avoids this ``search bottleneck&amp;apos;&amp;apos; that existing graph-based methods suffer from.
-PiPNN&amp;apos;s core innovation is HashPrune, a ...</description>
+    <description>The fastest indexes for Approximate Nearest Neighbor Search today are also the slowest to build: graph-based methods like HNSW and Vamana achieve state-of-the-art query performance but have large construction times due to relying on random-access-heavy beam searches. We introduce PiPNN (Pick-in-Partitions Nearest Neighbors), an ultra-scalable graph construction algorithm that avoids this ``search bottleneck&amp;amp;apos;&amp;amp;apos; that existing graph-based methods suffer from.
+PiPNN&amp;amp;apos;s core innovation is HashPrune, a ...</description>
   </item>
   <item>
     <title>ECHO: An Open Research Platform for Evaluation of Chat, Human Behavior, and Outcomes</title>
@@ -62,14 +83,14 @@ PiPNN&amp;apos;s core innovation is HashPrune, a ...</description>
     <link>https://arxiv.org/abs/2602.09448</link>
     <guid isPermaLink="false">2602.09448</guid>
     <pubDate>Tue, 10 Feb 2026 06:33:10 GMT</pubDate>
-    <description>Prior work reports conflicting results on query diversity in synthetic data generation for dense retrieval. We identify this conflict and design Q-D metrics to quantify diversity&amp;apos;s impact, making the problem measurable. Through experiments on 4 benchmark types (31 datasets), we find query diversity especially benefits multi-hop retrieval. Deep analysis on multi-hop data reveals that diversity benefit correlates strongly with query complexity ($r$$\geq$0.95, $p$$&amp;amp;lt;$0.05 in 12/14 conditions), me...</description>
+    <description>Prior work reports conflicting results on query diversity in synthetic data generation for dense retrieval. We identify this conflict and design Q-D metrics to quantify diversity&amp;amp;apos;s impact, making the problem measurable. Through experiments on 4 benchmark types (31 datasets), we find query diversity especially benefits multi-hop retrieval. Deep analysis on multi-hop data reveals that diversity benefit correlates strongly with query complexity ($r$$\geq$0.95, $p$$&amp;amp;amp;lt;$0.05 in 12/14 conditions), me...</description>
   </item>
   <item>
     <title>DiffuReason: Bridging Latent Reasoning and Generative Refinement for Sequential Recommendation</title>
     <link>https://arxiv.org/abs/2602.09744</link>
     <guid isPermaLink="false">2602.09744</guid>
     <pubDate>Thu, 12 Feb 2026 07:47:35 GMT</pubDate>
-    <description>Latent reasoning has emerged as a promising paradigm for sequential recommendation, enabling models to capture complex user intent through multi-step deliberation. Yet existing approaches often rely on deterministic latent chains that accumulate noise and overlook the uncertainty inherent in user intent, and they are typically trained in staged pipelines that hinder joint optimization and exploration. To address these challenges, we propose DiffuReason, a unified &amp;quot;Think-then-Diffuse&amp;quot; framework f...</description>
+    <description>Latent reasoning has emerged as a promising paradigm for sequential recommendation, enabling models to capture complex user intent through multi-step deliberation. Yet existing approaches often rely on deterministic latent chains that accumulate noise and overlook the uncertainty inherent in user intent, and they are typically trained in staged pipelines that hinder joint optimization and exploration. To address these challenges, we propose DiffuReason, a unified &amp;amp;quot;Think-then-Diffuse&amp;amp;quot; framework f...</description>
   </item>
   <item>
     <title>Self-Supervised Learning as Discrete Communication</title>
@@ -97,14 +118,14 @@ PiPNN&amp;apos;s core innovation is HashPrune, a ...</description>
     <link>https://arxiv.org/abs/2602.10145</link>
     <guid isPermaLink="false">2602.10145</guid>
     <pubDate>Mon, 09 Feb 2026 14:52:28 GMT</pubDate>
-    <description>The wisdom of crowds has been shown to operate not only for factual judgments but also in matters of taste, where accuracy is defined relative to an individual&amp;apos;s preferences. However, it remains unclear how different types of social signals should be selectively used in such domains. Focusing on a music preference dataset in which contributors provide both personal evaluations (Own) and estimates of population-level preferences (Estimated), we propose a routing framework for collective intellige...</description>
+    <description>The wisdom of crowds has been shown to operate not only for factual judgments but also in matters of taste, where accuracy is defined relative to an individual&amp;amp;apos;s preferences. However, it remains unclear how different types of social signals should be selectively used in such domains. Focusing on a music preference dataset in which contributors provide both personal evaluations (Own) and estimates of population-level preferences (Estimated), we propose a routing framework for collective intellige...</description>
   </item>
   <item>
     <title>Trie-Aware Transformers for Generative Recommendation</title>
     <link>https://arxiv.org/abs/2602.21677</link>
     <guid isPermaLink="false">2602.21677</guid>
     <pubDate>Wed, 25 Feb 2026 08:25:16 GMT</pubDate>
-    <description>Generative recommendation (GR) aligns with advances in generative AI by casting next-item prediction as token-level generation rather than score-based ranking. Most GR methods adopt a two-stage pipeline: (i) \textit{item tokenization}, which maps each item to a sequence of discrete, hierarchically organized tokens; and (ii) \textit{autoregressive generation}, which predicts the next item&amp;amp;apos;s tokens conditioned on the tokens of user&amp;amp;apos;s interaction history. Although hierarchical tokenization induces ...</description>
+    <description>Generative recommendation (GR) aligns with advances in generative AI by casting next-item prediction as token-level generation rather than score-based ranking. Most GR methods adopt a two-stage pipeline: (i) \textit{item tokenization}, which maps each item to a sequence of discrete, hierarchically organized tokens; and (ii) \textit{autoregressive generation}, which predicts the next item&amp;amp;amp;apos;s tokens conditioned on the tokens of user&amp;amp;amp;apos;s interaction history. Although hierarchical tokenization induces ...</description>
   </item>
   <item>
     <title>Offline Reasoning for Efficient Recommendation: LLM-Empowered Persona-Profiled Item Indexing</title>
@@ -132,7 +153,7 @@ PiPNN&amp;apos;s core innovation is HashPrune, a ...</description>
     <link>https://arxiv.org/abs/2602.21456</link>
     <guid isPermaLink="false">2602.21456</guid>
     <pubDate>Wed, 25 Feb 2026 00:18:07 GMT</pubDate>
-    <description>Deep research has emerged as an important task that aims to address hard queries through extensive open-web exploration. To tackle it, most prior work equips large language model (LLM)-based agents with opaque web search APIs, enabling agents to iteratively issue search queries, retrieve external evidence, and reason over it. Despite search&amp;amp;apos;s essential role in deep research, black-box web search APIs hinder systematic analysis of search components, leaving the behaviour of established text ranki...</description>
+    <description>Deep research has emerged as an important task that aims to address hard queries through extensive open-web exploration. To tackle it, most prior work equips large language model (LLM)-based agents with opaque web search APIs, enabling agents to iteratively issue search queries, retrieve external evidence, and reason over it. Despite search&amp;amp;amp;apos;s essential role in deep research, black-box web search APIs hinder systematic analysis of search components, leaving the behaviour of established text ranki...</description>
   </item>
   <item>
     <title>A Hierarchical Multi-Agent System for Autonomous Discovery in Geoscientific Data Archives</title>
@@ -167,7 +188,7 @@ PiPNN&amp;apos;s core innovation is HashPrune, a ...</description>
     <link>https://arxiv.org/abs/2602.09126</link>
     <guid isPermaLink="false">2602.09126</guid>
     <pubDate>Mon, 09 Feb 2026 19:16:55 GMT</pubDate>
-    <description>Since 2004, the Keck Observatory Archive (KOA) has operated as a NASA-funded collaboration between the NASA Exoplanet Science Institute ( NExScI) and the W.M. Keck Observatory. It ingests and serves all data acquired by the twin 10-meter Keck telescopes on Mauna Kea, Hawaii. In the past three years, KOA has begun a modernization program to replace the architecture and systems used since the archive&amp;amp;apos;s creation with a new modern Python-based infrastructure. This infrastructure will position KOA to...</description>
+    <description>Since 2004, the Keck Observatory Archive (KOA) has operated as a NASA-funded collaboration between the NASA Exoplanet Science Institute ( NExScI) and the W.M. Keck Observatory. It ingests and serves all data acquired by the twin 10-meter Keck telescopes on Mauna Kea, Hawaii. In the past three years, KOA has begun a modernization program to replace the architecture and systems used since the archive&amp;amp;amp;apos;s creation with a new modern Python-based infrastructure. This infrastructure will position KOA to...</description>
   </item>
   <item>
     <title>Beyond the Unit Hypersphere: Embedding Magnitude in Contrastive Learning</title>
@@ -265,7 +286,7 @@ PiPNN&amp;apos;s core innovation is HashPrune, a ...</description>
     <link>https://arxiv.org/abs/2602.20676</link>
     <guid isPermaLink="false">2602.20676</guid>
     <pubDate>Tue, 24 Feb 2026 08:26:17 GMT</pubDate>
-    <description>In search systems, effectively coordinating the two core objectives of search relevance matching and click-through rate (CTR) prediction is crucial for discovering users&amp;amp;amp;amp;amp;amp;apos; interests and enhancing platform revenue. In our prior work PRECTR, we proposed a unified framework to integrate these two subtasks,thereby eliminating their inconsistency and leading to mutual this http URL, our previous work still faces three main challenges. First, low-active users and new users have limited search behaviora...</description>
+    <description>In search systems, effectively coordinating the two core objectives of search relevance matching and click-through rate (CTR) prediction is crucial for discovering users&amp;amp;amp;amp;amp;amp;amp;apos; interests and enhancing platform revenue. In our prior work PRECTR, we proposed a unified framework to integrate these two subtasks,thereby eliminating their inconsistency and leading to mutual this http URL, our previous work still faces three main challenges. First, low-active users and new users have limited search behaviora...</description>
   </item>
   <item>
     <title>Position-Aware Sequential Attention for Accurate Next Item Recommendations</title>
@@ -376,14 +397,14 @@ consumer-grade GPU while supporting complex research tasks. It buil...</descript
     <link>https://arxiv.org/abs/2602.19317</link>
     <guid isPermaLink="false">2602.19317</guid>
     <pubDate>Sun, 22 Feb 2026 19:43:43 GMT</pubDate>
-    <description>Personalization in Question Answering (QA) requires answers that are both accurate and aligned with users&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; background, preferences, and historical context. Existing state-of-the-art methods primarily rely on retrieval-augmented generation (RAG) solutions that construct personal context by retrieving relevant items from the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s profile. Existing methods use the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s query directly to retrieve personal documents, and such strategies often lead to surface-level personalization. We propose PR2 ...</description>
+    <description>Personalization in Question Answering (QA) requires answers that are both accurate and aligned with users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; background, preferences, and historical context. Existing state-of-the-art methods primarily rely on retrieval-augmented generation (RAG) solutions that construct personal context by retrieving relevant items from the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s profile. Existing methods use the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s query directly to retrieve personal documents, and such strategies often lead to surface-level personalization. We propose PR2 ...</description>
   </item>
   <item>
     <title>Give Users the Wheel: Towards Promptable Recommendation Paradigm</title>
     <link>https://arxiv.org/abs/2602.18929</link>
     <guid isPermaLink="false">2602.18929</guid>
     <pubDate>Sat, 21 Feb 2026 18:41:28 GMT</pubDate>
-    <description>Conventional sequential recommendation models have achieved remarkable success in mining implicit behavioral patterns. However, these architectures remain structurally blind to explicit user intent: they struggle to adapt when a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s immediate goal (e.g., expressed via a natural language prompt) deviates from their historical habits. While Large Language Models (LLMs) offer the semantic reasoning to interpret such intent, existing integration paradigms force a dilemma: LLM-as-a-recommender par...</description>
+    <description>Conventional sequential recommendation models have achieved remarkable success in mining implicit behavioral patterns. However, these architectures remain structurally blind to explicit user intent: they struggle to adapt when a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s immediate goal (e.g., expressed via a natural language prompt) deviates from their historical habits. While Large Language Models (LLMs) offer the semantic reasoning to interpret such intent, existing integration paradigms force a dilemma: LLM-as-a-recommender par...</description>
   </item>
   <item>
     <title>Intent-Driven Dynamic Chunking: Segmenting Documents to Reflect Predicted Information Needs</title>
@@ -397,7 +418,7 @@ consumer-grade GPU while supporting complex research tasks. It buil...</descript
     <link>https://arxiv.org/abs/2602.13971</link>
     <guid isPermaLink="false">2602.13971</guid>
     <pubDate>Sun, 15 Feb 2026 03:10:36 GMT</pubDate>
-    <description>Recommendation systems are essential for personalizing e-commerce shopping experiences. Among these, Trigger-Induced Recommendation (TIR) has emerged as a key scenario, which utilizes a trigger item (explicitly represents a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s instantaneous interest), enabling precise, real-time recommendations. Although several trigger-based techniques have been proposed, most of them struggle to address the intent myopia issue, that is, a recommendation system overemphasizes the role of trigger items and n...</description>
+    <description>Recommendation systems are essential for personalizing e-commerce shopping experiences. Among these, Trigger-Induced Recommendation (TIR) has emerged as a key scenario, which utilizes a trigger item (explicitly represents a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s instantaneous interest), enabling precise, real-time recommendations. Although several trigger-based techniques have been proposed, most of them struggle to address the intent myopia issue, that is, a recommendation system overemphasizes the role of trigger items and n...</description>
   </item>
   <item>
     <title>Adaptive Autoguidance for Item-Side Fairness in Diffusion Recommender Systems</title>
@@ -425,7 +446,7 @@ consumer-grade GPU while supporting complex research tasks. It buil...</descript
     <link>https://arxiv.org/abs/2602.20122</link>
     <guid isPermaLink="false">2602.20122</guid>
     <pubDate>Mon, 23 Feb 2026 18:37:49 GMT</pubDate>
-    <description>How do large language models (LLMs) know what they know? Answering this question has been difficult because pre-training data is often a &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;black box&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; -- unknown or inaccessible. The recent release of nanochat -- a family of small LLMs with fully open pre-training data -- addresses this as it provides a transparent view into where a model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s parametric knowledge comes from. Towards the goal of understanding how knowledge is encoded by LLMs, we release NanoKnow, a benchmark dataset that partitions q...</description>
+    <description>How do large language models (LLMs) know what they know? Answering this question has been difficult because pre-training data is often a &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;black box&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; -- unknown or inaccessible. The recent release of nanochat -- a family of small LLMs with fully open pre-training data -- addresses this as it provides a transparent view into where a model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s parametric knowledge comes from. Towards the goal of understanding how knowledge is encoded by LLMs, we release NanoKnow, a benchmark dataset that partitions q...</description>
   </item>
   <item>
     <title>SplitLight: An Exploratory Toolkit for Recommender Systems Datasets and Splits</title>
@@ -454,7 +475,7 @@ In this paper, we introduce SplitLight, an open-source exploratory toolkit that 
     <link>https://arxiv.org/abs/2602.19728</link>
     <guid isPermaLink="false">2602.19728</guid>
     <pubDate>Mon, 23 Feb 2026 11:26:11 GMT</pubDate>
-    <description>Sequential recommender systems aim to predict a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s future interests by extracting temporal patterns from their behavioral history. Existing approaches typically employ transformer-based architectures to process long sequences of user interactions, capturing preference shifts by modeling temporal relationships between items. However, these methods often overlook the influence of group-level features that capture the collective behavior of similar users. We hypothesize that explicitly modeling...</description>
+    <description>Sequential recommender systems aim to predict a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s future interests by extracting temporal patterns from their behavioral history. Existing approaches typically employ transformer-based architectures to process long sequences of user interactions, capturing preference shifts by modeling temporal relationships between items. However, these methods often overlook the influence of group-level features that capture the collective behavior of similar users. We hypothesize that explicitly modeling...</description>
   </item>
   <item>
     <title>VIRAASAT: Traversing Novel Paths for Indian Cultural Reasoning</title>
@@ -503,7 +524,7 @@ In this paper, we introduce SplitLight, an open-source exploratory toolkit that 
     <link>https://arxiv.org/abs/2602.08668</link>
     <guid isPermaLink="false">2602.08668</guid>
     <pubDate>Tue, 10 Feb 2026 13:19:20 GMT</pubDate>
-    <description>Hybrid Retrieval-Augmented Generation (RAG) pipelines combine vector similarity search with knowledge graph expansion for multi-hop reasoning. We show that this composition introduces a distinct security failure mode: a vector-retrieved &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;seed&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; chunk can pivot via entity links into sensitive graph neighborhoods, causing cross-tenant data leakage that does not occur in vector-only retrieval. We formalize this risk as Retrieval Pivot Risk (RPR) and introduce companion metrics Leakage@k, Amplificati...</description>
+    <description>Hybrid Retrieval-Augmented Generation (RAG) pipelines combine vector similarity search with knowledge graph expansion for multi-hop reasoning. We show that this composition introduces a distinct security failure mode: a vector-retrieved &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;seed&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; chunk can pivot via entity links into sensitive graph neighborhoods, causing cross-tenant data leakage that does not occur in vector-only retrieval. We formalize this risk as Retrieval Pivot Risk (RPR) and introduce companion metrics Leakage@k, Amplificati...</description>
   </item>
   <item>
     <title>Do Images Clarify? A Study on the Effect of Images on Clarifying Questions in Conversational Search</title>
@@ -602,21 +623,21 @@ In this paper, we study position-based click models in carousel interfaces and e
     <link>https://arxiv.org/abs/2602.15682</link>
     <guid isPermaLink="false">2602.15682</guid>
     <pubDate>Tue, 17 Feb 2026 16:07:44 GMT</pubDate>
-    <description>Modern digital services have evolved into indispensable tools, driving the present large-scale information systems. Yet, the prevailing platform-centric model, where services are optimized for platform-driven metrics such as engagement and conversion, often fails to align with users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; true needs. While platform technologies have advanced significantly-especially with the integration of large language models (LLMs)-we argue that improvements in platform service quality do not necessarily translate...</description>
+    <description>Modern digital services have evolved into indispensable tools, driving the present large-scale information systems. Yet, the prevailing platform-centric model, where services are optimized for platform-driven metrics such as engagement and conversion, often fails to align with users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; true needs. While platform technologies have advanced significantly-especially with the integration of large language models (LLMs)-we argue that improvements in platform service quality do not necessarily translate...</description>
   </item>
   <item>
     <title>Prune, Don&amp;apos;t Rebuild: Efficiently Tuning $α$-Reachable Graphs for Nearest Neighbor Search</title>
     <link>https://arxiv.org/abs/2602.08097</link>
     <guid isPermaLink="false">2602.08097</guid>
     <pubDate>Sun, 08 Feb 2026 19:34:38 GMT</pubDate>
-    <description>Vector similarity search is an essential primitive in modern AI and ML applications. Most vector databases adopt graph-based approximate nearest neighbor (ANN) search algorithms, such as DiskANN (Subramanya et al., 2019), which have demonstrated state-of-the-art empirical performance. DiskANN&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s graph construction is governed by a reachability parameter $\alpha$, which gives a trade-off between construction time, query time, and accuracy. However, adaptively tuning this trade-off typically requir...</description>
+    <description>Vector similarity search is an essential primitive in modern AI and ML applications. Most vector databases adopt graph-based approximate nearest neighbor (ANN) search algorithms, such as DiskANN (Subramanya et al., 2019), which have demonstrated state-of-the-art empirical performance. DiskANN&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s graph construction is governed by a reachability parameter $\alpha$, which gives a trade-off between construction time, query time, and accuracy. However, adaptively tuning this trade-off typically requir...</description>
   </item>
   <item>
     <title>Reasoning-Augmented Representations for Multimodal Retrieval</title>
     <link>https://arxiv.org/abs/2602.07125</link>
     <guid isPermaLink="false">2602.07125</guid>
     <pubDate>Fri, 06 Feb 2026 19:01:54 GMT</pubDate>
-    <description>Universal Multimodal Retrieval (UMR) seeks any-to-any search across text and vision, yet modern embedding models remain brittle when queries require latent reasoning (e.g., resolving underspecified references or matching compositional constraints). We argue this brittleness is often data-induced: when images carry &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;silent&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; evidence and queries leave key semantics implicit, a single embedding pass must both reason and compress, encouraging spurious feature matching. We propose a data-centric fram...</description>
+    <description>Universal Multimodal Retrieval (UMR) seeks any-to-any search across text and vision, yet modern embedding models remain brittle when queries require latent reasoning (e.g., resolving underspecified references or matching compositional constraints). We argue this brittleness is often data-induced: when images carry &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;silent&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; evidence and queries leave key semantics implicit, a single embedding pass must both reason and compress, encouraging spurious feature matching. We propose a data-centric fram...</description>
   </item>
   <item>
     <title>Multimodal Enhancement of Sequential Recommendation</title>
@@ -637,7 +658,7 @@ In this paper, we study position-based click models in carousel interfaces and e
     <link>https://arxiv.org/abs/2602.07297</link>
     <guid isPermaLink="false">2602.07297</guid>
     <pubDate>Sat, 07 Feb 2026 01:12:53 GMT</pubDate>
-    <description>Retrieval Augmented Generation (RAG) is a promising technique for mitigating two key limitations of large language models (LLMs): outdated information and hallucinations. RAG system stores documents as embedding vectors in a database. Given a query, search is executed to find the most related documents. Then, the topmost matching documents are inserted into LLMs&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; prompt to generate a response. Efficient and accurate searching is critical for RAG to get relevant information. We propose a cost-eff...</description>
+    <description>Retrieval Augmented Generation (RAG) is a promising technique for mitigating two key limitations of large language models (LLMs): outdated information and hallucinations. RAG system stores documents as embedding vectors in a database. Given a query, search is executed to find the most related documents. Then, the topmost matching documents are inserted into LLMs&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; prompt to generate a response. Efficient and accurate searching is critical for RAG to get relevant information. We propose a cost-eff...</description>
   </item>
   <item>
     <title>Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation</title>
@@ -672,7 +693,7 @@ In this paper, we study position-based click models in carousel interfaces and e
     <link>https://arxiv.org/abs/2602.07840</link>
     <guid isPermaLink="false">2602.07840</guid>
     <pubDate>Sun, 08 Feb 2026 06:42:50 GMT</pubDate>
-    <description>Evaluating relevance in large-scale search systems is fundamentally constrained by the governance gap between nuanced, resource-constrained human oversight and the high-throughput requirements of production systems. While traditional approaches rely on engagement proxies or sparse manual review, these methods often fail to capture the full scope of high-impact relevance failures. We present \textbf{SAGE} (Scalable AI Governance \&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Evaluation), a framework that operationalizes high-quality human ...</description>
+    <description>Evaluating relevance in large-scale search systems is fundamentally constrained by the governance gap between nuanced, resource-constrained human oversight and the high-throughput requirements of production systems. While traditional approaches rely on engagement proxies or sparse manual review, these methods often fail to capture the full scope of high-impact relevance failures. We present \textbf{SAGE} (Scalable AI Governance \&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Evaluation), a framework that operationalizes high-quality human ...</description>
   </item>
   <item>
     <title>Whose Name Comes Up? Benchmarking and Intervention-Based Auditing of LLM-Based Scholar Recommendation</title>
@@ -694,27 +715,6 @@ In this paper, we study position-based click models in carousel interfaces and e
     <guid isPermaLink="false">2602.08612</guid>
     <pubDate>Mon, 09 Feb 2026 12:56:39 GMT</pubDate>
     <description>Live-streaming recommender system serves as critical infrastructure that bridges the patterns of real-time interactions between users and authors. Similar to traditional industrial recommender systems, live-streaming recommendation also relies on cascade architectures to support large-scale concurrency. Recent advances in generative recommendation unify the multi-stage recommendation process with Transformer-based architectures, offering improved scalability and higher computational efficiency. ...</description>
-  </item>
-  <item>
-    <title>Contrastive Learning for Diversity-Aware Product Recommendations in Retail</title>
-    <link>https://arxiv.org/abs/2602.08886</link>
-    <guid isPermaLink="false">2602.08886</guid>
-    <pubDate>Mon, 09 Feb 2026 16:48:16 GMT</pubDate>
-    <description>Recommender systems often struggle with long-tail distributions and limited item catalog exposure, where a small subset of popular items dominates recommendations. This challenge is especially critical in large-scale online retail settings with extensive and diverse product assortments. This paper introduces an approach to enhance catalog coverage without compromising recommendation quality in the existing digital recommendation pipeline at IKEA Retail. Drawing inspiration from recent advances i...</description>
-  </item>
-  <item>
-    <title>Hybrid Pooling with LLMs via Relevance Context Learning</title>
-    <link>https://arxiv.org/abs/2602.08457</link>
-    <guid isPermaLink="false">2602.08457</guid>
-    <pubDate>Mon, 09 Feb 2026 10:10:22 GMT</pubDate>
-    <description>High-quality relevance judgements over large query sets are essential for evaluating Information Retrieval (IR) systems, yet manual annotation remains costly and time-consuming. Large Language Models (LLMs) have recently shown promise as automatic relevance assessors, but their reliability is still limited. Most existing approaches rely on zero-shot prompting or In-Context Learning (ICL) with a small number of labeled examples. However, standard ICL treats examples as independent instances and f...</description>
-  </item>
-  <item>
-    <title>SRSUPM: Sequential Recommender System Based on User Psychological Motivation</title>
-    <link>https://arxiv.org/abs/2602.08667</link>
-    <guid isPermaLink="false">2602.08667</guid>
-    <pubDate>Mon, 09 Feb 2026 13:54:34 GMT</pubDate>
-    <description>Sequential recommender infers users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; evolving psychological motivations from historical interactions to recommend the next preferred items. Most existing methods compress recent behaviors into a single vector and optimize it toward a single observed target item, but lack explicit modeling of psychological motivation shift. As a result, they struggle to uncover the distributional patterns across different shift degrees and to capture collaborative knowledge that is sensitive to psychological moti...</description>
   </item>
   </channel>
 </rss>
