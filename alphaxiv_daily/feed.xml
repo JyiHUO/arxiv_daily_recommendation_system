@@ -6,13 +6,104 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 26 Mar 2026 06:25:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 12:19:01 GMT</lastBuildDate>
+  <item>
+    <title>OneSearch-V2: The Latent Reasoning Enhanced Self-distillation Generative Search Framework</title>
+    <link>https://arxiv.org/abs/2603.24422</link>
+    <guid isPermaLink="false">2603.24422</guid>
+    <pubDate>Wed, 25 Mar 2026 15:33:34 GMT</pubDate>
+    <description>Generative Retrieval (GR) has emerged as a promising paradigm for modern search systems. Compared to multi-stage cascaded architecture, it offers advantages such as end-to-end joint optimization and high computational efficiency. OneSearch, as a representative industrial-scale deployed generative search framework, has brought significant commercial and operational benefits. However, its inadequate understanding of complex queries, inefficient exploitation of latent user intents, and overfitting ...</description>
+  </item>
+  <item>
+    <title>UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking</title>
+    <link>https://arxiv.org/abs/2603.24226</link>
+    <guid isPermaLink="false">2603.24226</guid>
+    <pubDate>Wed, 25 Mar 2026 12:00:26 GMT</pubDate>
+    <description>Recent advances in Large Language Models (LLMs) have inspired a surge of scaling law research in industrial search, advertising, and recommendation systems. However, existing approaches focus mainly on architectural improvements, overlooking the critical synergy between data and architecture design. We observe that scaling model parameters alone exhibits diminishing returns, i.e., the marginal gain in performance steadily declines as model size increases, and that the performance degradation cau...</description>
+  </item>
+  <item>
+    <title>Hierarchical Spatial-Temporal Graph-Enhanced Model for Map-Matching</title>
+    <link>https://arxiv.org/abs/2603.24054</link>
+    <guid isPermaLink="false">2603.24054</guid>
+    <pubDate>Wed, 25 Mar 2026 08:01:13 GMT</pubDate>
+    <description>The integration of GNSS data into portable devices has led to the generation of vast amounts of trajectory data, which is crucial for applications such as map-matching. To tackle the limitations of rule-based methods, recent works in deep learning for trajectory-related tasks occur. However, existing models remain challenging due to issues such as the difficulty of large-scale data labeling, ineffective modeling of spatial-temporal relationships, and discrepancies between training and test data ...</description>
+  </item>
+  <item>
+    <title>Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing</title>
+    <link>https://arxiv.org/abs/2603.24326</link>
+    <guid isPermaLink="false">2603.24326</guid>
+    <pubDate>Wed, 25 Mar 2026 14:08:56 GMT</pubDate>
+    <description>Document parsing is a fine-grained task where image resolution significantly impacts performance. While advanced research leveraging vision-language models benefits from high-resolution input to boost model performance, this often leads to a quadratic increase in the number of vision tokens and significantly raises computational costs. We attribute this inefficiency to substantial visual regions redundancy in document images, like background. To tackle this, we propose PaddleOCR-VL, a novel coar...</description>
+  </item>
+  <item>
+    <title>Sequence-aware Large Language Models for Explainable Recommendation</title>
+    <link>https://arxiv.org/abs/2603.24136</link>
+    <guid isPermaLink="false">2603.24136</guid>
+    <pubDate>Wed, 25 Mar 2026 10:00:13 GMT</pubDate>
+    <description>Large Language Models (LLMs) have shown strong potential in generating natural language explanations for recommender systems. However, existing methods often overlook the sequential dynamics of user behavior and rely on evaluation metrics misaligned with practical utility. We propose SELLER (SEquence-aware LLM-based framework for Explainable Recommendation), which integrates explanation generation with utility-aware evaluation. SELLER combines a dual-path encoder-capturing both user behavior and...</description>
+  </item>
+  <item>
+    <title>flexvec: SQL Vector Retrieval with Programmatic Embedding Modulation</title>
+    <link>https://arxiv.org/abs/2603.22587</link>
+    <guid isPermaLink="false">2603.22587</guid>
+    <pubDate>Mon, 23 Mar 2026 21:26:07 GMT</pubDate>
+    <description>As AI agents become the primary consumers of retrieval APIs, there is an opportunity to expose more of the retrieval pipeline to the caller. flexvec is a retrieval kernel that exposes the embedding matrix and score array as a programmable surface, allowing arithmetic operations on both before selection. We refer to composing operations on this surface at query time as Programmatic Embedding Modulation (PEM). This paper describes a set of such operations and integrates them into a SQL interface v...</description>
+  </item>
+  <item>
+    <title>An In-Depth Study of Filter-Agnostic Vector Search on a PostgreSQL Database System: [Experiments and Analysis]</title>
+    <link>https://arxiv.org/abs/2603.23710</link>
+    <guid isPermaLink="false">2603.23710</guid>
+    <pubDate>Tue, 24 Mar 2026 20:53:28 GMT</pubDate>
+    <description>Filtered Vector Search (FVS) is critical for supporting semantic search and GenAI applications in modern database systems. However, existing research most often evaluates algorithms in specialized libraries, making optimistic assumptions that do not align with enterprise-grade database systems. Our work challenges this premise by demonstrating that in a production-grade database system, commonly made assumptions do not hold, leading to performance characteristics and algorithmic trade-offs that ...</description>
+  </item>
+  <item>
+    <title>Personalized Federated Sequential Recommender</title>
+    <link>https://arxiv.org/abs/2603.22349</link>
+    <guid isPermaLink="false">2603.22349</guid>
+    <pubDate>Sun, 22 Mar 2026 07:56:17 GMT</pubDate>
+    <description>In the domain of consumer electronics, personalized sequential recommendation has emerged as a central task. Current methodologies in this field are largely centered on modeling user behavior and have achieved notable performance. Nevertheless, the inherent quadratic computational complexity typical of most existing approaches often leads to inefficiencies that hinder real-time recommendation. Moreover, these methods face challenges in being effectively adapted to the personalized requirements o...</description>
+  </item>
+  <item>
+    <title>A Super Fast K-means for Indexing Vector Embeddings</title>
+    <link>https://arxiv.org/abs/2603.20009</link>
+    <guid isPermaLink="false">2603.20009</guid>
+    <pubDate>Fri, 20 Mar 2026 14:52:38 GMT</pubDate>
+    <description>We present SuperKMeans: a k-means variant designed for clustering collections of high-dimensional vector embeddings. SuperKMeans&apos; clustering is up to 7x faster than FAISS and Scikit-Learn on modern CPUs and up to 4x faster than cuVS on GPUs (Figure 1), while maintaining the quality of the resulting centroids for vector similarity search tasks. SuperKMeans acceleration comes from reducing data-access and compute overhead by reliably and efficiently pruning dimensions that are not needed to assign...</description>
+  </item>
+  <item>
+    <title>Generative Recommendation for Large-Scale Advertising</title>
+    <link>https://arxiv.org/abs/2602.22732/pen-line-z0gj9zhn.js</link>
+    <guid isPermaLink="false">2602.22732/pen-line-z0gj9zhn.js</guid>
+    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
+    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
+  </item>
+  <item>
+    <title>Generative Recommendation for Large-Scale Advertising</title>
+    <link>https://arxiv.org/abs/2602.22732/&apos;&quot;()</link>
+    <guid isPermaLink="false">2602.22732/&apos;&quot;()</guid>
+    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
+    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
+  </item>
+  <item>
+    <title>Generative Recommendation for Large-Scale Advertising</title>
+    <link>https://arxiv.org/abs/2602.22732/&apos;%22()</link>
+    <guid isPermaLink="false">2602.22732/&apos;%22()</guid>
+    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
+    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
+  </item>
+  <item>
+    <title>Generative Recommendation for Large-Scale Advertising</title>
+    <link>https://arxiv.org/abs/2602.22732/book-heart-dq5hftld.js&apos;&quot;</link>
+    <guid isPermaLink="false">2602.22732/book-heart-dq5hftld.js&apos;&quot;</guid>
+    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
+    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
+  </item>
   <item>
     <title>When Documents Disagree: Measuring Institutional Variation in Transplant Guidance with Retrieval-Augmented Language Models</title>
     <link>https://arxiv.org/abs/2603.21460</link>
     <guid isPermaLink="false">2603.21460</guid>
     <pubDate>Mon, 23 Mar 2026 00:42:40 GMT</pubDate>
-    <description>Patient education materials for solid-organ transplantation vary substantially across U.S. centers, yet no systematic method exists to quantify this heterogeneity at scale. We introduce a framework that grounds the same patient questions in different centers&apos; handbooks using retrieval-augmented language models and compares the resulting answers using a five-label consistency taxonomy. Applied to 102 handbooks from 23 centers and 1,115 benchmark questions, the framework quantifies heterogeneity a...</description>
+    <description>Patient education materials for solid-organ transplantation vary substantially across U.S. centers, yet no systematic method exists to quantify this heterogeneity at scale. We introduce a framework that grounds the same patient questions in different centers&amp;apos; handbooks using retrieval-augmented language models and compares the resulting answers using a five-label consistency taxonomy. Applied to 102 handbooks from 23 centers and 1,115 benchmark questions, the framework quantifies heterogeneity a...</description>
   </item>
   <item>
     <title>Generative Recommendation for Large-Scale Advertising</title>
@@ -33,7 +124,7 @@
     <link>https://arxiv.org/abs/2603.22633</link>
     <guid isPermaLink="false">2603.22633</guid>
     <pubDate>Mon, 23 Mar 2026 23:22:58 GMT</pubDate>
-    <description>Retrieval-Augmented Generation (RAG) systems for biomedical literature are typically evaluated using ranking metrics like Mean Reciprocal Rank (MRR), which measure how well the system identifies the single most relevant chunk. We argue that for full-text scientific documents, this paradigm is incomplete: it rewards retrieval precision while ignoring retrieval breadth -- the ability to surface evidence from across a document&amp;apos;s structural sections. We propose GraLC-RAG, a framework that unifies la...</description>
+    <description>Retrieval-Augmented Generation (RAG) systems for biomedical literature are typically evaluated using ranking metrics like Mean Reciprocal Rank (MRR), which measure how well the system identifies the single most relevant chunk. We argue that for full-text scientific documents, this paradigm is incomplete: it rewards retrieval precision while ignoring retrieval breadth -- the ability to surface evidence from across a document&amp;amp;apos;s structural sections. We propose GraLC-RAG, a framework that unifies la...</description>
   </item>
   <item>
     <title>DALDALL: Data Augmentation for Lexical and Semantic Diverse in Legal Domain by leveraging LLM-Persona</title>
@@ -159,7 +250,7 @@
     <link>https://arxiv.org/abs/2603.22528</link>
     <guid isPermaLink="false">2603.22528</guid>
     <pubDate>Mon, 23 Mar 2026 19:44:02 GMT</pubDate>
-    <description>Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG) and knowledge graphs offer new opportunities for interacting with engineering diagrams such as Piping and Instrumentation Diagrams (P&amp;amp;amp;amp;IDs). However, directly processing raw images or smart P&amp;amp;amp;amp;ID files with LLMs is often costly, inefficient, and prone to hallucinations. This work introduces ChatP&amp;amp;amp;amp;ID, an agentic framework that enables grounded and cost-effective natural-language interaction with P&amp;amp;amp;amp;IDs using Graph Retrie...</description>
+    <description>Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG) and knowledge graphs offer new opportunities for interacting with engineering diagrams such as Piping and Instrumentation Diagrams (P&amp;amp;amp;amp;amp;IDs). However, directly processing raw images or smart P&amp;amp;amp;amp;amp;ID files with LLMs is often costly, inefficient, and prone to hallucinations. This work introduces ChatP&amp;amp;amp;amp;amp;ID, an agentic framework that enables grounded and cost-effective natural-language interaction with P&amp;amp;amp;amp;amp;IDs using Graph Retrie...</description>
   </item>
   <item>
     <title>KARMA: Knowledge-Action Regularized Multimodal Alignment for Personalized Search at Taobao</title>
@@ -278,7 +369,7 @@
     <link>https://arxiv.org/abs/2603.20286</link>
     <guid isPermaLink="false">2603.20286</guid>
     <pubDate>Wed, 18 Mar 2026 09:09:52 GMT</pubDate>
-    <description>Retrieval-Augmented Generation (RAG) enables Large Language Models (LLMs) to extend their existing knowledge by dynamically incorporating external information. However, practical deployment is fundamentally constrained by the LLM&amp;amp;amp;amp;amp;amp;apos;s finite context window, forcing a trade-off between information sufficiency and token consumption. Standard pipelines address this via a retrieve-then-select strategy, typically retaining only the top-k chunks based on relevance. Nevertheless, this approach is suboptim...</description>
+    <description>Retrieval-Augmented Generation (RAG) enables Large Language Models (LLMs) to extend their existing knowledge by dynamically incorporating external information. However, practical deployment is fundamentally constrained by the LLM&amp;amp;amp;amp;amp;amp;amp;apos;s finite context window, forcing a trade-off between information sufficiency and token consumption. Standard pipelines address this via a retrieve-then-select strategy, typically retaining only the top-k chunks based on relevance. Nevertheless, this approach is suboptim...</description>
   </item>
   <item>
     <title>PreferRec: Learning and Transferring Pareto Preferences for Multi-objective Re-ranking</title>
@@ -292,7 +383,7 @@
     <link>https://arxiv.org/abs/2603.19519</link>
     <guid isPermaLink="false">2603.19519</guid>
     <pubDate>Thu, 19 Mar 2026 23:13:10 GMT</pubDate>
-    <description>We address a not-widely-recognized subset of exploratory search, where a user sets out on a typically long &amp;amp;amp;amp;amp;amp;quot;search quest&amp;amp;amp;amp;amp;amp;quot; for the perfect wedding dress, overlooked research topic, killer company idea, etc. The first few outputs of current large language models (LLMs) may be helpful but only as a start, since the quest requires learning the search space and evaluating many diverse and creative alternatives along the way. Although LLMs encode an impressive fraction of the world&amp;amp;amp;amp;amp;amp;apos;s knowledge, common...</description>
+    <description>We address a not-widely-recognized subset of exploratory search, where a user sets out on a typically long &amp;amp;amp;amp;amp;amp;amp;quot;search quest&amp;amp;amp;amp;amp;amp;amp;quot; for the perfect wedding dress, overlooked research topic, killer company idea, etc. The first few outputs of current large language models (LLMs) may be helpful but only as a start, since the quest requires learning the search space and evaluating many diverse and creative alternatives along the way. Although LLMs encode an impressive fraction of the world&amp;amp;amp;amp;amp;amp;amp;apos;s knowledge, common...</description>
   </item>
   <item>
     <title>Bypassing Document Ingestion: An MCP Approach to Financial Q&amp;A</title>
@@ -397,7 +488,7 @@
     <link>https://arxiv.org/abs/2603.20062</link>
     <guid isPermaLink="false">2603.20062</guid>
     <pubDate>Fri, 20 Mar 2026 15:44:00 GMT</pubDate>
-    <description>When a traveler asks an AI search engine to recommend a hotel, which sources get cited -- and does query framing matter? We audit 1,357 grounding citations from Google Gemini across 156 hotel queries in Tokyo and document a systematic pattern we call the Intent-Source Divide. Experiential queries draw 55.9\% of their citations from non-OTA sources, compared to 30.8\% for transactional queries -- a 25.1 percentage-point gap ($p &amp;amp;amp;amp;amp;amp;amp;amp;amp;lt; 5 \times 10^{-20}$). The effect is amplified in Japanese, where ...</description>
+    <description>When a traveler asks an AI search engine to recommend a hotel, which sources get cited -- and does query framing matter? We audit 1,357 grounding citations from Google Gemini across 156 hotel queries in Tokyo and document a systematic pattern we call the Intent-Source Divide. Experiential queries draw 55.9\% of their citations from non-OTA sources, compared to 30.8\% for transactional queries -- a 25.1 percentage-point gap ($p &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt; 5 \times 10^{-20}$). The effect is amplified in Japanese, where ...</description>
   </item>
   <item>
     <title>GenFacet: End-to-End Generative Faceted Search via Multi-Task Preference Alignment in E-Commerce</title>
@@ -467,7 +558,7 @@
     <link>https://arxiv.org/abs/2603.19710</link>
     <guid isPermaLink="false">2603.19710</guid>
     <pubDate>Fri, 20 Mar 2026 07:27:59 GMT</pubDate>
-    <description>Pre-search query recommendation, widely known as HintQ on Taobao&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s homepage, plays a vital role in intent capture and demand discovery, yet traditional methods suffer from shallow semantics, poor cold-start performance and low serendipity due to reliance on ID-based matching and co-click heuristics. To overcome these challenges, we propose AIGQ (AI-Generated Query architecture), the first end-to-end generative framework for HintQ scenario. AIGQ is built upon three core innovations spanning train...</description>
+    <description>Pre-search query recommendation, widely known as HintQ on Taobao&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s homepage, plays a vital role in intent capture and demand discovery, yet traditional methods suffer from shallow semantics, poor cold-start performance and low serendipity due to reliance on ID-based matching and co-click heuristics. To overcome these challenges, we propose AIGQ (AI-Generated Query architecture), the first end-to-end generative framework for HintQ scenario. AIGQ is built upon three core innovations spanning train...</description>
   </item>
   <item>
     <title>CoverageBench: Evaluating Information Coverage across Tasks and Domains</title>
@@ -512,7 +603,7 @@ PashtoCorp is 40x larger than the OSCAR Pashto subset and 83x larger than ...</d
     <link>https://arxiv.org/abs/2603.15892</link>
     <guid isPermaLink="false">2603.15892</guid>
     <pubDate>Mon, 16 Mar 2026 20:37:17 GMT</pubDate>
-    <description>Large Language Models (LLMs) often struggle with temporal fact conflicts due to outdated or evolving information in their training data. Two recent studies with accompanying datasets report opposite conclusions on whether external context can effectively resolve such conflicts. DYNAMICQA evaluates how effective external context is in shifting the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s output distribution, finding that temporal facts are more resistant to change. In contrast, MULAN examines how often external context changes m...</description>
+    <description>Large Language Models (LLMs) often struggle with temporal fact conflicts due to outdated or evolving information in their training data. Two recent studies with accompanying datasets report opposite conclusions on whether external context can effectively resolve such conflicts. DYNAMICQA evaluates how effective external context is in shifting the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s output distribution, finding that temporal facts are more resistant to change. In contrast, MULAN examines how often external context changes m...</description>
   </item>
   <item>
     <title>Benchmarking Large Language Models on Reference Extraction and Parsing in the Social Sciences and Humanities</title>
@@ -596,7 +687,7 @@ PashtoCorp is 40x larger than the OSCAR Pashto subset and 83x larger than ...</d
     <link>https://arxiv.org/abs/2603.13310</link>
     <guid isPermaLink="false">2603.13310</guid>
     <pubDate>Wed, 04 Mar 2026 04:41:39 GMT</pubDate>
-    <description>Hypergraph can capture complex and higher-order dependencies among learners and learning resources in personalized educational recommender systems. Many existing hypergraph-based recommendation approaches underexplored the dynamic behavioral processes inherent to learning and often oversimplified the complementary information embedded across multiple dimensions (i.e. views) within hypergraphs. These limitations compromise both the distinctiveness of learned representations and the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s genera...</description>
+    <description>Hypergraph can capture complex and higher-order dependencies among learners and learning resources in personalized educational recommender systems. Many existing hypergraph-based recommendation approaches underexplored the dynamic behavioral processes inherent to learning and often oversimplified the complementary information embedded across multiple dimensions (i.e. views) within hypergraphs. These limitations compromise both the distinctiveness of learned representations and the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s genera...</description>
   </item>
   <item>
     <title>Learning Retrieval Models with Sparse Autoencoders</title>
@@ -618,97 +709,6 @@ PashtoCorp is 40x larger than the OSCAR Pashto subset and 83x larger than ...</d
     <guid isPermaLink="false">2603.13271</guid>
     <pubDate>Fri, 27 Feb 2026 04:06:19 GMT</pubDate>
     <description>This work traces the evolution of word-embedding techniques within the natural language processing (NLP) literature. We collect and analyze 149 research articles spanning the period from 1954 to 2025, providing both a comprehensive methodological review and a data-driven bibliometric analysis of how representation learning has developed over seven decades. Our study covers four major embedding paradigms, statistical representation-based methods (one-hot encoding, bag-of-words, TF-IDF), static wo...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/%40%40jdl48</link>
-    <guid isPermaLink="false">2602.22732/%40%40jdl48</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/%40%40yr6sw</link>
-    <guid isPermaLink="false">2602.22732/%40%40yr6sw</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>DynaRAG: Bridging Static and Dynamic Knowledge in Retrieval-Augmented Generation</title>
-    <link>https://arxiv.org/abs/2603.18012</link>
-    <guid isPermaLink="false">2603.18012</guid>
-    <pubDate>Tue, 24 Feb 2026 03:55:07 GMT</pubDate>
-    <description>We present DynaRAG, a retrieval-augmented generation (RAG) framework designed to handle both static and time-sensitive information needs through dynamic knowledge integration. Unlike traditional RAG pipelines that rely solely on static corpora, DynaRAG selectively invokes external APIs when retrieved documents are insufficient for answering a query. The system employs an LLM-based reranker to assess document relevance, a sufficiency classifier to determine when fallback is necessary, and Gorilla...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/badge-cr6fmsw0.js</link>
-    <guid isPermaLink="false">2602.22732/badge-cr6fmsw0.js</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/google-scholar-cigbtts_.js</link>
-    <guid isPermaLink="false">2602.22732/google-scholar-cigbtts_.js</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/format-time-ago-bbhhcal_.js</link>
-    <guid isPermaLink="false">2602.22732/format-time-ago-bbhhcal_.js</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/user-bp62hzzr.js</link>
-    <guid isPermaLink="false">2602.22732/user-bp62hzzr.js</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/index-cskil4ke.js</link>
-    <guid isPermaLink="false">2602.22732/index-cskil4ke.js</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>A Systematic Comparison and Evaluation of Building Ontologies for Deploying Data-Driven Analytics in Smart Buildings</title>
-    <link>https://arxiv.org/abs/2603.14374</link>
-    <guid isPermaLink="false">2603.14374</guid>
-    <pubDate>Sun, 15 Mar 2026 13:26:37 GMT</pubDate>
-    <description>Ontologies play a critical role in data exchange, information integration, and knowledge sharing across diverse smart building applications. Yet, semantic differences between the prevailing building ontologies hamper their purpose of bringing data interoperability and restrict the ability to reuse building ontologies in real-world applications. In this paper, we propose and adopt a framework to conduct a systematic comparison and evaluation of four popular building ontologies (Brick Schema, Real...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/githublogo-byhm37vb.js</link>
-    <guid isPermaLink="false">2602.22732/githublogo-byhm37vb.js</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>The Reasoning Bottleneck in Graph-RAG: Structured Prompting and Context Compression for Multi-Hop QA</title>
-    <link>https://arxiv.org/abs/2603.14045</link>
-    <guid isPermaLink="false">2603.14045</guid>
-    <pubDate>Sat, 14 Mar 2026 17:29:13 GMT</pubDate>
-    <description>Graph-RAG systems achieve strong multi-hop question answering by indexing documents into knowledge graphs, but strong retrieval does not guarantee strong answers. Evaluating KET-RAG, a leading Graph-RAG system, on three multi-hop QA benchmarks (HotpotQA, MuSiQue, 2WikiMultiHopQA), we find that 77% to 91% of questions have the gold answer in the retrieved context, yet accuracy is only 35% to 78%, and 73% to 84% of errors are reasoning failures. We propose two augmentations: (i) SPARQL chain-of-th...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/popover-btdlsqix.js</link>
-    <guid isPermaLink="false">2602.22732/popover-btdlsqix.js</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/usersettingsmodal-jvxg0uzj.js</link>
-    <guid isPermaLink="false">2602.22732/usersettingsmodal-jvxg0uzj.js</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
   </item>
   </channel>
 </rss>
