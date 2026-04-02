@@ -6,7 +6,49 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 02 Apr 2026 12:18:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 18:17:19 GMT</lastBuildDate>
+  <item>
+    <title>Revisiting Human-in-the-Loop Object Retrieval with Pre-Trained Vision Transformers</title>
+    <link>https://arxiv.org/abs/2604.00809</link>
+    <guid isPermaLink="false">2604.00809</guid>
+    <pubDate>Wed, 01 Apr 2026 12:18:17 GMT</pubDate>
+    <description>Building on existing approaches, we revisit Human-in-the-Loop Object Retrieval, a task that consists of iteratively retrieving images containing objects of a class-of-interest, specified by a user-provided query. Starting from a large unlabeled image collection, the aim is to rapidly identify diverse instances of an object category relying solely on the initial query and the user&apos;s Relevance Feedback, with no prior labels. The retrieval process is formulated as a binary classification task, wher...</description>
+  </item>
+  <item>
+    <title>Narrative Fingerprints: Multi-Scale Author Identification via Novelty Curve Dynamics</title>
+    <link>https://arxiv.org/abs/2604.01073</link>
+    <guid isPermaLink="false">2604.01073</guid>
+    <pubDate>Wed, 01 Apr 2026 16:07:58 GMT</pubDate>
+    <description>We test whether authors have characteristic &quot;fingerprints&quot; in the information-theoretic novelty curves of their published works. Working with two corpora -- Books3 (52,796 books, 759 qualifying authors) and PG-19 (28,439 books, 1,821 qualifying authors) -- we find that authorial voice leaves measurable traces in how novelty unfolds across a text. The signal is multi-scale: at book level, scalar dynamics (mean novelty, speed, volume, circuitousness) identify 43% of authors significantly above cha...</description>
+  </item>
+  <item>
+    <title>From Validity to Inter-Subjectivity: An Argument for Reliability Signals in Search Environments</title>
+    <link>https://arxiv.org/abs/2604.01186</link>
+    <guid isPermaLink="false">2604.01186</guid>
+    <pubDate>Wed, 01 Apr 2026 17:34:45 GMT</pubDate>
+    <description>Search engines and information platforms are increasingly scrutinized for their role in spreading misinformation. Traditional responses often focus on detecting falsehoods or verifying the ultimate validity of claims. This paper argues that such a validity-centered framing is inadequate for the epistemic challenges of search environments.</description>
+  </item>
+  <item>
+    <title>FGR-ColBERT: Identifying Fine-Grained Relevance Tokens During Retrieval</title>
+    <link>https://arxiv.org/abs/2604.00242</link>
+    <guid isPermaLink="false">2604.00242</guid>
+    <pubDate>Tue, 31 Mar 2026 21:09:03 GMT</pubDate>
+    <description>Document retrieval identifies relevant documents but does not provide fine-grained evidence cues, such as specific relevant spans. A possible solution is to apply an LLM after retrieval; however, this introduces significant computational overhead and limits practical deployment. We propose FGR-ColBERT, a modification of ColBERT retrieval model that integrates fine-grained relevance signals distilled from an LLM directly into the retrieval function. Experiments on MS MARCO show that FGR-ColBERT (...</description>
+  </item>
+  <item>
+    <title>Evidence Units: Ontology-Grounded Document Organization for Parser-Independent Retrieval</title>
+    <link>https://arxiv.org/abs/2604.00500</link>
+    <guid isPermaLink="false">2604.00500</guid>
+    <pubDate>Wed, 01 Apr 2026 05:32:16 GMT</pubDate>
+    <description>Structured documents--tables paired with captions, figures with explanations, equations with the paragraphs that interpret them--are routinely fragmented when indexed for retrieval. Element-level indexing treats every parsed element as an independent chunk, scattering semantically cohesive units across separate retrieval candidates. This paper presents a parser-independent pipeline that constructs Evidence Units (EUs): semantically complete document chunks that group visual assets with their con...</description>
+  </item>
+  <item>
+    <title>Doctor-RAG: Failure-Aware Repair for Agentic Retrieval-Augmented Generation</title>
+    <link>https://arxiv.org/abs/2604.00865</link>
+    <guid isPermaLink="false">2604.00865</guid>
+    <pubDate>Wed, 01 Apr 2026 13:13:27 GMT</pubDate>
+    <description>Agentic Retrieval-Augmented Generation (Agentic RAG) has become a widely adopted paradigm for multi-hop question answering and complex knowledge reasoning, where retrieval and reasoning are interleaved at inference time. As reasoning trajectories grow longer, failures become increasingly common. Existing approaches typically address such failures by either stopping at diagnostic analysis or rerunning the entire retrieval-reasoning pipeline, which leads to substantial computational overhead and r...</description>
+  </item>
   <item>
     <title>UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems</title>
     <link>https://arxiv.org/abs/2604.00590</link>
@@ -19,7 +61,7 @@
     <link>https://arxiv.org/abs/2603.29631</link>
     <guid isPermaLink="false">2603.29631</guid>
     <pubDate>Tue, 31 Mar 2026 11:54:38 GMT</pubDate>
-    <description>Always-on edge cameras generate continuous video streams where redundant frames degrade cross-modal retrieval by crowding correct results out of top-k search. This paper presents a streaming retrieval architecture: an on-device epsilon-net filter retains only semantically novel frames, building a denoised embedding index; a cross-modal adapter and cloud re-ranker compensate for the compact encoder&apos;s weak alignment. A single-pass streaming filter outperforms offline alternatives (k-means, farthes...</description>
+    <description>Always-on edge cameras generate continuous video streams where redundant frames degrade cross-modal retrieval by crowding correct results out of top-k search. This paper presents a streaming retrieval architecture: an on-device epsilon-net filter retains only semantically novel frames, building a denoised embedding index; a cross-modal adapter and cloud re-ranker compensate for the compact encoder&amp;apos;s weak alignment. A single-pass streaming filter outperforms offline alternatives (k-means, farthes...</description>
   </item>
   <item>
     <title>ORBIT: Scalable and Verifiable Data Generation for Search Agents on a Tight Budget</title>
@@ -47,7 +89,7 @@
     <link>https://arxiv.org/abs/2604.01036</link>
     <guid isPermaLink="false">2604.01036</guid>
     <pubDate>Wed, 01 Apr 2026 15:45:24 GMT</pubDate>
-    <description>Popularity bias is a pervasive problem in recommender systems, where recommendations disproportionately favor popular items. This not only results in &quot;rich-get-richer&quot; dynamics and a homogenization of visible content, but can also lead to misalignment of recommendations with individual users&apos; preferences for popular or niche content. This work studies popularity bias through the lens of user-recommender alignment. To this end, we introduce Popularity Quantile Calibration, a measurement framework...</description>
+    <description>Popularity bias is a pervasive problem in recommender systems, where recommendations disproportionately favor popular items. This not only results in &amp;quot;rich-get-richer&amp;quot; dynamics and a homogenization of visible content, but can also lead to misalignment of recommendations with individual users&amp;apos; preferences for popular or niche content. This work studies popularity bias through the lens of user-recommender alignment. To this end, we introduce Popularity Quantile Calibration, a measurement framework...</description>
   </item>
   <item>
     <title>Common TF-IDF variants arise as key components in the test statistic of a penalized likelihood-ratio test for word burstiness</title>
@@ -61,7 +103,7 @@
     <link>https://arxiv.org/abs/2603.26426</link>
     <guid isPermaLink="false">2603.26426</guid>
     <pubDate>Fri, 27 Mar 2026 13:56:12 GMT</pubDate>
-    <description>We present a reconstruction of UKRI&apos;s Gateway to Research (GtR) database that links funding opportunities to their resulting project proposals through panel meeting outcomes. Unlike existing work that focuses primarily on funded projects and their outcomes, we close the complete funding lifecycle by integrating three previously disconnected data sources: the GtR project database, UKRI funding opportunities, and competitive funding decision records across UKRI&apos;s research councils. We describe the...</description>
+    <description>We present a reconstruction of UKRI&amp;apos;s Gateway to Research (GtR) database that links funding opportunities to their resulting project proposals through panel meeting outcomes. Unlike existing work that focuses primarily on funded projects and their outcomes, we close the complete funding lifecycle by integrating three previously disconnected data sources: the GtR project database, UKRI funding opportunities, and competitive funding decision records across UKRI&amp;apos;s research councils. We describe the...</description>
   </item>
   <item>
     <title>Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music</title>
@@ -196,14 +238,14 @@ Methods: We propose an agent-orchestrated digital twin framework ...</descriptio
     <link>https://arxiv.org/abs/2603.28554</link>
     <guid isPermaLink="false">2603.28554</guid>
     <pubDate>Mon, 30 Mar 2026 15:17:41 GMT</pubDate>
-    <description>Visual document understanding typically requires separate retrieval and generation models, doubling memory and system complexity. We present Hydra, a dual-head approach that provides both ColBERT-style late-interaction retrieval and autoregressive generation from a single vision-language model (VLM). A single LoRA adapter, trained only for retrieval, is toggled at inference: enabling it produces multi-vector embeddings; disabling it recovers the base model&amp;amp;amp;amp;amp;apos;s generation quality -- byte-identical ...</description>
+    <description>Visual document understanding typically requires separate retrieval and generation models, doubling memory and system complexity. We present Hydra, a dual-head approach that provides both ColBERT-style late-interaction retrieval and autoregressive generation from a single vision-language model (VLM). A single LoRA adapter, trained only for retrieval, is toggled at inference: enabling it produces multi-vector embeddings; disabling it recovers the base model&amp;amp;amp;amp;amp;amp;apos;s generation quality -- byte-identical ...</description>
   </item>
   <item>
     <title>On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach</title>
     <link>https://arxiv.org/abs/2603.27952</link>
     <guid isPermaLink="false">2603.27952</guid>
     <pubDate>Mon, 30 Mar 2026 01:57:30 GMT</pubDate>
-    <description>Sequential recommender systems have achieved steady gains in offline accuracy, yet it remains unclear how close current models are to the intrinsic accuracy limit imposed by the data. A reliable, model-agnostic estimate of this ceiling would enable principled difficulty assessment and headroom estimation before costly model development. Existing predictability analyses typically combine entropy estimation with Fano&amp;amp;amp;amp;amp;apos;s inequality inversion; however, in recommendation they are hindered by sensitivi...</description>
+    <description>Sequential recommender systems have achieved steady gains in offline accuracy, yet it remains unclear how close current models are to the intrinsic accuracy limit imposed by the data. A reliable, model-agnostic estimate of this ceiling would enable principled difficulty assessment and headroom estimation before costly model development. Existing predictability analyses typically combine entropy estimation with Fano&amp;amp;amp;amp;amp;amp;apos;s inequality inversion; however, in recommendation they are hindered by sensitivi...</description>
   </item>
   <item>
     <title>GEAKG: Generative Executable Algorithm Knowledge Graphs</title>
@@ -287,7 +329,7 @@ Methods: We propose an agent-orchestrated digital twin framework ...</descriptio
     <link>https://arxiv.org/abs/2603.24216</link>
     <guid isPermaLink="false">2603.24216</guid>
     <pubDate>Wed, 25 Mar 2026 11:44:47 GMT</pubDate>
-    <description>Standard citation metrics treat all citations as equal, obscuring the social and structural pathways through which scholarly influence propagates. I introduce Citation-Constellation, a freely available no-code tool for citation network analysis with two complementary bibliometric scores that decompose a researcher&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s citation profile by network proximity between citing and cited authors. BARON (Boundary-Anchored Research Outreach Network score) is a strict binary metric counting only citations fr...</description>
+    <description>Standard citation metrics treat all citations as equal, obscuring the social and structural pathways through which scholarly influence propagates. I introduce Citation-Constellation, a freely available no-code tool for citation network analysis with two complementary bibliometric scores that decompose a researcher&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s citation profile by network proximity between citing and cited authors. BARON (Boundary-Anchored Research Outreach Network score) is a strict binary metric counting only citations fr...</description>
   </item>
   <item>
     <title>MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens</title>
@@ -354,7 +396,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2603.24218</link>
     <guid isPermaLink="false">2603.24218</guid>
     <pubDate>Wed, 25 Mar 2026 11:45:52 GMT</pubDate>
-    <description>Large Language Models (LLMs) enhanced with Retrieval-Augmented Generation (RAG) have achieved substantial improvements in accuracy by grounding their responses in external documents that are relevant to the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s query. However, relatively little work has investigated the impact of RAG in terms of fairness. Particularly, it is not yet known if queries that are associated with certain groups within a fairness category systematically receive higher accuracy, or accuracy improvements in RAG system...</description>
+    <description>Large Language Models (LLMs) enhanced with Retrieval-Augmented Generation (RAG) have achieved substantial improvements in accuracy by grounding their responses in external documents that are relevant to the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s query. However, relatively little work has investigated the impact of RAG in terms of fairness. Particularly, it is not yet known if queries that are associated with certain groups within a fairness category systematically receive higher accuracy, or accuracy improvements in RAG system...</description>
   </item>
   <item>
     <title>Mixture of Demonstrations for Textual Graph Understanding and Question Answering</title>
@@ -396,7 +438,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2603.08819</link>
     <guid isPermaLink="false">2603.08819</guid>
     <pubDate>Wed, 11 Mar 2026 14:06:36 GMT</pubDate>
-    <description>Retrieval-augmented generation (RAG) systems combine document retrieval with a generative model to address complex information seeking tasks like report generation. While the relationship between retrieval quality and generation effectiveness seems intuitive, it has not been systematically studied. We investigate whether upstream retrieval metrics can serve as reliable early indicators of the final generated response&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s information coverage. Through experiments across two text RAG benchmarks (TRE...</description>
+    <description>Retrieval-augmented generation (RAG) systems combine document retrieval with a generative model to address complex information seeking tasks like report generation. While the relationship between retrieval quality and generation effectiveness seems intuitive, it has not been systematically studied. We investigate whether upstream retrieval metrics can serve as reliable early indicators of the final generated response&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s information coverage. Through experiments across two text RAG benchmarks (TRE...</description>
   </item>
   <item>
     <title>Interpretable Markov-Based Spatiotemporal Risk Surfaces for Missing-Child Search Planning with Reinforcement Learning and LLM-Based Quality Assurance</title>
@@ -417,7 +459,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2603.09130</link>
     <guid isPermaLink="false">2603.09130</guid>
     <pubDate>Tue, 10 Mar 2026 03:07:27 GMT</pubDate>
-    <description>As visual misinformation becomes increasingly prevalent, platform algorithms act as intermediaries that curate information for users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; verification practices. Yet, it remains unclear how algorithmic gatekeeping tools, such as reverse image search (RIS), shape users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; information exposure during fact-checking. This study systematically audits Google RIS by reversely searching newly identified misleading images over a 15-day window and analyzing 34,486 collected top-ranked search results. We find th...</description>
+    <description>As visual misinformation becomes increasingly prevalent, platform algorithms act as intermediaries that curate information for users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; verification practices. Yet, it remains unclear how algorithmic gatekeeping tools, such as reverse image search (RIS), shape users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; information exposure during fact-checking. This study systematically audits Google RIS by reversely searching newly identified misleading images over a 15-day window and analyzing 34,486 collected top-ranked search results. We find th...</description>
   </item>
   <item>
     <title>Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok</title>
@@ -431,7 +473,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2603.20338</link>
     <guid isPermaLink="false">2603.20338</guid>
     <pubDate>Fri, 20 Mar 2026 09:01:00 GMT</pubDate>
-    <description>Federated Recommender Systems (FRS) preserve privacy by training decentralized models on client-specific user-item subgraphs without sharing raw data. However, FRS faces a unique challenge: subgraph structural imbalance, where drastic variations in subgraph scale (user/item counts) and connectivity (item degree) misalign client representations, making it challenging to train a robust model that respects each client&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s unique structural characteristics. To address this, we propose a Low-pass Perso...</description>
+    <description>Federated Recommender Systems (FRS) preserve privacy by training decentralized models on client-specific user-item subgraphs without sharing raw data. However, FRS faces a unique challenge: subgraph structural imbalance, where drastic variations in subgraph scale (user/item counts) and connectivity (item degree) misalign client representations, making it challenging to train a robust model that respects each client&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s unique structural characteristics. To address this, we propose a Low-pass Perso...</description>
   </item>
   <item>
     <title>VisualLeakBench: Auditing the Fragility of Large Vision-Language Models against PII Leakage and Social Engineering</title>
@@ -466,7 +508,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2603.04925</link>
     <guid isPermaLink="false">2603.04925</guid>
     <pubDate>Thu, 05 Mar 2026 08:16:21 GMT</pubDate>
-    <description>Large language models (LLMs) enable a new form of advertising for retrieval-augmented generation (RAG) systems in which organic responses are blended with contextually relevant ads. The prospect of such &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;generated native ads&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; has sparked interest in whether they can be detected automatically. Existing datasets, however, do not reflect the diversity of advertising styles discussed in the marketing literature. In this paper, we (1) develop a taxonomy of advertising styles for LLMs, combining the s...</description>
+    <description>Large language models (LLMs) enable a new form of advertising for retrieval-augmented generation (RAG) systems in which organic responses are blended with contextually relevant ads. The prospect of such &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;generated native ads&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; has sparked interest in whether they can be detected automatically. Existing datasets, however, do not reflect the diversity of advertising styles discussed in the marketing literature. In this paper, we (1) develop a taxonomy of advertising styles for LLMs, combining the s...</description>
   </item>
   <item>
     <title>Visual Product Search Benchmark</title>
@@ -501,7 +543,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2602.24067</link>
     <guid isPermaLink="false">2602.24067</guid>
     <pubDate>Fri, 27 Feb 2026 14:57:54 GMT</pubDate>
-    <description>We present a large-scale automated audit of WCAG 2.1/2.2 Level AA colour contrast compliance across the 500 most frequently crawled registered domains in Common Crawl&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s CC-MAIN-2026-08 February 2026 crawl archive. Rather than conducting a live crawl, all page content was sourced from Common Crawl&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s open WARC archives, ensuring reproducibility and eliminating any load on target web servers. Our static CSS analysis of 240 homepages identified 4,327 unique foreground/background colour pairings, of ...</description>
+    <description>We present a large-scale automated audit of WCAG 2.1/2.2 Level AA colour contrast compliance across the 500 most frequently crawled registered domains in Common Crawl&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s CC-MAIN-2026-08 February 2026 crawl archive. Rather than conducting a live crawl, all page content was sourced from Common Crawl&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s open WARC archives, ensuring reproducibility and eliminating any load on target web servers. Our static CSS analysis of 240 homepages identified 4,327 unique foreground/background colour pairings, of ...</description>
   </item>
   <item>
     <title>Science Fiction and Fantasy in Wikipedia: Exploring Structural and Semantic Cues</title>
@@ -543,7 +585,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2603.25333</link>
     <guid isPermaLink="false">2603.25333</guid>
     <pubDate>Thu, 26 Mar 2026 11:20:52 GMT</pubDate>
-    <description>The effectiveness of Retrieval-Augmented Generation (RAG) is highly dependent on how documents are chunked, that is, segmented into smaller units for indexing and retrieval. Yet, commonly used &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;one-size-fits-all&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; approaches often fail to capture the nuanced structure and semantics of diverse texts. Despite its central role, chunking lacks a dedicated evaluation framework, making it difficult to assess and compare strategies independently of downstream performance. We challenge this paradigm by i...</description>
+    <description>The effectiveness of Retrieval-Augmented Generation (RAG) is highly dependent on how documents are chunked, that is, segmented into smaller units for indexing and retrieval. Yet, commonly used &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;one-size-fits-all&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; approaches often fail to capture the nuanced structure and semantics of diverse texts. Despite its central role, chunking lacks a dedicated evaluation framework, making it difficult to assess and compare strategies independently of downstream performance. We challenge this paradigm by i...</description>
   </item>
   <item>
     <title>AuthorityBench: Benchmarking LLM Authority Perception for Reliable Retrieval-Augmented Generation</title>
@@ -571,7 +613,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2603.21139</link>
     <guid isPermaLink="false">2603.21139</guid>
     <pubDate>Sun, 22 Mar 2026 09:29:43 GMT</pubDate>
-    <description>This paper addresses the challenge of improving information retrieval from semi-structured eXtensible Markup Language (XML) documents. Traditional information retrieval systems (IRS) often overlook user-specific needs and return identical results for the same query, despite differences in users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; knowledge, preferences, and objectives. We integrate external semantic resources, namely a domain ontology and user profiles, into the retrieval process. Documents, queries, and user profiles are represe...</description>
+    <description>This paper addresses the challenge of improving information retrieval from semi-structured eXtensible Markup Language (XML) documents. Traditional information retrieval systems (IRS) often overlook user-specific needs and return identical results for the same query, despite differences in users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; knowledge, preferences, and objectives. We integrate external semantic resources, namely a domain ontology and user profiles, into the retrieval process. Documents, queries, and user profiles are represe...</description>
   </item>
   <item>
     <title>Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment</title>
@@ -592,7 +634,7 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <link>https://arxiv.org/abs/2603.25248</link>
     <guid isPermaLink="false">2603.25248</guid>
     <pubDate>Thu, 26 Mar 2026 09:51:54 GMT</pubDate>
-    <description>Vector embeddings from pre-trained language models form a core component in Neural Information Retrieval systems across a multitude of knowledge extraction tasks. The paradigm of late interaction, introduced in ColBERT, demonstrates high accuracy along with runtime efficiency. However, the current formulation fails to take into account the attention weights of query and document terms, which intuitively capture the &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;importance&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; of similarities between them, that might lead to a better understand...</description>
+    <description>Vector embeddings from pre-trained language models form a core component in Neural Information Retrieval systems across a multitude of knowledge extraction tasks. The paradigm of late interaction, introduced in ColBERT, demonstrates high accuracy along with runtime efficiency. However, the current formulation fails to take into account the attention weights of query and document terms, which intuitively capture the &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;importance&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; of similarities between them, that might lead to a better understand...</description>
   </item>
   <item>
     <title>UniAI-GraphRAG: Synergizing Ontology-Guided Extraction, Multi-Dimensional Clustering, and Dual-Channel Fusion for Robust Multi-Hop Reasoning</title>
@@ -670,48 +712,6 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <guid isPermaLink="false">2603.24118</guid>
     <pubDate>Wed, 25 Mar 2026 09:31:13 GMT</pubDate>
     <description>Background: Electronic health records (EHRs) enable machine learning for diagnosis, prognosis, and clinical decision support. However, EHR standards vary by country and hospital, making records often incompatible. This limits large-scale and cross-clinical machine learning. To address such complexity, a metadata repository cataloguing available data elements, their value domains, and their compatibility is an essential tool. This allows researchers to leverage relevant data for tasks such as ide...</description>
-  </item>
-  <item>
-    <title>SumRank: Aligning Summarization Models for Long-Document Listwise Reranking</title>
-    <link>https://arxiv.org/abs/2603.24204</link>
-    <guid isPermaLink="false">2603.24204</guid>
-    <pubDate>Wed, 25 Mar 2026 11:28:47 GMT</pubDate>
-    <description>Large Language Models (LLMs) have demonstrated superior performance in listwise passage reranking task. However, directly applying them to rank long-form documents introduces both effectiveness and efficiency issues due to the substantially increased context length. To address this challenge, we propose a pointwise summarization model SumRank, aligned with downstream listwise reranking, to compress long-form documents into concise rank-aligned summaries before the final listwise reranking stage....</description>
-  </item>
-  <item>
-    <title>ReBOL: Retrieval via Bayesian Optimization with Batched LLM Relevance Observations and Query Reformulation</title>
-    <link>https://arxiv.org/abs/2603.20513</link>
-    <guid isPermaLink="false">2603.20513</guid>
-    <pubDate>Fri, 20 Mar 2026 21:30:13 GMT</pubDate>
-    <description>LLM-reranking is limited by the top-k documents retrieved by vector similarity, which neither enables contextual query-document token interactions nor captures multimodal relevance distributions. While LLM query reformulation attempts to improve recall by generating improved or additional queries, it is still followed by vector similarity retrieval. We thus propose to address these top-k retrieval stage failures by introducing ReBOL, which 1) uses LLM query reformulations to initialize a multimo...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/@@yr6sw</link>
-    <guid isPermaLink="false">2602.22732/@@yr6sw</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/chevron-right-qvimnoqo.js&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;</link>
-    <guid isPermaLink="false">2602.22732/chevron-right-qvimnoqo.js&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/chevron-right-qvimnoqo.js&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;%22</link>
-    <guid isPermaLink="false">2602.22732/chevron-right-qvimnoqo.js&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;%22</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
-  </item>
-  <item>
-    <title>Generative Recommendation for Large-Scale Advertising</title>
-    <link>https://arxiv.org/abs/2602.22732/file-text-c2ryc_w4.js&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;</link>
-    <guid isPermaLink="false">2602.22732/file-text-c2ryc_w4.js&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;</guid>
-    <pubDate>Thu, 26 Feb 2026 08:15:26 GMT</pubDate>
-    <description>Generative recommendation has recently attracted widespread attention in industry due to its potential for scaling and stronger model capacity. However, deploying real-time generative recommendation in large-scale advertising requires designs beyond large-language-model (LLM)-style training and serving recipes. We present a production-oriented generative recommender co-designed across architecture, learning, and serving, named GR4AD (Generative Recommendation for ADdvertising). As for tokenizati...</description>
   </item>
   </channel>
 </rss>
