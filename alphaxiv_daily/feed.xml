@@ -6,7 +6,35 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 07 Apr 2026 12:19:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 18:19:28 GMT</lastBuildDate>
+  <item>
+    <title>Ruling Out to Rule In: Contrastive Hypothesis Retrieval for Medical Question Answering</title>
+    <link>https://arxiv.org/abs/2604.04593</link>
+    <guid isPermaLink="false">2604.04593</guid>
+    <pubDate>Mon, 06 Apr 2026 11:13:57 GMT</pubDate>
+    <description>Retrieval-augmented generation (RAG) grounds large language models in external medical knowledge, yet standard retrievers frequently surface hard negatives that are semantically close to the query but describe clinically distinct conditions. While existing query-expansion methods improve query representation to mitigate ambiguity, they typically focus on enriching target-relevant semantics without an explicit mechanism to selectively suppress specific, clinically plausible hard negatives. This l...</description>
+  </item>
+  <item>
+    <title>Align then Train: Efficient Retrieval Adapter Learning</title>
+    <link>https://arxiv.org/abs/2604.03403</link>
+    <guid isPermaLink="false">2604.03403</guid>
+    <pubDate>Fri, 03 Apr 2026 19:04:42 GMT</pubDate>
+    <description>Dense retrieval systems increasingly need to handle complex queries. In many realistic settings, users express intent through long instructions or task-specific descriptions, while target documents remain relatively simple and static. This asymmetry creates a retrieval mismatch: understanding queries may require strong reasoning and instruction-following, whereas efficient document indexing favors lightweight encoders. Existing retrieval systems often address this mismatch by directly improving ...</description>
+  </item>
+  <item>
+    <title>Are LLM-Based Retrievers Worth Their Cost? An Empirical Study of Efficiency, Robustness, and Reasoning Overhead</title>
+    <link>https://arxiv.org/abs/2604.03676</link>
+    <guid isPermaLink="false">2604.03676</guid>
+    <pubDate>Sat, 04 Apr 2026 10:24:19 GMT</pubDate>
+    <description>Large language model retrievers improve performance on complex queries, but their practical value depends on efficiency, robustness, and reliable confidence signals in addition to accuracy. We reproduce a reasoning-intensive retrieval benchmark (BRIGHT) across 12 tasks and 14 retrievers, and extend evaluation with cold-start indexing cost, query latency distributions and throughput, corpus scaling, robustness to controlled query perturbations, and confidence use (AUROC) for predicting query succ...</description>
+  </item>
+  <item>
+    <title>Synapse: Evolving Job-Person Fit with Explainable Two-phase Retrieval and LLM-guided Genetic Resume Optimization</title>
+    <link>https://arxiv.org/abs/2604.02539</link>
+    <guid isPermaLink="false">2604.02539</guid>
+    <pubDate>Thu, 02 Apr 2026 21:44:23 GMT</pubDate>
+    <description>Modern recruitment platforms operate under severe information imbalance: job seekers must search over massive, rapidly changing collections of postings, while employers are overwhelmed by high-volume, low-relevance applicant pools. Existing recruitment recommender systems typically rely on keyword matching or single-stage semantic retrieval, which struggle to capture fine-grained alignment between candidate experience and job requirements under real-world scale and cost constraints. We present S...</description>
+  </item>
   <item>
     <title>SkillX: Automatically Constructing Skill Knowledge Bases for Agents</title>
     <link>https://arxiv.org/abs/2604.04804</link>
@@ -26,7 +54,7 @@
     <link>https://arxiv.org/abs/2604.02684</link>
     <guid isPermaLink="false">2604.02684</guid>
     <pubDate>Fri, 03 Apr 2026 03:26:36 GMT</pubDate>
-    <description>Generative recommendation (GR) has recently emerged as a promising paradigm for industrial recommendations. GR leverages Semantic IDs (SIDs) to reduce the encoding-decoding space and employs the Next Token Prediction (NTP) framework to explore scaling laws. However, existing GR methods suffer from two critical issues: (1) a \textbf{seesaw phenomenon} in multi-business scenarios arises due to NTP&apos;s inability to capture complex cross-business behavioral patterns; and (2) a unified SID space causes...</description>
+    <description>Generative recommendation (GR) has recently emerged as a promising paradigm for industrial recommendations. GR leverages Semantic IDs (SIDs) to reduce the encoding-decoding space and employs the Next Token Prediction (NTP) framework to explore scaling laws. However, existing GR methods suffer from two critical issues: (1) a \textbf{seesaw phenomenon} in multi-business scenarios arises due to NTP&amp;apos;s inability to capture complex cross-business behavioral patterns; and (2) a unified SID space causes...</description>
   </item>
   <item>
     <title>SLSREC: Self-Supervised Contrastive Learning for Adaptive Fusion of Long- and Short-Term User Interests</title>
@@ -47,7 +75,7 @@
     <link>https://arxiv.org/abs/2604.03949</link>
     <guid isPermaLink="false">2604.03949</guid>
     <pubDate>Sun, 05 Apr 2026 03:46:52 GMT</pubDate>
-    <description>Effective item identifiers (IDs) are an important component for recommender systems (RecSys) in practice, and are commonly adopted in many use cases such as retrieval and ranking. IDs can encode collaborative filtering signals within training data, such that RecSys models can extrapolate during the inference and personalize the prediction based on users&apos; behavioral histories. Recently, Semantic IDs (SIDs) have become a trending paradigm for RecSys. In comparison to the conventional atomic ID, an...</description>
+    <description>Effective item identifiers (IDs) are an important component for recommender systems (RecSys) in practice, and are commonly adopted in many use cases such as retrieval and ranking. IDs can encode collaborative filtering signals within training data, such that RecSys models can extrapolate during the inference and personalize the prediction based on users&amp;apos; behavioral histories. Recently, Semantic IDs (SIDs) have become a trending paradigm for RecSys. In comparison to the conventional atomic ID, an...</description>
   </item>
   <item>
     <title>BridgeRAG: Training-Free Bridge-Conditioned Retrieval for Multi-Hop Question Answering</title>
@@ -89,7 +117,7 @@
     <link>https://arxiv.org/abs/2604.04427</link>
     <guid isPermaLink="false">2604.04427</guid>
     <pubDate>Mon, 06 Apr 2026 05:17:43 GMT</pubDate>
-    <description>Generative recommendation has emerged as a transformative paradigm for capturing the dynamic evolution of user intents in sequential recommendation. While flow-based methods improve the efficiency of diffusion models, they remain hindered by the ``Noise-to-Data&apos;&apos; paradigm, which introduces two critical inefficiencies: prior mismatch, where generation starts from uninformative noise, forcing a lengthy recovery trajectory; and linear redundancy, where iterative solvers waste computation on modelin...</description>
+    <description>Generative recommendation has emerged as a transformative paradigm for capturing the dynamic evolution of user intents in sequential recommendation. While flow-based methods improve the efficiency of diffusion models, they remain hindered by the ``Noise-to-Data&amp;apos;&amp;apos; paradigm, which introduces two critical inefficiencies: prior mismatch, where generation starts from uninformative noise, forcing a lengthy recovery trajectory; and linear redundancy, where iterative solvers waste computation on modelin...</description>
   </item>
   <item>
     <title>SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems</title>
@@ -97,7 +125,7 @@
     <guid isPermaLink="false">2604.04514</guid>
     <pubDate>Mon, 06 Apr 2026 08:27:26 GMT</pubDate>
     <description>AI coding agents operate in a paradox: they possess vast parametric knowledge yet cannot remember a conversation from an hour ago. Existing memory systems store text in vector databases with single-channel retrieval, require cloud LLMs for core operations, and implement none of the cognitive processes that make human memory effective.
-We present SuperLocalMemory V3.3 (&quot;The Living Brain&quot;), a local-first agent memory system implementing the full cognitive memory taxonomy with mathematical lifecycl...</description>
+We present SuperLocalMemory V3.3 (&amp;quot;The Living Brain&amp;quot;), a local-first agent memory system implementing the full cognitive memory taxonomy with mathematical lifecycl...</description>
   </item>
   <item>
     <title>SelRoute: Query-Type-Aware Routing for Long-Term Conversational Memory Retrieval</title>
@@ -153,7 +181,7 @@ We present SuperLocalMemory V3.3 (&quot;The Living Brain&quot;), a local-first a
     <link>https://arxiv.org/abs/2604.02988</link>
     <guid isPermaLink="false">2604.02988</guid>
     <pubDate>Fri, 03 Apr 2026 11:48:38 GMT</pubDate>
-    <description>Given a user&amp;amp;amp;apos;s complex information need, a multi-agent Deep Research system iteratively plans, retrieves, and synthesizes evidence across hundreds of documents to produce a high-quality answer. In one possible architecture, an orchestrator agent coordinates the process, while parallel worker agents execute tasks. Current Deep Research systems, however, often rely on hand-engineered prompts and static architectures, making improvement brittle, expensive, and time-consuming. We therefore explore v...</description>
+    <description>Given a user&amp;amp;amp;amp;apos;s complex information need, a multi-agent Deep Research system iteratively plans, retrieves, and synthesizes evidence across hundreds of documents to produce a high-quality answer. In one possible architecture, an orchestrator agent coordinates the process, while parallel worker agents execute tasks. Current Deep Research systems, however, often rely on hand-engineered prompts and static architectures, making improvement brittle, expensive, and time-consuming. We therefore explore v...</description>
   </item>
   <item>
     <title>Principled and Scalable Diversity-Aware Retrieval via Cardinality-Constrained Binary Quadratic Programming</title>
@@ -167,7 +195,7 @@ We present SuperLocalMemory V3.3 (&quot;The Living Brain&quot;), a local-first a
     <link>https://arxiv.org/abs/2604.02617</link>
     <guid isPermaLink="false">2604.02617</guid>
     <pubDate>Fri, 03 Apr 2026 01:11:43 GMT</pubDate>
-    <description>Scientific and Technical Intelligence (S&amp;amp;amp;amp;amp;TI) analysis requires verifying complex technical claims across rapidly growing literature, where existing approaches fail to bridge the verification gap between surface-level accuracy and deeper methodological validity. We present AutoVerifier, an LLM-based agentic framework that automates end-to-end verification of technical claims without requiring domain expertise. AutoVerifier decomposes every technical assertion into structured claim triples of the ...</description>
+    <description>Scientific and Technical Intelligence (S&amp;amp;amp;amp;amp;amp;TI) analysis requires verifying complex technical claims across rapidly growing literature, where existing approaches fail to bridge the verification gap between surface-level accuracy and deeper methodological validity. We present AutoVerifier, an LLM-based agentic framework that automates end-to-end verification of technical claims without requiring domain expertise. AutoVerifier decomposes every technical assertion into structured claim triples of the ...</description>
   </item>
   <item>
     <title>PRISM: LLM-Guided Semantic Clustering for High-Precision Topics</title>
@@ -307,14 +335,14 @@ We present SuperLocalMemory V3.3 (&quot;The Living Brain&quot;), a local-first a
     <link>https://arxiv.org/abs/2604.00809</link>
     <guid isPermaLink="false">2604.00809</guid>
     <pubDate>Wed, 01 Apr 2026 12:18:17 GMT</pubDate>
-    <description>Building on existing approaches, we revisit Human-in-the-Loop Object Retrieval, a task that consists of iteratively retrieving images containing objects of a class-of-interest, specified by a user-provided query. Starting from a large unlabeled image collection, the aim is to rapidly identify diverse instances of an object category relying solely on the initial query and the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s Relevance Feedback, with no prior labels. The retrieval process is formulated as a binary classification task, wher...</description>
+    <description>Building on existing approaches, we revisit Human-in-the-Loop Object Retrieval, a task that consists of iteratively retrieving images containing objects of a class-of-interest, specified by a user-provided query. Starting from a large unlabeled image collection, the aim is to rapidly identify diverse instances of an object category relying solely on the initial query and the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s Relevance Feedback, with no prior labels. The retrieval process is formulated as a binary classification task, wher...</description>
   </item>
   <item>
     <title>Narrative Fingerprints: Multi-Scale Author Identification via Novelty Curve Dynamics</title>
     <link>https://arxiv.org/abs/2604.01073</link>
     <guid isPermaLink="false">2604.01073</guid>
     <pubDate>Wed, 01 Apr 2026 16:07:58 GMT</pubDate>
-    <description>We test whether authors have characteristic &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;fingerprints&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; in the information-theoretic novelty curves of their published works. Working with two corpora -- Books3 (52,796 books, 759 qualifying authors) and PG-19 (28,439 books, 1,821 qualifying authors) -- we find that authorial voice leaves measurable traces in how novelty unfolds across a text. The signal is multi-scale: at book level, scalar dynamics (mean novelty, speed, volume, circuitousness) identify 43% of authors significantly above cha...</description>
+    <description>We test whether authors have characteristic &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;fingerprints&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; in the information-theoretic novelty curves of their published works. Working with two corpora -- Books3 (52,796 books, 759 qualifying authors) and PG-19 (28,439 books, 1,821 qualifying authors) -- we find that authorial voice leaves measurable traces in how novelty unfolds across a text. The signal is multi-scale: at book level, scalar dynamics (mean novelty, speed, volume, circuitousness) identify 43% of authors significantly above cha...</description>
   </item>
   <item>
     <title>From Validity to Inter-Subjectivity: An Argument for Reliability Signals in Search Environments</title>
@@ -356,7 +384,7 @@ We present SuperLocalMemory V3.3 (&quot;The Living Brain&quot;), a local-first a
     <link>https://arxiv.org/abs/2603.29631</link>
     <guid isPermaLink="false">2603.29631</guid>
     <pubDate>Tue, 31 Mar 2026 11:54:38 GMT</pubDate>
-    <description>Always-on edge cameras generate continuous video streams where redundant frames degrade cross-modal retrieval by crowding correct results out of top-k search. This paper presents a streaming retrieval architecture: an on-device epsilon-net filter retains only semantically novel frames, building a denoised embedding index; a cross-modal adapter and cloud re-ranker compensate for the compact encoder&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s weak alignment. A single-pass streaming filter outperforms offline alternatives (k-means, farthes...</description>
+    <description>Always-on edge cameras generate continuous video streams where redundant frames degrade cross-modal retrieval by crowding correct results out of top-k search. This paper presents a streaming retrieval architecture: an on-device epsilon-net filter retains only semantically novel frames, building a denoised embedding index; a cross-modal adapter and cloud re-ranker compensate for the compact encoder&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s weak alignment. A single-pass streaming filter outperforms offline alternatives (k-means, farthes...</description>
   </item>
   <item>
     <title>ORBIT: Scalable and Verifiable Data Generation for Search Agents on a Tight Budget</title>
@@ -384,7 +412,7 @@ We present SuperLocalMemory V3.3 (&quot;The Living Brain&quot;), a local-first a
     <link>https://arxiv.org/abs/2604.01036</link>
     <guid isPermaLink="false">2604.01036</guid>
     <pubDate>Wed, 01 Apr 2026 15:45:24 GMT</pubDate>
-    <description>Popularity bias is a pervasive problem in recommender systems, where recommendations disproportionately favor popular items. This not only results in &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;rich-get-richer&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; dynamics and a homogenization of visible content, but can also lead to misalignment of recommendations with individual users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; preferences for popular or niche content. This work studies popularity bias through the lens of user-recommender alignment. To this end, we introduce Popularity Quantile Calibration, a measurement framework...</description>
+    <description>Popularity bias is a pervasive problem in recommender systems, where recommendations disproportionately favor popular items. This not only results in &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;rich-get-richer&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; dynamics and a homogenization of visible content, but can also lead to misalignment of recommendations with individual users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; preferences for popular or niche content. This work studies popularity bias through the lens of user-recommender alignment. To this end, we introduce Popularity Quantile Calibration, a measurement framework...</description>
   </item>
   <item>
     <title>Common TF-IDF variants arise as key components in the test statistic of a penalized likelihood-ratio test for word burstiness</title>
@@ -398,7 +426,7 @@ We present SuperLocalMemory V3.3 (&quot;The Living Brain&quot;), a local-first a
     <link>https://arxiv.org/abs/2603.26426</link>
     <guid isPermaLink="false">2603.26426</guid>
     <pubDate>Fri, 27 Mar 2026 13:56:12 GMT</pubDate>
-    <description>We present a reconstruction of UKRI&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s Gateway to Research (GtR) database that links funding opportunities to their resulting project proposals through panel meeting outcomes. Unlike existing work that focuses primarily on funded projects and their outcomes, we close the complete funding lifecycle by integrating three previously disconnected data sources: the GtR project database, UKRI funding opportunities, and competitive funding decision records across UKRI&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s research councils. We describe the...</description>
+    <description>We present a reconstruction of UKRI&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s Gateway to Research (GtR) database that links funding opportunities to their resulting project proposals through panel meeting outcomes. Unlike existing work that focuses primarily on funded projects and their outcomes, we close the complete funding lifecycle by integrating three previously disconnected data sources: the GtR project database, UKRI funding opportunities, and competitive funding decision records across UKRI&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s research councils. We describe the...</description>
   </item>
   <item>
     <title>Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music</title>
@@ -533,14 +561,14 @@ Methods: We propose an agent-orchestrated digital twin framework ...</descriptio
     <link>https://arxiv.org/abs/2603.28554</link>
     <guid isPermaLink="false">2603.28554</guid>
     <pubDate>Mon, 30 Mar 2026 15:17:41 GMT</pubDate>
-    <description>Visual document understanding typically requires separate retrieval and generation models, doubling memory and system complexity. We present Hydra, a dual-head approach that provides both ColBERT-style late-interaction retrieval and autoregressive generation from a single vision-language model (VLM). A single LoRA adapter, trained only for retrieval, is toggled at inference: enabling it produces multi-vector embeddings; disabling it recovers the base model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s generation quality -- byte-identical ...</description>
+    <description>Visual document understanding typically requires separate retrieval and generation models, doubling memory and system complexity. We present Hydra, a dual-head approach that provides both ColBERT-style late-interaction retrieval and autoregressive generation from a single vision-language model (VLM). A single LoRA adapter, trained only for retrieval, is toggled at inference: enabling it produces multi-vector embeddings; disabling it recovers the base model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s generation quality -- byte-identical ...</description>
   </item>
   <item>
     <title>On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach</title>
     <link>https://arxiv.org/abs/2603.27952</link>
     <guid isPermaLink="false">2603.27952</guid>
     <pubDate>Mon, 30 Mar 2026 01:57:30 GMT</pubDate>
-    <description>Sequential recommender systems have achieved steady gains in offline accuracy, yet it remains unclear how close current models are to the intrinsic accuracy limit imposed by the data. A reliable, model-agnostic estimate of this ceiling would enable principled difficulty assessment and headroom estimation before costly model development. Existing predictability analyses typically combine entropy estimation with Fano&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s inequality inversion; however, in recommendation they are hindered by sensitivi...</description>
+    <description>Sequential recommender systems have achieved steady gains in offline accuracy, yet it remains unclear how close current models are to the intrinsic accuracy limit imposed by the data. A reliable, model-agnostic estimate of this ceiling would enable principled difficulty assessment and headroom estimation before costly model development. Existing predictability analyses typically combine entropy estimation with Fano&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s inequality inversion; however, in recommendation they are hindered by sensitivi...</description>
   </item>
   <item>
     <title>GEAKG: Generative Executable Algorithm Knowledge Graphs</title>
@@ -624,7 +652,7 @@ Methods: We propose an agent-orchestrated digital twin framework ...</descriptio
     <link>https://arxiv.org/abs/2603.24216</link>
     <guid isPermaLink="false">2603.24216</guid>
     <pubDate>Wed, 25 Mar 2026 11:44:47 GMT</pubDate>
-    <description>Standard citation metrics treat all citations as equal, obscuring the social and structural pathways through which scholarly influence propagates. I introduce Citation-Constellation, a freely available no-code tool for citation network analysis with two complementary bibliometric scores that decompose a researcher&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s citation profile by network proximity between citing and cited authors. BARON (Boundary-Anchored Research Outreach Network score) is a strict binary metric counting only citations fr...</description>
+    <description>Standard citation metrics treat all citations as equal, obscuring the social and structural pathways through which scholarly influence propagates. I introduce Citation-Constellation, a freely available no-code tool for citation network analysis with two complementary bibliometric scores that decompose a researcher&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s citation profile by network proximity between citing and cited authors. BARON (Boundary-Anchored Research Outreach Network score) is a strict binary metric counting only citations fr...</description>
   </item>
   <item>
     <title>MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens</title>
@@ -685,34 +713,6 @@ In this paper, we present the first systematic study of SEO attacks targeting LL
     <guid isPermaLink="false">2603.08551</guid>
     <pubDate>Mon, 09 Mar 2026 16:15:45 GMT</pubDate>
     <description>Pose estimation and human action recognition (HAR) are pivotal technologies spanning various domains. While the image-based pose estimation and HAR are widely admired for their superior performance, they lack in privacy protection and suboptimal performance in low-light and dark environments. This paper exploits the capabilities of millimeter-wave (mmWave) radar technology for human pose estimation by processing radar data with Graph Neural Network (GNN) architecture, coupled with the attention ...</description>
-  </item>
-  <item>
-    <title>Who Benefits from RAG? The Role of Exposure, Utility and Attribution Bias</title>
-    <link>https://arxiv.org/abs/2603.24218</link>
-    <guid isPermaLink="false">2603.24218</guid>
-    <pubDate>Wed, 25 Mar 2026 11:45:52 GMT</pubDate>
-    <description>Large Language Models (LLMs) enhanced with Retrieval-Augmented Generation (RAG) have achieved substantial improvements in accuracy by grounding their responses in external documents that are relevant to the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s query. However, relatively little work has investigated the impact of RAG in terms of fairness. Particularly, it is not yet known if queries that are associated with certain groups within a fairness category systematically receive higher accuracy, or accuracy improvements in RAG system...</description>
-  </item>
-  <item>
-    <title>Mixture of Demonstrations for Textual Graph Understanding and Question Answering</title>
-    <link>https://arxiv.org/abs/2603.23554</link>
-    <guid isPermaLink="false">2603.23554</guid>
-    <pubDate>Mon, 23 Mar 2026 16:23:16 GMT</pubDate>
-    <description>Textual graph-based retrieval-augmented generation (GraphRAG) has emerged as a powerful paradigm for enhancing large language models (LLMs) in domain-specific question answering. While existing approaches primarily focus on zero-shot GraphRAG, selecting high-quality demonstrations is crucial for improving reasoning and answer accuracy. Furthermore, recent studies have shown that retrieved subgraphs often contain irrelevant information, which can degrade reasoning performance. In this paper, we p...</description>
-  </item>
-  <item>
-    <title>FastPFRec: A Fast Personalized Federated Recommendation with Secure Sharing</title>
-    <link>https://arxiv.org/abs/2603.20283</link>
-    <guid isPermaLink="false">2603.20283</guid>
-    <pubDate>Wed, 18 Mar 2026 05:26:51 GMT</pubDate>
-    <description>Graph neural network (GNN)-based federated recommendation systems effectively capture user-item relationships while preserving data privacy. However, existing methods often face slow convergence on graph data and privacy leakage risks during collaboration. To address these challenges, we propose FastPFRec (Fast Personalized Federated Recommendation with Secure Sharing), a novel framework that enhances both training efficiency and data security. FastPFRec accelerates model convergence through an ...</description>
-  </item>
-  <item>
-    <title>Report-based Recommendations for Policy Making and Agency Operations: Dataset and LLM Evaluation</title>
-    <link>https://arxiv.org/abs/2603.20287</link>
-    <guid isPermaLink="false">2603.20287</guid>
-    <pubDate>Wed, 18 Mar 2026 09:15:33 GMT</pubDate>
-    <description>Large Language Models (LLMs) are extensively used in text generation tasks. These generative capabilities bring us to a point where LLMs could potentially provide useful insights in policy making or agency operations. In this paper, we introduce a new task consisting of generating recommendations which can be used to inform future actions and improvements of agencies work within private and public organisations. In particular, we present the first benchmark and coherent evaluation for developing...</description>
   </item>
   </channel>
 </rss>
