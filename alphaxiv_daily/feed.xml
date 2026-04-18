@@ -6,7 +6,35 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 17 Apr 2026 12:19:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 06:26:27 GMT</lastBuildDate>
+  <item>
+    <title>Spectral Tempering for Embedding Compression in Dense Passage Retrieval</title>
+    <link>https://arxiv.org/abs/2603.19339</link>
+    <guid isPermaLink="false">2603.19339</guid>
+    <pubDate>Thu, 19 Mar 2026 10:01:32 GMT</pubDate>
+    <description>Dimensionality reduction is critical for deploying dense retrieval systems at scale, yet mainstream post-hoc methods face a fundamental trade-off: principal component analysis (PCA) preserves dominant variance but underutilizes representational capacity, while whitening enforces isotropy at the cost of amplifying noise in the heavy-tailed eigenspectrum of retrieval embeddings. Intermediate spectral scaling methods unify these extremes by reweighting dimensions with a power coefficient $\gamma$, ...</description>
+  </item>
+  <item>
+    <title>Retrieval Augmented Classification for Confidential Documents</title>
+    <link>https://arxiv.org/abs/2604.08628</link>
+    <guid isPermaLink="false">2604.08628</guid>
+    <pubDate>Thu, 09 Apr 2026 16:13:03 GMT</pubDate>
+    <description>Unauthorized disclosure of confidential documents demands robust, low-leakage classification. In real work environments, there is a lot of inflow and outflow of documents. To continuously update knowledge, we propose a methodology for classifying confidential documents using Retrieval Augmented Classification (RAC). To confirm this effectiveness, we compare RAC and supervised fine tuning (FT) on the WikiLeaks US Diplomacy corpus under realistic sequence-length constraints. On balanced data, RAC ...</description>
+  </item>
+  <item>
+    <title>BracketRank: Large Language Model Document Ranking via Reasoning-based Competitive Elimination</title>
+    <link>https://arxiv.org/abs/2604.08834</link>
+    <guid isPermaLink="false">2604.08834</guid>
+    <pubDate>Fri, 10 Apr 2026 00:16:31 GMT</pubDate>
+    <description>Reasoning-intensive retrieval requires deep semantic inference beyond surface-level keyword matching, posing a challenge for current LLM-based rerankers limited by context constraints and order sensitivity. We propose \textbf{\BracketRank}, a framework that treats document reranking as a reasoning-driven competitive tournament. Our approach introduces three key innovations: (1) adaptive grouping based on model context limits, (2) reasoning-enhanced prompts that mandate step-by-step relevance exp...</description>
+  </item>
+  <item>
+    <title>MAB-DQA: Addressing Query Aspect Importance in Document Question Answering with Multi-Armed Bandits</title>
+    <link>https://arxiv.org/abs/2604.08952</link>
+    <guid isPermaLink="false">2604.08952</guid>
+    <pubDate>Fri, 10 Apr 2026 04:50:18 GMT</pubDate>
+    <description>Document Question Answering (DQA) involves generating answers from a document based on a user&apos;s query, representing a key task in document understanding. This task requires interpreting visual layouts, which has prompted recent studies to adopt multimodal Retrieval-Augmented Generation (RAG) that processes page images for answer generation. However, in multimodal RAG, visual DQA struggles to utilize a large number of images effectively, as the retrieval stage often retains only a few candidate p...</description>
+  </item>
   <item>
     <title>Improving Search Suggestions for Alphanumeric Queries</title>
     <link>https://arxiv.org/abs/2604.07364</link>
@@ -145,7 +173,7 @@
     <link>https://arxiv.org/abs/2604.08920</link>
     <guid isPermaLink="false">2604.08920</guid>
     <pubDate>Fri, 10 Apr 2026 03:30:49 GMT</pubDate>
-    <description>Information retrieval systems have traditionally optimized for topical relevance-the degree to which retrieved documents match a query. However, relevance only approximates a deeper goal: utility, namely, whether retrieved information helps accomplish a user&amp;amp;amp;amp;amp;amp;apos;s underlying task. The emergence of retrieval-augmented generation (RAG) fundamentally changes this paradigm. Retrieved documents are no longer consumed directly by users but instead serve as evidence for large language models (LLMs) that pr...</description>
+    <description>Information retrieval systems have traditionally optimized for topical relevance-the degree to which retrieved documents match a query. However, relevance only approximates a deeper goal: utility, namely, whether retrieved information helps accomplish a user&amp;amp;amp;amp;amp;amp;amp;apos;s underlying task. The emergence of retrieval-augmented generation (RAG) fundamentally changes this paradigm. Retrieved documents are no longer consumed directly by users but instead serve as evidence for large language models (LLMs) that pr...</description>
   </item>
   <item>
     <title>Pretrain-then-Adapt: Uncertainty-Aware Test-Time Adaptation for Text-based Person Search</title>
@@ -222,7 +250,7 @@
     <link>https://arxiv.org/abs/2604.02833</link>
     <guid isPermaLink="false">2604.02833</guid>
     <pubDate>Fri, 03 Apr 2026 07:55:04 GMT</pubDate>
-    <description>Accurately modeling users&amp;amp;amp;amp;amp;amp;amp;amp;apos; evolving preferences from sequential interactions remains a central challenge in recommender systems. Recent studies emphasize the importance of capturing multiple latent intents underlying user behaviors. However, existing methods often fail to effectively exploit collective intent signals shared across users and items, leading to information isolation and limited robustness. Meanwhile, current contrastive learning approaches struggle to construct views that are both ...</description>
+    <description>Accurately modeling users&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; evolving preferences from sequential interactions remains a central challenge in recommender systems. Recent studies emphasize the importance of capturing multiple latent intents underlying user behaviors. However, existing methods often fail to effectively exploit collective intent signals shared across users and items, leading to information isolation and limited robustness. Meanwhile, current contrastive learning approaches struggle to construct views that are both ...</description>
   </item>
   <item>
     <title>Search Changes Consumers&amp;apos; Minds: How Recognizing Gaps Drives Sustainable Choices</title>
@@ -271,7 +299,7 @@
     <link>https://arxiv.org/abs/2604.04036</link>
     <guid isPermaLink="false">2604.04036</guid>
     <pubDate>Sun, 05 Apr 2026 09:31:47 GMT</pubDate>
-    <description>Novice math teachers often encounter students&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; mistakes that are difficult to diagnose and remediate. Misconceptions are especially challenging because teachers must explain what went wrong and how to solve them. Although many existing large language model (LLM) platforms can assist in generating instructional feedback, these LLMs loosely connect pedagogical knowledge and student mistakes, which might make the guidance less actionable for teachers. To address this gap, we propose MisEdu-RAG, a d...</description>
+    <description>Novice math teachers often encounter students&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; mistakes that are difficult to diagnose and remediate. Misconceptions are especially challenging because teachers must explain what went wrong and how to solve them. Although many existing large language model (LLM) platforms can assist in generating instructional feedback, these LLMs loosely connect pedagogical knowledge and student mistakes, which might make the guidance less actionable for teachers. To address this gap, we propose MisEdu-RAG, a d...</description>
   </item>
   <item>
     <title>Event-Centric World Modeling with Memory-Augmented Retrieval for Embodied Decision-Making</title>
@@ -327,7 +355,7 @@
     <link>https://arxiv.org/abs/2604.07415</link>
     <guid isPermaLink="false">2604.07415</guid>
     <pubDate>Wed, 08 Apr 2026 13:09:47 GMT</pubDate>
-    <description>Large language models (LLMs) are probabilistic in nature and perform more reliably when augmented with external information. As complex queries often require multi-step reasoning over the retrieved information, with no clear or predetermined reasoning path, they remain challenging. Recent approaches train models using reinforcement learning on the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s outcome, showing promise in improving how models handle complex information. We introduce SubSearch, a specialized framework that shifts from ...</description>
+    <description>Large language models (LLMs) are probabilistic in nature and perform more reliably when augmented with external information. As complex queries often require multi-step reasoning over the retrieved information, with no clear or predetermined reasoning path, they remain challenging. Recent approaches train models using reinforcement learning on the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s outcome, showing promise in improving how models handle complex information. We introduce SubSearch, a specialized framework that shifts from ...</description>
   </item>
   <item>
     <title>Unified Supervision for Walmarts Sponsored Search Retrieval via Joint Semantic Relevance and Behavioral Engagement Modeling</title>
@@ -383,7 +411,7 @@
     <link>https://arxiv.org/abs/2604.06928</link>
     <guid isPermaLink="false">2604.06928</guid>
     <pubDate>Wed, 08 Apr 2026 10:40:30 GMT</pubDate>
-    <description>Session-based recommendation systems (SBRS) aim to capture user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s short-term intent from interaction sequences. However, the common assumption of anonymous sessions limits personalization, particularly under sparse or cold-start conditions. Recent advances in LLM-augmented recommendation have shown that LLMs can generate rich item representations, but modeling user personas with LLMs remains challenging due to anonymous sessions. In this work, we propose a persona-driven SBRS framework that expl...</description>
+    <description>Session-based recommendation systems (SBRS) aim to capture user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s short-term intent from interaction sequences. However, the common assumption of anonymous sessions limits personalization, particularly under sparse or cold-start conditions. Recent advances in LLM-augmented recommendation have shown that LLMs can generate rich item representations, but modeling user personas with LLMs remains challenging due to anonymous sessions. In this work, we propose a persona-driven SBRS framework that expl...</description>
   </item>
   <item>
     <title>Transforming OPACs into Intelligent Discovery Systems: An AI-Powered, Knowledge Graph-Driven Smart OPAC for Digital Libraries</title>
@@ -481,7 +509,7 @@
     <link>https://arxiv.org/abs/2604.04969</link>
     <guid isPermaLink="false">2604.04969</guid>
     <pubDate>Sat, 04 Apr 2026 07:14:01 GMT</pubDate>
-    <description>Retrieval-Augmented Generation (RAG) mitigates hallucinations in Multimodal Large Language Models (MLLMs), yet existing systems struggle with complex cross-modal reasoning. Flat vector retrieval often ignores structural dependencies, while current graph-based methods rely on costly ``translation-to-text&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; pipelines that discard fine-grained visual information. To address these limitations, we propose \textbf{MG$^2$-RAG}, a lightweight \textbf{M}ulti-\textbf{G}ranularity \textbf{G}raph \textbf{RA...</description>
+    <description>Retrieval-Augmented Generation (RAG) mitigates hallucinations in Multimodal Large Language Models (MLLMs), yet existing systems struggle with complex cross-modal reasoning. Flat vector retrieval often ignores structural dependencies, while current graph-based methods rely on costly ``translation-to-text&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; pipelines that discard fine-grained visual information. To address these limitations, we propose \textbf{MG$^2$-RAG}, a lightweight \textbf{M}ulti-\textbf{G}ranularity \textbf{G}raph \textbf{RA...</description>
   </item>
   <item>
     <title>Leveraging Artist Catalogs for Cold-Start Music Recommendation</title>
@@ -495,21 +523,21 @@
     <link>https://arxiv.org/abs/2604.07079</link>
     <guid isPermaLink="false">2604.07079</guid>
     <pubDate>Wed, 08 Apr 2026 13:35:09 GMT</pubDate>
-    <description>Multimodal retrieval over text corpora remains a fundamental challenge: the best vision-language encoder achieves only 27.6 nDCG@10 on MM-BRIGHT, a reasoning-intensive multimodal retrieval benchmark, underperforming strong text-only systems. We argue that effective multimodal retrieval requires three tightly integrated capabilities that existing approaches address only in isolation: expanding the query&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s latent intent, retrieving with a model trained for complex reasoning, and reranking via expl...</description>
+    <description>Multimodal retrieval over text corpora remains a fundamental challenge: the best vision-language encoder achieves only 27.6 nDCG@10 on MM-BRIGHT, a reasoning-intensive multimodal retrieval benchmark, underperforming strong text-only systems. We argue that effective multimodal retrieval requires three tightly integrated capabilities that existing approaches address only in isolation: expanding the query&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s latent intent, retrieving with a model trained for complex reasoning, and reranking via expl...</description>
   </item>
   <item>
     <title>CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation</title>
     <link>https://arxiv.org/abs/2604.06718</link>
     <guid isPermaLink="false">2604.06718</guid>
     <pubDate>Wed, 08 Apr 2026 06:31:34 GMT</pubDate>
-    <description>Repurchase behavior is a primary signal in large-scale retail recommendation, particularly in categories with frequent replenishment: many items in a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s next basket were previously purchased and their timing follows stable, item-specific cadences. Yet most next basket repurchase recommendation models represent history as a sequence of discrete basket events indexed by visit order, which cannot explicitly model elapsed calendar time or update item rankings as days pass between purchases. We p...</description>
+    <description>Repurchase behavior is a primary signal in large-scale retail recommendation, particularly in categories with frequent replenishment: many items in a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s next basket were previously purchased and their timing follows stable, item-specific cadences. Yet most next basket repurchase recommendation models represent history as a sequence of discrete basket events indexed by visit order, which cannot explicitly model elapsed calendar time or update item rankings as days pass between purchases. We p...</description>
   </item>
   <item>
     <title>Beyond Paper-to-Paper: Structured Profiling and Rubric Scoring for Paper-Reviewer Matching</title>
     <link>https://arxiv.org/abs/2604.05866</link>
     <guid isPermaLink="false">2604.05866</guid>
     <pubDate>Tue, 07 Apr 2026 13:27:40 GMT</pubDate>
-    <description>As conference submission volumes continue to grow, accurately recommending suitable reviewers has become a challenge. Most existing methods follow a ``Paper-to-Paper&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; matching paradigm, implicitly representing a reviewer by their publication history. However, effective reviewer matching requires capturing multi-dimensional expertise, and textual similarity to past papers alone is often insufficient. To address this gap, we propose P2R, a training-free framework that shifts from implicit paper-t...</description>
+    <description>As conference submission volumes continue to grow, accurately recommending suitable reviewers has become a challenge. Most existing methods follow a ``Paper-to-Paper&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; matching paradigm, implicitly representing a reviewer by their publication history. However, effective reviewer matching requires capturing multi-dimensional expertise, and textual similarity to past papers alone is often insufficient. To address this gap, we propose P2R, a training-free framework that shifts from implicit paper-t...</description>
   </item>
   <item>
     <title>Data, Not Model: Explaining Bias toward LLM Texts in Neural Retrievers</title>
@@ -565,14 +593,14 @@
     <link>https://arxiv.org/abs/2604.03724</link>
     <guid isPermaLink="false">2604.03724</guid>
     <pubDate>Sat, 04 Apr 2026 13:01:45 GMT</pubDate>
-    <description>Textual explanations, generated with large language models (LLMs), are increasingly used to justify recommendations. Yet, evaluating these explanations remains a critical challenge. We advocate a shift in objective: rank, don&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;t generate. We formalize explainable recommendation as a statement-level ranking problem, where systems rank candidate explanatory statements derived from reviews and return the top-k as explanation. This formulation mitigates hallucination by construction and enables fine-...</description>
+    <description>Textual explanations, generated with large language models (LLMs), are increasingly used to justify recommendations. Yet, evaluating these explanations remains a critical challenge. We advocate a shift in objective: rank, don&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;t generate. We formalize explainable recommendation as a statement-level ranking problem, where systems rank candidate explanatory statements derived from reviews and return the top-k as explanation. This formulation mitigates hallucination by construction and enables fine-...</description>
   </item>
   <item>
     <title>Fusion and Alignment Enhancement with Large Language Models for Tail-item Sequential Recommendation</title>
     <link>https://arxiv.org/abs/2604.03688</link>
     <guid isPermaLink="false">2604.03688</guid>
     <pubDate>Sat, 04 Apr 2026 11:19:08 GMT</pubDate>
-    <description>Sequential Recommendation (SR) learns user preferences from their historical interaction sequences and provides personalized suggestions. In real-world scenarios, most items exhibit sparse interactions, known as the tail-item problem. This issue limits the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s ability to accurately capture item transition patterns. To tackle this, large language models (LLMs) offer a promising solution by capturing semantic relationships between items. Despite previous efforts to leverage LLM-derived embeddi...</description>
+    <description>Sequential Recommendation (SR) learns user preferences from their historical interaction sequences and provides personalized suggestions. In real-world scenarios, most items exhibit sparse interactions, known as the tail-item problem. This issue limits the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s ability to accurately capture item transition patterns. To tackle this, large language models (LLMs) offer a promising solution by capturing semantic relationships between items. Despite previous efforts to leverage LLM-derived embeddi...</description>
   </item>
   <item>
     <title>Entities as Retrieval Signals: A Systematic Study of Coverage, Supervision, and Evaluation in Entity-Oriented Ranking</title>
@@ -636,7 +664,7 @@ On TREC Robust04, we evaluate six neural rerankers and 437 unsupervised configur
     <link>https://arxiv.org/abs/2604.05314</link>
     <guid isPermaLink="false">2604.05314</guid>
     <pubDate>Tue, 07 Apr 2026 01:35:20 GMT</pubDate>
-    <description>In modern multi-stage recommendation systems, reranking plays a critical role by modeling contextual information. Due to inherent challenges such as the combinatorial space complexity, an increasing number of methods adopt the generative paradigm: the generator produces the optimal list during inference, while an evaluator guides the generator&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s optimization during the training phase. However, these methods still face two problems. Firstly, these generators fail to produce optimal generation res...</description>
+    <description>In modern multi-stage recommendation systems, reranking plays a critical role by modeling contextual information. Due to inherent challenges such as the combinatorial space complexity, an increasing number of methods adopt the generative paradigm: the generator produces the optimal list during inference, while an evaluator guides the generator&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s optimization during the training phase. However, these methods still face two problems. Firstly, these generators fail to produce optimal generation res...</description>
   </item>
   <item>
     <title>Generative Retrieval Overcomes Limitations of Dense Retrieval but Struggles with Identifier Ambiguity</title>
@@ -650,7 +678,7 @@ On TREC Robust04, we evaluate six neural rerankers and 437 unsupervised configur
     <link>https://arxiv.org/abs/2604.05309</link>
     <guid isPermaLink="false">2604.05309</guid>
     <pubDate>Tue, 07 Apr 2026 01:28:14 GMT</pubDate>
-    <description>Sub-sequence splitting (SSS) has been demonstrated as an effective approach to mitigate data sparsity in sequential recommendation (SR) by splitting a raw user interaction sequence into multiple sub-sequences. Previous studies have demonstrated its ability to enhance the performance of SR models significantly. However, in this work, we discover that \textbf{(i). SSS may interfere with the evaluation of the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s actual performance.} We observed that many recent state-of-the-art SR models emplo...</description>
+    <description>Sub-sequence splitting (SSS) has been demonstrated as an effective approach to mitigate data sparsity in sequential recommendation (SR) by splitting a raw user interaction sequence into multiple sub-sequences. Previous studies have demonstrated its ability to enhance the performance of SR models significantly. However, in this work, we discover that \textbf{(i). SSS may interfere with the evaluation of the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s actual performance.} We observed that many recent state-of-the-art SR models emplo...</description>
   </item>
   <item>
     <title>Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation</title>
@@ -664,7 +692,7 @@ On TREC Robust04, we evaluate six neural rerankers and 437 unsupervised configur
     <link>https://arxiv.org/abs/2604.05379</link>
     <guid isPermaLink="false">2604.05379</guid>
     <pubDate>Tue, 07 Apr 2026 03:24:56 GMT</pubDate>
-    <description>The sequential recommendation (SR) task aims to predict the next item based on users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; historical interaction sequences. Typically trained on historical data, SR models often struggle to adapt to real-time preference shifts during inference due to challenges posed by distributional divergence and parameterized constraints. Existing approaches to address this issue include test-time training, test-time augmentation, and retrieval-augmented fine-tuning. However, these methods either introduce signi...</description>
+    <description>The sequential recommendation (SR) task aims to predict the next item based on users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; historical interaction sequences. Typically trained on historical data, SR models often struggle to adapt to real-time preference shifts during inference due to challenges posed by distributional divergence and parameterized constraints. Existing approaches to address this issue include test-time training, test-time augmentation, and retrieval-augmented fine-tuning. However, these methods either introduce signi...</description>
   </item>
   <item>
     <title>From Clues to Generation: Language-Guided Conditional Diffusion for Cross-Domain Recommendation</title>
@@ -679,34 +707,6 @@ On TREC Robust04, we evaluate six neural rerankers and 437 unsupervised configur
     <guid isPermaLink="false">2604.05821</guid>
     <pubDate>Tue, 07 Apr 2026 12:54:38 GMT</pubDate>
     <description>Existing multilingual embedding models often encounter challenges in cross-lingual scenarios due to imbalanced linguistic resources and less consideration of cross-lingual alignment during training. Although standardized contrastive learning approaches for cross-lingual adaptation are widely adopted, they may struggle to capture fundamental alignment between languages and degrade performance in well-aligned languages such as English. To address these challenges, we propose Cross-Lingual Enhancem...</description>
-  </item>
-  <item>
-    <title>Spike Hijacking in Late-Interaction Retrieval</title>
-    <link>https://arxiv.org/abs/2604.05253</link>
-    <guid isPermaLink="false">2604.05253</guid>
-    <pubDate>Mon, 06 Apr 2026 23:31:03 GMT</pubDate>
-    <description>Late-interaction retrieval models rely on hard maximum similarity (MaxSim) to aggregate token-level similarities. Although effective, this winner-take-all pooling rule may structurally bias training dynamics. We provide a mechanistic study of gradient routing and robustness in MaxSim-based retrieval. In a controlled synthetic environment with in-batch contrastive training, we demonstrate that MaxSim induces significantly higher patch-level gradient concentration than smoother alternatives such a...</description>
-  </item>
-  <item>
-    <title>Document Optimization for Black-Box Retrieval via Reinforcement Learning</title>
-    <link>https://arxiv.org/abs/2604.05087</link>
-    <guid isPermaLink="false">2604.05087</guid>
-    <pubDate>Mon, 06 Apr 2026 18:41:40 GMT</pubDate>
-    <description>Document expansion is a classical technique for improving retrieval quality, and is attractive since it shifts computation offline, avoiding additional query-time processing. However, when applied to modern retrievers, it has been shown to degrade performance, often introducing noise that obfuscates the discriminative signal. We recast document expansion as a document optimization problem: a language model or a vision language model is fine-tuned to transform documents into representations that ...</description>
-  </item>
-  <item>
-    <title>CURE:Circuit-Aware Unlearning for LLM-based Recommendation</title>
-    <link>https://arxiv.org/abs/2604.04982</link>
-    <guid isPermaLink="false">2604.04982</guid>
-    <pubDate>Sat, 04 Apr 2026 23:13:55 GMT</pubDate>
-    <description>Recent advances in large language models (LLMs) have opened new opportunities for recommender systems by enabling rich semantic understanding and reasoning about user interests and item attributes. However, as privacy regulations tighten, incorporating user data into LLM-based recommendation (LLMRec) introduces significant privacy risks, making unlearning algorithms increasingly crucial for practical deployment. Despite growing interest in LLMRec unlearning, most existing approaches formulate un...</description>
-  </item>
-  <item>
-    <title>A Multi-Stage Validation Framework for Trustworthy Large-scale Clinical Information Extraction using Large Language Models</title>
-    <link>https://arxiv.org/abs/2604.06028</link>
-    <guid isPermaLink="false">2604.06028</guid>
-    <pubDate>Tue, 07 Apr 2026 16:23:52 GMT</pubDate>
-    <description>Large language models (LLMs) show promise for extracting clinically meaningful information from unstructured health records, yet their translation into real-world settings is constrained by the lack of scalable and trustworthy validation approaches. Conventional evaluation methods rely heavily on annotation-intensive reference standards or incomplete structured data, limiting feasibility at population scale. We propose a multi-stage validation framework for LLM-based clinical information extract...</description>
   </item>
   </channel>
 </rss>
