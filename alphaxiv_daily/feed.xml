@@ -6,7 +6,63 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 23 Apr 2026 00:31:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 12:22:05 GMT</lastBuildDate>
+  <item>
+    <title>DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data</title>
+    <link>https://arxiv.org/abs/2604.19859</link>
+    <guid isPermaLink="false">2604.19859</guid>
+    <pubDate>Tue, 21 Apr 2026 17:59:02 GMT</pubDate>
+    <description>Edge-scale deep research agents based on small language models are attractive for real-world deployment due to their advantages in cost, latency, and privacy. In this work, we study how to train a strong small deep research agent under limited open-data by improving both data quality and data utilization. We present DR-Venus, a frontier 4B deep research agent for edge-scale deployment, built entirely on open data. Our training recipe consists of two stages. In the first stage, we use agentic sup...</description>
+  </item>
+  <item>
+    <title>Semantic Recall for Vector Search</title>
+    <link>https://arxiv.org/abs/2604.20417</link>
+    <guid isPermaLink="false">2604.20417</guid>
+    <pubDate>Wed, 22 Apr 2026 10:34:56 GMT</pubDate>
+    <description>We introduce Semantic Recall, a novel metric to assess the quality of approximate nearest neighbor search algorithms by considering only semantically relevant objects that are theoretically retrievable via exact nearest neighbor search. Unlike traditional recall, semantic recall does not penalize algorithms for failing to retrieve objects that are semantically irrelevant to the query, even if those objects are among their nearest neighbors. We demonstrate that semantic recall is particularly use...</description>
+  </item>
+  <item>
+    <title>Enhancing Research Idea Generation through Combinatorial Innovation and Multi-Agent Iterative Search Strategies</title>
+    <link>https://arxiv.org/abs/2604.20548</link>
+    <guid isPermaLink="false">2604.20548</guid>
+    <pubDate>Wed, 22 Apr 2026 13:31:12 GMT</pubDate>
+    <description>Scientific progress depends on the continual generation of innovative re-search ideas. However, the rapid growth of scientific literature has greatly increased the cost of knowledge filtering, making it harder for researchers to identify novel directions. Although existing large language model (LLM)-based methods show promise in research idea generation, the ideas they produce are often repetitive and lack depth. To address this issue, this study proposes a multi-agent iterative planning search ...</description>
+  </item>
+  <item>
+    <title>From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents</title>
+    <link>https://arxiv.org/abs/2604.20065</link>
+    <guid isPermaLink="false">2604.20065</guid>
+    <pubDate>Wed, 22 Apr 2026 00:04:47 GMT</pubDate>
+    <description>Personalization has traditionally depended on platform-specific user models that are optimized for prediction but remain largely inaccessible to the people they describe. As LLM-based assistants increasingly mediate search, shopping, travel, and content access, this arrangement may be giving way to a new personalization stack in which user representation is no longer confined to isolated platforms. In this paper, we argue that the key issue is not simply that large language models can enhance re...</description>
+  </item>
+  <item>
+    <title>Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework</title>
+    <link>https://arxiv.org/abs/2604.20490</link>
+    <guid isPermaLink="false">2604.20490</guid>
+    <pubDate>Wed, 22 Apr 2026 12:22:47 GMT</pubDate>
+    <description>Large language model (LLM)-enhanced recommendation models inject LLM representations into backbone recommenders to exploit rich item text without inference-time LLM cost. However, we find that existing LLM-enhanced methods significantly hinder the optimization of backbone models, resulting in high training losses that are difficult to reduce. To address it, we establish a comprehensive theoretical analysis of local optimization curvature and identify two key causes: 1) large norm disparity and 2...</description>
+  </item>
+  <item>
+    <title>HaS: Accelerating RAG through Homology-Aware Speculative Retrieval</title>
+    <link>https://arxiv.org/abs/2604.20452</link>
+    <guid isPermaLink="false">2604.20452</guid>
+    <pubDate>Wed, 22 Apr 2026 11:15:54 GMT</pubDate>
+    <description>Retrieval-Augmented Generation (RAG) expands the knowledge boundary of large language models (LLMs) at inference by retrieving external documents as context. However, retrieval becomes increasingly time-consuming as the knowledge databases grow in size. Existing acceleration strategies either compromise accuracy through approximate retrieval, or achieve marginal gains by reusing results of strictly identical queries. We propose HaS, a homology-aware speculative retrieval framework that performs ...</description>
+  </item>
+  <item>
+    <title>Self-Aware Vector Embeddings for Retrieval-Augmented Generation: A Neuroscience-Inspired Framework for Temporal, Confidence-Weighted, and Relational Knowledge</title>
+    <link>https://arxiv.org/abs/2604.20598</link>
+    <guid isPermaLink="false">2604.20598</guid>
+    <pubDate>Wed, 22 Apr 2026 14:13:50 GMT</pubDate>
+    <description>Modern retrieval-augmented generation (RAG) systems treat vector embeddings as static, context-free artifacts: an embedding has no notion of when it was created, how trustworthy its source is, or which other embeddings depend on it. This flattening of knowledge has a measurable cost: recent work on VersionRAG reports that conventional RAG achieves only 58% accuracy on versioned technical queries, because retrieval returns semantically similar but temporally invalid content. We propose SmartVecto...</description>
+  </item>
+  <item>
+    <title>A Reproducibility Study of Metacognitive Retrieval-Augmented Generation</title>
+    <link>https://arxiv.org/abs/2604.19899</link>
+    <guid isPermaLink="false">2604.19899</guid>
+    <pubDate>Tue, 21 Apr 2026 18:22:15 GMT</pubDate>
+    <description>Recently, Retrieval Augmented Generation (RAG) has shifted focus to multi-retrieval approaches to tackle complex tasks such as multi-hop question answering. However, these systems struggle to decide when to stop searching once enough information has been gathered. To address this, \citet{zhou2024metacognitive} introduced Metacognitive Retrieval Augmented Generation (MetaRAG), a framework inspired by metacognition that enables Large Language Models to critique and refine their reasoning. In this ...</description>
+  </item>
   <item>
     <title>Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation</title>
     <link>https://arxiv.org/abs/2604.12372</link>
@@ -90,7 +146,7 @@ We present \textbf{GraphRAG-IRL}, a hyb...</description>
     <link>https://arxiv.org/abs/2604.19042</link>
     <guid isPermaLink="false">2604.19042</guid>
     <pubDate>Tue, 21 Apr 2026 03:48:50 GMT</pubDate>
-    <description>Temporal Knowledge Graph (TKG) extrapolation aims to predict future events based on historical facts. Recent studies have attempted to enhance TKG extrapolation by integrating TKG&amp;amp;apos;s evolving structural representations and textual event chains into Large Language Models (LLMs). Yet, two main challenges limit these approaches: (1) The loss of essential spatial-temporal information due to shallow alignment between TKG&amp;amp;apos;s graph evolving structural representation and the LLM&amp;amp;apos;s semantic space, and (2) ...</description>
+    <description>Temporal Knowledge Graph (TKG) extrapolation aims to predict future events based on historical facts. Recent studies have attempted to enhance TKG extrapolation by integrating TKG&amp;amp;amp;apos;s evolving structural representations and textual event chains into Large Language Models (LLMs). Yet, two main challenges limit these approaches: (1) The loss of essential spatial-temporal information due to shallow alignment between TKG&amp;amp;amp;apos;s graph evolving structural representation and the LLM&amp;amp;amp;apos;s semantic space, and (2) ...</description>
   </item>
   <item>
     <title>Personalized Benchmarking: Evaluating LLMs by Individual Preferences</title>
@@ -139,7 +195,7 @@ We present \textbf{GraphRAG-IRL}, a hyb...</description>
     <link>https://arxiv.org/abs/2604.14510</link>
     <guid isPermaLink="false">2604.14510</guid>
     <pubDate>Thu, 16 Apr 2026 00:54:51 GMT</pubDate>
-    <description>News recommender systems are devised to alleviate the information overload, attracting more and more researchers&amp;amp;amp;apos; attention in recent years. The lack of a dedicated learner-oriented news recommendation toolkit hinders the advancement of research in news recommendation. We propose a PyTorch-based news recommendation toolkit called NewsTorch, developed to support learners in acquiring both conceptual understanding and practical experience. This toolkit provides a modular, decoupled, and extensible...</description>
+    <description>News recommender systems are devised to alleviate the information overload, attracting more and more researchers&amp;amp;amp;amp;apos; attention in recent years. The lack of a dedicated learner-oriented news recommendation toolkit hinders the advancement of research in news recommendation. We propose a PyTorch-based news recommendation toolkit called NewsTorch, developed to support learners in acquiring both conceptual understanding and practical experience. This toolkit provides a modular, decoupled, and extensible...</description>
   </item>
   <item>
     <title>Knowledge Graph RAG: Agentic Crawling and Graph Construction in Enterprise Documents</title>
@@ -167,7 +223,7 @@ We present \textbf{GraphRAG-IRL}, a hyb...</description>
     <link>https://arxiv.org/abs/2604.18257</link>
     <guid isPermaLink="false">2604.18257</guid>
     <pubDate>Mon, 20 Apr 2026 13:30:45 GMT</pubDate>
-    <description>Query auto-completion (QAC) has been widely studied in the context of web search, yet remains underexplored for in-document search, which we term DocQAC. DocQAC aims to enhance search productivity within long documents by helping users craft faster, more precise queries, even for complex or hard-to-spell terms. While global historical queries are available to both WebQAC and DocQAC, DocQAC uniquely accesses document-specific context, including the current document&amp;amp;amp;amp;amp;apos;s content and its specific hist...</description>
+    <description>Query auto-completion (QAC) has been widely studied in the context of web search, yet remains underexplored for in-document search, which we term DocQAC. DocQAC aims to enhance search productivity within long documents by helping users craft faster, more precise queries, even for complex or hard-to-spell terms. While global historical queries are available to both WebQAC and DocQAC, DocQAC uniquely accesses document-specific context, including the current document&amp;amp;amp;amp;amp;amp;apos;s content and its specific hist...</description>
   </item>
   <item>
     <title>Context-Aware Search and Retrieval Under Token Erasure</title>
@@ -237,7 +293,7 @@ We present \textbf{GraphRAG-IRL}, a hyb...</description>
     <link>https://arxiv.org/abs/2604.17459</link>
     <guid isPermaLink="false">2604.17459</guid>
     <pubDate>Sun, 19 Apr 2026 14:19:28 GMT</pubDate>
-    <description>While personalized recommender systems excel at content discovery, they frequently expose users to undesirable or discomforting information, highlighting the critical need for user-centric filtering tools. Current methods leveraging Large Language Models (LLMs) struggle with two major bottlenecks: they lack multimodal awareness to identify visually inappropriate content, and they are highly prone to &amp;amp;amp;amp;amp;amp;quot;over-association&amp;amp;amp;amp;amp;amp;quot; -- incorrectly generalizing a user&amp;amp;amp;amp;amp;amp;apos;s specific dislike (e.g., anxiety-inducing ...</description>
+    <description>While personalized recommender systems excel at content discovery, they frequently expose users to undesirable or discomforting information, highlighting the critical need for user-centric filtering tools. Current methods leveraging Large Language Models (LLMs) struggle with two major bottlenecks: they lack multimodal awareness to identify visually inappropriate content, and they are highly prone to &amp;amp;amp;amp;amp;amp;amp;quot;over-association&amp;amp;amp;amp;amp;amp;amp;quot; -- incorrectly generalizing a user&amp;amp;amp;amp;amp;amp;amp;apos;s specific dislike (e.g., anxiety-inducing ...</description>
   </item>
   <item>
     <title>Peerispect: Claim Verification in Scientific Peer Reviews</title>
@@ -413,7 +469,7 @@ However, research on evaluating RAG systems-particularly the retriever component
     <link>https://arxiv.org/abs/2604.14051</link>
     <guid isPermaLink="false">2604.14051</guid>
     <pubDate>Wed, 15 Apr 2026 16:29:37 GMT</pubDate>
-    <description>Local life service recommendation is distinct from general recommendation scenarios due to its strong living need-driven nature. Fundamentally, accurately identifying a user&amp;amp;amp;amp;amp;amp;amp;amp;apos;s immediate living need and recommending the corresponding service are inextricably linked tasks. However, prior works typically treat them in isolation, failing to achieve a unified modeling of need prediction and service recommendation. In this paper, we propose a novel large language model based framework that jointly per...</description>
+    <description>Local life service recommendation is distinct from general recommendation scenarios due to its strong living need-driven nature. Fundamentally, accurately identifying a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s immediate living need and recommending the corresponding service are inextricably linked tasks. However, prior works typically treat them in isolation, failing to achieve a unified modeling of need prediction and service recommendation. In this paper, we propose a novel large language model based framework that jointly per...</description>
   </item>
   <item>
     <title>Rethinking the Necessity of Adaptive Retrieval-Augmented Generation through the Lens of Adaptive Listwise Ranking</title>
@@ -462,7 +518,7 @@ However, research on evaluating RAG systems-particularly the retriever component
     <link>https://arxiv.org/abs/2604.14833</link>
     <guid isPermaLink="false">2604.14833</guid>
     <pubDate>Thu, 16 Apr 2026 10:10:16 GMT</pubDate>
-    <description>Large Language Models have shown great success in recommender systems. However, the limited and sparse nature of user data often restricts the LLM&amp;amp;amp;amp;amp;amp;amp;amp;apos;s ability to effectively model behavior patterns. To address this, existing studies have explored cross-domain solutions by conducting Cross-Domain Recommendation tasks. But previous methods typically assume domains are overlapped and can be accessed readily. None of the LLM methods address the privacy-preserving issues in the CDR settings, that is, P...</description>
+    <description>Large Language Models have shown great success in recommender systems. However, the limited and sparse nature of user data often restricts the LLM&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s ability to effectively model behavior patterns. To address this, existing studies have explored cross-domain solutions by conducting Cross-Domain Recommendation tasks. But previous methods typically assume domains are overlapped and can be accessed readily. None of the LLM methods address the privacy-preserving issues in the CDR settings, that is, P...</description>
   </item>
   <item>
     <title>Scattered Hypothesis Generation for Open-Ended Event Forecasting</title>
@@ -540,14 +596,14 @@ We make four primary contributions. **(1)** Self-supervised embedding refinement
     <link>https://arxiv.org/abs/2604.14613</link>
     <guid isPermaLink="false">2604.14613</guid>
     <pubDate>Thu, 16 Apr 2026 04:39:53 GMT</pubDate>
-    <description>Learning Path Recommendation (LPR) is critical for personalized education, yet current methods often fail to account for historical interaction uncertainty (e.g., lucky guesses or accidental slips) and lack adaptability to diverse learning goals. We propose U-GLAD (Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion). To address representation bias, the framework models cognitive states as probability distributions, capturing the learner&amp;amp;amp;amp;amp;amp;amp;amp;apos;s underlying true ...</description>
+    <description>Learning Path Recommendation (LPR) is critical for personalized education, yet current methods often fail to account for historical interaction uncertainty (e.g., lucky guesses or accidental slips) and lack adaptability to diverse learning goals. We propose U-GLAD (Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion). To address representation bias, the framework models cognitive states as probability distributions, capturing the learner&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s underlying true ...</description>
   </item>
   <item>
     <title>CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations</title>
     <link>https://arxiv.org/abs/2604.14586</link>
     <guid isPermaLink="false">2604.14586</guid>
     <pubDate>Thu, 16 Apr 2026 03:25:18 GMT</pubDate>
-    <description>The rapid expansion of gaming industry requires advanced recommender systems tailored to its dynamic landscape. Existing Graph Neural Network (GNN)-based methods primarily prioritize accuracy over diversity, overlooking their inherent trade-off. To address this, we previously proposed CPGRec, a balance-oriented gaming recommender system. However, CPGRec fails to account for critical disparities in player-game interactions, which carry varying significance in reflecting players&amp;amp;amp;amp;amp;amp;amp;amp;apos; personal preferen...</description>
+    <description>The rapid expansion of gaming industry requires advanced recommender systems tailored to its dynamic landscape. Existing Graph Neural Network (GNN)-based methods primarily prioritize accuracy over diversity, overlooking their inherent trade-off. To address this, we previously proposed CPGRec, a balance-oriented gaming recommender system. However, CPGRec fails to account for critical disparities in player-game interactions, which carry varying significance in reflecting players&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; personal preferen...</description>
   </item>
   <item>
     <title>Evaluation of Agents under Simulated AI Marketplace Dynamics</title>
@@ -631,7 +687,7 @@ We make four primary contributions. **(1)** Self-supervised embedding refinement
     <link>https://arxiv.org/abs/2604.12036</link>
     <guid isPermaLink="false">2604.12036</guid>
     <pubDate>Mon, 13 Apr 2026 20:24:58 GMT</pubDate>
-    <description>We resolve a long-standing open question, about the existence of a constant-factor approximation algorithm for the average-case \textsc{Decision Tree} problem with uniform probability distribution over the hypotheses. We answer the question in the affirmative by providing a simple polynomial-time algorithm with approximation ratio of $\frac{2}{1-\sqrt{(e+1)/(2e)}}+\epsilon &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;11.57$. This improves upon the currently best-known, greedy algorithm which achieves $O(\log n/{\log\log n})$-approximat...</description>
+    <description>We resolve a long-standing open question, about the existence of a constant-factor approximation algorithm for the average-case \textsc{Decision Tree} problem with uniform probability distribution over the hypotheses. We answer the question in the affirmative by providing a simple polynomial-time algorithm with approximation ratio of $\frac{2}{1-\sqrt{(e+1)/(2e)}}+\epsilon &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;11.57$. This improves upon the currently best-known, greedy algorithm which achieves $O(\log n/{\log\log n})$-approximat...</description>
   </item>
   <item>
     <title>NovBench: Evaluating Large Language Models on Academic Paper Novelty Assessment</title>
@@ -652,63 +708,7 @@ We make four primary contributions. **(1)** Self-supervised embedding refinement
     <link>https://arxiv.org/abs/2604.10981</link>
     <guid isPermaLink="false">2604.10981</guid>
     <pubDate>Mon, 13 Apr 2026 04:40:37 GMT</pubDate>
-    <description>ATANT v1.0 (arXiv:2604.06710) defined continuity as a system property with 7 required properties and introduced a 10-checkpoint, LLM-free evaluation methodology validated on a 250-story corpus. Since publication, a recurring reviewer and practitioner question has concerned not the framework itself but its relationship to a wider set of memory evaluations: LOCOMO, LongMemEval, BEAM, MemoryBench, Zep&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s evaluation suite, Letta/MemGPT&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s evaluations, and RULER. This companion paper, v1.1, does not mo...</description>
-  </item>
-  <item>
-    <title>Hijacking Text Heritage: Hiding the Human Signature through Homoglyphic Substitution</title>
-    <link>https://arxiv.org/abs/2604.10271</link>
-    <guid isPermaLink="false">2604.10271</guid>
-    <pubDate>Sat, 11 Apr 2026 16:27:32 GMT</pubDate>
-    <description>In what way could a data breach involving government-issued IDs such as passports, driver&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s licenses, etc., rival a random voluntary disclosure on a nondescript social-media platform? At first glance, the former appears more significant, and that is a valid assessment. The disclosed data could contain an individual&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s date of birth and address; for all intents and purposes, a leak of that data would be disastrous. Given the threat, the latter scenario involving an innocuous online post seems comp...</description>
-  </item>
-  <item>
-    <title>BMdataset: A Musicologically Curated LilyPond Dataset</title>
-    <link>https://arxiv.org/abs/2604.10628</link>
-    <guid isPermaLink="false">2604.10628</guid>
-    <pubDate>Sun, 12 Apr 2026 13:09:20 GMT</pubDate>
-    <description>Symbolic music research has relied almost exclusively on MIDI-based datasets; text-based engraving formats such as LilyPond remain unexplored for music understanding. We present BMdataset, a musicologically curated dataset of 393 LilyPond scores (2,646 movements) transcribed by experts directly from original Baroque manuscripts, with metadata covering composer, musical form, instrumentation, and sectional attributes. Building on this resource, we introduce LilyBERT (weights can be found at this ...</description>
-  </item>
-  <item>
-    <title>AdversarialCoT: Single-Document Retrieval Poisoning for LLM Reasoning</title>
-    <link>https://arxiv.org/abs/2604.12201</link>
-    <guid isPermaLink="false">2604.12201</guid>
-    <pubDate>Tue, 14 Apr 2026 02:10:23 GMT</pubDate>
-    <description>Retrieval-augmented generation (RAG) enhances large language model (LLM) reasoning by retrieving external documents, but also opens up new attack surfaces. We study knowledge-base poisoning attacks in RAG, where an attacker injects malicious content into the retrieval corpus, which is then naturally surfaced by the retriever and consumed by the LLM during reasoning. Unlike prior work that floods the corpus with poisoned documents, we propose AdversarialCoT, a query-specific attack that poisons o...</description>
-  </item>
-  <item>
-    <title>UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute</title>
-    <link>https://arxiv.org/abs/2604.12234</link>
-    <guid isPermaLink="false">2604.12234</guid>
-    <pubDate>Tue, 14 Apr 2026 03:13:50 GMT</pubDate>
-    <description>Generative Recommendation (GR) reframes retrieval and ranking as autoregressive decoding over Semantic IDs (SIDs), unifying the multi-stage pipeline into a single model. Yet a fundamental expressive gap persists: discriminative models score items with direct feature access, enabling explicit user-item crossing, whereas GR decodes over compact SID tokens without item-side signal. We formalize this via Bayes&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; theorem, showing ranking by p(y|f,u) is equivalent to ranking by p(f|y,u), which factoriz...</description>
-  </item>
-  <item>
-    <title>Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation</title>
-    <link>https://arxiv.org/abs/2604.12965</link>
-    <guid isPermaLink="false">2604.12965</guid>
-    <pubDate>Tue, 14 Apr 2026 16:59:03 GMT</pubDate>
-    <description>The increase in data volume, computational resources, and model parameters during training has led to the development of numerous large-scale industrial retrieval models for recommendation tasks. However, effectively and efficiently deploying these large-scale foundational retrieval models remains a critical challenge that has not been fully addressed. Common quick-win solutions for deploying these massive models include relying on offline computations (such as cached user dictionaries) or disti...</description>
-  </item>
-  <item>
-    <title>Think Before you Write: QA-Guided Reasoning for Character Descriptions in Books</title>
-    <link>https://arxiv.org/abs/2604.11435</link>
-    <guid isPermaLink="false">2604.11435</guid>
-    <pubDate>Mon, 13 Apr 2026 13:19:56 GMT</pubDate>
-    <description>Character description generation is an important capability for narrative-focused applications such as summarization, story analysis, and character-driven simulations. However, generating accurate character descriptions from long-form narratives (e.g., novels) is challenging: models must track evolving attributes (e.g., relationships and events), integrate evidence scattered across the text, and infer implicit details. Despite the success of reasoning-enabled LLMs on many benchmarks, we find tha...</description>
-  </item>
-  <item>
-    <title>Deep-Reporter: Deep Research for Grounded Multimodal Long-Form Generation</title>
-    <link>https://arxiv.org/abs/2604.10741</link>
-    <guid isPermaLink="false">2604.10741</guid>
-    <pubDate>Sun, 12 Apr 2026 17:30:44 GMT</pubDate>
-    <description>Recent agentic search frameworks enable deep research via iterative planning and retrieval, reducing hallucinations and enhancing factual grounding. However, they remain text-centric, overlooking the multimodal evidence that characterizes real-world expert reports. We introduce a pressing task: multimodal long-form generation. Accordingly, we propose Deep-Reporter, a unified agentic framework for grounded multimodal long-form generation. It orchestrates: (i) Agentic Multimodal Search and Filteri...</description>
-  </item>
-  <item>
-    <title>Reproduction Beyond Benchmarks: ConstBERT and ColBERT-v2 Across Backends and Query Distributions</title>
-    <link>https://arxiv.org/abs/2604.09982</link>
-    <guid isPermaLink="false">2604.09982</guid>
-    <pubDate>Thu, 16 Apr 2026 04:09:13 GMT</pubDate>
-    <description>Reproducibility must validate architectural robustness, not just numerical accuracy. We evaluate ColBERT-v2 and ConstBERT across five dimensions, finding that while ConstBERT reproduces within 0.05% MRR@10 on MS-MARCO, both models show a drop of 86-97% on long, narrative queries (TREC ToT 2025). Ablations prove this failure is architectural: performance plateaus at 20 words because the MaxSim operator&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s uniform token weighting cannot distinguish signal from filler noise. Furthermore, undocumente...</description>
+    <description>ATANT v1.0 (arXiv:2604.06710) defined continuity as a system property with 7 required properties and introduced a 10-checkpoint, LLM-free evaluation methodology validated on a 250-story corpus. Since publication, a recurring reviewer and practitioner question has concerned not the framework itself but its relationship to a wider set of memory evaluations: LOCOMO, LongMemEval, BEAM, MemoryBench, Zep&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s evaluation suite, Letta/MemGPT&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s evaluations, and RULER. This companion paper, v1.1, does not mo...</description>
   </item>
   </channel>
 </rss>
