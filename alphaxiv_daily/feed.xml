@@ -6,7 +6,93 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 May 2026 18:38:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:38:32 GMT</lastBuildDate>
+  <item>
+    <title>VERDI: Single-Call Confidence Estimation for Verification-Based LLM Judges via Decomposed Inference</title>
+    <link>https://arxiv.org/abs/2605.11334</link>
+    <guid isPermaLink="false">2605.11334</guid>
+    <pubDate>Mon, 11 May 2026 23:39:19 GMT</pubDate>
+    <description>LLM-as-Judge systems are widely deployed for automated evaluation, yet practitioners lack reliable methods to know when a judge&apos;s verdict should be trusted. Token log-probabilities, the standard post-hoc confidence signal, are unavailable for many commercial LLMs and, even when accessible, saturate above 0.999 with structured JSON output.
+We introduce VERDI (VERification-Decomposed Inference), a method that extracts confidence from the reasoning trace a structured judge already produces, with no...</description>
+  </item>
+  <item>
+    <title>MedHopQA: A Disease-Centered Multi-Hop Reasoning Benchmark and Evaluation Framework for LLM-Based Biomedical Question Answering</title>
+    <link>https://arxiv.org/abs/2605.12361</link>
+    <guid isPermaLink="false">2605.12361</guid>
+    <pubDate>Tue, 12 May 2026 16:32:43 GMT</pubDate>
+    <description>Evaluating large language models (LLMs) in the biomedical domain requires benchmarks that can distinguish reasoning from pattern matching and remain discriminative as model capabilities improve. Existing biomedical question answering (QA) benchmarks are limited in this respect. Multiple-choice formats can allow models to succeed through answer elimination rather than inference, while widely circulated exam-style datasets are increasingly vulnerable to performance saturation and training data con...</description>
+  </item>
+  <item>
+    <title>Test-Time Compute for Dense Retrieval: Agentic Program Generation with Frozen Embedding Models</title>
+    <link>https://arxiv.org/abs/2605.11374</link>
+    <guid isPermaLink="false">2605.11374</guid>
+    <pubDate>Tue, 12 May 2026 00:56:34 GMT</pubDate>
+    <description>Test-time compute is widely believed to benefit only large reasoning models. We show it also helps small embedding models. Most modern embedding checkpoints are distilled from large LLM backbones and inherit their representation space; a frozen embedding model should therefore benefit from extra inference compute without retraining. Using an agentic program-search loop, we explore 259 candidate inference programs over a frozen embedding API across ninety generations. The entire Pareto frontier c...</description>
+  </item>
+  <item>
+    <title>Localization Boosting for Growth Markets: Mitigating Cross-Locale Behavioral Bias in Learning-to-Rank</title>
+    <link>https://arxiv.org/abs/2605.11272</link>
+    <guid isPermaLink="false">2605.11272</guid>
+    <pubDate>Mon, 11 May 2026 21:51:13 GMT</pubDate>
+    <description>Adobe Express is expanding internationally, but the US has a disproportionately large content supply and interaction volume. Learning-to-rank (LTR) models trained primarily on behavioral feedback inherit this imbalance: templates popular in US are over-served in non-US locales. This cross-locale exposure bias suppresses local content discoverability and degrades ranking quality in growth locales.
+We show that click-only training suppresses semantically informative localization features. Adding v...</description>
+  </item>
+  <item>
+    <title>ClinicalBench: Stress-Testing Assertion-Aware Retrieval for Cross-Admission Clinical QA on MIMIC-IV</title>
+    <link>https://arxiv.org/abs/2605.11143</link>
+    <guid isPermaLink="false">2605.11143</guid>
+    <pubDate>Mon, 11 May 2026 18:47:52 GMT</pubDate>
+    <description>Reasoning benchmarks measure clinical performance on clean inputs. We evaluate the step before reasoning: retrieval over real EHR notes, where negation, temporality, and family-versus-patient attribution can flip a correct answer to a wrong one. EpiKG carries an assertion label and a temporality tag with every fact in a patient knowledge graph, then routes retrieval by question intent. ClinicalBench is a 400-question test over 43 MIMIC-IV patients across 9 assertion-sensitive categories. A 7-con...</description>
+  </item>
+  <item>
+    <title>Context Convergence Improves Answering Inferential Questions</title>
+    <link>https://arxiv.org/abs/2605.12370</link>
+    <guid isPermaLink="false">2605.12370</guid>
+    <pubDate>Tue, 12 May 2026 16:39:05 GMT</pubDate>
+    <description>While Large Language Models (LLMs) are widely used in open-domain Question Answering (QA), their ability to handle inferential questions-where answers must be derived rather than directly retrieved-remains still underexplored. This study investigates how the structure and quality of passages influence LLM performance on such questions. We focus on convergence, a measure of how effectively sentences (hints) eliminate incorrect answers, as a criterion for constructing passages. Using subsets of th...</description>
+  </item>
+  <item>
+    <title>On the LSH Distortion of Ulam and Cayley Similarities</title>
+    <link>https://arxiv.org/abs/2605.11921</link>
+    <guid isPermaLink="false">2605.11921</guid>
+    <pubDate>Tue, 12 May 2026 10:36:46 GMT</pubDate>
+    <description>Locality-sensitive hashing (LSH) has found widespread use as a fundamental primitive, particularly to accelerate nearest neighbor search. An LSH scheme for a similarity function $S:\mathcal{X} \times \mathcal{X} \to [0,1]$ is a distribution over hash functions on $\mathcal{X}$ with the property that the probability of collision of any two elements $x,y\in \mathcal{X}$ is exactly equal to $S(x,y)$. However, not all similarity functions admit exact LSH schemes. The notion of LSH distortion measure...</description>
+  </item>
+  <item>
+    <title>Overview of the MedHopQA track at BioCreative IX: track description, participation and evaluation of systems for multi-hop medical question answering</title>
+    <link>https://arxiv.org/abs/2605.12313</link>
+    <guid isPermaLink="false">2605.12313</guid>
+    <pubDate>Tue, 12 May 2026 15:59:28 GMT</pubDate>
+    <description>Multi-hop question answering (QA) remains a significant challenge in the biomedical domain, requiring systems to integrate information across multiple sources to answer complex questions. To address this problem, the BioCreative IX MedHopQA shared task was designed to benchmark in multi-hop reasoning for large language models (LLMs). We developed a novel dataset of 1,000 challenging QA pairs spanning diseases, genes, and chemicals, with particular emphasis on rare diseases. Each question was con...</description>
+  </item>
+  <item>
+    <title>Caraman at SemEval-2026 Task 8: Three-Stage Multi-Turn Retrieval with Query Rewriting, Hybrid Search, and Cross-Encoder Reranking</title>
+    <link>https://arxiv.org/abs/2605.12028</link>
+    <guid isPermaLink="false">2605.12028</guid>
+    <pubDate>Tue, 12 May 2026 12:13:45 GMT</pubDate>
+    <description>We describe our system for SemEval-2026 Task 8 (MTRAGEval), participating in Task A (Retrieval) across four English-language domains. Our approach employs a three-stage pipeline: (1) query rewriting via a LoRA-fine-tuned Qwen 2.5 7B model that transforms context-dependent follow-up questions into standalone queries, (2) hybrid BM25 and dense retrieval combined through Reciprocal Rank Fusion, and (3) cross-encoder reranking with BGE-reranker-v2-m3. On the official test set, the system achieves nD...</description>
+  </item>
+  <item>
+    <title>Large Language Models for Causal Relations Extraction in Social Media: A Validation Framework for Disaster Intelligence</title>
+    <link>https://arxiv.org/abs/2605.11348</link>
+    <guid isPermaLink="false">2605.11348</guid>
+    <pubDate>Tue, 12 May 2026 00:07:45 GMT</pubDate>
+    <description>During disasters, extracting causal relations from social media can strengthen situational awareness by identifying factors linked to casualties, physical damage, infrastructure disruption, and cascading impacts. However, disaster-related posts are often informal, fragmented, and context-dependent, and they may describe personal experiences rather than explicit causal relations. In this work, we examine whether Large Language Models (LLMs) can effectively extract causal relations from disaster-r...</description>
+  </item>
+  <item>
+    <title>Simpson&apos;s Paradox in Behavioral Curves: How Aggregation Distorts Parametric Models of User Dynamics</title>
+    <link>https://arxiv.org/abs/2605.11017</link>
+    <guid isPermaLink="false">2605.11017</guid>
+    <pubDate>Sun, 10 May 2026 14:44:13 GMT</pubDate>
+    <description>Behavioral curve modeling -- fitting parametric functions to engagement-versus-exposure data -- is standard practice in recommendation, advertising, and clinical dosing. We show that aggregation introduces a systematic distortion: Simpson&apos;s paradox in behavioral curves. On Goodreads (3.3M users, 9 genres), individual users peak at n* approximately 11 exposures while the aggregate peaks at n* approximately 34 -- a 3x gap driven by survival bias. Amazon Electronics (18M reviews) shows a 5.3x disto...</description>
+  </item>
+  <item>
+    <title>Question Difficulty Estimation for Large Language Models via Answer Plausibility Scoring</title>
+    <link>https://arxiv.org/abs/2605.12398</link>
+    <guid isPermaLink="false">2605.12398</guid>
+    <pubDate>Tue, 12 May 2026 17:00:02 GMT</pubDate>
+    <description>Estimating question difficulty is a critical component in evaluating and improving large language models (LLMs) for question answering (QA). Existing approaches often rely on readability formulas, retrieval-based signals, or popularity statistics, which may not fully capture the reasoning challenges posed to modern LLMs. In this paper, we introduce Q-DAPS (Question Difficulty based on Answer Plausibility Scores) method, a novel approach that estimates question difficulty by computing the entropy...</description>
+  </item>
   <item>
     <title>ORBIT: Preserving Foundational Language Capabilities in GenRetrieval via Origin-Regulated Merging</title>
     <link>https://arxiv.org/abs/2605.12419</link>
@@ -68,7 +154,7 @@
     <link>https://arxiv.org/abs/2605.11325</link>
     <guid isPermaLink="false">2605.11325</guid>
     <pubDate>Mon, 11 May 2026 23:22:36 GMT</pubDate>
-    <description>Why do we need another AI to help the AI? We argue you don&amp;apos;t. Stateless LLM sessions impose re-orientation costs on iterative, session-heavy workflows. Prior work addresses cross-session memory through retrieval-augmented approaches: store history, embed it, retrieve by semantic similarity. Cross-session memory is a state management problem, not a search problem. Similarity search fails for named entity resolution within bounded vocabulary contexts because beliefs about a shared technical domain...</description>
+    <description>Why do we need another AI to help the AI? We argue you don&amp;amp;apos;t. Stateless LLM sessions impose re-orientation costs on iterative, session-heavy workflows. Prior work addresses cross-session memory through retrieval-augmented approaches: store history, embed it, retrieve by semantic similarity. Cross-session memory is a state management problem, not a search problem. Similarity search fails for named entity resolution within bounded vocabulary contexts because beliefs about a shared technical domain...</description>
   </item>
   <item>
     <title>Unlocking Crowdsourcing for Ontology Matching Validation</title>
@@ -89,7 +175,7 @@
     <link>https://arxiv.org/abs/2605.11118</link>
     <guid isPermaLink="false">2605.11118</guid>
     <pubDate>Mon, 11 May 2026 18:27:08 GMT</pubDate>
-    <description>Personalized storefronts in large e-commerce marketplaces are often assembled from many independent components: static themes per page section (&amp;quot;placement&amp;quot;), retrieval systems to fetch eligible products per placement, and pointwise rankers to order content. While effective in optimizing for aggregate preferences, this paradigm is rigid and can limit personalization and semantic cohesion across the page. This makes it poorly suited to support dynamic objectives and merchandising requirements over...</description>
+    <description>Personalized storefronts in large e-commerce marketplaces are often assembled from many independent components: static themes per page section (&amp;amp;quot;placement&amp;amp;quot;), retrieval systems to fetch eligible products per placement, and pointwise rankers to order content. While effective in optimizing for aggregate preferences, this paradigm is rigid and can limit personalization and semantic cohesion across the page. This makes it poorly suited to support dynamic objectives and merchandising requirements over...</description>
   </item>
   <item>
     <title>Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering</title>
@@ -208,7 +294,7 @@
     <link>https://arxiv.org/abs/2605.10109</link>
     <guid isPermaLink="false">2605.10109</guid>
     <pubDate>Mon, 11 May 2026 07:24:30 GMT</pubDate>
-    <description>This study addresses the challenge of improving dense retrieval performance for queries containing numerical conditions, such as ``companies with more than one billion dollars in R&amp;amp;amp;amp;amp;D expenditure.&amp;amp;amp;amp;apos;&amp;amp;amp;amp;apos; Although recent research has shown that standard models struggle with numeric information in domains such as finance, e-commerce, and medicine, existing solutions typically decompose queries into textual and numerical components and score them separately. These approaches modify late-interaction retri...</description>
+    <description>This study addresses the challenge of improving dense retrieval performance for queries containing numerical conditions, such as ``companies with more than one billion dollars in R&amp;amp;amp;amp;amp;amp;D expenditure.&amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;apos; Although recent research has shown that standard models struggle with numeric information in domains such as finance, e-commerce, and medicine, existing solutions typically decompose queries into textual and numerical components and score them separately. These approaches modify late-interaction retri...</description>
   </item>
   <item>
     <title>Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation</title>
@@ -250,7 +336,7 @@
     <link>https://arxiv.org/abs/2605.10530</link>
     <guid isPermaLink="false">2605.10530</guid>
     <pubDate>Mon, 11 May 2026 13:14:54 GMT</pubDate>
-    <description>Deep Research agents driven by LLMs have automated the scholarly discovery pipeline, from planning and query formulation to iterative web exploration. Yet they remain constrained by a static, ``one-size-fits-all&amp;amp;amp;amp;apos;&amp;amp;amp;amp;apos; retrieval paradigm. Current systems fail to adaptively adjust the depth and breadth of exploration based on the user&amp;amp;amp;amp;apos;s existing expertise or latent interests, frequently resulting in reports that are either redundant for experts or overly dense for novices. To address this, we introduc...</description>
+    <description>Deep Research agents driven by LLMs have automated the scholarly discovery pipeline, from planning and query formulation to iterative web exploration. Yet they remain constrained by a static, ``one-size-fits-all&amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;apos; retrieval paradigm. Current systems fail to adaptively adjust the depth and breadth of exploration based on the user&amp;amp;amp;amp;amp;apos;s existing expertise or latent interests, frequently resulting in reports that are either redundant for experts or overly dense for novices. To address this, we introduc...</description>
   </item>
   <item>
     <title>OpenIIR: An Open Simulation Platform for Information Retrieval Research</title>
@@ -292,7 +378,7 @@
     <link>https://arxiv.org/abs/2605.10097</link>
     <guid isPermaLink="false">2605.10097</guid>
     <pubDate>Mon, 11 May 2026 07:13:15 GMT</pubDate>
-    <description>Scientific reading is an active process that frequently requires consulting external resources, but manual keyword searching interrupts the reading flow and imposes a high cognitive load. Existing proactive information retrieval systems often suffer from context ambiguity, as they rely solely on on-screen text and ignore the reader&amp;amp;amp;amp;apos;s specific background and intent. In this demonstration, we present H-MAPS (Hierarchical Memory-Augmented Proactive Search Assistant), a proactive literature explorat...</description>
+    <description>Scientific reading is an active process that frequently requires consulting external resources, but manual keyword searching interrupts the reading flow and imposes a high cognitive load. Existing proactive information retrieval systems often suffer from context ambiguity, as they rely solely on on-screen text and ignore the reader&amp;amp;amp;amp;amp;apos;s specific background and intent. In this demonstration, we present H-MAPS (Hierarchical Memory-Augmented Proactive Search Assistant), a proactive literature explorat...</description>
   </item>
   <item>
     <title>Multi-Level Graph Attention Network Contrastive Learning for Knowledge-Aware Recommendation</title>
@@ -518,7 +604,7 @@ We show that the bottleneck is sequential generation, not the multi-token idea i
     <link>https://arxiv.org/abs/2604.23588</link>
     <guid isPermaLink="false">2604.23588</guid>
     <pubDate>Sun, 26 Apr 2026 07:52:59 GMT</pubDate>
-    <description>Financial AI systems must produce answers grounded in specific regulatory filings, yet current LLMs fabricate metrics, invent citations, and miscalculate derived quantities. These errors carry direct regulatory consequences as the EU AI Act&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s high-risk enforcement deadline approaches (August 2026). Existing hallucination detectors treat all claims uniformly, missing 43% of computational errors that require arithmetic re-verification against structured tables. We present FinGround, a three-stage ...</description>
+    <description>Financial AI systems must produce answers grounded in specific regulatory filings, yet current LLMs fabricate metrics, invent citations, and miscalculate derived quantities. These errors carry direct regulatory consequences as the EU AI Act&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s high-risk enforcement deadline approaches (August 2026). Existing hallucination detectors treat all claims uniformly, missing 43% of computational errors that require arithmetic re-verification against structured tables. We present FinGround, a three-stage ...</description>
   </item>
   <item>
     <title>Domain Fine-Tuning vs. Retrieval-Augmented Generation for Medical Multiple-Choice Question Answering: A Controlled Comparison at the 4B-Parameter Scale</title>
@@ -610,7 +696,7 @@ We present HEP-CoPilot, a retrieval-augmented multi-agent AI framework for the e
     <link>https://arxiv.org/abs/2605.06403</link>
     <guid isPermaLink="false">2605.06403</guid>
     <pubDate>Thu, 07 May 2026 15:11:54 GMT</pubDate>
-    <description>Zero-shot single-cell cell-type annotation aims to determine a cell&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s type from a given set of expressed genes without any training. Existing knowledge-graph-based RAG approaches retrieve evidence by expanding from source entities and relying on iterative LLM reasoning. However, in this setting each query contains tens to hundreds of genes, where no single gene is decisive and the label emerges only from their collective co-occurrence. Such hyper-entity queries fundamentally challenge local, ent...</description>
+    <description>Zero-shot single-cell cell-type annotation aims to determine a cell&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s type from a given set of expressed genes without any training. Existing knowledge-graph-based RAG approaches retrieve evidence by expanding from source entities and relying on iterative LLM reasoning. However, in this setting each query contains tens to hundreds of genes, where no single gene is decisive and the label emerges only from their collective co-occurrence. Such hyper-entity queries fundamentally challenge local, ent...</description>
   </item>
   <item>
     <title>Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use</title>
@@ -626,90 +712,6 @@ A fundamental problem underlies existing RAG architectures in these settings: re
     <guid isPermaLink="false">2605.06305</guid>
     <pubDate>Thu, 07 May 2026 14:08:22 GMT</pubDate>
     <description>Automated privacy audits of web and mobile applications often analyse outbound HTTP traffic to detect Personally Identifiable Information (PII) leakage. However, existing learning-based detectors typically depend on scarce, manually labelled traffic and are tightly coupled to fixed label taxonomies, limiting transferability across domains and evolving definitions of PII. This paper investigates whether Large Language Models (LLMs) can support taxonomy-agnostic annotation of explicitly transmitte...</description>
-  </item>
-  <item>
-    <title>AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop Retrieval-Augmented Generation</title>
-    <link>https://arxiv.org/abs/2605.05245</link>
-    <guid isPermaLink="false">2605.05245</guid>
-    <pubDate>Mon, 04 May 2026 14:45:49 GMT</pubDate>
-    <description>Retrieval-augmented generation (RAG) remains brittle on multi-hop questions in realistic deployment settings, where retrieved evidence may be noisy or redundant and only limited context can be passed to the generator. Existing controllers address parts of this problem, but typically either expand context additively, select from a fixed top-k set, or optimize relevance without explicitly repairing missing bridge facts. We propose AdaGATE, a training-free evidence controller for multi-hop RAG that...</description>
-  </item>
-  <item>
-    <title>Open-SAT: LLM-Guided Query Embedding Refinement for Open-Vocabulary Object Retrieval in Satellite Imagery</title>
-    <link>https://arxiv.org/abs/2605.05344</link>
-    <guid isPermaLink="false">2605.05344</guid>
-    <pubDate>Wed, 06 May 2026 18:12:47 GMT</pubDate>
-    <description>In satellite applications, user queries often take the form of open-ended natural language, extending beyond a fixed set of predefined categories. This open-vocabulary nature poses significant challenges for retrieving relevant image tiles, as the retrieval system must generalize to a wide range of unseen objects and concepts. While vision-language models (VLMs) such as CLIP are widely used for text-image retrieval, even fine-tuned variants often struggle to accurately align such queries with sa...</description>
-  </item>
-  <item>
-    <title>Retrieval-Augmented Reasoning for Chartered Accountancy</title>
-    <link>https://arxiv.org/abs/2605.00257</link>
-    <guid isPermaLink="false">2605.00257</guid>
-    <pubDate>Thu, 30 Apr 2026 21:50:49 GMT</pubDate>
-    <description>The inception of Large Language Models (LLMs) has catalyzed AI adoption in the finance sector, yet their reliability in complex, jurisdiction-specific tasks like Indian Chartered Accountancy (CA) remains limited. The models display difficulty in executing numerical tasks which require multiple steps while also needing advanced knowledge about legal regulations and the method of scaling their operations is not feasible in settings which have limited access to resources. We present CA-ThinkFlow as...</description>
-  </item>
-  <item>
-    <title>H-RAG at SemEval-2026 Task 8: Hierarchical Parent-Child Retrieval for Multi-Turn RAG Conversations</title>
-    <link>https://arxiv.org/abs/2605.00631</link>
-    <guid isPermaLink="false">2605.00631</guid>
-    <pubDate>Fri, 01 May 2026 13:07:19 GMT</pubDate>
-    <description>We present H-RAG, our submission to SemEval-2026 Task 8 (MTRAGEval), addressing both Task A (Retrieval) and Task C (Generation with Retrieved Passages). Task A evaluates standalone retrieval quality, while Task C assesses end-to-end retrieval-augmented generation (RAG) in multi-turn conversational settings, requiring both accurate answer generation and faithful grounding in retrieved evidence. Our approach implements a hierarchical parent-child RAG pipeline that separates fine-grained child-leve...</description>
-  </item>
-  <item>
-    <title>A Case-Driven Multi-Agent Framework for E-Commerce Search Relevance</title>
-    <link>https://arxiv.org/abs/2605.05991</link>
-    <guid isPermaLink="false">2605.05991</guid>
-    <pubDate>Thu, 07 May 2026 10:41:50 GMT</pubDate>
-    <description>Relevance is a foundation of user experience in e-commerce search. We view relevance optimization as a closed-loop ecosystem involving multiple human roles: users who provide feedback, product managers who define standards, annotators who label data, algorithm engineers who optimize models, and evaluators who assess performance. Because improving relevance in practice means systematically resolving user-perceived bad cases, we ask a system-level question: can this ecosystem be reimagined by repl...</description>
-  </item>
-  <item>
-    <title>Expressiveness Limits of Autoregressive Semantic ID Generation in Generative Recommendation</title>
-    <link>https://arxiv.org/abs/2605.06331</link>
-    <guid isPermaLink="false">2605.06331</guid>
-    <pubDate>Thu, 07 May 2026 14:25:10 GMT</pubDate>
-    <description>Generative recommendation (GR) models generate items by autoregressively producing a sequence of discrete tokens that jointly index the target item. However, this autoregressive generation process also induces a structured decoding space whose impact on model expressiveness remains underexplored. Specifically, token-by-token generation can be viewed as traversing a decoding tree induced by semantic ID tokens, where leaf nodes correspond to candidate items. We observe that the item probabilities ...</description>
-  </item>
-  <item>
-    <title>Revisiting Uncertainty: On Evidential Learning for Partially Relevant Video Retrieval</title>
-    <link>https://arxiv.org/abs/2605.06083</link>
-    <guid isPermaLink="false">2605.06083</guid>
-    <pubDate>Thu, 07 May 2026 12:06:13 GMT</pubDate>
-    <description>Partially relevant video retrieval aims to retrieve untrimmed videos using text queries that describe only partial content. However, the inherent asymmetry between brief queries and rich video content inevitably introduces uncertainty into the retrieval process. In this setting, vague queries often induce semantic ambiguity across videos, a challenge that is further exacerbated by the sparse temporal supervision within videos, which fails to provide sufficient matching evidence. To address this,...</description>
-  </item>
-  <item>
-    <title>Unified Value Alignment for Generative Recommendation in Industrial Advertising</title>
-    <link>https://arxiv.org/abs/2605.05803</link>
-    <guid isPermaLink="false">2605.05803</guid>
-    <pubDate>Thu, 07 May 2026 07:41:19 GMT</pubDate>
-    <description>Generative Recommendation (GR) reformulates recommendation as a next-token generation problem and has shown promise in industrial applications. However, extending GR to industrial advertising is non-trivial because the system must optimize not only user interest but also commercial value. Existing GR pipelines remain largely semantics-centric, making it difficult to align value signals across tokenization, decoding, and online serving. To address this issue, we propose UniVA, a Unified Value Ali...</description>
-  </item>
-  <item>
-    <title>Bridging Passive and Active: Enhancing Conversation Starter Recommendation via Active Expression Modeling</title>
-    <link>https://arxiv.org/abs/2605.05855</link>
-    <guid isPermaLink="false">2605.05855</guid>
-    <pubDate>Thu, 07 May 2026 08:26:24 GMT</pubDate>
-    <description>Large Language Model (LLM)-driven conversational search is shifting information retrieval from reactive keyword matching to proactive, open-ended dialogues. In this context, Conversation Starters are widely deployed to provide personalized query recommendations that help users initiate dialogues. Conventionally, recommending these starters relies on a closed &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;exposure-click&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; loop. Yet, this feedback loop mechanism traps the system in an echo chamber where, compounded by data sparsity, it fails t...</description>
-  </item>
-  <item>
-    <title>OBLIQ-Bench: Exposing Overlooked Bottlenecks in Modern Retrievers with Latent and Implicit Queries</title>
-    <link>https://arxiv.org/abs/2605.06235</link>
-    <guid isPermaLink="false">2605.06235</guid>
-    <pubDate>Thu, 07 May 2026 13:22:49 GMT</pubDate>
-    <description>Retrieval benchmarks are increasingly saturating, but we argue that efficient search is far from a solved problem. We identify a class of queries we call oblique, which seek documents that instantiate a latent pattern, like finding all tweets that express an implicit stance, chat logs that demonstrate a particular failure mode, or transcripts that match an abstract scenario. We study three mechanisms through which obliqueness may arise and introduce OBLIQ-Bench, a suite of five oblique search pr...</description>
-  </item>
-  <item>
-    <title>Superintelligent Retrieval Agent: The Next Frontier of Information Retrieval</title>
-    <link>https://arxiv.org/abs/2605.06647</link>
-    <guid isPermaLink="false">2605.06647</guid>
-    <pubDate>Thu, 07 May 2026 17:54:29 GMT</pubDate>
-    <description>Retrieval-augmented agents are increasingly the interface to large organizational knowledge bases, yet most still treat retrieval as a black box: they issue exploratory queries, inspect returned snippets, and iteratively reformulate until useful evidence emerges. This approach resembles how a newcomer searches an unfamiliar database rather than how an expert navigates it with strong priors about terminology and likely evidence, and results in unnecessary retrieval rounds, increased latency, and ...</description>
-  </item>
-  <item>
-    <title>Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction</title>
-    <link>https://arxiv.org/abs/2605.05242</link>
-    <guid isPermaLink="false">2605.05242</guid>
-    <pubDate>Sun, 03 May 2026 19:13:11 GMT</pubDate>
-    <description>Modern retrieval systems, whether lexical or semantic, expose a corpus through a fixed similarity interface that compresses access into a single top-k retrieval step before reasoning. This abstraction is efficient, but for agentic search, it becomes a bottleneck: exact lexical constraints, sparse clue conjunctions, local context checks, and multi-step hypothesis refinement are difficult to implement by calling a conventional off-the-shelf retriever, and evidence filtered out early cannot be reco...</description>
   </item>
   </channel>
 </rss>
