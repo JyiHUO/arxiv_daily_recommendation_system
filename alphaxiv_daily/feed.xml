@@ -6,7 +6,35 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 21 May 2026 13:07:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 18:38:22 GMT</lastBuildDate>
+  <item>
+    <title>Text-Guided Visual Representation Learning for Robust Multimodal E-Commerce Recommendation</title>
+    <link>https://arxiv.org/abs/2605.17366</link>
+    <guid isPermaLink="false">2605.17366</guid>
+    <pubDate>Sun, 17 May 2026 10:20:23 GMT</pubDate>
+    <description>Multimodal item embeddings are crucial for e-commerce item-to-item (I2I) retrieval, yet real-world product images often contain promotional overlays and background clutter that inject spurious visual cues and degrade retrieval robustness. This issue is particularly pronounced in MLRM-style pipelines, where a frozen vision encoder is connected to an LLM through a lightweight connector that must selectively aggregate visual tokens. We propose Text-Guided Q-Former (TGQ-Former), a text-guided visual...</description>
+  </item>
+  <item>
+    <title>Modality-Aware Identity Construction and Counterfactual Structure Learning for ID-Free Multimodal Recommendation</title>
+    <link>https://arxiv.org/abs/2605.18044</link>
+    <guid isPermaLink="false">2605.18044</guid>
+    <pubDate>Mon, 18 May 2026 08:35:06 GMT</pubDate>
+    <description>Multimodal recommendation has attracted extensive attention by leveraging heterogeneous modality information to alleviate data sparsity and improve recommendation accuracy. Existing methods have attempted to replace ID embeddings with multimodal features and have achieved promising preliminary results. However, these methods still exhibit the following two limitations: (1) the reconstructed ID representations remain relatively static and fail to fully exploit multimodal semantics; and (2) the gr...</description>
+  </item>
+  <item>
+    <title>SG-LegalCite: A Principle-Augmented Benchmark for Legal Citation Retrieval in Singapore Law</title>
+    <link>https://arxiv.org/abs/2605.21057</link>
+    <guid isPermaLink="false">2605.21057</guid>
+    <pubDate>Wed, 20 May 2026 11:43:27 GMT</pubDate>
+    <description>Legal citation in common-law systems depends not only on factual similarity, but also on the legal principle for which a precedent is invoked. However, existing benchmarks for legal citation retrieval use case facts, citation context, or full judgments as inputs, where the governing legal principle is often missing or only implicitly expressed and entangled with broader context. As a result, models may retrieve precedents that are factually similar yet doctrinally irrelevant. This limitation is ...</description>
+  </item>
+  <item>
+    <title>CALMem : Application-Layer Dual Memory for Conversational AI</title>
+    <link>https://arxiv.org/abs/2605.20724</link>
+    <guid isPermaLink="false">2605.20724</guid>
+    <pubDate>Wed, 20 May 2026 05:23:57 GMT</pubDate>
+    <description>Large language models (LLMs) operate within fixed context windows that fundamentally limit conversational continuity. When context fills, compaction discards history irreversibly; when sessions end, all memory resets to zero. Existing solutions-larger context windows, retrieval-augmented generation for knowledge bases, and memory-augmented architectures such as MemGPT-either require model modification, impose provider lock-in, or do not address the compaction continuity problem. We present CALMe...</description>
+  </item>
   <item>
     <title>Layer-wise Token Compression for Efficient Document Reranking</title>
     <link>https://arxiv.org/abs/2605.20683</link>
@@ -55,14 +83,14 @@ The wiki scored much better at connecting findings across papers, but its advant
     <link>https://arxiv.org/abs/2605.17788</link>
     <guid isPermaLink="false">2605.17788</guid>
     <pubDate>Mon, 18 May 2026 03:11:17 GMT</pubDate>
-    <description>A fundamental challenge in recommender systems is balancing reliability for Low-Active Users (LAUs) with diversity for High-Active Users (HAUs). The key to this balance lies in quantifying model uncertainty, which approximates the risk of prediction errors and reveals the limits of the model&apos;s current knowledge. On large-scale short-video and livestream platforms, model uncertainty can warn of low-quality recommendations that may lead to disengagement of LAUs and at the same time identify opport...</description>
+    <description>A fundamental challenge in recommender systems is balancing reliability for Low-Active Users (LAUs) with diversity for High-Active Users (HAUs). The key to this balance lies in quantifying model uncertainty, which approximates the risk of prediction errors and reveals the limits of the model&amp;apos;s current knowledge. On large-scale short-video and livestream platforms, model uncertainty can warn of low-quality recommendations that may lead to disengagement of LAUs and at the same time identify opport...</description>
   </item>
   <item>
     <title>Towards Sustainable Growth: A Multi-Value-Aware Retrieval Framework for E-Commerce Search</title>
     <link>https://arxiv.org/abs/2605.17994</link>
     <guid isPermaLink="false">2605.17994</guid>
     <pubDate>Mon, 18 May 2026 07:50:15 GMT</pubDate>
-    <description>New item growth is critical for maintaining a healthy ecosystem in large-scale e-commerce platforms. However, existing systems tend to prioritize presenting users with already popular items, a phenomenon often referred to as the &quot;Matthew effect&quot;. In the context of search retrieval, current cold-start models suffer from the misalignment between training objectives and online business metrics, and they lack effective mechanisms to measure an item&apos;s growth potential. In this paper, we propose a Mul...</description>
+    <description>New item growth is critical for maintaining a healthy ecosystem in large-scale e-commerce platforms. However, existing systems tend to prioritize presenting users with already popular items, a phenomenon often referred to as the &amp;quot;Matthew effect&amp;quot;. In the context of search retrieval, current cold-start models suffer from the misalignment between training objectives and online business metrics, and they lack effective mechanisms to measure an item&amp;apos;s growth potential. In this paper, we propose a Mul...</description>
   </item>
   <item>
     <title>DIVE: Embedding Compression via Self-Limiting Gradient Updates</title>
@@ -104,7 +132,7 @@ The wiki scored much better at connecting findings across papers, but its advant
     <link>https://arxiv.org/abs/2605.19651</link>
     <guid isPermaLink="false">2605.19651</guid>
     <pubDate>Tue, 19 May 2026 10:42:23 GMT</pubDate>
-    <description>Negative sampling is significant for training sequential recommendation models under implicit feedback. The predominant strategy, self-guided hard negative sampling, selects negatives based on the model&amp;apos;s current state but suffers from three limitations: (1) the coupling between sampling and model updates triggers a vicious cycle that drives the model into local optima; (2) relying on current model parameters narrows sampling to a small region of the item space, reducing diversity and harming ge...</description>
+    <description>Negative sampling is significant for training sequential recommendation models under implicit feedback. The predominant strategy, self-guided hard negative sampling, selects negatives based on the model&amp;amp;apos;s current state but suffers from three limitations: (1) the coupling between sampling and model updates triggers a vicious cycle that drives the model into local optima; (2) relying on current model parameters narrows sampling to a small region of the item space, reducing diversity and harming ge...</description>
   </item>
   <item>
     <title>SynGR: Unleashing the Potential of Cross-Modal Synergy for Generative Recommendation</title>
@@ -126,7 +154,7 @@ To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure
     <link>https://arxiv.org/abs/2605.16428</link>
     <guid isPermaLink="false">2605.16428</guid>
     <pubDate>Thu, 14 May 2026 18:07:42 GMT</pubDate>
-    <description>Search engines traditionally complement online content platforms by directing users seeking information to external websites. The emergence of generative AI search tools that summarize answers directly on the results page may disrupt this relationship by making visits to source platforms optional. We study this question using Google AI Overviews and Reddit, one of the largest online discussion platforms. Our identification exploits Google&amp;apos;s content moderation policy: Safe-for-Work (SFW) Reddit c...</description>
+    <description>Search engines traditionally complement online content platforms by directing users seeking information to external websites. The emergence of generative AI search tools that summarize answers directly on the results page may disrupt this relationship by making visits to source platforms optional. We study this question using Google AI Overviews and Reddit, one of the largest online discussion platforms. Our identification exploits Google&amp;amp;apos;s content moderation policy: Safe-for-Work (SFW) Reddit c...</description>
   </item>
   <item>
     <title>KadiAssistant: A conversational AI Agent for information retrieval in Kadi4Mat</title>
@@ -161,7 +189,7 @@ To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure
     <link>https://arxiv.org/abs/2605.18806</link>
     <guid isPermaLink="false">2605.18806</guid>
     <pubDate>Mon, 11 May 2026 22:01:07 GMT</pubDate>
-    <description>As Large Language Model (LLM) integration has accelerated in high-stakes domains, model hallucination is a critical issue. Retrieval-augmented generation (RAG) is a technique for addressing hallucination; however, RAG&amp;apos;s multi-component pipeline introduces vulnerabilities where biases can be introduced. This study considers two previously developed utility-focused ranking strategies (Standard and Stochastic) alongside two proposed exposure-aware approaches (Forced-Exposure and Representative Stoc...</description>
+    <description>As Large Language Model (LLM) integration has accelerated in high-stakes domains, model hallucination is a critical issue. Retrieval-augmented generation (RAG) is a technique for addressing hallucination; however, RAG&amp;amp;apos;s multi-component pipeline introduces vulnerabilities where biases can be introduced. This study considers two previously developed utility-focused ranking strategies (Standard and Stochastic) alongside two proposed exposure-aware approaches (Forced-Exposure and Representative Stoc...</description>
   </item>
   <item>
     <title>Traditional statistical representations outperform generative AI in identifying expert peer reviewers</title>
@@ -182,7 +210,7 @@ To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure
     <link>https://arxiv.org/abs/2605.16217</link>
     <guid isPermaLink="false">2605.16217</guid>
     <pubDate>Fri, 15 May 2026 17:29:27 GMT</pubDate>
-    <description>Deep research agents have achieved remarkable progress on complex information seeking tasks. Even long ReAct style rollouts explore only a single trajectory, while recent state of the art systems scale inference time compute via parallel search and aggregation. Yet deep research answers are composed of complementary pieces of evidence, which parallel rollouts often duplicate rather than complete, yielding diminishing returns while pushing the aggregation context toward the model&amp;amp;amp;apos;s limit. We prop...</description>
+    <description>Deep research agents have achieved remarkable progress on complex information seeking tasks. Even long ReAct style rollouts explore only a single trajectory, while recent state of the art systems scale inference time compute via parallel search and aggregation. Yet deep research answers are composed of complementary pieces of evidence, which parallel rollouts often duplicate rather than complete, yielding diminishing returns while pushing the aggregation context toward the model&amp;amp;amp;amp;apos;s limit. We prop...</description>
   </item>
   <item>
     <title>Fairness-Aware Retrieval Optimization for Retrieval-Augmented Generation</title>
@@ -259,7 +287,7 @@ To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure
     <link>https://arxiv.org/abs/2605.09236</link>
     <guid isPermaLink="false">2605.09236</guid>
     <pubDate>Tue, 12 May 2026 12:29:41 GMT</pubDate>
-    <description>While digitized corpora have transformed the study of intellectual transmission, current methods rely heavily on lexical text reuse detection, capturing verbatim quotations but fundamentally missing paraphrases and complex implicit engagement. This paper evaluates semantic search in 18th-century intellectual history through the reception of John Locke&amp;amp;amp;apos;s foundational work. Using expert annotation grounded in a semantic taxonomy, we examine whether an off-the-shelf semantic search pipeline can sur...</description>
+    <description>While digitized corpora have transformed the study of intellectual transmission, current methods rely heavily on lexical text reuse detection, capturing verbatim quotations but fundamentally missing paraphrases and complex implicit engagement. This paper evaluates semantic search in 18th-century intellectual history through the reception of John Locke&amp;amp;amp;amp;apos;s foundational work. Using expert annotation grounded in a semantic taxonomy, we examine whether an off-the-shelf semantic search pipeline can sur...</description>
   </item>
   <item>
     <title>A Picture is Worth a Thousand Words? An Empirical Study of Aggregation Strategies for Visual Financial Document Retrieval</title>
@@ -317,7 +345,7 @@ In this paper, we perform a comparative empirical study using two open-source la
     <link>https://arxiv.org/abs/2605.14177</link>
     <guid isPermaLink="false">2605.14177</guid>
     <pubDate>Wed, 13 May 2026 22:57:54 GMT</pubDate>
-    <description>Long-horizon personalization requires dialogue assistants to retrieve user-specific facts from extended interaction histories. In practice, many relevant facts often have low semanticsimilarity to the query under dense retrieval. Standard Retrieval-Augmented Generation (RAG) and GraphRAG systems are still largely retrospective: they rely on embedding similarity to the query or on fixed graph traversals, so they often miss facts that matter for the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s needs but lie far from the query in embed...</description>
+    <description>Long-horizon personalization requires dialogue assistants to retrieve user-specific facts from extended interaction histories. In practice, many relevant facts often have low semanticsimilarity to the query under dense retrieval. Standard Retrieval-Augmented Generation (RAG) and GraphRAG systems are still largely retrospective: they rely on embedding similarity to the query or on fixed graph traversals, so they often miss facts that matter for the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s needs but lie far from the query in embed...</description>
   </item>
   <item>
     <title>Efficient Generative Retrieval for E-commerce Search with Semantic Cluster IDs and Expert-Guided RL</title>
@@ -387,7 +415,7 @@ In this paper, we perform a comparative empirical study using two open-source la
     <link>https://arxiv.org/abs/2605.06963</link>
     <guid isPermaLink="false">2605.06963</guid>
     <pubDate>Thu, 07 May 2026 21:27:23 GMT</pubDate>
-    <description>This demo paper describes the development of the AI Teaching \&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Learning Assistant, a modular Moodle plugin that leverages Retrieval-Augmented Generation (RAG) to deliver high-quality, hallucination-free education. The system employs a dual-centric design, providing students with interactive, Socratic-based tutoring and educators with a &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;human-in-the-loop&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; workspace for supervised content generation. By grounding Large Language Model (LLM) responses in teacher-provided materials, the assistant a...</description>
+    <description>This demo paper describes the development of the AI Teaching \&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Learning Assistant, a modular Moodle plugin that leverages Retrieval-Augmented Generation (RAG) to deliver high-quality, hallucination-free education. The system employs a dual-centric design, providing students with interactive, Socratic-based tutoring and educators with a &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;human-in-the-loop&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; workspace for supervised content generation. By grounding Large Language Model (LLM) responses in teacher-provided materials, the assistant a...</description>
   </item>
   <item>
     <title>Information Density as a Quantitative Measure for AI-enabled Virtual Sensing: Feasibility and Limits</title>
@@ -436,7 +464,7 @@ In this paper, we perform a comparative empirical study using two open-source la
     <link>https://arxiv.org/abs/2605.13277</link>
     <guid isPermaLink="false">2605.13277</guid>
     <pubDate>Wed, 13 May 2026 09:54:31 GMT</pubDate>
-    <description>Visual evidence selection is a critical component of multimodal retrieval-augmented generation (RAG), yet existing methods typically rely on semantic relevance or surface-level similarity, which are often misaligned with the actual utility of visual evidence for downstream reasoning. We reformulate multimodal evidence selection from an information-theoretic perspective by defining evidence utility as the information gain induced on a model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s output distribution. To overcome the intractability of...</description>
+    <description>Visual evidence selection is a critical component of multimodal retrieval-augmented generation (RAG), yet existing methods typically rely on semantic relevance or surface-level similarity, which are often misaligned with the actual utility of visual evidence for downstream reasoning. We reformulate multimodal evidence selection from an information-theoretic perspective by defining evidence utility as the information gain induced on a model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s output distribution. To overcome the intractability of...</description>
   </item>
   <item>
     <title>EcoGEO: Trajectory-Aware Evidence Ecosystems for Web-Enabled LLM Search Agents</title>
@@ -478,7 +506,7 @@ In this paper, we perform a comparative empirical study using two open-source la
     <link>https://arxiv.org/abs/2605.13052</link>
     <guid isPermaLink="false">2605.13052</guid>
     <pubDate>Wed, 13 May 2026 06:20:28 GMT</pubDate>
-    <description>In commercial web search, aligning content freshness with user intent remains challenging due to the highly varied lifespans of information. Traditional industrial approaches rely on static time-window filtering, resulting in &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;one-size-fits-all&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; rankings where content may be chronologically recent but semantically expired. To address the limitation, we present a novel Large Language Models (LLMs)-based Query-Aware Dynamic Content Expiration Prediction Framework deployed in Baidu search, reformul...</description>
+    <description>In commercial web search, aligning content freshness with user intent remains challenging due to the highly varied lifespans of information. Traditional industrial approaches rely on static time-window filtering, resulting in &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;one-size-fits-all&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; rankings where content may be chronologically recent but semantically expired. To address the limitation, we present a novel Large Language Models (LLMs)-based Query-Aware Dynamic Content Expiration Prediction Framework deployed in Baidu search, reformul...</description>
   </item>
   <item>
     <title>Same Image, Different Meanings: Toward Retrieval of Context-Dependent Meanings</title>
@@ -534,7 +562,7 @@ In this paper, we perform a comparative empirical study using two open-source la
     <link>https://arxiv.org/abs/2605.11334</link>
     <guid isPermaLink="false">2605.11334</guid>
     <pubDate>Mon, 11 May 2026 23:39:19 GMT</pubDate>
-    <description>LLM-as-Judge systems are widely deployed for automated evaluation, yet practitioners lack reliable methods to know when a judge&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s verdict should be trusted. Token log-probabilities, the standard post-hoc confidence signal, are unavailable for many commercial LLMs and, even when accessible, saturate above 0.999 with structured JSON output.
+    <description>LLM-as-Judge systems are widely deployed for automated evaluation, yet practitioners lack reliable methods to know when a judge&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s verdict should be trusted. Token log-probabilities, the standard post-hoc confidence signal, are unavailable for many commercial LLMs and, even when accessible, saturate above 0.999 with structured JSON output.
 We introduce VERDI (VERification-Decomposed Inference), a method that extracts confidence from the reasoning trace a structured judge already produces, with no...</description>
   </item>
   <item>
@@ -606,7 +634,7 @@ We show that click-only training suppresses semantically informative localizatio
     <link>https://arxiv.org/abs/2605.11017</link>
     <guid isPermaLink="false">2605.11017</guid>
     <pubDate>Sun, 10 May 2026 14:44:13 GMT</pubDate>
-    <description>Behavioral curve modeling -- fitting parametric functions to engagement-versus-exposure data -- is standard practice in recommendation, advertising, and clinical dosing. We show that aggregation introduces a systematic distortion: Simpson&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s paradox in behavioral curves. On Goodreads (3.3M users, 9 genres), individual users peak at n* approximately 11 exposures while the aggregate peaks at n* approximately 34 -- a 3x gap driven by survival bias. Amazon Electronics (18M reviews) shows a 5.3x disto...</description>
+    <description>Behavioral curve modeling -- fitting parametric functions to engagement-versus-exposure data -- is standard practice in recommendation, advertising, and clinical dosing. We show that aggregation introduces a systematic distortion: Simpson&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s paradox in behavioral curves. On Goodreads (3.3M users, 9 genres), individual users peak at n* approximately 11 exposures while the aggregate peaks at n* approximately 34 -- a 3x gap driven by survival bias. Amazon Electronics (18M reviews) shows a 5.3x disto...</description>
   </item>
   <item>
     <title>Question Difficulty Estimation for Large Language Models via Answer Plausibility Scoring</title>
@@ -676,7 +704,7 @@ We show that click-only training suppresses semantically informative localizatio
     <link>https://arxiv.org/abs/2605.11325</link>
     <guid isPermaLink="false">2605.11325</guid>
     <pubDate>Mon, 11 May 2026 23:22:36 GMT</pubDate>
-    <description>Why do we need another AI to help the AI? We argue you don&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;t. Stateless LLM sessions impose re-orientation costs on iterative, session-heavy workflows. Prior work addresses cross-session memory through retrieval-augmented approaches: store history, embed it, retrieve by semantic similarity. Cross-session memory is a state management problem, not a search problem. Similarity search fails for named entity resolution within bounded vocabulary contexts because beliefs about a shared technical domain...</description>
+    <description>Why do we need another AI to help the AI? We argue you don&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;t. Stateless LLM sessions impose re-orientation costs on iterative, session-heavy workflows. Prior work addresses cross-session memory through retrieval-augmented approaches: store history, embed it, retrieve by semantic similarity. Cross-session memory is a state management problem, not a search problem. Similarity search fails for named entity resolution within bounded vocabulary contexts because beliefs about a shared technical domain...</description>
   </item>
   <item>
     <title>Unlocking Crowdsourcing for Ontology Matching Validation</title>
@@ -684,34 +712,6 @@ We show that click-only training suppresses semantically informative localizatio
     <guid isPermaLink="false">2605.12226</guid>
     <pubDate>Tue, 12 May 2026 15:02:34 GMT</pubDate>
     <description>Recent advances in large language models (LLMs) pose new challenges for ontology matching (OM). While OM systems built on LLMs have shown remarkable capabilities in discovering more mappings, traditional OM validation that relies on domain experts has become overwhelming. In this study, we explore the use of crowdsourcing for OM validation and introduce a novel crowdsourcing system. We propose three domain-specific mechanisms, namely differential trustworthiness, coherence pre-filling, and time-...</description>
-  </item>
-  <item>
-    <title>Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation</title>
-    <link>https://arxiv.org/abs/2605.11707</link>
-    <guid isPermaLink="false">2605.11707</guid>
-    <pubDate>Tue, 12 May 2026 08:00:01 GMT</pubDate>
-    <description>The effectiveness of contrastive learning in sequential recommendation hinges on the construction of contrastive views, which ideally should be both semantically consistent and diverse. However, most existing CL-based methods rely on heuristic augmentations that are prone to removing crucial items or disrupting transition patterns, leading to semantic drift. While a few studies have explored learnable augmentations to improve view quality, they often suffer from limited diversity and still neces...</description>
-  </item>
-  <item>
-    <title>A Cascaded Generative Approach for e-Commerce Recommendations</title>
-    <link>https://arxiv.org/abs/2605.11118</link>
-    <guid isPermaLink="false">2605.11118</guid>
-    <pubDate>Mon, 11 May 2026 18:27:08 GMT</pubDate>
-    <description>Personalized storefronts in large e-commerce marketplaces are often assembled from many independent components: static themes per page section (&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;placement&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;), retrieval systems to fetch eligible products per placement, and pointwise rankers to order content. While effective in optimizing for aggregate preferences, this paradigm is rigid and can limit personalization and semantic cohesion across the page. This makes it poorly suited to support dynamic objectives and merchandising requirements over...</description>
-  </item>
-  <item>
-    <title>Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering</title>
-    <link>https://arxiv.org/abs/2605.11145</link>
-    <guid isPermaLink="false">2605.11145</guid>
-    <pubDate>Mon, 11 May 2026 18:48:58 GMT</pubDate>
-    <description>Collaborative filtering (CF) models based on graph neural networks (GNNs) achieve strong performance in recommender systems by propagating user-item signals over interaction graphs. However, they are highly susceptible to popularity bias, since skewed interaction distributions and repeated message passing across high-order neighborhoods amplify the influence of popular items while suppressing long-tail ones. Existing debiasing approaches, including re-weighting objectives, regularization, causal...</description>
-  </item>
-  <item>
-    <title>Nautilus Compass: Black-box Persona Drift Detection for Production LLM Agents</title>
-    <link>https://arxiv.org/abs/2605.09863</link>
-    <guid isPermaLink="false">2605.09863</guid>
-    <pubDate>Mon, 11 May 2026 01:49:17 GMT</pubDate>
-    <description>Production LLM coding agents drift over long sessions: they forget user-specified constraints, slip into mistakes the user already flagged, and confabulate prior agreements. White-box approaches such as persona vectors require model weights and so cannot be applied to closed APIs (Claude, GPT-4) that most users actually interact with. We present Nautilus Compass, a black-box persona drift detector and agent memory layer for production coding agents. The method operates entirely at the prompt-tex...</description>
   </item>
   </channel>
 </rss>
