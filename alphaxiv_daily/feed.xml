@@ -6,7 +6,156 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 26 May 2026 07:12:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 12:59:19 GMT</lastBuildDate>
+  <item>
+    <title>How Reliable Are Semantic-ID Tokenizer Comparisons in Generative Recommendation?</title>
+    <link>https://arxiv.org/abs/2605.25330</link>
+    <guid isPermaLink="false">2605.25330</guid>
+    <pubDate>Mon, 25 May 2026 01:22:45 GMT</pubDate>
+    <description>In Semantic-ID (SID) based generative recommendation, each item is represented as a sequence of discrete codes, and an autoregressive model is trained to generate the SID sequence of the next item; top-K performance is then measured by checking whether the SID sequence of the target item appears among the generated sequences. This evaluation protocol equates SID-level matching with item-level recommendation, an equivalence that holds only when every SID sequence maps to a single item. We show th...</description>
+  </item>
+  <item>
+    <title>RAG-Match: Retrieval-Augmented Knowledge Injection and Hierarchical Reasoning for Calibrated Semantic Relevance</title>
+    <link>https://arxiv.org/abs/2605.25486</link>
+    <guid isPermaLink="false">2605.25486</guid>
+    <pubDate>Mon, 25 May 2026 06:42:39 GMT</pubDate>
+    <description>Semantic relevance judgment for search is particularly challenging in knowledge-intensive scenarios, where accurate ranking requires not only semantic matching but also background grounding, multi-step reasoning, and well-calibrated decision boundaries. Existing relevance models mainly rely on direct label supervision or shallow semantic similarity, which limits their ability to handle implicit intent, factual equivalence, and fine-grained relevance distinctions. To address this issue, we propos...</description>
+  </item>
+  <item>
+    <title>AgentIR: A Workload-Adaptive Cascade Retrieval Substrate for Long-Term Conversational Memory</title>
+    <link>https://arxiv.org/abs/2605.25092</link>
+    <guid isPermaLink="false">2605.25092</guid>
+    <pubDate>Sun, 24 May 2026 14:14:13 GMT</pubDate>
+    <description>Long-term conversational memory is a retrieval workload classical IR was not built for: the index grows during the query stream, query types shift intra-session, and the latency budget per retrieval is sub-10 ms. Lucene-class engines treat the index as static and the query as stateless, leaving the workload&apos;s structure unexploited.
+AgentIR treats fusion as a per-query decision along two axes: which fusion to apply (BM25, Dense, RRF, or agent-aware RRF), and whether the ~52 ms dense channel is wo...</description>
+  </item>
+  <item>
+    <title>DeGRe: Dense-supervised Generative Reranking for Recommendation</title>
+    <link>https://arxiv.org/abs/2605.25749</link>
+    <guid isPermaLink="false">2605.25749</guid>
+    <pubDate>Mon, 25 May 2026 12:00:42 GMT</pubDate>
+    <description>In multi-stage recommender systems, reranking optimizes overall utility by capturing intra-list contextual dependencies, yet its central challenge lies in exploring optimal sequences within an exponentially large permutation space. Recent studies have shifted towards end-to-end generative frameworks, which typically leverage list-wise rewards or preference alignment to guide generator training. However, these methods still face two critical issues. First is the heuristic label bias. Existing met...</description>
+  </item>
+  <item>
+    <title>From Item-Only to Query-Item: Query-Conditioned Generative Search with QGS in Quark</title>
+    <link>https://arxiv.org/abs/2605.25514</link>
+    <guid isPermaLink="false">2605.25514</guid>
+    <pubDate>Mon, 25 May 2026 07:18:51 GMT</pubDate>
+    <description>Generative sequence models have shown strong results in recommendation. Applying them to search ranking is more challenging. Search behavior is inherently query-driven. Each query switch introduces a sharp topic shift in the user&apos;s interaction history. Existing generative methods flatten queries and items into a single token sequence. They do not distinguish query boundaries. This causes the model to mix different query intents into one prediction target, resulting in noisy supervision.
+We prese...</description>
+  </item>
+  <item>
+    <title>Self-Balancing Gradient Allocation for Heterogeneity-Aware Feature Generation in Click-Through Rate Prediction</title>
+    <link>https://arxiv.org/abs/2605.24986</link>
+    <guid isPermaLink="false">2605.24986</guid>
+    <pubDate>Sun, 24 May 2026 10:27:31 GMT</pubDate>
+    <description>Generative pre-training via discrete diffusion provides dense reconstruction supervision across all feature fields simultaneously, mitigating representation collapse from data sparsity in CTR prediction. However, all existing generative CTR methods share a fundamental limitation: the reconstruction objective assigns equal training weight to every feature field, ignoring the profound heterogeneity of reconstruction difficulty across high-cardinality ID fields, sparse categorical attributes, numer...</description>
+  </item>
+  <item>
+    <title>Meta-Modal Agent: Sequential Evidence Routing for Missing-Modality Candidate Reranking</title>
+    <link>https://arxiv.org/abs/2605.25007</link>
+    <guid isPermaLink="false">2605.25007</guid>
+    <pubDate>Sun, 24 May 2026 11:22:03 GMT</pubDate>
+    <description>Missing modalities cause severe failures in multimodal recommender systems. User histories, item text, and visual evidence are frequently absent during cold-start scenarios, exactly when recommendation quality matters most. Existing approaches recover absent signals through imputation, feature propagation, or generative reconstruction, but these strategies can inject unsupported evidence when the surviving signals are weak. We introduce the Meta-Modal Agent (MMA), a large language model based ca...</description>
+  </item>
+  <item>
+    <title>GCIB: Graph Contrastive Information Bottleneck for Multi-Behavior Recommendation</title>
+    <link>https://arxiv.org/abs/2605.25690</link>
+    <guid isPermaLink="false">2605.25690</guid>
+    <pubDate>Mon, 25 May 2026 10:46:15 GMT</pubDate>
+    <description>With the rapid emergence of multi-behavior learning in recommender systems, leveraging auxiliary user behaviors has proven effective for mitigating target-behavior data sparsity. Yet auxiliary behavior graphs frequently contain noisy or irrelevant interactions that do not align with the target task, impeding the learning of accurate user and item embeddings. Moreover, the scarcity of direct supervision from the target behavior complicates the extraction of informative collaborative signals. In t...</description>
+  </item>
+  <item>
+    <title>MeVer at CheckThat! 2026: Cluster-Aware Hard-Negative Mining for Multilingual Scientific-Source Retrieval</title>
+    <link>https://arxiv.org/abs/2605.24236</link>
+    <guid isPermaLink="false">2605.24236</guid>
+    <pubDate>Fri, 22 May 2026 21:24:14 GMT</pubDate>
+    <description>Identifying the scientific source behind a social media claim requires matching short, informal, and often multilingual claims against large collections of scientific publications, where semantically related papers may act as challenging distractors or false negatives during training. We present our submission to CheckThat! 2026 Task 1 on multilingual scientific-source retrieval, focusing on how hard-negative mining should be adapted to multi-stage retrieval pipelines for scientific-source retri...</description>
+  </item>
+  <item>
+    <title>Multilingual Humour-Aware Retrieval with Dense and Re-Ranking Models</title>
+    <link>https://arxiv.org/abs/2605.25165</link>
+    <guid isPermaLink="false">2605.25165</guid>
+    <pubDate>Sun, 24 May 2026 16:50:15 GMT</pubDate>
+    <description>Humour-aware information retrieval poses unique challenges beyond standard semantic retrieval, as systems must account not only for topical relevance but also for humour-specific linguistic phenomena such as wordplay, phonetic ambiguity, and polysemy. In this paper, Team DUTH studies multilingual humour-aware information retrieval using the CLEF 2025 JOKER Task 1 benchmark, which evaluates humour retrieval in English and Portuguese. Our approach combines multilingual XLM-RoBERTa-based dense retr...</description>
+  </item>
+  <item>
+    <title>Benchmarking Patent Embeddings: A Multi-Task Evaluation of 22 Models Across Retrieval, Classification, and Clustering</title>
+    <link>https://arxiv.org/abs/2605.24297</link>
+    <guid isPermaLink="false">2605.24297</guid>
+    <pubDate>Fri, 22 May 2026 23:51:13 GMT</pubDate>
+    <description>Which fine-tuning signals improve patent embedding models, and do gains transfer across patent landscapes? We benchmark 22 embedding models, from 22M-parameter encoders to 12B instruction-tuned LLMs, on retrieval, classification, and clustering. The study uses 113,148 WIPO assistive-technology patents, 46,069 citation-graph retrieval queries, and the public DAPFAM dataset for external validation. Our framework covers citation-based retrieval, hybrid sparse-dense fusion, multi-label classificatio...</description>
+  </item>
+  <item>
+    <title>First, do no harm: Breaking suicidogenic echo chambers in media recommendation</title>
+    <link>https://arxiv.org/abs/2605.25258</link>
+    <guid isPermaLink="false">2605.25258</guid>
+    <pubDate>Sun, 24 May 2026 21:21:02 GMT</pubDate>
+    <description>Recommender systems generally optimises user engagement, but this approach is dangerous in mental health contexts. When vulnerable users show signs of suicidal ideation, standard algorithms often trap them in echo chambers of harmful content, worsening their psychological state. In response, we introduce RankAid, a re-ranking method that prioritises clinical safety alongside predictive relevance. It works as an add-on layer to existing models: it penalises risky items and boosts therapeutic cont...</description>
+  </item>
+  <item>
+    <title>MVR-cache: Optimizing Semantic Caching via Multi-Vector Retrieval and Learned Prompt Segmentation</title>
+    <link>https://arxiv.org/abs/2605.24914</link>
+    <guid isPermaLink="false">2605.24914</guid>
+    <pubDate>Sun, 24 May 2026 07:33:46 GMT</pubDate>
+    <description>To reduce LLM costs and latency, semantic caching systems must accurately identify when a new prompt matches a cached one. Current methods often rely on simplistic similarity measures, which limit their effectiveness. We introduce MVR-cache, a novel semantic caching approach that significantly improves retrieval accuracy by integrating Multi-Vector Retrieval (MVR). MVR-cache is built upon a learnable segmentation model that intelligently splits prompts, enabling fine-grained similarity compariso...</description>
+  </item>
+  <item>
+    <title>Spectral Retrieval: Multi-Scale Sinc Convolution over Token Embeddings for Localized Retrieval in LLM Multi-Agent Systems</title>
+    <link>https://arxiv.org/abs/2605.24764</link>
+    <guid isPermaLink="false">2605.24764</guid>
+    <pubDate>Sat, 23 May 2026 22:50:58 GMT</pubDate>
+    <description>[Abridged] - Spectral Retrieval is a plug-in re-ranking stage that interpolates between per-token MaxSim and mean-pool retrieval through a multi-scale sinc convolution over token embeddings. In standard dense retrieval each document is one mean-pooled vector; when relevance localises into a short subspan, the signal averages into noise. Spectral Retrieval reuses per-token embeddings from a late-interaction index and convolves them with a normalised sinc kernel at multiple scales. At L=1 the kern...</description>
+  </item>
+  <item>
+    <title>How Many Tools Should an LLM Agent See? A Chance-Corrected Answer</title>
+    <link>https://arxiv.org/abs/2605.24660</link>
+    <guid isPermaLink="false">2605.24660</guid>
+    <pubDate>Sat, 23 May 2026 17:02:56 GMT</pubDate>
+    <description>Before an LLM agent can use a tool, a retrieval system must decide which candidate tools to show to the agent. How long should that shortlist be? Show too many tools and the model struggles to choose. Show too few and the correct tool may not appear. Most systems apply a fixed shortlist size to every query, but no standard metric exists to evaluate whether that size was appropriate. We treat the number of tools shown to an LLM agent as the object of evaluation and we apply Bits-over-Random (BoR)...</description>
+  </item>
+  <item>
+    <title>SemBridge: Language Transfer in Sparse Encoders via Multilingual Semantic Bridges</title>
+    <link>https://arxiv.org/abs/2605.26002</link>
+    <guid isPermaLink="false">2605.26002</guid>
+    <pubDate>Mon, 25 May 2026 16:20:03 GMT</pubDate>
+    <description>Sparse encoders offer high-precision retrieval by representing term importance within a vocabulary space, yet their English-centric structures pose a critical impediment to language transfer for non-English languages. To overcome this structural limitation, we propose SemBridge, a novel embedding initialization method designed for cross-lingual adaptation in sparse encoders by leveraging multilingual bridge models. SemBridge establishes semantic alignments between source and target vocabularies ...</description>
+  </item>
+  <item>
+    <title>SIREN: Unified Multi-Granularity Semantic Interaction for Multi-Modal Lifelong User Interest Modeling</title>
+    <link>https://arxiv.org/abs/2605.25726</link>
+    <guid isPermaLink="false">2605.25726</guid>
+    <pubDate>Mon, 25 May 2026 11:33:27 GMT</pubDate>
+    <description>Industrial recommender systems increasingly leverage lifelong user behavior histories and rich multi-modal content to capture evolving user preferences. However, effectively integrating multi-modal features into lifelong interest modeling remains challenging due to the inherent misalignment between multi-modal and collaborative spaces. Existing paradigms typically rely on separate modeling of multi-modal sequence and behavior sequence, and late fusion to alleviate the modality gap, which results...</description>
+  </item>
+  <item>
+    <title>Selective Test-Time Compute Scaling for Click-Through Rate Prediction via Uncertainty-Triggered Feature Path Exploration</title>
+    <link>https://arxiv.org/abs/2605.24989</link>
+    <guid isPermaLink="false">2605.24989</guid>
+    <pubDate>Sun, 24 May 2026 10:29:10 GMT</pubDate>
+    <description>Scaling test-time compute has proven highly effective for language models, yet this opportunity remains largely unexplored for industrial Click-Through Rate (CTR) prediction. CTR models suffer from a fundamental asymmetry: feature combinations well-represented in training yield confident predictions, while sparsely observed ones produce unreliable outputs. Existing training-phase solutions such as adaptive gating learn a fixed selection function subject to the same sparsity, offering no per-inst...</description>
+  </item>
+  <item>
+    <title>Same Ranking, Different Winner: How Scoring Targets Shape LLM Memory Benchmarks</title>
+    <link>https://arxiv.org/abs/2605.24060</link>
+    <guid isPermaLink="false">2605.24060</guid>
+    <pubDate>Fri, 22 May 2026 02:53:07 GMT</pubDate>
+    <description>Conversational-memory systems increasingly transform dialogue history into facts, summaries, timelines, and other source-linked descendants, so a single source turn can coexist with several derived memories in the same retrieval index. This raises an underspecified evaluation question: which stored form should receive retrieval credit? We show that this scoring-target choice is often left implicit and can materially change benchmark conclusions. We present TIAP, a fixed-output audit that rescore...</description>
+  </item>
+  <item>
+    <title>Memento: Personalized RAG-Style Long-Retention Data Scaling for META Ads Recommendation</title>
+    <link>https://arxiv.org/abs/2605.24051</link>
+    <guid isPermaLink="false">2605.24051</guid>
+    <pubDate>Fri, 22 May 2026 00:12:38 GMT</pubDate>
+    <description>Modeling of long history data suffers from long-context window attention dilution, system efficiency and catastrophic forgetting problems, where naive linear scaling approach like LastN would fail. We introduce Memento, a personalized retrieval-augmented framework that treats historical user engagements as a document corpus and ad requests as queries, retrieving relevant interactions via Maximal Marginal Relevance (MMR) to balance similarity with diversity. We identify two complementary applicat...</description>
+  </item>
+  <item>
+    <title>Rethinking Contrastive Learning for Graph Collaborative Filtering: Limitations and a Simple Remedy</title>
+    <link>https://arxiv.org/abs/2605.24015</link>
+    <guid isPermaLink="false">2605.24015</guid>
+    <pubDate>Wed, 20 May 2026 03:19:06 GMT</pubDate>
+    <description>Graph collaborative filtering (GCF) is a dominant paradigm in recommender systems, where contrastive learning (CL) objectives such as the Sampled Softmax (SSM) loss are widely used for optimization. However, it remains unclear how CL interacts with the prediction mechanism of GCF. By unfolding the prediction mechanism of GCF, we show that the user-item prediction score is computed by aggregating learnable weights over a large number of neighbor pairs formed by the multi-hop neighbors of the user...</description>
+  </item>
   <item>
     <title>Your Embedding Model is SMARTer Than You Think</title>
     <link>https://arxiv.org/abs/2605.24938</link>
@@ -19,7 +168,7 @@
     <link>https://arxiv.org/abs/2605.23586</link>
     <guid isPermaLink="false">2605.23586</guid>
     <pubDate>Fri, 22 May 2026 12:57:08 GMT</pubDate>
-    <description>This study employs scientometric methods to assess the research output and performance of the University of Nigeria from 2014 to 2023. By analyzing publication trends, citation patterns, and collaboration networks, the research aims to comprehensively evaluate the university&amp;apos;s research productivity, impact, and disciplinary focus. These research endeavors are characterized by innovation, interdisciplinary collaboration, and commitment to excellence, making the University of Nigeria a significant...</description>
+    <description>This study employs scientometric methods to assess the research output and performance of the University of Nigeria from 2014 to 2023. By analyzing publication trends, citation patterns, and collaboration networks, the research aims to comprehensively evaluate the university&amp;amp;apos;s research productivity, impact, and disciplinary focus. These research endeavors are characterized by innovation, interdisciplinary collaboration, and commitment to excellence, making the University of Nigeria a significant...</description>
   </item>
   <item>
     <title>Building a privacy-preserving Federated Recommender system for mobile devices</title>
@@ -54,7 +203,7 @@
     <link>https://arxiv.org/abs/2605.22878</link>
     <guid isPermaLink="false">2605.22878</guid>
     <pubDate>Wed, 20 May 2026 16:03:29 GMT</pubDate>
-    <description>The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,&amp;amp;apos;&amp;amp;apos; where fragmented and unstructured knowledge organization impedes deep interdisciplinary integration. Current academic retrieval tools predominantly rely on superficial keyword matching or vector-space semantic retrieval, which lack the topological reasoning capabilities required to navigate complex logical connections. Agentic deep-research-based frameworks a...</description>
+    <description>The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,&amp;amp;amp;apos;&amp;amp;amp;apos; where fragmented and unstructured knowledge organization impedes deep interdisciplinary integration. Current academic retrieval tools predominantly rely on superficial keyword matching or vector-space semantic retrieval, which lack the topological reasoning capabilities required to navigate complex logical connections. Agentic deep-research-based frameworks a...</description>
   </item>
   <item>
     <title>HARNESS-LM: A Three-Phase Training Recipe for Harnessing SLMs in Sponsored Search Retrieval</title>
@@ -68,14 +217,14 @@
     <link>https://arxiv.org/abs/2605.23702</link>
     <guid isPermaLink="false">2605.23702</guid>
     <pubDate>Fri, 22 May 2026 14:53:00 GMT</pubDate>
-    <description>Personalized discovery systems often train separate models for item ranking, carousel ranking, and search, even though these tasks expose complementary signals from the same viewer journey: watches shape carousel and item ranking, search queries reveal intent even when they do not lead to a catalog match, and watch history helps interpret search as rewatching, continuation, or new discovery. We introduce the user story, a serialized representation that turns a user&amp;amp;amp;apos;s cross-surface history - attr...</description>
+    <description>Personalized discovery systems often train separate models for item ranking, carousel ranking, and search, even though these tasks expose complementary signals from the same viewer journey: watches shape carousel and item ranking, search queries reveal intent even when they do not lead to a catalog match, and watch history helps interpret search as rewatching, continuation, or new discovery. We introduce the user story, a serialized representation that turns a user&amp;amp;amp;amp;apos;s cross-surface history - attr...</description>
   </item>
   <item>
     <title>Synthetic Sources?: Auditing Generative Search Engine Citations for Evidence of AI-Generated Sources</title>
     <link>https://arxiv.org/abs/2605.23684</link>
     <guid isPermaLink="false">2605.23684</guid>
     <pubDate>Fri, 22 May 2026 14:33:52 GMT</pubDate>
-    <description>The growing accessibility of Large Language Models via conversational interfaces capable of responding to users&amp;amp;amp;apos; questions by drawing on, synthesizing, and citing information from the web (i.e., Generative Search Engines) has simplified the information-seeking process for users. However, with the proliferation of AI-generated content on the web, it is unclear whether these engines can reliably omit citing synthetic sources (i.e., AI-generated sources). Should these engines be unable to do so, th...</description>
+    <description>The growing accessibility of Large Language Models via conversational interfaces capable of responding to users&amp;amp;amp;amp;apos; questions by drawing on, synthesizing, and citing information from the web (i.e., Generative Search Engines) has simplified the information-seeking process for users. However, with the proliferation of AI-generated content on the web, it is unclear whether these engines can reliably omit citing synthetic sources (i.e., AI-generated sources). Should these engines be unable to do so, th...</description>
   </item>
   <item>
     <title>AI-Friendly LaTeX: Using LaTeX Code as a Knowledge Source for Retrieval-Augmented Generation</title>
@@ -145,7 +294,7 @@
     <link>https://arxiv.org/abs/2605.21812</link>
     <guid isPermaLink="false">2605.21812</guid>
     <pubDate>Wed, 20 May 2026 23:18:49 GMT</pubDate>
-    <description>Deploying natural language search systems presents a critical cold-start challenge: no real user queries to learn linguistic patterns, and no relevance labels to train ranking models. We present a framework for generating synthetic queries and labels using large language models (LLMs), powering model training and evaluation for Airbnb&amp;amp;amp;amp;amp;amp;apos;s natural language search.
+    <description>Deploying natural language search systems presents a critical cold-start challenge: no real user queries to learn linguistic patterns, and no relevance labels to train ranking models. We present a framework for generating synthetic queries and labels using large language models (LLMs), powering model training and evaluation for Airbnb&amp;amp;amp;amp;amp;amp;amp;apos;s natural language search.
 For query generation, we combine contrastive listing pairs from booking sessions with seed queries from user research to balance realism...</description>
   </item>
   <item>
@@ -153,7 +302,7 @@ For query generation, we combine contrastive listing pairs from booking sessions
     <link>https://arxiv.org/abs/2605.21967</link>
     <guid isPermaLink="false">2605.21967</guid>
     <pubDate>Thu, 21 May 2026 03:56:42 GMT</pubDate>
-    <description>Recommender systems are critical for delivering personalized content across digital platforms, and recent advances in Large Language Models (LLMs) offer new opportunities to enhance them with richer world knowledge and explicit reasoning capabilities. With the help of reasoning knowledge, recommendations can better infer users&amp;amp;amp;amp;amp;amp;amp;apos; underlying intents, adapt to evolving preferences, and leverage semantic relationships for improved accuracy and interpretability. However, existing reasoning-based recom...</description>
+    <description>Recommender systems are critical for delivering personalized content across digital platforms, and recent advances in Large Language Models (LLMs) offer new opportunities to enhance them with richer world knowledge and explicit reasoning capabilities. With the help of reasoning knowledge, recommendations can better infer users&amp;amp;amp;amp;amp;amp;amp;amp;apos; underlying intents, adapt to evolving preferences, and leverage semantic relationships for improved accuracy and interpretability. However, existing reasoning-based recom...</description>
   </item>
   <item>
     <title>Search-E1: Self-Distillation Drives Self-Evolution in Search-Augmented Reasoning</title>
@@ -202,14 +351,14 @@ For query generation, we combine contrastive listing pairs from booking sessions
     <link>https://arxiv.org/abs/2605.19847</link>
     <guid isPermaLink="false">2605.19847</guid>
     <pubDate>Tue, 19 May 2026 13:41:59 GMT</pubDate>
-    <description>Multi-tenant retrieval-augmented generation (RAG) services advertise per-account differential privacy as the operative leakage boundary: each account&amp;amp;amp;amp;amp;amp;amp;amp;apos;s queries are guaranteed to satisfy $(\varepsilon_{\text{acc}}, \delta_{\text{acc}})$-DP with respect to the index. We identify same-index multi-account collusion as a privacy-boundary failure: for $k$ same-tenant accounts coordinating against the tenant&amp;amp;amp;amp;amp;amp;amp;amp;apos;s index -- the operative regime -- known DP composition theory implies joint leakage degrades u...</description>
+    <description>Multi-tenant retrieval-augmented generation (RAG) services advertise per-account differential privacy as the operative leakage boundary: each account&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s queries are guaranteed to satisfy $(\varepsilon_{\text{acc}}, \delta_{\text{acc}})$-DP with respect to the index. We identify same-index multi-account collusion as a privacy-boundary failure: for $k$ same-tenant accounts coordinating against the tenant&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s index -- the operative regime -- known DP composition theory implies joint leakage degrades u...</description>
   </item>
   <item>
     <title>An Empirical Study of Privacy Leakage Chains via Prompt Injection in Black-Box Chatbot Environments</title>
     <link>https://arxiv.org/abs/2605.18133</link>
     <guid isPermaLink="false">2605.18133</guid>
     <pubDate>Mon, 18 May 2026 09:38:18 GMT</pubDate>
-    <description>LLM-based chatbot agents increasingly process user requests by combining natural-language reasoning with external tools such as web browsing. These capabilities improve usability, but they also create attack surfaces when untrusted external content is processed as part of a user&amp;amp;amp;amp;amp;amp;amp;amp;apos; s task. This paper studies a privacy-leakage attack chain based on indirect prompt injection in black-box chatbot environments, where the attacker has no access to model weights, system prompts, or agent implementation ...</description>
+    <description>LLM-based chatbot agents increasingly process user requests by combining natural-language reasoning with external tools such as web browsing. These capabilities improve usability, but they also create attack surfaces when untrusted external content is processed as part of a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; s task. This paper studies a privacy-leakage attack chain based on indirect prompt injection in black-box chatbot environments, where the attacker has no access to model weights, system prompts, or agent implementation ...</description>
   </item>
   <item>
     <title>Text-Video Retrieval With Global-Local Contrastive Consistency Learning</title>
@@ -279,7 +428,7 @@ For query generation, we combine contrastive listing pairs from booking sessions
     <link>https://arxiv.org/abs/2605.18561</link>
     <guid isPermaLink="false">2605.18561</guid>
     <pubDate>Mon, 18 May 2026 15:41:01 GMT</pubDate>
-    <description>In retrieval-augmented coding, failures often begin when the relevant file is absent from the retrieved context. Under frozen generic tokenization, where a BM25 index has been built by a search system whose analyzer the practitioner does not control, this failure is routine: BM25&amp;amp;amp;amp;amp;amp;amp;amp;apos;s logarithmic RSJ-odds IDF under-separates the identifier tail that distinguishes one function from another. We replace the outer logarithm of the Robertson-Spärck-Jones odds with a q-logarithm. At q=1 the transform rec...</description>
+    <description>In retrieval-augmented coding, failures often begin when the relevant file is absent from the retrieved context. Under frozen generic tokenization, where a BM25 index has been built by a search system whose analyzer the practitioner does not control, this failure is routine: BM25&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s logarithmic RSJ-odds IDF under-separates the identifier tail that distinguishes one function from another. We replace the outer logarithm of the Robertson-Spärck-Jones odds with a q-logarithm. At q=1 the transform rec...</description>
   </item>
   <item>
     <title>Echoes in Filter Bubble: Diagnosing and Curing Popularity Bias in Generative Recommenders</title>
@@ -293,7 +442,7 @@ For query generation, we combine contrastive listing pairs from booking sessions
     <link>https://arxiv.org/abs/2605.16750</link>
     <guid isPermaLink="false">2605.16750</guid>
     <pubDate>Sat, 16 May 2026 02:07:58 GMT</pubDate>
-    <description>Personalized exercise recommendation dynamically aligns pedagogical resources with individual knowledge mastery, which is crucial for satisfying students&amp;amp;amp;amp;amp;amp;amp;amp;apos; dynamic learning needs in modern education. The field is currently driven by two dominant paradigms: Item-Level Exercise Recommendation (ILER) optimizes for immediate single-step state transitions, while Path-Level Exercise Recommendation (PLER) constructs coherent learning paths to maximize cumulative gains. Despite sharing the same ultimate ...</description>
+    <description>Personalized exercise recommendation dynamically aligns pedagogical resources with individual knowledge mastery, which is crucial for satisfying students&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; dynamic learning needs in modern education. The field is currently driven by two dominant paradigms: Item-Level Exercise Recommendation (ILER) optimizes for immediate single-step state transitions, while Path-Level Exercise Recommendation (PLER) constructs coherent learning paths to maximize cumulative gains. Despite sharing the same ultimate ...</description>
   </item>
   <item>
     <title>Approximate Distributed Coded Computing: Polynomial Codes and Randomized Sketching</title>
@@ -335,7 +484,7 @@ For query generation, we combine contrastive listing pairs from booking sessions
     <link>https://arxiv.org/abs/2605.18812</link>
     <guid isPermaLink="false">2605.18812</guid>
     <pubDate>Tue, 12 May 2026 08:23:12 GMT</pubDate>
-    <description>Modern NLP and LLM systems are pipelines: named entity recognition (NER) -&amp;amp;amp;amp;amp;amp;amp;amp;gt; entity disambiguation (NED) -&amp;amp;amp;amp;amp;amp;amp;amp;gt; entity typing, retrieval-augmented generation (retriever -&amp;amp;amp;amp;amp;amp;amp;amp;gt; reader), and agentic chains of planner -&amp;amp;amp;amp;amp;amp;amp;amp;gt; tool -&amp;amp;amp;amp;amp;amp;amp;amp;gt; critic. Errors compound across stages, but existing uncertainty quantification methods either calibrate each stage independently (no joint coverage) or apply a Bonferroni union bound (joint coverage, but conservative). We present PASC (Pipeline-Aware Split Conformal), which reduces ...</description>
+    <description>Modern NLP and LLM systems are pipelines: named entity recognition (NER) -&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; entity disambiguation (NED) -&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; entity typing, retrieval-augmented generation (retriever -&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; reader), and agentic chains of planner -&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; tool -&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; critic. Errors compound across stages, but existing uncertainty quantification methods either calibrate each stage independently (no joint coverage) or apply a Bonferroni union bound (joint coverage, but conservative). We present PASC (Pipeline-Aware Split Conformal), which reduces ...</description>
   </item>
   <item>
     <title>Text-Guided Visual Representation Learning for Robust Multimodal E-Commerce Recommendation</title>
@@ -413,14 +562,14 @@ The wiki scored much better at connecting findings across papers, but its advant
     <link>https://arxiv.org/abs/2605.17788</link>
     <guid isPermaLink="false">2605.17788</guid>
     <pubDate>Mon, 18 May 2026 03:11:17 GMT</pubDate>
-    <description>A fundamental challenge in recommender systems is balancing reliability for Low-Active Users (LAUs) with diversity for High-Active Users (HAUs). The key to this balance lies in quantifying model uncertainty, which approximates the risk of prediction errors and reveals the limits of the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s current knowledge. On large-scale short-video and livestream platforms, model uncertainty can warn of low-quality recommendations that may lead to disengagement of LAUs and at the same time identify opport...</description>
+    <description>A fundamental challenge in recommender systems is balancing reliability for Low-Active Users (LAUs) with diversity for High-Active Users (HAUs). The key to this balance lies in quantifying model uncertainty, which approximates the risk of prediction errors and reveals the limits of the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s current knowledge. On large-scale short-video and livestream platforms, model uncertainty can warn of low-quality recommendations that may lead to disengagement of LAUs and at the same time identify opport...</description>
   </item>
   <item>
     <title>Towards Sustainable Growth: A Multi-Value-Aware Retrieval Framework for E-Commerce Search</title>
     <link>https://arxiv.org/abs/2605.17994</link>
     <guid isPermaLink="false">2605.17994</guid>
     <pubDate>Mon, 18 May 2026 07:50:15 GMT</pubDate>
-    <description>New item growth is critical for maintaining a healthy ecosystem in large-scale e-commerce platforms. However, existing systems tend to prioritize presenting users with already popular items, a phenomenon often referred to as the &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Matthew effect&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;. In the context of search retrieval, current cold-start models suffer from the misalignment between training objectives and online business metrics, and they lack effective mechanisms to measure an item&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s growth potential. In this paper, we propose a Mul...</description>
+    <description>New item growth is critical for maintaining a healthy ecosystem in large-scale e-commerce platforms. However, existing systems tend to prioritize presenting users with already popular items, a phenomenon often referred to as the &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Matthew effect&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;. In the context of search retrieval, current cold-start models suffer from the misalignment between training objectives and online business metrics, and they lack effective mechanisms to measure an item&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s growth potential. In this paper, we propose a Mul...</description>
   </item>
   <item>
     <title>DIVE: Embedding Compression via Self-Limiting Gradient Updates</title>
@@ -462,7 +611,7 @@ The wiki scored much better at connecting findings across papers, but its advant
     <link>https://arxiv.org/abs/2605.19651</link>
     <guid isPermaLink="false">2605.19651</guid>
     <pubDate>Tue, 19 May 2026 10:42:23 GMT</pubDate>
-    <description>Negative sampling is significant for training sequential recommendation models under implicit feedback. The predominant strategy, self-guided hard negative sampling, selects negatives based on the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s current state but suffers from three limitations: (1) the coupling between sampling and model updates triggers a vicious cycle that drives the model into local optima; (2) relying on current model parameters narrows sampling to a small region of the item space, reducing diversity and harming ge...</description>
+    <description>Negative sampling is significant for training sequential recommendation models under implicit feedback. The predominant strategy, self-guided hard negative sampling, selects negatives based on the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s current state but suffers from three limitations: (1) the coupling between sampling and model updates triggers a vicious cycle that drives the model into local optima; (2) relying on current model parameters narrows sampling to a small region of the item space, reducing diversity and harming ge...</description>
   </item>
   <item>
     <title>SynGR: Unleashing the Potential of Cross-Modal Synergy for Generative Recommendation</title>
@@ -484,7 +633,7 @@ To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure
     <link>https://arxiv.org/abs/2605.16428</link>
     <guid isPermaLink="false">2605.16428</guid>
     <pubDate>Thu, 14 May 2026 18:07:42 GMT</pubDate>
-    <description>Search engines traditionally complement online content platforms by directing users seeking information to external websites. The emergence of generative AI search tools that summarize answers directly on the results page may disrupt this relationship by making visits to source platforms optional. We study this question using Google AI Overviews and Reddit, one of the largest online discussion platforms. Our identification exploits Google&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s content moderation policy: Safe-for-Work (SFW) Reddit c...</description>
+    <description>Search engines traditionally complement online content platforms by directing users seeking information to external websites. The emergence of generative AI search tools that summarize answers directly on the results page may disrupt this relationship by making visits to source platforms optional. We study this question using Google AI Overviews and Reddit, one of the largest online discussion platforms. Our identification exploits Google&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s content moderation policy: Safe-for-Work (SFW) Reddit c...</description>
   </item>
   <item>
     <title>KadiAssistant: A conversational AI Agent for information retrieval in Kadi4Mat</title>
@@ -519,7 +668,7 @@ To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure
     <link>https://arxiv.org/abs/2605.18806</link>
     <guid isPermaLink="false">2605.18806</guid>
     <pubDate>Mon, 11 May 2026 22:01:07 GMT</pubDate>
-    <description>As Large Language Model (LLM) integration has accelerated in high-stakes domains, model hallucination is a critical issue. Retrieval-augmented generation (RAG) is a technique for addressing hallucination; however, RAG&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s multi-component pipeline introduces vulnerabilities where biases can be introduced. This study considers two previously developed utility-focused ranking strategies (Standard and Stochastic) alongside two proposed exposure-aware approaches (Forced-Exposure and Representative Stoc...</description>
+    <description>As Large Language Model (LLM) integration has accelerated in high-stakes domains, model hallucination is a critical issue. Retrieval-augmented generation (RAG) is a technique for addressing hallucination; however, RAG&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s multi-component pipeline introduces vulnerabilities where biases can be introduced. This study considers two previously developed utility-focused ranking strategies (Standard and Stochastic) alongside two proposed exposure-aware approaches (Forced-Exposure and Representative Stoc...</description>
   </item>
   <item>
     <title>Traditional statistical representations outperform generative AI in identifying expert peer reviewers</title>
@@ -540,7 +689,7 @@ To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure
     <link>https://arxiv.org/abs/2605.16217</link>
     <guid isPermaLink="false">2605.16217</guid>
     <pubDate>Fri, 15 May 2026 17:29:27 GMT</pubDate>
-    <description>Deep research agents have achieved remarkable progress on complex information seeking tasks. Even long ReAct style rollouts explore only a single trajectory, while recent state of the art systems scale inference time compute via parallel search and aggregation. Yet deep research answers are composed of complementary pieces of evidence, which parallel rollouts often duplicate rather than complete, yielding diminishing returns while pushing the aggregation context toward the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s limit. We prop...</description>
+    <description>Deep research agents have achieved remarkable progress on complex information seeking tasks. Even long ReAct style rollouts explore only a single trajectory, while recent state of the art systems scale inference time compute via parallel search and aggregation. Yet deep research answers are composed of complementary pieces of evidence, which parallel rollouts often duplicate rather than complete, yielding diminishing returns while pushing the aggregation context toward the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s limit. We prop...</description>
   </item>
   <item>
     <title>Fairness-Aware Retrieval Optimization for Retrieval-Augmented Generation</title>
@@ -562,155 +711,6 @@ To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure
     <guid isPermaLink="false">2605.16120</guid>
     <pubDate>Fri, 15 May 2026 16:02:48 GMT</pubDate>
     <description>The growth of online video platforms drives the need for effective, semantically grounded event retrieval. We present MERVIN, a unified multimodal framework for Vietnamese news videos that integrates keyframes, transcripts, and video summaries. Transcript quality is enhanced via Gemini 1.5 Flash, reducing noise from accents, background sounds, and recognition errors. Visual features are extracted with Perception Encoder, while a Vietnamese language model produces textual embeddings; both are ind...</description>
-  </item>
-  <item>
-    <title>paper.json: A Coordination Convention for LLM-Agent-Actionable Papers</title>
-    <link>https://arxiv.org/abs/2605.16194</link>
-    <guid isPermaLink="false">2605.16194</guid>
-    <pubDate>Fri, 15 May 2026 17:10:50 GMT</pubDate>
-    <description>LLM agents routinely serve as first (and sometimes only) readers of academic papers, skimming for sub-claims, extracting reproducibility steps, and generalizing scope. Standard prose papers produce recurring failures in this role: sub-claims that cannot be cited at sub-paper granularity, scope overextension beyond what the paper tests, and figure commands buried in codebases rather than the paper itself. We propose `this http URL`, a companion JSON file that travels with the PDF and addresses ea...</description>
-  </item>
-  <item>
-    <title>Differentially Private Motif-Preserving Multi-modal Hashing</title>
-    <link>https://arxiv.org/abs/2605.15460</link>
-    <guid isPermaLink="false">2605.15460</guid>
-    <pubDate>Thu, 14 May 2026 22:43:30 GMT</pubDate>
-    <description>Cross-modal hashing enables efficient retrieval by encoding images and text into compact binary codes. State-of-the-art methods rely on semantic similarity graphs derived from user interactions for supervision, yet these graphs encode sensitive behavioral patterns vulnerable to link reconstruction attacks. Existing privacy-preserving approaches fail on graph-structured data: Differentially Private SGD destroys relational motifs by treating samples independently, while graph synthesis methods suf...</description>
-  </item>
-  <item>
-    <title>Generative Long-term User Interest Modeling for Click-Through Rate Prediction</title>
-    <link>https://arxiv.org/abs/2605.15905</link>
-    <guid isPermaLink="false">2605.15905</guid>
-    <pubDate>Fri, 15 May 2026 12:42:54 GMT</pubDate>
-    <description>Modeling long-term user interests with massive historical user behaviors enhances click-through rate (CTR) prediction performance in advertising and recommendation systems. Typically, a two-stage framework is widely adopted, where a general search unit (GSU) first retrieves top-$k$ relevant behaviors towards the target item, and an exact search unit (ESU) generates interest features via tailored attention. However, current target-centered GSU would ignore other latent user interests, leading to ...</description>
-  </item>
-  <item>
-    <title>Ascend-RaBitQ: Heterogeneous NPU-CPU Acceleration of Billion-Scale Similarity Search with 1-bit Quantization</title>
-    <link>https://arxiv.org/abs/2605.16007</link>
-    <guid isPermaLink="false">2605.16007</guid>
-    <pubDate>Fri, 15 May 2026 14:37:18 GMT</pubDate>
-    <description>Vector similarity search is a critical component of modern AI systems, but traditional CPU-based implementations face fundamental scalability bottlenecks for billion-scale corpora due to prohibitive computational overhead and memory bandwidth limitations. While Neural Processing Units (NPUs) offer orders-of-magnitude higher compute density, existing CPU/GPU-optimized 1-bit RaBitQ quantization implementations cannot be directly ported to NPU architectures due to fundamental hardware mismatches, a...</description>
-  </item>
-  <item>
-    <title>Automatic Construction of a Legal Citation Graph from 100 Million Ukrainian Court Decisions: Large-Scale Extraction, Topological Analysis, and Ontology-Driven Clustering</title>
-    <link>https://arxiv.org/abs/2605.15362</link>
-    <guid isPermaLink="false">2605.15362</guid>
-    <pubDate>Thu, 14 May 2026 19:42:20 GMT</pubDate>
-    <description>Half a billion citation edges extracted from 100.7 million Ukrainian court decisions reveal that judicial citation structure encodes legal domain boundaries without supervision and predicts future legislative importance with near-perfect accuracy. We construct the first large-scale citation graph from the complete EDRSR registry (99.5 million full texts, 1.1 TB), extracting 502 million citation links across six types via regex on commodity hardware in approximately 5 hours, with precision of 1.0...</description>
-  </item>
-  <item>
-    <title>X-SYNTH: Beyond Retrieval -- Enterprise Context Synthesis from Observed Human Attention</title>
-    <link>https://arxiv.org/abs/2605.15505</link>
-    <guid isPermaLink="false">2605.15505</guid>
-    <pubDate>Fri, 15 May 2026 00:54:02 GMT</pubDate>
-    <description>In enterprise operations, the context required for an AI agent task is scattered across systems of record, static information stores, and communication channels. What is stored is system state, a lossy representation of the work that actually happened [2, 52]. The prevailing approach [17, 31, 34, 36] retrieves by matching request content to what is stored; for narrow requests this works well. But synthesis quality depends on knowing what to surface and how to interpret it: knowledge specific to ...</description>
-  </item>
-  <item>
-    <title>An LLM-RAG Approach for Healthy Eating Index-Informed Personalized Food Recommendations</title>
-    <link>https://arxiv.org/abs/2605.15213</link>
-    <guid isPermaLink="false">2605.15213</guid>
-    <pubDate>Mon, 11 May 2026 03:40:17 GMT</pubDate>
-    <description>Diet quality is a leading determinant of chronic disease risk. Advances in artificial intelligence (AI) have enabled food recommendation systems to adapt suggestions to user preferences and health goals. However, most current systems rely on loosely curated food databases and provide limited connection to a validated index. In this study, we propose a Healthy Eating Index (HEI) informed retrieval-augmented generation (RAG) framework that combines standardized nutrition databases with large langu...</description>
-  </item>
-  <item>
-    <title>Matching Meaning at Scale: Evaluating Semantic Search for 18th-Century Intellectual History through the Case of Locke</title>
-    <link>https://arxiv.org/abs/2605.09236</link>
-    <guid isPermaLink="false">2605.09236</guid>
-    <pubDate>Tue, 12 May 2026 12:29:41 GMT</pubDate>
-    <description>While digitized corpora have transformed the study of intellectual transmission, current methods rely heavily on lexical text reuse detection, capturing verbatim quotations but fundamentally missing paraphrases and complex implicit engagement. This paper evaluates semantic search in 18th-century intellectual history through the reception of John Locke&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s foundational work. Using expert annotation grounded in a semantic taxonomy, we examine whether an off-the-shelf semantic search pipeline can sur...</description>
-  </item>
-  <item>
-    <title>A Picture is Worth a Thousand Words? An Empirical Study of Aggregation Strategies for Visual Financial Document Retrieval</title>
-    <link>https://arxiv.org/abs/2605.14581</link>
-    <guid isPermaLink="false">2605.14581</guid>
-    <pubDate>Thu, 14 May 2026 08:53:40 GMT</pubDate>
-    <description>Visual RAG has offered an alternative to traditional RAG. It treats documents as images and uses vision encoders to obtain vision patch tokens. However, hundreds of patch tokens per document create retrieval and storage challenges in a vector database. Practical deployment requires aggregating them into a single vector. This raises a critical question: does single-vector aggregation lose key information in financial documents? We develop a diagnostic benchmark using financial documents where cha...</description>
-  </item>
-  <item>
-    <title>Detecting Alarming Student Verbal Responses using Text and Audio Classifier</title>
-    <link>https://arxiv.org/abs/2604.16717</link>
-    <guid isPermaLink="false">2604.16717</guid>
-    <pubDate>Fri, 17 Apr 2026 21:33:27 GMT</pubDate>
-    <description>This paper addresses a critical safety gap in the use Automated Verbal Response Scoring (AVRS). We present a novel hybrid framework for troubled student detection that combines a text classifier, trained to detect responses based on their content, and an audio classifier, trained to detect responses using prosodic markers. This approach overcomes key limitations of traditional AVRS systems by considering both content and prosody of responses, achieving enhanced performance in identifying potenti...</description>
-  </item>
-  <item>
-    <title>Why Neighborhoods Matter: Traversal Context and Provenance in Agentic GraphRAG</title>
-    <link>https://arxiv.org/abs/2605.15109</link>
-    <guid isPermaLink="false">2605.15109</guid>
-    <pubDate>Thu, 14 May 2026 17:25:20 GMT</pubDate>
-    <description>Retrieval-Augmented Generation can improve factuality by grounding answers in external evidence, but Agentic GraphRAG complicates what it means for citations to be faithful. In these systems, an agent explores a knowledge graph before producing an answer and a small set of citations. We frame citation faithfulness as a trajectory-level problem: final citations should not only support the answer, but also account for the graph traversal, structure, and visited-but-uncited entities that may influe...</description>
-  </item>
-  <item>
-    <title>Croissant Baker: Metadata Generation for Discoverable, Governable, and Reusable ML Datasets</title>
-    <link>https://arxiv.org/abs/2605.15079</link>
-    <guid isPermaLink="false">2605.15079</guid>
-    <pubDate>Thu, 14 May 2026 17:04:39 GMT</pubDate>
-    <description>Croissant has emerged as the metadata standard for machine learning datasets, providing a structured, JSON-LD-based format that makes dataset discovery, automated ingestion, and reproducible analysis machine-checkable across ML platforms. Adoption has accelerated, and NeurIPS now requires Croissant metadata in every submission to its dataset tracks. Yet in practice Croissant generation usually starts with uploading data to a public platform, a path infeasible for governed and large local reposit...</description>
-  </item>
-  <item>
-    <title>Think When Needed: Adaptive Reasoning-Driven Multimodal Embeddings with a Dual-LoRA Architecture</title>
-    <link>https://arxiv.org/abs/2605.14448</link>
-    <guid isPermaLink="false">2605.14448</guid>
-    <pubDate>Thu, 14 May 2026 06:41:53 GMT</pubDate>
-    <description>Multimodal large language models (MLLMs) have emerged as a powerful backbone for multimodal embeddings. Recent methods introduce chain-of-thought (CoT) reasoning into the embedding pipeline to improve retrieval quality, but remain costly in both model size and inference cost. They typically employ separate reasoner and embedder with substantial parameter overhead, and generate CoT indiscriminately for every input. However, we observe that for simple inputs, discriminative embeddings already perf...</description>
-  </item>
-  <item>
-    <title>Can Code Evaluation Metrics Detect Code Plagiarism?</title>
-    <link>https://arxiv.org/abs/2604.25778/1/0100019ddbbd4531-f5634199-32bb-4ed4-a3b1-a731cf71eb70-000000/lcez1jydzb4m-8x4zouagnxvbew=473</link>
-    <guid isPermaLink="false">2604.25778/1/0100019ddbbd4531-f5634199-32bb-4ed4-a3b1-a731cf71eb70-000000/lcez1jydzb4m-8x4zouagnxvbew=473</guid>
-    <pubDate>Tue, 28 Apr 2026 15:45:44 GMT</pubDate>
-    <description>Source Code Plagiarism Detection (SCPD) plays an important role in maintaining fairness and academic integrity in software engineering education. Code Evaluation Metrics (CEMs) are developed for assessing code generation tasks. However, it remains unclear whether such metrics can reliably detect plagiarism across different levels of modification (L1-L6), increasing in complexity.
-In this paper, we perform a comparative empirical study using two open-source labelled datasets, ConPlag (raw and tem...</description>
-  </item>
-  <item>
-    <title>Can Code Evaluation Metrics Detect Code Plagiarism?</title>
-    <link>https://arxiv.org/abs/2604.25778/1/0100019ddbbd4531-f5634199-32bb-4ed4-a3b1-a731cf71eb70-000000/lcez1jydzb4m-8x4zouagnxvbew%3d473</link>
-    <guid isPermaLink="false">2604.25778/1/0100019ddbbd4531-f5634199-32bb-4ed4-a3b1-a731cf71eb70-000000/lcez1jydzb4m-8x4zouagnxvbew%3d473</guid>
-    <pubDate>Tue, 28 Apr 2026 15:45:44 GMT</pubDate>
-    <description>Source Code Plagiarism Detection (SCPD) plays an important role in maintaining fairness and academic integrity in software engineering education. Code Evaluation Metrics (CEMs) are developed for assessing code generation tasks. However, it remains unclear whether such metrics can reliably detect plagiarism across different levels of modification (L1-L6), increasing in complexity.
-In this paper, we perform a comparative empirical study using two open-source labelled datasets, ConPlag (raw and tem...</description>
-  </item>
-  <item>
-    <title>Thinking Ahead: Prospection-Guided Retrieval of Memory with Language Models</title>
-    <link>https://arxiv.org/abs/2605.14177</link>
-    <guid isPermaLink="false">2605.14177</guid>
-    <pubDate>Wed, 13 May 2026 22:57:54 GMT</pubDate>
-    <description>Long-horizon personalization requires dialogue assistants to retrieve user-specific facts from extended interaction histories. In practice, many relevant facts often have low semanticsimilarity to the query under dense retrieval. Standard Retrieval-Augmented Generation (RAG) and GraphRAG systems are still largely retrospective: they rely on embedding similarity to the query or on fixed graph traversals, so they often miss facts that matter for the user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s needs but lie far from the query in embed...</description>
-  </item>
-  <item>
-    <title>Efficient Generative Retrieval for E-commerce Search with Semantic Cluster IDs and Expert-Guided RL</title>
-    <link>https://arxiv.org/abs/2605.14434</link>
-    <guid isPermaLink="false">2605.14434</guid>
-    <pubDate>Thu, 14 May 2026 06:27:46 GMT</pubDate>
-    <description>Generative retrieval offers a promising alternative by unifying the fragmented multi-stage retrieval process into a single end-to-end model. However, its practical adoption in industrial e-commerce search remains challenging, given the massive and dynamic product catalogs, strict latency requirements, and the need to align retrieval with downstream ranking goals. In this work, we propose a retrieval framework tailored for real-world recall scenarios, positioning generative retrieval as a recall-...</description>
-  </item>
-  <item>
-    <title>Discrimination Is Generation: Unifying Ranking and Retrieval from a Tokenizer Perspective</title>
-    <link>https://arxiv.org/abs/2605.14853</link>
-    <guid isPermaLink="false">2605.14853</guid>
-    <pubDate>Thu, 14 May 2026 13:59:29 GMT</pubDate>
-    <description>Semantic IDs (SIDs) define the generation space of generative recommendation and directly determine its personalization ceiling. However, existing tokenizers are trained independently with retrieval objectives, leaving personalization signals fully decoupled from the SID construction process -- a fundamental gap that causes generative retrieval to persistently lag behind discriminative ranking. In this paper, we rethink the essence of SIDs: \emph{ranking seeks argmax in item space while retrieva...</description>
-  </item>
-  <item>
-    <title>Asymmetric Generative Recommendation via Multi-Expert Projection and Multi-Faceted Hierarchical Quantization</title>
-    <link>https://arxiv.org/abs/2605.14512</link>
-    <guid isPermaLink="false">2605.14512</guid>
-    <pubDate>Thu, 14 May 2026 07:55:43 GMT</pubDate>
-    <description>Generative Recommendation (GenRec) models reformulate recommendation as a sequence generation task, representing items as discrete Semantic IDs used symmetrically as both inputs and prediction targets. We identify a critical dual-stage information bottleneck in this design: (1) the Input Bottleneck, where lossy quantization degrades fine-grained semantics, while popularity bias skews the learned representations toward frequent items, and (2) the Output Bottleneck, where imprecise discrete target...</description>
-  </item>
-  <item>
-    <title>Stop Overthinking: Unlocking Efficient Listwise Reranking with Minimal Reasoning</title>
-    <link>https://arxiv.org/abs/2605.14450</link>
-    <guid isPermaLink="false">2605.14450</guid>
-    <pubDate>Thu, 14 May 2026 06:44:44 GMT</pubDate>
-    <description>Listwise reranking utilizing Large Language Models (LLMs) has achieved state-of-the-art retrieval effectiveness. Recently, reasoning-enhanced models have further pushed these boundaries by employing Chain-of-Thought (CoT) to perform deep comparative analysis of candidate documents. However, this performance gain comes at a prohibitive computational cost, as models often generate thousands of reasoning tokens before producing a final ranking. In this work, we investigate the relationship between ...</description>
-  </item>
-  <item>
-    <title>Logging Policy Design for Off-Policy Evaluation</title>
-    <link>https://arxiv.org/abs/2605.15108</link>
-    <guid isPermaLink="false">2605.15108</guid>
-    <pubDate>Thu, 14 May 2026 17:25:19 GMT</pubDate>
-    <description>Off-policy evaluation (OPE) estimates the value of a target treatment policy (e.g., a recommender system) using data collected by a different logging policy. It enables high-stakes experimentation without live deployment, yet in practice accuracy depends heavily on the logging policy used to collect data for computing the estimate. We study how to design logging policies that minimize OPE error for given target policies. We characterize a fundamental reward-coverage tradeoff: concentrating proba...</description>
   </item>
   </channel>
 </rss>
