@@ -6,7 +6,21 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 29 May 2026 18:52:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 12:25:15 GMT</lastBuildDate>
+  <item>
+    <title>Falkor-IRAC: Graph-Constrained Generation for Verified Legal Reasoning in Indian Judicial AI</title>
+    <link>https://arxiv.org/abs/2605.14665</link>
+    <guid isPermaLink="false">2605.14665</guid>
+    <pubDate>Fri, 15 May 2026 05:54:22 GMT</pubDate>
+    <description>Legal reasoning is not semantic similarity search. A court judgment encodes constrained symbolic reasoning: precedent propagation, procedural state transitions, and statute-bound inference. These are properties that vector-based retrieval-augmented generation (RAG) cannot faithfully represent. Hallucinated precedents, outdated statute citations, and unsupported reasoning chains remain persistent failure modes in LLM-based legal AI, with real consequences for access to justice in high-caseload ju...</description>
+  </item>
+  <item>
+    <title>A Deterministic Agentic Workflow for HS Tariff Classification: Multi-Dimensional Rule Reasoning with Interpretable Decisions</title>
+    <link>https://arxiv.org/abs/2605.14857</link>
+    <guid isPermaLink="false">2605.14857</guid>
+    <pubDate>Thu, 14 May 2026 14:04:46 GMT</pubDate>
+    <description>Harmonized System (HS) tariff classification is a high-stakes, expert-level task in which a free-form product description must be mapped to a specific six- or eight-digit code under the General Interpretive Rules (GIR), section notes, chapter notes, and Explanatory Notes. The difficulty lies not in knowledge volume but in *multi-dimensional rule reasoning*: a correct classification must satisfy competing priority rules along several axes simultaneously, including material, form, function, essent...</description>
+  </item>
   <item>
     <title>HiKEY: Hierarchical Multimodal Retrieval for Open-Domain Document Question Answering</title>
     <link>https://arxiv.org/abs/2605.29606</link>
@@ -63,14 +77,14 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.30205</link>
     <guid isPermaLink="false">2605.30205</guid>
     <pubDate>Thu, 28 May 2026 16:43:17 GMT</pubDate>
-    <description>Legal article retrieval is critical for building traceable and reliable legal AI systems, where conclusions must be grounded in specific legal articles. However, existing open-domain retrieval methods rely heavily on surface-level lexical or semantic similarity, making it difficult for them to distinguish legally relevant articles from those that are textually similar but legally inapplicable or misaligned with the user&apos;s underlying intent. To bridge this gap, we propose \textsc{LexPath}, a doma...</description>
+    <description>Legal article retrieval is critical for building traceable and reliable legal AI systems, where conclusions must be grounded in specific legal articles. However, existing open-domain retrieval methods rely heavily on surface-level lexical or semantic similarity, making it difficult for them to distinguish legally relevant articles from those that are textually similar but legally inapplicable or misaligned with the user&amp;apos;s underlying intent. To bridge this gap, we propose \textsc{LexPath}, a doma...</description>
   </item>
   <item>
     <title>PROTOCOL: Late Interaction Retrieval for Protein Homolog Search</title>
     <link>https://arxiv.org/abs/2605.29158</link>
     <guid isPermaLink="false">2605.29158</guid>
     <pubDate>Wed, 27 May 2026 22:50:48 GMT</pubDate>
-    <description>Protein homology search underlies function annotation, structure prediction, and evolutionary analysis, but remains challenging in the &quot;twilight zone,&quot; where global sequence similarity is weak and classical alignment methods lose sensitivity. Protein language models provide context-aware representations that could improve alignment sensitivity in this regime. However, prior protein embedding-based retrieval pipelines often pool these representations into a single vector, potentially obscuring lo...</description>
+    <description>Protein homology search underlies function annotation, structure prediction, and evolutionary analysis, but remains challenging in the &amp;quot;twilight zone,&amp;quot; where global sequence similarity is weak and classical alignment methods lose sensitivity. Protein language models provide context-aware representations that could improve alignment sensitivity in this regime. However, prior protein embedding-based retrieval pipelines often pool these representations into a single vector, potentially obscuring lo...</description>
   </item>
   <item>
     <title>CrossAlpha: An Annual-Report Benchmark for Cross-Market Factor Research</title>
@@ -175,7 +189,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.29630</link>
     <guid isPermaLink="false">2605.29630</guid>
     <pubDate>Thu, 28 May 2026 09:02:48 GMT</pubDate>
-    <description>End-to-end agent-memory benchmarks report a single hit@k per retriever, confounding lexical leakage (uncontrolled query/gold/distractor entity overlap) with tag-mixing (preferences, services, tools averaged together). We propose entity-collision, a system-agnostic protocol that pins the BM25 floor by construction -- every distractor shares the answer&amp;apos;s entity tokens -- and stratifies queries by discriminator tag, so any lift over BM25 is attributable to the embedder. Applied to an open-source ag...</description>
+    <description>End-to-end agent-memory benchmarks report a single hit@k per retriever, confounding lexical leakage (uncontrolled query/gold/distractor entity overlap) with tag-mixing (preferences, services, tools averaged together). We propose entity-collision, a system-agnostic protocol that pins the BM25 floor by construction -- every distractor shares the answer&amp;amp;apos;s entity tokens -- and stratifies queries by discriminator tag, so any lift over BM25 is attributable to the embedder. Applied to an open-source ag...</description>
   </item>
   <item>
     <title>Generative Spatiotemporal Intent Sequence Recommendation via Implicit Reasoning in Amap</title>
@@ -203,7 +217,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.29271</link>
     <guid isPermaLink="false">2605.29271</guid>
     <pubDate>Thu, 28 May 2026 02:41:30 GMT</pubDate>
-    <description>Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can bridge on its own. The two dominant training approaches, contrastive encoder fine-tuning and HyDE-style query expansion with a frozen LLM, address this problem from opposite ends and fail in complementary directions: the fine-tuned encoder excels when the query&amp;amp;apos;s surface form already...</description>
+    <description>Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can bridge on its own. The two dominant training approaches, contrastive encoder fine-tuning and HyDE-style query expansion with a frozen LLM, address this problem from opposite ends and fail in complementary directions: the fine-tuned encoder excels when the query&amp;amp;amp;apos;s surface form already...</description>
   </item>
   <item>
     <title>Efficient and Scalable Provenance Tracking for LLM-Generated Code Snippets</title>
@@ -224,7 +238,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.28017</link>
     <guid isPermaLink="false">2605.28017</guid>
     <pubDate>Wed, 27 May 2026 06:16:11 GMT</pubDate>
-    <description>Recent generative engine optimisation (GEO) research has shown that prompt-injection attacks can push a target product to the top of an LLM&amp;amp;amp;apos;s recommendation list, with the strongest attacks reporting around $80\%$ success and raising serious security concerns about RAG-based recommendation. However, these results assume the attacked document is always fed directly to the generator, bypassing the retriever and reranker. This is unrealistic: in deployed RAG systems, the attack modifies the documen...</description>
+    <description>Recent generative engine optimisation (GEO) research has shown that prompt-injection attacks can push a target product to the top of an LLM&amp;amp;amp;amp;apos;s recommendation list, with the strongest attacks reporting around $80\%$ success and raising serious security concerns about RAG-based recommendation. However, these results assume the attacked document is always fed directly to the generator, bypassing the retriever and reranker. This is unrealistic: in deployed RAG systems, the attack modifies the documen...</description>
   </item>
   <item>
     <title>From Learning Resources to Competencies: LLM-Based Tagging with Evidence and Graph Constraints</title>
@@ -294,7 +308,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.27439</link>
     <guid isPermaLink="false">2605.27439</guid>
     <pubDate>Fri, 22 May 2026 17:16:18 GMT</pubDate>
-    <description>AI assistants like ChatGPT and Claude are recommendation engines, not search engines: they answer commercial queries by directly nominating brands rather than returning a list of links. Marketing to AI is therefore a broader problem than &amp;amp;amp;quot;show up in search&amp;amp;amp;quot; -- positioning, content, and product fit matter as much as discoverability. We audit ~37,000 production runs across four model configurations and 215 commercially-framed prompts spanning 19 sectors, evaluated against a 533-brand reference cat...</description>
+    <description>AI assistants like ChatGPT and Claude are recommendation engines, not search engines: they answer commercial queries by directly nominating brands rather than returning a list of links. Marketing to AI is therefore a broader problem than &amp;amp;amp;amp;quot;show up in search&amp;amp;amp;amp;quot; -- positioning, content, and product fit matter as much as discoverability. We audit ~37,000 production runs across four model configurations and 215 commercially-framed prompts spanning 19 sectors, evaluated against a 533-brand reference cat...</description>
   </item>
   <item>
     <title>RE-TRIANGLE: Does TRIANGLE Enable Multimodal Alignment Beyond Cosine Similarity in Retrieval?</title>
@@ -371,7 +385,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.28810</link>
     <guid isPermaLink="false">2605.28810</guid>
     <pubDate>Wed, 27 May 2026 17:58:46 GMT</pubDate>
-    <description>Functional music applications, from consumer focus and sleep aids to clinical interventions, share a distinctive recommendation problem: success is defined by the listener&amp;amp;amp;amp;apos;s affective state, but online experimentation on emotion is ethically constrained, particularly for clinical populations who cannot reliably skip a song or report distress. We describe AMRS, the Affective Music Recommendation System deployed on LUCID&amp;amp;amp;amp;apos;s health-and-wellness platforms, which serve clinical users (primarily older ...</description>
+    <description>Functional music applications, from consumer focus and sleep aids to clinical interventions, share a distinctive recommendation problem: success is defined by the listener&amp;amp;amp;amp;amp;apos;s affective state, but online experimentation on emotion is ethically constrained, particularly for clinical populations who cannot reliably skip a song or report distress. We describe AMRS, the Affective Music Recommendation System deployed on LUCID&amp;amp;amp;amp;amp;apos;s health-and-wellness platforms, which serve clinical users (primarily older ...</description>
   </item>
   <item>
     <title>SilentRetrieval: Hijacking Retrieval-Augmented Generation via Semantically-Preserving Adversarial Data Poisoning</title>
@@ -392,7 +406,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.27440</link>
     <guid isPermaLink="false">2605.27440</guid>
     <pubDate>Fri, 22 May 2026 17:23:02 GMT</pubDate>
-    <description>Small changes to how a buyer phrases a question -- &amp;amp;amp;amp;quot;best CRM&amp;amp;amp;amp;quot; vs &amp;amp;amp;amp;quot;top CRM&amp;amp;amp;amp;quot; vs &amp;amp;amp;amp;quot;best CRM for a SaaS startup&amp;amp;amp;amp;quot; -- produce substantially different brand recommendations from AI assistants. Across ~6,000 paraphrase runs and ~6,000 same-prompt rerun controls on OpenAI and Anthropic models, the recommendation-set similarity (Jaccard) between two paraphrases of the same underlying buying intent is 0.288 for cosmetic rewordings (clustered 95% CI [0.215, 0.361]) and 0.135 for constraint-adding rewordings ...</description>
+    <description>Small changes to how a buyer phrases a question -- &amp;amp;amp;amp;amp;quot;best CRM&amp;amp;amp;amp;amp;quot; vs &amp;amp;amp;amp;amp;quot;top CRM&amp;amp;amp;amp;amp;quot; vs &amp;amp;amp;amp;amp;quot;best CRM for a SaaS startup&amp;amp;amp;amp;amp;quot; -- produce substantially different brand recommendations from AI assistants. Across ~6,000 paraphrase runs and ~6,000 same-prompt rerun controls on OpenAI and Anthropic models, the recommendation-set similarity (Jaccard) between two paraphrases of the same underlying buying intent is 0.288 for cosmetic rewordings (clustered 95% CI [0.215, 0.361]) and 0.135 for constraint-adding rewordings ...</description>
   </item>
   <item>
     <title>BiRD: A Bidirectional Ranking Defense Mechanism for Retrieval Augmented Generation</title>
@@ -420,7 +434,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.28175</link>
     <guid isPermaLink="false">2605.28175</guid>
     <pubDate>Wed, 27 May 2026 08:56:57 GMT</pubDate>
-    <description>Large language models (LLMs) have recently been adopted for recommendations due to their ability to understand user intent and item semantics. However, LLM-based recommender systems often rely on parametric knowledge and suffer from outdated knowledge, motivating knowledge graph retrieval-augmented generation (KG-RAG) to ground recommendations on structured, up-to-date KGs. Despite this promise, effective KG-RAG in recommendations faces great challenges. First, users&amp;amp;amp;amp;amp;apos; queries vary in complexity ...</description>
+    <description>Large language models (LLMs) have recently been adopted for recommendations due to their ability to understand user intent and item semantics. However, LLM-based recommender systems often rely on parametric knowledge and suffer from outdated knowledge, motivating knowledge graph retrieval-augmented generation (KG-RAG) to ground recommendations on structured, up-to-date KGs. Despite this promise, effective KG-RAG in recommendations faces great challenges. First, users&amp;amp;amp;amp;amp;amp;apos; queries vary in complexity ...</description>
   </item>
   <item>
     <title>LRanker: LLM Ranker for Massive Candidates</title>
@@ -574,7 +588,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.27105</link>
     <guid isPermaLink="false">2605.27105</guid>
     <pubDate>Tue, 26 May 2026 14:44:19 GMT</pubDate>
-    <description>Retrieval-Augmented Generation (RAG) systems rely on retrieved documents being concatenated into a model&amp;amp;amp;amp;amp;amp;amp;apos;s input context, making both document ordering and context size critical yet controversial design choices. Prior work reports position-based effects such as lost in the middle and related long-context phenomena. However, empirical findings remain inconsistent and hard to reproduce across models, datasets, and evaluation protocols. In this paper, we present a systematic reproducibility study t...</description>
+    <description>Retrieval-Augmented Generation (RAG) systems rely on retrieved documents being concatenated into a model&amp;amp;amp;amp;amp;amp;amp;amp;apos;s input context, making both document ordering and context size critical yet controversial design choices. Prior work reports position-based effects such as lost in the middle and related long-context phenomena. However, empirical findings remain inconsistent and hard to reproduce across models, datasets, and evaluation protocols. In this paper, we present a systematic reproducibility study t...</description>
   </item>
   <item>
     <title>Uniboost: Global Coordination with Value Alignment for Fair and Efficient Traffic Allocation</title>
@@ -595,7 +609,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.26385</link>
     <guid isPermaLink="false">2605.26385</guid>
     <pubDate>Mon, 25 May 2026 23:17:37 GMT</pubDate>
-    <description>Large-scale search, recommendation, and retrieval-augmented generation (RAG) systems typically employ a two-stage architecture: an early-stage ranker (ESR) generates a candidate set, which is subsequently re-ranked by a late-stage ranker (LSR). While there are many reinforcement learning (RL) methods for training the LSR, end-to-end training of the ESR has proven challenging. In particular, naive application of &amp;amp;amp;amp;amp;amp;amp;amp;quot;vanilla&amp;amp;amp;amp;amp;amp;amp;amp;quot; policy gradient (V-PG) is not scalable for candidate-set sizes relevant for...</description>
+    <description>Large-scale search, recommendation, and retrieval-augmented generation (RAG) systems typically employ a two-stage architecture: an early-stage ranker (ESR) generates a candidate set, which is subsequently re-ranked by a late-stage ranker (LSR). While there are many reinforcement learning (RL) methods for training the LSR, end-to-end training of the ESR has proven challenging. In particular, naive application of &amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;vanilla&amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; policy gradient (V-PG) is not scalable for candidate-set sizes relevant for...</description>
   </item>
   <item>
     <title>Large Language Model-Powered Query-Driven Event Timeline Summarization in Industrial Search</title>
@@ -658,7 +672,7 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <link>https://arxiv.org/abs/2605.24233</link>
     <guid isPermaLink="false">2605.24233</guid>
     <pubDate>Fri, 22 May 2026 21:22:08 GMT</pubDate>
-    <description>A user faces a list returned by a search system, ordered by a noisy proxy for relevance, and decides sequentially whether to pay a fixed cost to inspect another item or stop with the best she has uncovered. She does not enter the page knowing how good its items are, so each inspection both produces a candidate item and refines her belief about the page&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s underlying quality. We show the optimal policy is a standout rule: the user stops as soon as her best find exceeds her posterior mean of an ave...</description>
+    <description>A user faces a list returned by a search system, ordered by a noisy proxy for relevance, and decides sequentially whether to pay a fixed cost to inspect another item or stop with the best she has uncovered. She does not enter the page knowing how good its items are, so each inspection both produces a candidate item and refines her belief about the page&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s underlying quality. We show the optimal policy is a standout rule: the user stops as soon as her best find exceeds her posterior mean of an ave...</description>
   </item>
   <item>
     <title>SemanticZip: A Pilot Framework for Lossy Text Compression with LLMs as Semantic Decompressors</title>
@@ -694,21 +708,6 @@ FP16, created only to be reduced to one score per document and discarded. It exh
     <guid isPermaLink="false">2605.25486</guid>
     <pubDate>Mon, 25 May 2026 06:42:39 GMT</pubDate>
     <description>Semantic relevance judgment for search is particularly challenging in knowledge-intensive scenarios, where accurate ranking requires not only semantic matching but also background grounding, multi-step reasoning, and well-calibrated decision boundaries. Existing relevance models mainly rely on direct label supervision or shallow semantic similarity, which limits their ability to handle implicit intent, factual equivalence, and fine-grained relevance distinctions. To address this issue, we propos...</description>
-  </item>
-  <item>
-    <title>AgentIR: A Workload-Adaptive Cascade Retrieval Substrate for Long-Term Conversational Memory</title>
-    <link>https://arxiv.org/abs/2605.25092</link>
-    <guid isPermaLink="false">2605.25092</guid>
-    <pubDate>Sun, 24 May 2026 14:14:13 GMT</pubDate>
-    <description>Long-term conversational memory is a retrieval workload classical IR was not built for: the index grows during the query stream, query types shift intra-session, and the latency budget per retrieval is sub-10 ms. Lucene-class engines treat the index as static and the query as stateless, leaving the workload&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s structure unexploited.
-AgentIR treats fusion as a per-query decision along two axes: which fusion to apply (BM25, Dense, RRF, or agent-aware RRF), and whether the ~52 ms dense channel is wo...</description>
-  </item>
-  <item>
-    <title>DeGRe: Dense-supervised Generative Reranking for Recommendation</title>
-    <link>https://arxiv.org/abs/2605.25749</link>
-    <guid isPermaLink="false">2605.25749</guid>
-    <pubDate>Mon, 25 May 2026 12:00:42 GMT</pubDate>
-    <description>In multi-stage recommender systems, reranking optimizes overall utility by capturing intra-list contextual dependencies, yet its central challenge lies in exploring optimal sequences within an exponentially large permutation space. Recent studies have shifted towards end-to-end generative frameworks, which typically leverage list-wise rewards or preference alignment to guide generator training. However, these methods still face two critical issues. First is the heuristic label bias. Existing met...</description>
   </item>
   </channel>
 </rss>
