@@ -6,7 +6,14 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 24 Jun 2026 12:44:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 18:35:45 GMT</lastBuildDate>
+  <item>
+    <title>Aspect-Based Sentiment Evolution and its Correlation with Review Rounds in Multi-Round Peer Reviews: A Deep Learning Approach</title>
+    <link>https://arxiv.org/abs/2606.24188</link>
+    <guid isPermaLink="false">2606.24188</guid>
+    <pubDate>Tue, 23 Jun 2026 06:14:00 GMT</pubDate>
+    <description>Mining sentiment information from the textual content of peer review comments offers valuable insights into the scientific evaluation process. However, previous studies are often constrained by coarse-grained analysis and the lack of differentiation across review rounds. Notably, the dynamic shifts in reviewers&apos; focus and sentiment tendencies throughout multiple review stages remain underexplored. To address this gap, the present study investigates the distribution and evolution of aspect-level ...</description>
+  </item>
   <item>
     <title>Unified Dominance Graph for Interval-Predicate Approximate Nearest Neighbor Search</title>
     <link>https://arxiv.org/abs/2606.24204</link>
@@ -357,21 +364,21 @@ Design/methodology/approach: We adopt a two-stage approach. Fi...</description>
     <link>https://arxiv.org/abs/2606.20898</link>
     <guid isPermaLink="false">2606.20898</guid>
     <pubDate>Thu, 18 Jun 2026 19:49:18 GMT</pubDate>
-    <description>Document-grounded assistants built on large language models are increasingly used in high-stakes, knowledge-intensive work. Their usefulness, however, may depend on how evidence is allocated before generation. We investigate such a claim by comparing two grounding architectures: (a) retrieval-augmented generation (RAG) that retrieves a few relevant passages, and (b) long-context prompting, which loads the whole document collection in context. We view these as two regimes of &amp;amp;amp;quot;epistemic access&amp;amp;amp;quot; on...</description>
+    <description>Document-grounded assistants built on large language models are increasingly used in high-stakes, knowledge-intensive work. Their usefulness, however, may depend on how evidence is allocated before generation. We investigate such a claim by comparing two grounding architectures: (a) retrieval-augmented generation (RAG) that retrieves a few relevant passages, and (b) long-context prompting, which loads the whole document collection in context. We view these as two regimes of &amp;amp;amp;amp;quot;epistemic access&amp;amp;amp;amp;quot; on...</description>
   </item>
   <item>
     <title>When Does Streaming Tool Use Help? Characterizing Tool-Intent Stabilization in Streaming Retrieval-Augmented Generation</title>
     <link>https://arxiv.org/abs/2606.20113</link>
     <guid isPermaLink="false">2606.20113</guid>
     <pubDate>Thu, 18 Jun 2026 11:38:17 GMT</pubDate>
-    <description>Streaming Retrieval-Augmented Generation (Streaming RAG) reduces user-perceived latency by issuing tool queries in parallel with ongoing user input, before the utterance is complete. Reported gains are aggregate, yet the mechanism&amp;amp;amp;amp;apos;s benefit is fundamentally query-intrinsic: speculation can only help when the correct tool query becomes determinable before the user stops speaking or typing. We isolate and measure this property -- tool-intent stabilization, the point in the input stream at which a ...</description>
+    <description>Streaming Retrieval-Augmented Generation (Streaming RAG) reduces user-perceived latency by issuing tool queries in parallel with ongoing user input, before the utterance is complete. Reported gains are aggregate, yet the mechanism&amp;amp;amp;amp;amp;apos;s benefit is fundamentally query-intrinsic: speculation can only help when the correct tool query becomes determinable before the user stops speaking or typing. We isolate and measure this property -- tool-intent stabilization, the point in the input stream at which a ...</description>
   </item>
   <item>
     <title>PACMS: Submodular Context Selection as a Pluggable Engine for LLM Agents</title>
     <link>https://arxiv.org/abs/2606.20047</link>
     <guid isPermaLink="false">2606.20047</guid>
     <pubDate>Thu, 18 Jun 2026 10:22:57 GMT</pubDate>
-    <description>Conversational and tool-using LLM agents operate over a context window that fills from several directions simultaneously. As a session proceeds, the agent accumulates user and assistant turns, entries drawn from a persistent memory store, and often largest of all, the verbatim outputs of tool calls such as file reads, search results, and API responses. Once the cumulative context exceeds the model&amp;amp;amp;amp;amp;apos;s token budget, the framework must decide what to keep.
+    <description>Conversational and tool-using LLM agents operate over a context window that fills from several directions simultaneously. As a session proceeds, the agent accumulates user and assistant turns, entries drawn from a persistent memory store, and often largest of all, the verbatim outputs of tool calls such as file reads, search results, and API responses. Once the cumulative context exceeds the model&amp;amp;amp;amp;amp;amp;apos;s token budget, the framework must decide what to keep.
 The prevailing mechanism is recency truncat...</description>
   </item>
   <item>
@@ -407,7 +414,7 @@ The prevailing mechanism is recency truncat...</description>
     <link>https://arxiv.org/abs/2606.20554</link>
     <guid isPermaLink="false">2606.20554</guid>
     <pubDate>Thu, 18 Jun 2026 17:58:32 GMT</pubDate>
-    <description>Generative recommendation is an emerging paradigm that has shown promise in industrial recommendation systems, aiming to predict users&amp;amp;amp;amp;amp;amp;amp;amp;apos; next interactions from their historical behaviors. At the core of generative recommendation lies item tokenization, which bridges item semantics and recommendation models. However, existing methods often struggle to effectively organize and inject complex user-behavioral and item-semantic contexts into recommendation models simultaneously. On the one hand, exist...</description>
+    <description>Generative recommendation is an emerging paradigm that has shown promise in industrial recommendation systems, aiming to predict users&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; next interactions from their historical behaviors. At the core of generative recommendation lies item tokenization, which bridges item semantics and recommendation models. However, existing methods often struggle to effectively organize and inject complex user-behavioral and item-semantic contexts into recommendation models simultaneously. On the one hand, exist...</description>
   </item>
   <item>
     <title>Multi-Agent Transactive Memory</title>
@@ -436,7 +443,7 @@ Easy Reads is an aut...</description>
     <link>https://arxiv.org/abs/2606.19635</link>
     <guid isPermaLink="false">2606.19635</guid>
     <pubDate>Wed, 17 Jun 2026 22:27:36 GMT</pubDate>
-    <description>Large Recommendation Models (LRMs) have demonstrated promising capabilities in industry-scale recommendation tasks. However, holistically integrating traditional signals into these transformer-based architectures effectively and efficiently remains a major challenge. Conventional approaches that &amp;amp;amp;amp;amp;amp;amp;amp;quot;textualize&amp;amp;amp;amp;amp;amp;amp;amp;quot; these signals directly or create discrete item representations often lead to excessively long prompts, substantial memory footprints, and high computational overhead. To overcome these limit...</description>
+    <description>Large Recommendation Models (LRMs) have demonstrated promising capabilities in industry-scale recommendation tasks. However, holistically integrating traditional signals into these transformer-based architectures effectively and efficiently remains a major challenge. Conventional approaches that &amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;textualize&amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; these signals directly or create discrete item representations often lead to excessively long prompts, substantial memory footprints, and high computational overhead. To overcome these limit...</description>
   </item>
   <item>
     <title>When Global Gating Is Enough: Admission-Time Hubness Control in Anisotropic Vector Retrieval Systems</title>
@@ -457,7 +464,7 @@ Easy Reads is an aut...</description>
     <link>https://arxiv.org/abs/2606.19627</link>
     <guid isPermaLink="false">2606.19627</guid>
     <pubDate>Wed, 17 Jun 2026 22:08:31 GMT</pubDate>
-    <description>The digital commerce landscape is shifting from static, search-driven catalogs to dynamic, immersive video feeds. This transition introduces an ``extreme cold-start&amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;apos; problem: unlike traditional items, new short-form videos lack the dense interaction history required for collaborative filtering. Furthermore, immersive feeds introduce strong position and duration biases that distort standard engagement signals. In this paper, we demonstrate the Video Candidate Generation (VCG) system, a scalable ...</description>
+    <description>The digital commerce landscape is shifting from static, search-driven catalogs to dynamic, immersive video feeds. This transition introduces an ``extreme cold-start&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; problem: unlike traditional items, new short-form videos lack the dense interaction history required for collaborative filtering. Furthermore, immersive feeds introduce strong position and duration biases that distort standard engagement signals. In this paper, we demonstrate the Video Candidate Generation (VCG) system, a scalable ...</description>
   </item>
   <item>
     <title>SAFE-Cascade: Cost-Adaptive Vision-Language Routing for Chart Question Answering</title>
@@ -527,7 +534,7 @@ Easy Reads is an aut...</description>
     <link>https://arxiv.org/abs/2606.18379</link>
     <guid isPermaLink="false">2606.18379</guid>
     <pubDate>Tue, 16 Jun 2026 18:27:11 GMT</pubDate>
-    <description>Graph-based retrieval at billion-node scale requires jointly solving three tightly coupled problems -- graph construction, representation learning, and real-time serving -- yet existing work addresses each in isolation. We present RankGraph-2, a framework deployed at Meta that co-designs all three lifecycle stages for similarity-based retrieval (U2U2I and U2I2I), where each stage&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s requirements shape the others. Serving requires a co-learned cluster index to avoid expensive online KNN -- this pu...</description>
+    <description>Graph-based retrieval at billion-node scale requires jointly solving three tightly coupled problems -- graph construction, representation learning, and real-time serving -- yet existing work addresses each in isolation. We present RankGraph-2, a framework deployed at Meta that co-designs all three lifecycle stages for similarity-based retrieval (U2U2I and U2I2I), where each stage&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s requirements shape the others. Serving requires a co-learned cluster index to avoid expensive online KNN -- this pu...</description>
   </item>
   <item>
     <title>MCompassRAG: Topic Metadata as a Semantic Compass for Paragraph-Level Retrieval</title>
@@ -541,7 +548,7 @@ Easy Reads is an aut...</description>
     <link>https://arxiv.org/abs/2606.18520</link>
     <guid isPermaLink="false">2606.18520</guid>
     <pubDate>Tue, 16 Jun 2026 22:20:52 GMT</pubDate>
-    <description>Computing geometric representations of data is a cornerstone of modern machine learning, typically achieved by training dual encoders which map queries and documents into a shared embedding space. Recent work of You et al. [NeurIPS &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;25] has extended this approach to hierarchical retrieval, where relevance is determined by the ancestor-descendant relationships in a Directed Acyclic Graph (DAG). While previous work has shown that valid embeddings exist when the number of descendants is small, thes...</description>
+    <description>Computing geometric representations of data is a cornerstone of modern machine learning, typically achieved by training dual encoders which map queries and documents into a shared embedding space. Recent work of You et al. [NeurIPS &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;25] has extended this approach to hierarchical retrieval, where relevance is determined by the ancestor-descendant relationships in a Directed Acyclic Graph (DAG). While previous work has shown that valid embeddings exist when the number of descendants is small, thes...</description>
   </item>
   <item>
     <title>SAERec: Constructing Fine-grained Interpretable Intents Priors via Sparse Autoencoders for Recommendation</title>
@@ -562,7 +569,7 @@ Easy Reads is an aut...</description>
     <link>https://arxiv.org/abs/2606.18699</link>
     <guid isPermaLink="false">2606.18699</guid>
     <pubDate>Wed, 17 Jun 2026 05:25:21 GMT</pubDate>
-    <description>Large language models (LLMs) have shown impressive capabilities across diverse tasks, yet their performance on jurisdiction-specific legal reasoning remains underexplored. We present TW-LegalBench that utilizes Taiwanese legal system&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s rich official corpus open to the public to fill the gap in evaluating LLMs on Taiwanese law, among common-law benchmarks that focus on English sources and civil-law benchmarks focusing on sources of Simplified Chinese. TW-LegalBench comprises three task types: (1)...</description>
+    <description>Large language models (LLMs) have shown impressive capabilities across diverse tasks, yet their performance on jurisdiction-specific legal reasoning remains underexplored. We present TW-LegalBench that utilizes Taiwanese legal system&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s rich official corpus open to the public to fill the gap in evaluating LLMs on Taiwanese law, among common-law benchmarks that focus on English sources and civil-law benchmarks focusing on sources of Simplified Chinese. TW-LegalBench comprises three task types: (1)...</description>
   </item>
   <item>
     <title>Which Sections of a Research Paper Best Reveal Its Research Methods? Evidence from Library and Information Science</title>
@@ -611,42 +618,42 @@ Easy Reads is an aut...</description>
     <link>https://arxiv.org/abs/2606.17910</link>
     <guid isPermaLink="false">2606.17910</guid>
     <pubDate>Tue, 16 Jun 2026 13:32:54 GMT</pubDate>
-    <description>Dense retrieval has become the dominant paradigm in information retrieval, in which each document is scored against a query by the inner product of their vector embeddings, and the top-$k$ documents by score are retrieved for this query. However, since each document&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s score depends solely on the embedding of the query and itself, the retrieval process is oblivious to the content of the entire corpus. Therefore, dense retrieval cannot avoid selecting semantically similar documents from the corpus...</description>
+    <description>Dense retrieval has become the dominant paradigm in information retrieval, in which each document is scored against a query by the inner product of their vector embeddings, and the top-$k$ documents by score are retrieved for this query. However, since each document&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s score depends solely on the embedding of the query and itself, the retrieval process is oblivious to the content of the entire corpus. Therefore, dense retrieval cannot avoid selecting semantically similar documents from the corpus...</description>
   </item>
   <item>
     <title>Do Generative Recommenders Deepen the Information Cocoon? A Closed-Loop Simulation with LLM-powered User Simulators</title>
     <link>https://arxiv.org/abs/2606.17707</link>
     <guid isPermaLink="false">2606.17707</guid>
     <pubDate>Tue, 16 Jun 2026 09:17:46 GMT</pubDate>
-    <description>Recommender systems alleviate information overload, yet repeated feedback between recommendations and user interactions can reinforce existing preferences and narrow users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; exposure, forming information cocoons. While this phenomenon has been widely studied in traditional sequential recommendation, its impact on generative recommendation remains unclear. By replacing atomic item IDs with Semantic ID (SID) sequences, generative recommenders introduce a different recommendation mechanism whose rol...</description>
+    <description>Recommender systems alleviate information overload, yet repeated feedback between recommendations and user interactions can reinforce existing preferences and narrow users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; exposure, forming information cocoons. While this phenomenon has been widely studied in traditional sequential recommendation, its impact on generative recommendation remains unclear. By replacing atomic item IDs with Semantic ID (SID) sequences, generative recommenders introduce a different recommendation mechanism whose rol...</description>
   </item>
   <item>
     <title>Temporal Preference Optimization for Unsupervised Retrieval</title>
     <link>https://arxiv.org/abs/2606.17664</link>
     <guid isPermaLink="false">2606.17664</guid>
     <pubDate>Tue, 16 Jun 2026 08:27:22 GMT</pubDate>
-    <description>Unsupervised dense retrievers offer scalability by learning semantic similarity from unlabeled documents via contrastive learning, but they struggle to capture the temporal relevance, retrieving semantically related but temporally misaligned documents-an important aspect when a document collection spans multiple time periods (e.g., retrieving documents from 2018-2025 for &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Who is the president in 2019?&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; introduces temporal ambiguity). Existing methods rely on supervised training with explicit tim...</description>
+    <description>Unsupervised dense retrievers offer scalability by learning semantic similarity from unlabeled documents via contrastive learning, but they struggle to capture the temporal relevance, retrieving semantically related but temporally misaligned documents-an important aspect when a document collection spans multiple time periods (e.g., retrieving documents from 2018-2025 for &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Who is the president in 2019?&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; introduces temporal ambiguity). Existing methods rely on supervised training with explicit tim...</description>
   </item>
   <item>
     <title>On the Memorization Behavior of LLMs in Generative Recommendation: Observations, Implications, and Training Strategies</title>
     <link>https://arxiv.org/abs/2606.17276</link>
     <guid isPermaLink="false">2606.17276</guid>
     <pubDate>Mon, 15 Jun 2026 20:34:49 GMT</pubDate>
-    <description>Generative recommendation (GR) has emerged as a promising direction for recommender systems. Recently, large language models (LLMs) have been increasingly adopted for GR, as their rich pretrained knowledge is expected to help them generalize beyond common user behavior patterns that traditional memorization-oriented baselines can capture. However, existing LLM-based GR works largely ignore LLMs&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; well-known tendency to memorize, which, if present in LLMs fine-tuned for GR, would restrict their ut...</description>
+    <description>Generative recommendation (GR) has emerged as a promising direction for recommender systems. Recently, large language models (LLMs) have been increasingly adopted for GR, as their rich pretrained knowledge is expected to help them generalize beyond common user behavior patterns that traditional memorization-oriented baselines can capture. However, existing LLM-based GR works largely ignore LLMs&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; well-known tendency to memorize, which, if present in LLMs fine-tuned for GR, would restrict their ut...</description>
   </item>
   <item>
     <title>RSRank: Learning Relevance from Representational Shifts</title>
     <link>https://arxiv.org/abs/2606.17468</link>
     <guid isPermaLink="false">2606.17468</guid>
     <pubDate>Tue, 16 Jun 2026 03:29:23 GMT</pubDate>
-    <description>As enterprises deploy RAG-based systems to provide grounded responses to user queries, reranking has become a critical component for the final filtering step that separates relevant from distracting or irrelevant documents. Existing rerankers often rely on heuristic thresholds to achieve optimal filtering. Moreover, for relevance scoring, state-of-the-art methods use a language model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s logit signals, which are designed for next-token prediction, not for assessing relevance. To address these limi...</description>
+    <description>As enterprises deploy RAG-based systems to provide grounded responses to user queries, reranking has become a critical component for the final filtering step that separates relevant from distracting or irrelevant documents. Existing rerankers often rely on heuristic thresholds to achieve optimal filtering. Moreover, for relevance scoring, state-of-the-art methods use a language model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s logit signals, which are designed for next-token prediction, not for assessing relevance. To address these limi...</description>
   </item>
   <item>
     <title>Designing Recommendation Exposure and Favorite Lists: A Field Experiment in a Spot-Work Platform</title>
     <link>https://arxiv.org/abs/2606.17397</link>
     <guid isPermaLink="false">2606.17397</guid>
     <pubDate>Tue, 16 Jun 2026 01:14:40 GMT</pubDate>
-    <description>How should recommender systems be designed when recommendations shape access to scarce, short-lived opportunities? We study this question in a production setting: Timee, Japan&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s largest platform for spot work, where workers favorite job templates and receive notifications when firms post shifts from those templates. Maximizing predicted favoriting can generate misdirected concentration: recommendations accumulate on popular templates that create few viable job openings, while templates with unme...</description>
+    <description>How should recommender systems be designed when recommendations shape access to scarce, short-lived opportunities? We study this question in a production setting: Timee, Japan&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s largest platform for spot work, where workers favorite job templates and receive notifications when firms post shifts from those templates. Maximizing predicted favoriting can generate misdirected concentration: recommendations accumulate on popular templates that create few viable job openings, while templates with unme...</description>
   </item>
   <item>
     <title>Understanding and Debugging Failures in N-Gram-Based Generative Retrieval</title>
@@ -688,7 +695,7 @@ Easy Reads is an aut...</description>
     <link>https://arxiv.org/abs/2606.16703</link>
     <guid isPermaLink="false">2606.16703</guid>
     <pubDate>Mon, 15 Jun 2026 13:37:52 GMT</pubDate>
-    <description>Sequential Recommender Systems (SRS) predict the next item of interest based on users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; interaction histories and have been widely deployed, but hindered by long-tail problem. Large Language Models (LLMs), with strong semantic understanding and reasoning capabilities, offer a promising way to enrich item semantics and have recently been used as embedding generators. However, two fundamental gaps remain. First, current LLM-based embedding methods fail to exploit the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s inner reasoning capacit...</description>
+    <description>Sequential Recommender Systems (SRS) predict the next item of interest based on users&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos; interaction histories and have been widely deployed, but hindered by long-tail problem. Large Language Models (LLMs), with strong semantic understanding and reasoning capabilities, offer a promising way to enrich item semantics and have recently been used as embedding generators. However, two fundamental gaps remain. First, current LLM-based embedding methods fail to exploit the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s inner reasoning capacit...</description>
   </item>
   <item>
     <title>OneBar: An End-to-End Content-Grounded Generative Query Recommendation Framework for E-Commerce Video Feeds</title>
@@ -703,13 +710,6 @@ Easy Reads is an aut...</description>
     <guid isPermaLink="false">2606.15367</guid>
     <pubDate>Sat, 13 Jun 2026 16:04:42 GMT</pubDate>
     <description>Deep research agents aim to solve complex knowledge-intensive tasks through long-horizon planning, evidence gathering, reasoning, and report generation. While recent progress in search agents has demonstrated strong capabilities in information retrieval and answer verification, most existing training datasets remain search-centric, focusing primarily on closed-ended question answering and information localization. As a result, they mainly train information-seeking behavior while providing limite...</description>
-  </item>
-  <item>
-    <title>OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation</title>
-    <link>https://arxiv.org/abs/2606.16838</link>
-    <guid isPermaLink="false">2606.16838</guid>
-    <pubDate>Mon, 15 Jun 2026 15:16:17 GMT</pubDate>
-    <description>Multi-task learning (MTL) is essential in recommender systems to enable complementary learning among diverse user feedback. While modern industrial practices have shifted from DNNs to Transformer-centric architectures to strengthen sequence modeling and scaling capacity, they still decouple feature encoding from multi-task prediction, treating the Transformer as a task-agnostic encoder. This design fundamentally limits the performance and scalability by (1) creating an information bottleneck und...</description>
   </item>
   </channel>
 </rss>
