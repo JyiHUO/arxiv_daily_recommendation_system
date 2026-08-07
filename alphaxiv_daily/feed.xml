@@ -6,7 +6,14 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 06 Aug 2026 08:25:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 02:23:32 GMT</lastBuildDate>
+  <item>
+    <title>EXCISE: Query-Side Exclusion for Late-Interaction Retrieval</title>
+    <link>https://arxiv.org/abs/2608.05497</link>
+    <guid isPermaLink="false">2608.05497</guid>
+    <pubDate>Thu, 06 Aug 2026 00:56:56 GMT</pubDate>
+    <description>Late-interaction retrievers handle exclusion queries poorly. When a user asks for X but not Z, the additive MaxSim score promotes documents covering Z, a problem we call exclusion inversion. We show that no readout of the frozen vectors recovers the constraint, because the difficulty lies in identifying the excluded topic, which depends on the query alone. EXCISE operates at query time and corrects the inversion while leaving the index frozen. Two query-side modules totalling 1.5M parameters ide...</description>
+  </item>
   <item>
     <title>Towards Robust Version Identification in the Wild: A Dataset, Benchmark, and Fine-Tuning Study</title>
     <link>https://arxiv.org/abs/2608.04543</link>
@@ -26,7 +33,7 @@
     <link>https://arxiv.org/abs/2608.04482</link>
     <guid isPermaLink="false">2608.04482</guid>
     <pubDate>Wed, 05 Aug 2026 06:09:47 GMT</pubDate>
-    <description>As skill libraries grow, large language model agents must retrieve reusable skills from candidates that often share the same topic and vocabulary but implement different capabilities. Retrieval is limited not only by the scorer but also by the text being scored: a document may describe what a skill does without stating which similar requests should be routed elsewhere. We formalize a skill&apos;s capability as its \emph{executable region}, the set of queries it can solve, and view its document as a l...</description>
+    <description>As skill libraries grow, large language model agents must retrieve reusable skills from candidates that often share the same topic and vocabulary but implement different capabilities. Retrieval is limited not only by the scorer but also by the text being scored: a document may describe what a skill does without stating which similar requests should be routed elsewhere. We formalize a skill&amp;apos;s capability as its \emph{executable region}, the set of queries it can solve, and view its document as a l...</description>
   </item>
   <item>
     <title>Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems</title>
@@ -75,7 +82,7 @@
     <link>https://arxiv.org/abs/2608.04432</link>
     <guid isPermaLink="false">2608.04432</guid>
     <pubDate>Wed, 05 Aug 2026 04:22:05 GMT</pubDate>
-    <description>On two-sided content platforms, symmetric two-sided isolation (assigning matched fractions of creators and viewers to isolated treatment and control submarkets) is widely used for creator-side and cold-start experiments because it removes cross-arm marketplace interference. Isolation, however, thins each viewer&apos;s candidate catalog, and intuition suggests the resulting engagement cost should fade as the platform grows: a small fraction of a vast catalog is still vast. We show that, in an order-st...</description>
+    <description>On two-sided content platforms, symmetric two-sided isolation (assigning matched fractions of creators and viewers to isolated treatment and control submarkets) is widely used for creator-side and cold-start experiments because it removes cross-arm marketplace interference. Isolation, however, thins each viewer&amp;apos;s candidate catalog, and intuition suggests the resulting engagement cost should fade as the platform grows: a small fraction of a vast catalog is still vast. We show that, in an order-st...</description>
   </item>
   <item>
     <title>Characterizing the Evolving Landscape of Modern Information Seeking</title>
@@ -131,7 +138,7 @@
     <link>https://arxiv.org/abs/2608.03382</link>
     <guid isPermaLink="false">2608.03382</guid>
     <pubDate>Tue, 04 Aug 2026 09:31:44 GMT</pubDate>
-    <description>Multi-armed bandit algorithms, especially Thompson sampling, are widely used in online recommendation. Despite their ability to adapt from online feedback, these methods often suffer from cold-start limitations when newly introduced arms have little or no interaction history. In our setting, the candidate arms are user-generated textual comments, whose semantic content can reveal a title&amp;amp;apos;s appeal before sufficient interaction feedback is available. We therefore use large language models (LLMs) t...</description>
+    <description>Multi-armed bandit algorithms, especially Thompson sampling, are widely used in online recommendation. Despite their ability to adapt from online feedback, these methods often suffer from cold-start limitations when newly introduced arms have little or no interaction history. In our setting, the candidate arms are user-generated textual comments, whose semantic content can reveal a title&amp;amp;amp;apos;s appeal before sufficient interaction feedback is available. We therefore use large language models (LLMs) t...</description>
   </item>
   <item>
     <title>Coverage Matters: MarginMerge for Compressing Multi-Vector Visual Document Retrievers</title>
@@ -223,7 +230,7 @@ In this work, we ad...</description>
     <link>https://arxiv.org/abs/2608.01949</link>
     <guid isPermaLink="false">2608.01949</guid>
     <pubDate>Mon, 03 Aug 2026 09:20:53 GMT</pubDate>
-    <description>Push notification is a critical recommendation scenario on large-scale platforms, allowing the system to proactively reach users outside the application to improve long-term re-engagement. However, designing an optimal push system requires handling a complex action space for the &amp;amp;amp;quot;whether and when&amp;amp;amp;quot; delivery problem under strict system resource constraints. Existing solutions typically fall into two passive paradigms: pre-planned frequency methods that allocate delivery times via offline modeling,...</description>
+    <description>Push notification is a critical recommendation scenario on large-scale platforms, allowing the system to proactively reach users outside the application to improve long-term re-engagement. However, designing an optimal push system requires handling a complex action space for the &amp;amp;amp;amp;quot;whether and when&amp;amp;amp;amp;quot; delivery problem under strict system resource constraints. Existing solutions typically fall into two passive paradigms: pre-planned frequency methods that allocate delivery times via offline modeling,...</description>
   </item>
   <item>
     <title>Deep Agentic Search for Repository-Level Code Question Answering: An Empirical Study</title>
@@ -237,7 +244,7 @@ In this work, we ad...</description>
     <link>https://arxiv.org/abs/2608.01597</link>
     <guid isPermaLink="false">2608.01597</guid>
     <pubDate>Mon, 03 Aug 2026 02:06:29 GMT</pubDate>
-    <description>Search-augmented LM agents are typically trained with a binary exact-match reward, which throws away most of what a failed trajectory tells us about why it failed. We introduce HindSearch, a hindsight self-distillation procedure for GRPO: after each rollout, a frozen judge writes a short critique of every failed trajectory using the gold answer, and the critique supplies an auxiliary on-policy distillation signal on the student&amp;amp;amp;apos;s search actions. On the standard seven-benchmark suite with Qwen2.5...</description>
+    <description>Search-augmented LM agents are typically trained with a binary exact-match reward, which throws away most of what a failed trajectory tells us about why it failed. We introduce HindSearch, a hindsight self-distillation procedure for GRPO: after each rollout, a frozen judge writes a short critique of every failed trajectory using the gold answer, and the critique supplies an auxiliary on-policy distillation signal on the student&amp;amp;amp;amp;apos;s search actions. On the standard seven-benchmark suite with Qwen2.5...</description>
   </item>
   <item>
     <title>SmartGR: Hierarchy and Beam-Aware Knowledge Distillation for Generative Recommendation</title>
@@ -258,7 +265,7 @@ In this work, we ad...</description>
     <link>https://arxiv.org/abs/2608.00938</link>
     <guid isPermaLink="false">2608.00938</guid>
     <pubDate>Sun, 02 Aug 2026 02:30:38 GMT</pubDate>
-    <description>Productionizing generative recommenders for high-volume, real-time ads retrieval creates two serving challenges: eligibility, ensuring that each generated ad is eligible for the request under the advertiser&amp;amp;amp;apos;s audience targeting rules, and compute, which requires meeting strict latency and GPU cost requirements while remaining capable of generating thousands of ads per request with wide-beam decoding. This paper presents GRACE, a serving system for ads generative retrieval that addresses both cha...</description>
+    <description>Productionizing generative recommenders for high-volume, real-time ads retrieval creates two serving challenges: eligibility, ensuring that each generated ad is eligible for the request under the advertiser&amp;amp;amp;amp;apos;s audience targeting rules, and compute, which requires meeting strict latency and GPU cost requirements while remaining capable of generating thousands of ads per request with wide-beam decoding. This paper presents GRACE, a serving system for ads generative retrieval that addresses both cha...</description>
   </item>
   <item>
     <title>V-Mem: Modality-Routed Retrieval for Long-Term Multimodal Agentic Memory</title>
@@ -328,7 +335,7 @@ In this work, we ad...</description>
     <link>https://arxiv.org/abs/2608.02376</link>
     <guid isPermaLink="false">2608.02376</guid>
     <pubDate>Mon, 03 Aug 2026 15:20:36 GMT</pubDate>
-    <description>Search and database engines still store text as UTF-8, a format built for humans. But the systems that increasingly read and write that text (embedders, rerankers, and language-model agents) work in token IDs, not characters, so every access pays to translate between the two. As agents become the primary readers and writers of stored text, we argue for token-native storage: keep the text as the model&amp;amp;amp;apos;s own byte-pair-encoding (BPE) token IDs. This is both smaller and faster. Packing r50k IDs as u...</description>
+    <description>Search and database engines still store text as UTF-8, a format built for humans. But the systems that increasingly read and write that text (embedders, rerankers, and language-model agents) work in token IDs, not characters, so every access pays to translate between the two. As agents become the primary readers and writers of stored text, we argue for token-native storage: keep the text as the model&amp;amp;amp;amp;apos;s own byte-pair-encoding (BPE) token IDs. This is both smaller and faster. Packing r50k IDs as u...</description>
   </item>
   <item>
     <title>Disentangled Contrastive Learning for Zero-Shot Multilingual Dense Retrieval</title>
@@ -356,7 +363,7 @@ In this work, we ad...</description>
     <link>https://arxiv.org/abs/2608.02004</link>
     <guid isPermaLink="false">2608.02004</guid>
     <pubDate>Mon, 03 Aug 2026 10:05:26 GMT</pubDate>
-    <description>Scientific impact is multidimensional: overall influence, current popularity, early citation momentum, and field-relative performance each capture a distinct facet of a publication&amp;amp;amp;apos;s impact. Yet, in practice, these dimensions are often reduced to a single metric, such as citation count. Open solutions for computing multiple complementary impact indicators at scale remain scarce, particularly for citation graphs as large as those provided by major scholarly databases. We introduce BIP! Ranker, an...</description>
+    <description>Scientific impact is multidimensional: overall influence, current popularity, early citation momentum, and field-relative performance each capture a distinct facet of a publication&amp;amp;amp;amp;apos;s impact. Yet, in practice, these dimensions are often reduced to a single metric, such as citation count. Open solutions for computing multiple complementary impact indicators at scale remain scarce, particularly for citation graphs as large as those provided by major scholarly databases. We introduce BIP! Ranker, an...</description>
   </item>
   <item>
     <title>Diagnosing Search Behavior and Failure Modes in Long-Horizon Search Agents</title>
@@ -384,14 +391,14 @@ In this work, we ad...</description>
     <link>https://arxiv.org/abs/2608.01738</link>
     <guid isPermaLink="false">2608.01738</guid>
     <pubDate>Mon, 03 Aug 2026 06:03:58 GMT</pubDate>
-    <description>Query reformulation bridges user intent and retrieval in e-commerce search, yet production systems optimize rewrite quality and retrieval effectiveness separately, leaving the two stages structurally misaligned. Path-based architectures unify them end-to-end but were designed for personalization, where relevance is not an explicit constraint-search additionally requires the rewrite to remain faithful to the user&amp;amp;amp;apos;s stated query intent. Transplanted directly, these models learn a shortcut we term ...</description>
+    <description>Query reformulation bridges user intent and retrieval in e-commerce search, yet production systems optimize rewrite quality and retrieval effectiveness separately, leaving the two stages structurally misaligned. Path-based architectures unify them end-to-end but were designed for personalization, where relevance is not an explicit constraint-search additionally requires the rewrite to remain faithful to the user&amp;amp;amp;amp;apos;s stated query intent. Transplanted directly, these models learn a shortcut we term ...</description>
   </item>
   <item>
     <title>X-KGRank: A Knowledge Graph RAG Framework for Explainable Recommendations via Pattern Mining and LLM Re-Ranking</title>
     <link>https://arxiv.org/abs/2608.01732</link>
     <guid isPermaLink="false">2608.01732</guid>
     <pubDate>Mon, 03 Aug 2026 05:56:40 GMT</pubDate>
-    <description>Modern recommender systems produce predictions that users cannot interrogate. The two dominant improvements, collaborative filtering and LLM-based reasoning, each fall short: collaborative filtering captures behavioural signals but offers no reasoning, while large language models (LLMs) generate fluent explanations but hallucinate and are poorly grounded in a user&amp;amp;amp;apos;s history. We present X-KGRank, a knowledge graph retrieval augmented framework that unifies structural collaborative filtering with ...</description>
+    <description>Modern recommender systems produce predictions that users cannot interrogate. The two dominant improvements, collaborative filtering and LLM-based reasoning, each fall short: collaborative filtering captures behavioural signals but offers no reasoning, while large language models (LLMs) generate fluent explanations but hallucinate and are poorly grounded in a user&amp;amp;amp;amp;apos;s history. We present X-KGRank, a knowledge graph retrieval augmented framework that unifies structural collaborative filtering with ...</description>
   </item>
   <item>
     <title>MODE: Mutual Optimality in Direct Effects of Reciprocal Recommendations in Matching Markets</title>
@@ -433,7 +440,7 @@ In this work, we ad...</description>
     <link>https://arxiv.org/abs/2608.01173</link>
     <guid isPermaLink="false">2608.01173</guid>
     <pubDate>Sun, 02 Aug 2026 11:52:29 GMT</pubDate>
-    <description>Joins are second-class citizens in search engines: existing query-time join implementations in Lucene are limited either in performance or in capability, forcing a choice between fast joins scoped to a single index and slower joins that span independently managed indices. We carry Valduriez&amp;amp;amp;apos;s join-index technique from relational systems to Lucene&amp;amp;amp;apos;s flush-based (LSM-style) segment storage: for every pair of a parent and a child segment we materialize an append-only, ordinal-to-ordinal join-index ...</description>
+    <description>Joins are second-class citizens in search engines: existing query-time join implementations in Lucene are limited either in performance or in capability, forcing a choice between fast joins scoped to a single index and slower joins that span independently managed indices. We carry Valduriez&amp;amp;amp;amp;apos;s join-index technique from relational systems to Lucene&amp;amp;amp;amp;apos;s flush-based (LSM-style) segment storage: for every pair of a parent and a child segment we materialize an append-only, ordinal-to-ordinal join-index ...</description>
   </item>
   <item>
     <title>UniHEAR: Unified Heterogeneous-Source Attentive Retrieval for Knowledge-Based Visual Question Answering</title>
@@ -539,7 +546,7 @@ Hierarchical BM25 gives up exact ranking in exchange for fixed bounds on memory 
     <link>https://arxiv.org/abs/2607.29104</link>
     <guid isPermaLink="false">2607.29104</guid>
     <pubDate>Fri, 31 Jul 2026 07:33:34 GMT</pubDate>
-    <description>Long-term conversational agents require access to information from earlier interactions, such as a user&amp;amp;amp;amp;apos;s preferences, past requests, or previously mentioned facts. Repeatedly providing the full dialogue history can be expensive as conversations grow, so many memory approaches instead transform past interactions into compact entries that can be retrieved when needed. LightMem is a recent lightweight memory-management approach that reports strong effectiveness while maintaining relatively low con...</description>
+    <description>Long-term conversational agents require access to information from earlier interactions, such as a user&amp;amp;amp;amp;amp;apos;s preferences, past requests, or previously mentioned facts. Repeatedly providing the full dialogue history can be expensive as conversations grow, so many memory approaches instead transform past interactions into compact entries that can be retrieved when needed. LightMem is a recent lightweight memory-management approach that reports strong effectiveness while maintaining relatively low con...</description>
   </item>
   <item>
     <title>QASP: Query-Adaptive Robust Vector Search Policy</title>
@@ -574,7 +581,7 @@ Hierarchical BM25 gives up exact ranking in exchange for fixed bounds on memory 
     <link>https://arxiv.org/abs/2607.29274</link>
     <guid isPermaLink="false">2607.29274</guid>
     <pubDate>Fri, 31 Jul 2026 10:44:10 GMT</pubDate>
-    <description>Claims that language models homogenise are usually measured against human judgements collected for the study, which makes the human side an artifact of the design: a crowdworker given the model&amp;amp;amp;amp;apos;s instruction is running the model&amp;amp;amp;amp;apos;s prompt. We measure convergence against a human reference nobody built for the purpose -- 2,523 reader mark sets across 120 web documents, produced by people highlighting for their own reasons on a platform where the overlay of others&amp;amp;amp;amp;apos; marks is off by default.
+    <description>Claims that language models homogenise are usually measured against human judgements collected for the study, which makes the human side an artifact of the design: a crowdworker given the model&amp;amp;amp;amp;amp;apos;s instruction is running the model&amp;amp;amp;amp;amp;apos;s prompt. We measure convergence against a human reference nobody built for the purpose -- 2,523 reader mark sets across 120 web documents, produced by people highlighting for their own reasons on a platform where the overlay of others&amp;amp;amp;amp;amp;apos; marks is off by default.
 Agreement...</description>
   </item>
   <item>
@@ -596,7 +603,7 @@ Agreement...</description>
     <link>https://arxiv.org/abs/2607.28685</link>
     <guid isPermaLink="false">2607.28685</guid>
     <pubDate>Thu, 30 Jul 2026 03:45:10 GMT</pubDate>
-    <description>Agent-safety benchmarks measure different behaviors, and their scores get quoted interchangeably as an agent&amp;amp;amp;amp;apos;s safety. We treat four of them (R-Judge, InjecAgent, AgentHarm, AgentDojo) as measurements to be validated, running each under its official implementation and author-provided scorer on up to 22 models, with MMLU and GPQA measured by us under one protocol as a capability composite. The metric is the first problem. On any binary trace-judgment benchmark scored by $F_1$, an ``always positiv...</description>
+    <description>Agent-safety benchmarks measure different behaviors, and their scores get quoted interchangeably as an agent&amp;amp;amp;amp;amp;apos;s safety. We treat four of them (R-Judge, InjecAgent, AgentHarm, AgentDojo) as measurements to be validated, running each under its official implementation and author-provided scorer on up to 22 models, with MMLU and GPQA measured by us under one protocol as a capability composite. The metric is the first problem. On any binary trace-judgment benchmark scored by $F_1$, an ``always positiv...</description>
   </item>
   <item>
     <title>EvoReason: Self-Evolving Reasoning Primitive-Guided On-Policy Distillation for Latent Reasoning in Generative Recommendation</title>
@@ -631,7 +638,7 @@ Agreement...</description>
     <link>https://arxiv.org/abs/2607.24817</link>
     <guid isPermaLink="false">2607.24817</guid>
     <pubDate>Fri, 17 Jul 2026 06:32:12 GMT</pubDate>
-    <description>Digital mental health interventions (DMHIs) offer scalable support, but ensuring they accurately detect users&amp;amp;amp;amp;amp;amp;apos; intent during volatile situations can be challenging. Pure parametric Large Language models (LLMs) do not contain specific safety critical architecture, and can miss critical cues, or hallucinate, undermining reliability. Retrieval Augmented Generation (RAG), which supplements an LLM with retrieved context, could enhance intent detection during volatile situations. Commercially availabl...</description>
+    <description>Digital mental health interventions (DMHIs) offer scalable support, but ensuring they accurately detect users&amp;amp;amp;amp;amp;amp;amp;apos; intent during volatile situations can be challenging. Pure parametric Large Language models (LLMs) do not contain specific safety critical architecture, and can miss critical cues, or hallucinate, undermining reliability. Retrieval Augmented Generation (RAG), which supplements an LLM with retrieved context, could enhance intent detection during volatile situations. Commercially availabl...</description>
   </item>
   <item>
     <title>Hierarchical Latent Reasoning for LLM-based Recommendation</title>
@@ -673,7 +680,7 @@ Agreement...</description>
     <link>https://arxiv.org/abs/2607.27789</link>
     <guid isPermaLink="false">2607.27789</guid>
     <pubDate>Thu, 30 Jul 2026 07:23:07 GMT</pubDate>
-    <description>Semantic-ID-based generative recommenders enable efficient next-item generation, but their item-level supervision mainly captures behavioral co-occurrence and local transitions. Large language models (LLMs) can complement these models by reasoning over heterogeneous interaction histories to understand the user&amp;amp;amp;amp;amp;amp;amp;apos;s current demand. However, LLMs are not inherently trained with recommendation-specific outcome feedback, and linguistically plausible reasoning therefore does not necessarily lead to effe...</description>
+    <description>Semantic-ID-based generative recommenders enable efficient next-item generation, but their item-level supervision mainly captures behavioral co-occurrence and local transitions. Large language models (LLMs) can complement these models by reasoning over heterogeneous interaction histories to understand the user&amp;amp;amp;amp;amp;amp;amp;amp;apos;s current demand. However, LLMs are not inherently trained with recommendation-specific outcome feedback, and linguistically plausible reasoning therefore does not necessarily lead to effe...</description>
   </item>
   <item>
     <title>AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis</title>
@@ -687,7 +694,7 @@ Agreement...</description>
     <link>https://arxiv.org/abs/2607.28571</link>
     <guid isPermaLink="false">2607.28571</guid>
     <pubDate>Thu, 30 Jul 2026 17:35:06 GMT</pubDate>
-    <description>Operational Earth observation increasingly calls for answering queries such as ``find the image pairs where a new building appeared.&amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;apos; This means searching an archive of before-and-after (bi-temporal) satellite image pairs and ranking each pair by how well it matches a natural-language description of the change. The component that performs this match, the fusion module that combines the ``before&amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;apos; and ``after&amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;apos; views, must be run at query time across many candidate pairs, so its speed largely se...</description>
+    <description>Operational Earth observation increasingly calls for answering queries such as ``find the image pairs where a new building appeared.&amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;apos; This means searching an archive of before-and-after (bi-temporal) satellite image pairs and ranking each pair by how well it matches a natural-language description of the change. The component that performs this match, the fusion module that combines the ``before&amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;apos; and ``after&amp;amp;amp;amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;amp;amp;amp;apos; views, must be run at query time across many candidate pairs, so its speed largely se...</description>
   </item>
   <item>
     <title>LoopMemGR: From Behavior Logs to Evolving Memory for Generative Recommendation</title>
@@ -702,13 +709,6 @@ Agreement...</description>
     <guid isPermaLink="false">2607.27640</guid>
     <pubDate>Thu, 30 Jul 2026 03:50:40 GMT</pubDate>
     <description>Approximate Nearest Neighbor Search (ANNS) represents a fundamental problem in various applications (image-search, recommendation systems). While graph-based algorithms have demonstrated a good balance between search accuracy and time, handling dynamic datasets, where data points are continuously added or removed, remains a challenge. This paper introduces the Dynamic Exploration Graph (DEG), an extension of the continuous refining Exploration Graph, which retains high search efficiency for stat...</description>
-  </item>
-  <item>
-    <title>An Exploration Graph with Continuous Refinement for Efficient Multimedia Retrieval</title>
-    <link>https://arxiv.org/abs/2607.27623</link>
-    <guid isPermaLink="false">2607.27623</guid>
-    <pubDate>Thu, 30 Jul 2026 03:22:17 GMT</pubDate>
-    <description>As datasets and the dimensionality of feature vectors continue to grow, Approximate Nearest Neighbor Search (ANNS) in large multimedia databases becomes increasingly relevant. Graph-based approaches have demonstrated to offer the best trade-off between retrieval precision and search time. Despite their ability to deliver search times several orders of magnitude faster than exact search techniques, existing methods suffer from slow constructions speeds or high memory requirements. This paper pres...</description>
   </item>
   </channel>
 </rss>
