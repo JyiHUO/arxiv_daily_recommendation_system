@@ -6,7 +6,21 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 02 Sep 2026 10:25:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 02:35:02 GMT</lastBuildDate>
+  <item>
+    <title>Training seeds and model-selection stability in recommender-system evaluation</title>
+    <link>https://arxiv.org/abs/2609.02499</link>
+    <guid isPermaLink="false">2609.02499</guid>
+    <pubDate>Wed, 02 Sep 2026 12:06:38 GMT</pubDate>
+    <description>Recommender-system experiments often rely on a single random training seed, assuming that run-to-run stochasticity has limited impact on evaluation conclusions. This assumption is risky, as a training seed may influence several algorithm-dependent mechanisms, including parameter initialization, mini-batch ordering, dropout, masking, latent sampling, and training-time negative sampling. We examine this assumption by fixing the data partition and varying the training seed across hyperparameter con...</description>
+  </item>
+  <item>
+    <title>ViSAR: Training-Free Adaptive-$k$ Retrieval for Visual Document Question Answering</title>
+    <link>https://arxiv.org/abs/2609.02486</link>
+    <guid isPermaLink="false">2609.02486</guid>
+    <pubDate>Wed, 02 Sep 2026 11:54:58 GMT</pubDate>
+    <description>Document Visual Question Answering (DocVQA) often leverages Retrieval-Augmented Generation (RAG), where late-interaction encoders are commonly used to identify document pages relevant to a user query, before answer generation by a Large Vision-Language Model (LVLM). Existing approaches typically retrieve a fixed top-$k$ number of pages regardless of query complexity, which increases LVLM latency and may degrade answer accuracy. We introduce ViSAR (Visual Semantic Activation Retrieval), a trainin...</description>
+  </item>
   <item>
     <title>From Language to Behavior: Scaling Sequence Transformers for Industrial Recommendation Ranking with Rec-Native Designs</title>
     <link>https://arxiv.org/abs/2609.01240</link>
@@ -68,7 +82,7 @@
     <link>https://arxiv.org/abs/2609.00913</link>
     <guid isPermaLink="false">2609.00913</guid>
     <pubDate>Tue, 01 Sep 2026 08:41:58 GMT</pubDate>
-    <description>Interactions with cold items negatively impact real-time personalization of ID-based recommender systems. This is because the use of such interactions degrades user preference estimates, whereas excluding cold items from the user profile prevents real-time recommendation updates. In industrial scenarios, one heuristic often applied to address this shortcoming at inference time is to replace, i.e., &quot;swap&quot;, cold-start items by their most similar &quot;warm&quot; neighbor, where similarity is inferred from t...</description>
+    <description>Interactions with cold items negatively impact real-time personalization of ID-based recommender systems. This is because the use of such interactions degrades user preference estimates, whereas excluding cold items from the user profile prevents real-time recommendation updates. In industrial scenarios, one heuristic often applied to address this shortcoming at inference time is to replace, i.e., &amp;quot;swap&amp;quot;, cold-start items by their most similar &amp;quot;warm&amp;quot; neighbor, where similarity is inferred from t...</description>
   </item>
   <item>
     <title>Staged Linguistic Seeding: Grounded Query Expansion for Verified-Unit QA in AI Contact Centers</title>
@@ -117,7 +131,7 @@
     <link>https://arxiv.org/abs/2609.00364</link>
     <guid isPermaLink="false">2609.00364</guid>
     <pubDate>Mon, 31 Aug 2026 20:58:38 GMT</pubDate>
-    <description>Embedding models are trained and evaluated as if retrieval were exact; in production they serve behind approximate indexes -- HNSW, IVF, product quantization, or the fixed-dimensional encodings (FDEs) of late-interaction models -- whose behavior the encoder&apos;s benchmarks never see: one modern encoder recovers just 14% of its exact top-10 through its raw FDE index. Such failures surface only after an index is built, and the standard patches -- corpus-fitted transforms such as whitening -- must be ...</description>
+    <description>Embedding models are trained and evaluated as if retrieval were exact; in production they serve behind approximate indexes -- HNSW, IVF, product quantization, or the fixed-dimensional encodings (FDEs) of late-interaction models -- whose behavior the encoder&amp;apos;s benchmarks never see: one modern encoder recovers just 14% of its exact top-10 through its raw FDE index. Such failures surface only after an index is built, and the standard patches -- corpus-fitted transforms such as whitening -- must be ...</description>
   </item>
   <item>
     <title>Sources of Truth: A Multi-Platform, Multilingual Audit of Citations in AI Mental Health Information Queries</title>
@@ -271,7 +285,7 @@
     <link>https://arxiv.org/abs/2608.30333</link>
     <guid isPermaLink="false">2608.30333</guid>
     <pubDate>Mon, 31 Aug 2026 06:48:32 GMT</pubDate>
-    <description>Next-basket repurchase recommendation is commonly formulated as a ranking task: given a customer&amp;amp;apos;s purchase history, the system ranks previously purchased items that may be needed again. In production settings, however, ranking accuracy is only one component of recommendation quality. Customers may also benefit from concise evidence about why an item is recommended now. Large language models (LLMs) offer a potential way to surface such evidence through feature-based, human-readable rationales gr...</description>
+    <description>Next-basket repurchase recommendation is commonly formulated as a ranking task: given a customer&amp;amp;amp;apos;s purchase history, the system ranks previously purchased items that may be needed again. In production settings, however, ranking accuracy is only one component of recommendation quality. Customers may also benefit from concise evidence about why an item is recommended now. Large language models (LLMs) offer a potential way to surface such evidence through feature-based, human-readable rationales gr...</description>
   </item>
   <item>
     <title>Understanding before verifying: Claim normalization for automated citation verification</title>
@@ -299,7 +313,7 @@
     <link>https://arxiv.org/abs/2608.30251</link>
     <guid isPermaLink="false">2608.30251</guid>
     <pubDate>Mon, 31 Aug 2026 05:02:02 GMT</pubDate>
-    <description>Embedding-based retrieval is at the core of industrial recommender systems, but a single user embedding is often too limited to capture a user&amp;amp;amp;apos;s diverse interests. Multi-interest retrieval addresses this by using multiple user embeddings, yet existing methods still suffer from two issues: interest collapse, where different embeddings learn the same interest, and static dispatch, where serving uses a fixed retrieval budget even when some embeddings are unnecessary. We propose SetMIR, which treats...</description>
+    <description>Embedding-based retrieval is at the core of industrial recommender systems, but a single user embedding is often too limited to capture a user&amp;amp;amp;amp;apos;s diverse interests. Multi-interest retrieval addresses this by using multiple user embeddings, yet existing methods still suffer from two issues: interest collapse, where different embeddings learn the same interest, and static dispatch, where serving uses a fixed retrieval budget even when some embeddings are unnecessary. We propose SetMIR, which treats...</description>
   </item>
   <item>
     <title>Doc-REFRAG: Rethinking Multimodal Document Retrieval-Augmented Generation</title>
@@ -320,7 +334,7 @@
     <link>https://arxiv.org/abs/2608.30052</link>
     <guid isPermaLink="false">2608.30052</guid>
     <pubDate>Sun, 30 Aug 2026 21:25:17 GMT</pubDate>
-    <description>When a generative search interface answers a commercial question, which market&amp;amp;amp;apos;s products it names is decided before the model reasons about the products. We report a controlled probe of 234 runs against the logged-out ChatGPT web interface and the OpenAI API, collected on 29 and 30 August 2026 across four exit countries and six query languages, with six identical runs per cell. Three results. First, the top recommendation is unstable: it changed across six identical runs on four of six prompts,...</description>
+    <description>When a generative search interface answers a commercial question, which market&amp;amp;amp;amp;apos;s products it names is decided before the model reasons about the products. We report a controlled probe of 234 runs against the logged-out ChatGPT web interface and the OpenAI API, collected on 29 and 30 August 2026 across four exit countries and six query languages, with six identical runs per cell. Three results. First, the top recommendation is unstable: it changed across six identical runs on four of six prompts,...</description>
   </item>
   <item>
     <title>Demand-Side Measurement for Generative Engine Optimization: Constructing and Validating a Million-Persona, Intent-Annotated Buyer Corpus</title>
@@ -334,7 +348,7 @@
     <link>https://arxiv.org/abs/2608.29951</link>
     <guid isPermaLink="false">2608.29951</guid>
     <pubDate>Sun, 30 Aug 2026 18:27:06 GMT</pubDate>
-    <description>Multi-modal late-interaction retrievers achieve strong retrieval on visually rich documents by representing each page as per patch embeddings and matching at the token level. However, this approach incurs high storage costs. Existing compression methods typically fix a single compression level at indexing time, limiting flexibility. We present ColSNAP (Spatial Nested Average Pooling)1, a training method that generates a nested hierarchy of compression levels directly from a backbone&amp;amp;amp;apos;s patch grid...</description>
+    <description>Multi-modal late-interaction retrievers achieve strong retrieval on visually rich documents by representing each page as per patch embeddings and matching at the token level. However, this approach incurs high storage costs. Existing compression methods typically fix a single compression level at indexing time, limiting flexibility. We present ColSNAP (Spatial Nested Average Pooling)1, a training method that generates a nested hierarchy of compression levels directly from a backbone&amp;amp;amp;amp;apos;s patch grid...</description>
   </item>
   <item>
     <title>REIGN: Refurbished Embeddings with Integrated Guidance Networks for Efficient Context-Length Scaling</title>
@@ -348,7 +362,7 @@
     <link>https://arxiv.org/abs/2608.29834</link>
     <guid isPermaLink="false">2608.29834</guid>
     <pubDate>Sun, 30 Aug 2026 15:06:51 GMT</pubDate>
-    <description>Collaborative conversations frequently contain references whose targets are indirect rather than named: resolving &amp;amp;amp;quot;this looks like the fix discussed yesterday&amp;amp;amp;quot; requires combining conversational context with evidence from the surrounding workspace which is accessible through APIs or user interfaces. We formalize this problem as Conversational Reference Grounding (CoRG): using a given set of tools to resolve a reference in conversation to the unique external item intended by the speaker. CoRG is c...</description>
+    <description>Collaborative conversations frequently contain references whose targets are indirect rather than named: resolving &amp;amp;amp;amp;quot;this looks like the fix discussed yesterday&amp;amp;amp;amp;quot; requires combining conversational context with evidence from the surrounding workspace which is accessible through APIs or user interfaces. We formalize this problem as Conversational Reference Grounding (CoRG): using a given set of tools to resolve a reference in conversation to the unique external item intended by the speaker. CoRG is c...</description>
   </item>
   <item>
     <title>ICEGR: An Intent-Coherent End-to-End Generative Retrieval Framework for E-commerce Search</title>
@@ -523,7 +537,7 @@
     <link>https://arxiv.org/abs/2608.28359</link>
     <guid isPermaLink="false">2608.28359</guid>
     <pubDate>Fri, 28 Aug 2026 14:10:18 GMT</pubDate>
-    <description>As digital publishers face the challenge of managing massive content catalogs, the ability to effectively embed relevant video within text-based articles has become critical for both monetization and user retention. However, manual selection is impractical for large scale publishers, especially when navigating their own extensive video libraries or the entire global Dailymotion catalog. In this paper, we present the &amp;amp;amp;amp;quot;Contextual Video Matching&amp;amp;amp;amp;quot; system, a solution that automatically matches releva...</description>
+    <description>As digital publishers face the challenge of managing massive content catalogs, the ability to effectively embed relevant video within text-based articles has become critical for both monetization and user retention. However, manual selection is impractical for large scale publishers, especially when navigating their own extensive video libraries or the entire global Dailymotion catalog. In this paper, we present the &amp;amp;amp;amp;amp;quot;Contextual Video Matching&amp;amp;amp;amp;amp;quot; system, a solution that automatically matches releva...</description>
   </item>
   <item>
     <title>Nested Byte-Level Vocabularies Are Cheap to Deploy and Expensive to Share: A Pre-Registered Negative Result</title>
@@ -566,14 +580,14 @@ We introduce iter, an agent interaction-aware dense retriever t...</description>
     <link>https://arxiv.org/abs/2608.27826</link>
     <guid isPermaLink="false">2608.27826</guid>
     <pubDate>Fri, 28 Aug 2026 01:48:50 GMT</pubDate>
-    <description>Federated recommendation (FedRec) enables personalized modeling without centralizing users&amp;amp;amp;amp;apos; interaction histories, but most existing methods assume a fixed item pool and thus overlook the practical cold-item setting where new items continuously arrive. Under the dual-sided constraint, where the server cannot access clients&amp;amp;amp;amp;apos; interactions while clients cannot access the server&amp;amp;amp;amp;apos;s proprietary item attribute features, prior federated cold-start recommendation approaches suffer from three structural l...</description>
+    <description>Federated recommendation (FedRec) enables personalized modeling without centralizing users&amp;amp;amp;amp;amp;apos; interaction histories, but most existing methods assume a fixed item pool and thus overlook the practical cold-item setting where new items continuously arrive. Under the dual-sided constraint, where the server cannot access clients&amp;amp;amp;amp;amp;apos; interactions while clients cannot access the server&amp;amp;amp;amp;amp;apos;s proprietary item attribute features, prior federated cold-start recommendation approaches suffer from three structural l...</description>
   </item>
   <item>
     <title>LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval</title>
     <link>https://arxiv.org/abs/2608.27809</link>
     <guid isPermaLink="false">2608.27809</guid>
     <pubDate>Fri, 28 Aug 2026 00:52:11 GMT</pubDate>
-    <description>As an initial step toward personal memory retrieval-augmented generation (RAG) for large language models (LLMs), this study presents a retrieval-only case study over one user&amp;amp;amp;amp;apos;s LINE conversation history. We segmented 358,896 messages into 22,329 temporally coherent chunks and constructed three search representations: raw_text, a generated summary, and embedding_text, which combines a summary with a raw-text excerpt and other fixed text. We compared BM25, dense vector retrieval, and linear hybrid...</description>
+    <description>As an initial step toward personal memory retrieval-augmented generation (RAG) for large language models (LLMs), this study presents a retrieval-only case study over one user&amp;amp;amp;amp;amp;apos;s LINE conversation history. We segmented 358,896 messages into 22,329 temporally coherent chunks and constructed three search representations: raw_text, a generated summary, and embedding_text, which combines a summary with a raw-text excerpt and other fixed text. We compared BM25, dense vector retrieval, and linear hybrid...</description>
   </item>
   <item>
     <title>NormasTCU --- A Brazilian Portuguese IR Dataset and an Evaluation of LLM-as-a-Judge for Relevance Assessment</title>
@@ -657,21 +671,21 @@ We introduce iter, an agent interaction-aware dense retriever t...</description>
     <link>https://arxiv.org/abs/2608.27391</link>
     <guid isPermaLink="false">2608.27391</guid>
     <pubDate>Thu, 27 Aug 2026 17:23:04 GMT</pubDate>
-    <description>LLMs are increasingly able to answer complex questions about enterprise-scale document collections. But evaluation is hard: companies don&amp;amp;amp;amp;amp;apos;t want to share internal communications, and synthetic datasets have been overly simple. We present CorporateBench (CB), a human-validated multi-task Q&amp;amp;amp;amp;amp;amp;amp;A benchmark whose scale approaches the conditions LLMs encounter in corporate communication networks, with evaluation corpora surpassing 230,000 documents. CB evaluates LLMs across two dimensions (informati...</description>
+    <description>LLMs are increasingly able to answer complex questions about enterprise-scale document collections. But evaluation is hard: companies don&amp;amp;amp;amp;amp;amp;apos;t want to share internal communications, and synthetic datasets have been overly simple. We present CorporateBench (CB), a human-validated multi-task Q&amp;amp;amp;amp;amp;amp;amp;amp;A benchmark whose scale approaches the conditions LLMs encounter in corporate communication networks, with evaluation corpora surpassing 230,000 documents. CB evaluates LLMs across two dimensions (informati...</description>
   </item>
   <item>
     <title>hoBIT: A Profile-Aware Retrieval-Augmented Chatbot for University Academic Advising</title>
     <link>https://arxiv.org/abs/2608.26604</link>
     <guid isPermaLink="false">2608.26604</guid>
     <pubDate>Thu, 27 Aug 2026 04:40:58 GMT</pubDate>
-    <description>In university academic advising, identical questions can require different answers depending on a student&amp;amp;amp;amp;amp;apos;s department, admission cohort, and degree program, causing profile-blind retrievers to surface plausible but inapplicable evidence. We present proFILL, a method for transforming hoBIT, our college&amp;amp;amp;amp;amp;apos;s current rule-based advising chatbot, into a profile-aware retrieval-augmented generation (RAG) system. Rather than requiring a complete user profile upfront, proFILL progressively acquires only ...</description>
+    <description>In university academic advising, identical questions can require different answers depending on a student&amp;amp;amp;amp;amp;amp;apos;s department, admission cohort, and degree program, causing profile-blind retrievers to surface plausible but inapplicable evidence. We present proFILL, a method for transforming hoBIT, our college&amp;amp;amp;amp;amp;amp;apos;s current rule-based advising chatbot, into a profile-aware retrieval-augmented generation (RAG) system. Rather than requiring a complete user profile upfront, proFILL progressively acquires only ...</description>
   </item>
   <item>
     <title>BLANC: Discovering Patent White Space via Changes in Normalized Pointwise Mutual Information Between Multi-View Clusters</title>
     <link>https://arxiv.org/abs/2608.26685</link>
     <guid isPermaLink="false">2608.26685</guid>
     <pubDate>Thu, 27 Aug 2026 06:43:27 GMT</pubDate>
-    <description>Identifying white space --- the unexplored but potentially valuable regions of a patent landscape --- is essential for strategic R&amp;amp;amp;amp;amp;amp;amp;D planning, yet existing methods rely on manual patent mapping or apply single-view clustering without quantitative gap detection. We propose BLANC (Blank Landscape Analysis through NPMI Conditioning), a three-phase pipeline combining (1) multi-view neural topic modeling along three semantic dimensions (application/use, novelty, inventive step); (2) Normalized Po...</description>
+    <description>Identifying white space --- the unexplored but potentially valuable regions of a patent landscape --- is essential for strategic R&amp;amp;amp;amp;amp;amp;amp;amp;D planning, yet existing methods rely on manual patent mapping or apply single-view clustering without quantitative gap detection. We propose BLANC (Blank Landscape Analysis through NPMI Conditioning), a three-phase pipeline combining (1) multi-view neural topic modeling along three semantic dimensions (application/use, novelty, inventive step); (2) Normalized Po...</description>
   </item>
   <item>
     <title>Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval</title>
@@ -693,22 +707,6 @@ We introduce iter, an agent interaction-aware dense retriever t...</description>
     <guid isPermaLink="false">2608.27413</guid>
     <pubDate>Thu, 27 Aug 2026 17:41:33 GMT</pubDate>
     <description>Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production-scale social graph with hundreds of millions of users and tens of billions of edges requires addressing numerous modeling and systems challenges. We present a scalable end-to-end GNN ranking system for production social graphs, focusing on two design choices that are critical in...</description>
-  </item>
-  <item>
-    <title>PailitaoGR: Latent Think-with-Images for Generative Image Retrieval</title>
-    <link>https://arxiv.org/abs/2608.26658</link>
-    <guid isPermaLink="false">2608.26658</guid>
-    <pubDate>Thu, 27 Aug 2026 06:12:32 GMT</pubDate>
-    <description>Generative retrieval has demonstrated strong performance by directly generating product semantic identifiers (SIDs).
-Extending this paradigm to image search, however, is nontrivial because real-world query images contain diverse information, including the search target, useful auxiliary evidence, and irrelevant visual content.
-This requires the model to identify and focus on the search target while selectively utilizing auxiliary evidence. In this paper, we propose \textbf{PailitaoGR}, a \emph{L...</description>
-  </item>
-  <item>
-    <title>misi: a Metric Inverted Sample Index</title>
-    <link>https://arxiv.org/abs/2608.27422</link>
-    <guid isPermaLink="false">2608.27422</guid>
-    <pubDate>Thu, 27 Aug 2026 17:48:22 GMT</pubDate>
-    <description>We present misi, an inverted index for approximate nearest-neighbor search over general metric spaces whose vocabulary is a random sample of the database, of size proportional to $n$. Each object is represented by its $k_b$ nearest sample points, found by a pluggable inner index over the sample; queries are answered by an idf-weighted shared-neighbor vote followed by exact verification of $C$ candidates. The construction generalizes the NAPP index from a constant number of pivots to a linear-siz...</description>
   </item>
   </channel>
 </rss>
