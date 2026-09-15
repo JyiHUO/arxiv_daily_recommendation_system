@@ -6,9 +6,44 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 15 Sep 2026 16:04:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 20:46:03 GMT</lastBuildDate>
   <item>
-    <title>Beyond Retrieval: Scaffolding Children&apos;s Online Learning</title>
+    <title>LazFormer: Scaling Transformers for Industrial Recommendation via Transferable Generative Pre-training</title>
+    <link>https://arxiv.org/abs/2609.14978</link>
+    <guid isPermaLink="false">2609.14978</guid>
+    <pubDate>Mon, 14 Sep 2026 03:31:59 GMT</pubDate>
+    <description>Transformers have shown promising performance in LLMs due to their outstanding scalability, several studies have investigated the scalability of Transformers for industrial recommendation. They typically rely on a single ranking model to optimize both sparse and dense parameters from scratch, resulting in substantial computational resource consumption and slow convergence. Fortunately, the pre-training models offer an effective solution to the above issues by providing favorable initialization o...</description>
+  </item>
+  <item>
+    <title>Speak to the City: Multimodal Resolution for Outside-the-Vehicle References</title>
+    <link>https://arxiv.org/abs/2609.14691</link>
+    <guid isPermaLink="false">2609.14691</guid>
+    <pubDate>Sun, 13 Sep 2026 17:48:22 GMT</pubDate>
+    <description>As autonomous vehicles and Extended Reality (XR) headsets enable novel in-car interactions, seamlessly querying physical landmarks, known as Outside-the-Vehicle Referencing (OVR), remains challenging due to ego-motion and referential ambiguity. We present a robust, multimodal OVR framework fusing user gaze and natural language to identify Points of Interest (POIs). To address the scarcity of dynamic vehicular data, we developed a VR-based pipeline synchronizing 360-degree transit videos with veh...</description>
+  </item>
+  <item>
+    <title>AlgoRAG: Retrieval-Augmented Generation for Theoretical Computer Science Education -- A Comprehensive Evaluation Framework for Algorithm Analysis and Complexity Theory</title>
+    <link>https://arxiv.org/abs/2609.14572</link>
+    <guid isPermaLink="false">2609.14572</guid>
+    <pubDate>Sun, 13 Sep 2026 14:58:56 GMT</pubDate>
+    <description>Teaching abstract theoretical computer science (TCS) concepts such as algorithm analysis and complexity theory is challenging because students must handle formal proofs and asymptotic reasoning that conventional resources rarely explain in an adaptive, on-demand way. We present AlgoRAG, a specialized Retrieval-Augmented Generation (RAG) system that couples a large language model (LLM) with a curated, domain-specific knowledge base to address these challenges. The knowledge base integrates author...</description>
+  </item>
+  <item>
+    <title>FedV-KGQA in Practice: Design Lessons and an Interactive Prototype</title>
+    <link>https://arxiv.org/abs/2609.13661</link>
+    <guid isPermaLink="false">2609.13661</guid>
+    <pubDate>Sat, 12 Sep 2026 02:39:19 GMT</pubDate>
+    <description>Knowledge graph question answering usually assumes that one system can reach the whole graph. In practice, facts are often held by organizations that share entity identifiers but own disjoint relation types, so no single party sees a complete reasoning chain. This poster presents the empirical findings of FedV-KGQA on multi-hop question answering over such vertically partitioned graphs. Each silo enriches its local graph and trains a knowledge graph embedding on its own triples. A server then co...</description>
+  </item>
+  <item>
+    <title>YOLO12-MambaScan: An Efficient Object Detector with High-Frequency Enhancement and State-Space Modeling</title>
+    <link>https://arxiv.org/abs/2609.13647</link>
+    <guid isPermaLink="false">2609.13647</guid>
+    <pubDate>Sat, 12 Sep 2026 01:58:35 GMT</pubDate>
+    <description>The rapid development of unmanned aerial vehicle (UAV) technology has made aerial-image object detection increasingly important for natural-resource monitoring, traffic management, and disaster response. Detecting small objects in aerial images remains difficult because objects occupy very few pixels, high-frequency cues are easily lost, and global context is hard to model in cluttered scenes. Existing detectors often retain insufficient edge, corner, and texture information. We propose \ours, a...</description>
+  </item>
+  <item>
+    <title>Beyond Retrieval: Scaffolding Children&amp;apos;s Online Learning</title>
     <link>https://arxiv.org/abs/2609.15568</link>
     <guid isPermaLink="false">2609.15568</guid>
     <pubDate>Mon, 14 Sep 2026 13:46:02 GMT</pubDate>
@@ -104,7 +139,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.14985</link>
     <guid isPermaLink="false">2609.14985</guid>
     <pubDate>Mon, 14 Sep 2026 03:44:40 GMT</pubDate>
-    <description>We show how users can create and manipulate causal virtual worlds with large-language-model (LLM) and large-video-model agents. The approach uses feedback fuzzy cognitive maps (FCMs) both to model the granular causal structure of the virtual world and to guide its causal evolution. The local causal rules are partial or fuzzy while the FCM&amp;apos;s feedback structure produces global equilibria that define causal scenarios. A sequence of \emph{dynamical} meta-rules of the form ``If $\mathcal{A}$ then $\m...</description>
+    <description>We show how users can create and manipulate causal virtual worlds with large-language-model (LLM) and large-video-model agents. The approach uses feedback fuzzy cognitive maps (FCMs) both to model the granular causal structure of the virtual world and to guide its causal evolution. The local causal rules are partial or fuzzy while the FCM&amp;amp;apos;s feedback structure produces global equilibria that define causal scenarios. A sequence of \emph{dynamical} meta-rules of the form ``If $\mathcal{A}$ then $\m...</description>
   </item>
   <item>
     <title>VARG: Value-Aware and Ranking-Aligned Generative Retrieval for Dynamic E-commerce Search</title>
@@ -118,7 +153,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.14885</link>
     <guid isPermaLink="false">2609.14885</guid>
     <pubDate>Mon, 14 Sep 2026 01:06:41 GMT</pubDate>
-    <description>LLM-based query reformulation can improve retrieval, but no single reformulation strategy is consistently optimal across queries, domains, retrievers, or model backbones. This creates an inference-time decision problem: ``Given an original query and a pool of candidate reformulations, which one should be issued to the retriever?&amp;apos;&amp;apos;. Existing studies are hard to compare because they use different reformulator pools, retrievers, relevance signals, training labels, and evaluation metrics. We introdu...</description>
+    <description>LLM-based query reformulation can improve retrieval, but no single reformulation strategy is consistently optimal across queries, domains, retrievers, or model backbones. This creates an inference-time decision problem: ``Given an original query and a pool of candidate reformulations, which one should be issued to the retriever?&amp;amp;apos;&amp;amp;apos;. Existing studies are hard to compare because they use different reformulator pools, retrievers, relevance signals, training labels, and evaluation metrics. We introdu...</description>
   </item>
   <item>
     <title>Beyond Benchmark Scores: How Synthetic and Authentic Query Distributions Diverge in RAG Evaluation</title>
@@ -139,7 +174,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.14412</link>
     <guid isPermaLink="false">2609.14412</guid>
     <pubDate>Sun, 13 Sep 2026 10:21:07 GMT</pubDate>
-    <description>Deep research agents answer complex questions through iterative loops of searching, reading, and reasoning. Recent work on reasoning-intensive benchmarks such as BrowseComp-Plus shows that well-configured lexical retrieval can surface high-quality evidence, yet agents may still fail to connect documents carrying evidence to the gold documents. We identify a deep research agent&amp;apos;s first retrieval move as an important design decision for this setting. We introduce Question&amp;apos;s Gambit, a first-move re...</description>
+    <description>Deep research agents answer complex questions through iterative loops of searching, reading, and reasoning. Recent work on reasoning-intensive benchmarks such as BrowseComp-Plus shows that well-configured lexical retrieval can surface high-quality evidence, yet agents may still fail to connect documents carrying evidence to the gold documents. We identify a deep research agent&amp;amp;apos;s first retrieval move as an important design decision for this setting. We introduce Question&amp;amp;apos;s Gambit, a first-move re...</description>
   </item>
   <item>
     <title>Semantic Knowledge Technologies: what the Semantic Web lost sight of, and what it never had</title>
@@ -153,7 +188,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.13993</link>
     <guid isPermaLink="false">2609.13993</guid>
     <pubDate>Sat, 12 Sep 2026 15:10:02 GMT</pubDate>
-    <description>Large language models (LLMs) exhibit strong semantic understanding and preference reasoning capabilities, offering new opportunities for user modeling in recommender systems. Existing LLM-as-Enhancer methods typically distill LLM-derived preference knowledge into lightweight recommenders to avoid costly online LLM inference. However, they often construct distillation knowledge from only one perspective. Prior preference captures users&amp;apos; stable and consistent interests but provides limited guidanc...</description>
+    <description>Large language models (LLMs) exhibit strong semantic understanding and preference reasoning capabilities, offering new opportunities for user modeling in recommender systems. Existing LLM-as-Enhancer methods typically distill LLM-derived preference knowledge into lightweight recommenders to avoid costly online LLM inference. However, they often construct distillation knowledge from only one perspective. Prior preference captures users&amp;amp;apos; stable and consistent interests but provides limited guidanc...</description>
   </item>
   <item>
     <title>ClinAgent: A ReAct-Based Agent for Conversational Access to Clinical Trial Information</title>
@@ -167,7 +202,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.13810</link>
     <guid isPermaLink="false">2609.13810</guid>
     <pubDate>Sat, 12 Sep 2026 08:45:57 GMT</pubDate>
-    <description>One-vs-rest rankers that show each user the top-$K$ of many rare labels usually counter imbalance with a per-label positive-class weight, scale_pos_weight $= n_-/n_+$. Elkan&amp;apos;s identity says such a weight shifts label $j$&amp;apos;s log-odds by $\ln w_j$, so the model ranks by weighted odds rather than by the marginal that is Bayes-optimal for precision@$K$, and suggests inverting the shift afterwards; what a finite learner does with a weight in the thousands, and which repair then works, has not been mea...</description>
+    <description>One-vs-rest rankers that show each user the top-$K$ of many rare labels usually counter imbalance with a per-label positive-class weight, scale_pos_weight $= n_-/n_+$. Elkan&amp;amp;apos;s identity says such a weight shifts label $j$&amp;amp;apos;s log-odds by $\ln w_j$, so the model ranks by weighted odds rather than by the marginal that is Bayes-optimal for precision@$K$, and suggests inverting the shift afterwards; what a finite learner does with a weight in the thousands, and which repair then works, has not been mea...</description>
   </item>
   <item>
     <title>Addressing Cross-Stage Decoupling of Semantic and Collaborative Signals in Generative Recommendation</title>
@@ -223,7 +258,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.12679</link>
     <guid isPermaLink="false">2609.12679</guid>
     <pubDate>Fri, 11 Sep 2026 10:24:56 GMT</pubDate>
-    <description>Construction workers face workplace risks such as fatigue, heat stress, and other physically demanding conditions that can negatively affect their health and safety. Although monitoring these risks is important, timely and personalized health interventions are also needed to help prevent negative impacts on workers&amp;amp;amp;apos; well-being and productivity. To this end, in this paper, we propose a model to capture the interactions between a trust-aware health recommender system and workers who differ in heal...</description>
+    <description>Construction workers face workplace risks such as fatigue, heat stress, and other physically demanding conditions that can negatively affect their health and safety. Although monitoring these risks is important, timely and personalized health interventions are also needed to help prevent negative impacts on workers&amp;amp;amp;amp;apos; well-being and productivity. To this end, in this paper, we propose a model to capture the interactions between a trust-aware health recommender system and workers who differ in heal...</description>
   </item>
   <item>
     <title>Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval</title>
@@ -251,7 +286,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.12766</link>
     <guid isPermaLink="false">2609.12766</guid>
     <pubDate>Fri, 11 Sep 2026 12:18:17 GMT</pubDate>
-    <description>Offline replay should estimate what a discovery system could retrieve at a historical point, yet freezing the corpus leaves interaction memory unconstrained. We formalize point-in-time (PIT) discovery through historical state $(D_t, \theta_t, M_{&amp;amp;amp;amp;lt; i})$ and introduce a paired replay that changes only memory availability. The protocol constructs PIT and full-stream Future views from behavior-only traces and audits selected entries with a Temporal Violation Rate. Across three table-text domains,...</description>
+    <description>Offline replay should estimate what a discovery system could retrieve at a historical point, yet freezing the corpus leaves interaction memory unconstrained. We formalize point-in-time (PIT) discovery through historical state $(D_t, \theta_t, M_{&amp;amp;amp;amp;amp;lt; i})$ and introduce a paired replay that changes only memory availability. The protocol constructs PIT and full-stream Future views from behavior-only traces and audits selected entries with a Temporal Violation Rate. Across three table-text domains,...</description>
   </item>
   <item>
     <title>Learning the Lake: Reliable Experience for Adaptive Data Product Discovery</title>
@@ -265,7 +300,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.12556</link>
     <guid isPermaLink="false">2609.12556</guid>
     <pubDate>Fri, 11 Sep 2026 08:01:29 GMT</pubDate>
-    <description>Long-sequence generative recommendation methods autoregressively model the user&amp;amp;amp;apos;s interaction sequence to generate the next-item representation. Existing methods generally fall into two categories: efficient full-sequence modeling and target-aware context retrieval. Our experiments reveal that as the sequence length increases, the former incurs steadily growing computational cost while its accuracy gains quickly saturate and even degrade due to noise; the latter, though shortening the input sequ...</description>
+    <description>Long-sequence generative recommendation methods autoregressively model the user&amp;amp;amp;amp;apos;s interaction sequence to generate the next-item representation. Existing methods generally fall into two categories: efficient full-sequence modeling and target-aware context retrieval. Our experiments reveal that as the sequence length increases, the former incurs steadily growing computational cost while its accuracy gains quickly saturate and even degrade due to noise; the latter, though shortening the input sequ...</description>
   </item>
   <item>
     <title>ChronicleRec: Pre-training Temporally Anchored Tokens for Lifelong User Modeling</title>
@@ -433,7 +468,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.09878</link>
     <guid isPermaLink="false">2609.09878</guid>
     <pubDate>Wed, 09 Sep 2026 08:31:30 GMT</pubDate>
-    <description>How often does a generative assistant persuade someone to buy, or persuade them not to buy? Conversation logs contain recommendations, but they do not necessarily record subsequent decisions. We audit 317 historical interactions from Aiso&amp;amp;amp;amp;amp;amp;apos;s proprietary research database of licensed, consent-based, de-identified conversations with commercially available AI assistants. Single-agent AI-assisted screening identifies 68 purchase-directed records; collapsing one shared-prefix copy yields 67 retained e...</description>
+    <description>How often does a generative assistant persuade someone to buy, or persuade them not to buy? Conversation logs contain recommendations, but they do not necessarily record subsequent decisions. We audit 317 historical interactions from Aiso&amp;amp;amp;amp;amp;amp;amp;apos;s proprietary research database of licensed, consent-based, de-identified conversations with commercially available AI assistants. Single-agent AI-assisted screening identifies 68 purchase-directed records; collapsing one shared-prefix copy yields 67 retained e...</description>
   </item>
   <item>
     <title>GANDR: Claim Auditing for Verifiable Legal Answer Generation</title>
@@ -496,7 +531,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.08267</link>
     <guid isPermaLink="false">2609.08267</guid>
     <pubDate>Tue, 08 Sep 2026 05:22:29 GMT</pubDate>
-    <description>Hallucination detection is crucial for large language models (LLMs), as hallucinated content creates significant barriers in applications requiring factual accuracy. Current detection methods mainly depend on internal signals like uncertainty and self-consistency checks, using the model&amp;amp;amp;amp;amp;amp;amp;apos;s pre-trained knowledge to identify unreliable outputs. However, pre-trained knowledge may become outdated and has coverage limitations, especially for specialized or recent information. To address these limitati...</description>
+    <description>Hallucination detection is crucial for large language models (LLMs), as hallucinated content creates significant barriers in applications requiring factual accuracy. Current detection methods mainly depend on internal signals like uncertainty and self-consistency checks, using the model&amp;amp;amp;amp;amp;amp;amp;amp;apos;s pre-trained knowledge to identify unreliable outputs. However, pre-trained knowledge may become outdated and has coverage limitations, especially for specialized or recent information. To address these limitati...</description>
   </item>
   <item>
     <title>Artificial Intelligence-Assisted Digital Inventory of Cultural Heritage &amp; Traditional Knowledge: Case for Indonesian Open Digital Library of Culture</title>
@@ -580,7 +615,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.07673</link>
     <guid isPermaLink="false">2609.07673</guid>
     <pubDate>Mon, 07 Sep 2026 16:01:32 GMT</pubDate>
-    <description>Citation-based measures of scientific influence typically treat citations as uniform signals, ignoring the different roles that cited works play in a paper&amp;amp;amp;amp;amp;amp;amp;apos;s contribution. We introduce contribution-based credit scoring for research articles: a structured citation analysis that decomposes a paper&amp;amp;amp;amp;amp;amp;amp;apos;s credit between its own original contribution and the prior work it builds on. Motivated by a cooperative-game view of scientific credit, we propose the contribution tree, a hierarchical framework that ...</description>
+    <description>Citation-based measures of scientific influence typically treat citations as uniform signals, ignoring the different roles that cited works play in a paper&amp;amp;amp;amp;amp;amp;amp;amp;apos;s contribution. We introduce contribution-based credit scoring for research articles: a structured citation analysis that decomposes a paper&amp;amp;amp;amp;amp;amp;amp;amp;apos;s credit between its own original contribution and the prior work it builds on. Motivated by a cooperative-game view of scientific credit, we propose the contribution tree, a hierarchical framework that ...</description>
   </item>
   <item>
     <title>Noēsis: Deterministic-First Retrieval with Two-Tier Context Hydration for Factuality-Critical Queries on Small Local Models</title>
@@ -594,14 +629,14 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.07629</link>
     <guid isPermaLink="false">2609.07629</guid>
     <pubDate>Mon, 07 Sep 2026 15:27:58 GMT</pubDate>
-    <description>Democratizing access to the knowledge held in large corpora of tables such as data lakes is emerging as a central research challenge. Research in this space is advancing and broadening in scope, increasingly supplying the components to satisfy a person&amp;amp;amp;amp;amp;amp;amp;apos;s insight need end-to-end. Yet these efforts remain fragmented across communities that frame the problem under their own conventions, such as table question answering, text-to-SQL, and data analysis agents, with works six times as likely to cite w...</description>
+    <description>Democratizing access to the knowledge held in large corpora of tables such as data lakes is emerging as a central research challenge. Research in this space is advancing and broadening in scope, increasingly supplying the components to satisfy a person&amp;amp;amp;amp;amp;amp;amp;amp;apos;s insight need end-to-end. Yet these efforts remain fragmented across communities that frame the problem under their own conventions, such as table question answering, text-to-SQL, and data analysis agents, with works six times as likely to cite w...</description>
   </item>
   <item>
     <title>Same Problem, Different Field: Cross-Domain Solution Import via Domain-Stripped Computational Fingerprints</title>
     <link>https://arxiv.org/abs/2609.07595</link>
     <guid isPermaLink="false">2609.07595</guid>
     <pubDate>Mon, 07 Sep 2026 15:06:22 GMT</pubDate>
-    <description>The same underlying computational problem is solved across unrelated fields under different names: recursive Bayesian state estimation appears as a &amp;amp;amp;amp;amp;amp;amp;quot;Kalman filter&amp;amp;amp;amp;amp;amp;amp;quot; in control, &amp;amp;amp;amp;amp;amp;amp;quot;Bayesian forecasting&amp;amp;amp;amp;amp;amp;amp;quot; in pharmacokinetics, and &amp;amp;amp;amp;amp;amp;amp;quot;data assimilation&amp;amp;amp;amp;amp;amp;amp;quot; in geoscience. Topical and citation-based scientific embeddings cannot see this shared problem. We distill each paper once into a domain- and method-name-stripped faceted computational fingerprint, a free-text mechanism skeleton plus controlled computation...</description>
+    <description>The same underlying computational problem is solved across unrelated fields under different names: recursive Bayesian state estimation appears as a &amp;amp;amp;amp;amp;amp;amp;amp;quot;Kalman filter&amp;amp;amp;amp;amp;amp;amp;amp;quot; in control, &amp;amp;amp;amp;amp;amp;amp;amp;quot;Bayesian forecasting&amp;amp;amp;amp;amp;amp;amp;amp;quot; in pharmacokinetics, and &amp;amp;amp;amp;amp;amp;amp;amp;quot;data assimilation&amp;amp;amp;amp;amp;amp;amp;amp;quot; in geoscience. Topical and citation-based scientific embeddings cannot see this shared problem. We distill each paper once into a domain- and method-name-stripped faceted computational fingerprint, a free-text mechanism skeleton plus controlled computation...</description>
   </item>
   <item>
     <title>EigenLI: Spectral Approximations to Late Interaction</title>
@@ -673,42 +708,6 @@ We present ProLiVis 2.0, a r...</description>
     <pubDate>Mon, 07 Sep 2026 03:01:07 GMT</pubDate>
     <description>Multi-route recommender systems combine retrieval, allocation, fusion, and ranking, making individual inclusions and exclusions difficult to audit. Route overlap can hide effects from one-at-a-time ablations, while freezing downstream stages produces counterfactuals inconsistent with serving behavior.
 We introduce FunnelAudit, an executable framework for incident-level responsibility auditing. An accountability contract specifies the disputed Top-K event, controls and owners, permitted reference...</description>
-  </item>
-  <item>
-    <title>Measuring GEO Visibility: Prompt Corpora Define the Answer Market</title>
-    <link>https://arxiv.org/abs/2609.06811</link>
-    <guid isPermaLink="false">2609.06811</guid>
-    <pubDate>Sun, 06 Sep 2026 20:07:53 GMT</pubDate>
-    <description>GEO (generative engine optimization) visibility scores aggregate source appearances, citations, or brand mentions in generated answers. The prompt corpus selects the situations evaluated, while weights determine their relative importance. Together they define an &amp;amp;amp;amp;amp;amp;amp;amp;quot;answer market&amp;amp;amp;amp;amp;amp;amp;amp;quot; that need not represent actual user demand.
-Prompt wording can alter retrieval, competing sources, and generated answers. Scoring then requires identifying the appearances, citations, or mentions of interest. If a languag...</description>
-  </item>
-  <item>
-    <title>Who Anchors AI Overviews in Health? Baidu, Google, and the Geography of Authority</title>
-    <link>https://arxiv.org/abs/2609.06798</link>
-    <guid isPermaLink="false">2609.06798</guid>
-    <pubDate>Sun, 06 Sep 2026 19:37:27 GMT</pubDate>
-    <description>Artificial intelligence is being rapidly incorporated into traditional search systems, yet scant work audits the information disparities across platforms, geography, and languages. We address this gap by comparing Google and Baidu&amp;amp;amp;amp;amp;amp;amp;amp;apos;s AI Overview systems for health queries, and measure informational anchors that emerge. Auditing 1,920 health queries across 12 countries and 4 languages, we find that Google and Baidu exhibit vertical integration, routing users toward their own company platforms in A...</description>
-  </item>
-  <item>
-    <title>Evaluating Deep-Search Agents under Hierarchical Web Evidence Poisoning</title>
-    <link>https://arxiv.org/abs/2609.06027</link>
-    <guid isPermaLink="false">2609.06027</guid>
-    <pubDate>Sat, 05 Sep 2026 11:05:58 GMT</pubDate>
-    <description>Search-augmented LLM agents are increasingly used for consumer decisions, making them vulnerable to Generative Engine Optimization (GEO) poisoning. Existing benchmarks largely measure whether manipulated content is retrieved or endorsed, but do not track whether an agent verifies suspicious evidence, revises adopted claims, or recovers before producing its final recommendation. We introduce HAE-GEO, a benchmark that tracks the full trajectory from exposure to recovery under progressively more pe...</description>
-  </item>
-  <item>
-    <title>EviMap: Evidence-Grounded Hierarchical Topic Maps for Exploring Unlabeled Corpora</title>
-    <link>https://arxiv.org/abs/2609.06664</link>
-    <guid isPermaLink="false">2609.06664</guid>
-    <pubDate>Sun, 06 Sep 2026 15:14:09 GMT</pubDate>
-    <description>Research teams and organizations often explore unfamiliar free-text collections, from survey comments and reviews to reports and domain documents, before labels, queries or coding schemes exist. At this stage, the first thematic map shapes what users notice, prioritize and carry into downstream analysis, so it should be trusted only insofar as it can be verified. Existing options force a trade-off between scale and verifiability. Qualitative coding preserves evidence but is slow. Search presuppo...</description>
-  </item>
-  <item>
-    <title>TaxoConf: Taxonomy-Guided Automatic Conference Program Organization</title>
-    <link>https://arxiv.org/abs/2609.06604</link>
-    <guid isPermaLink="false">2609.06604</guid>
-    <pubDate>Sun, 06 Sep 2026 13:41:11 GMT</pubDate>
-    <description>Conference program organization, the task of assembling accepted papers into a technical program, is labor-intensive. Papers must be grouped into topically coherent sessions under hard operational constraints, and existing methods rarely achieve both at once. To address this problem, we present TaxoConf, a system that organizes conference programs around a conference-specific topic taxonomy. TaxoConf constructs a canonicalized multi-parent taxonomy over the accepted papers and represents each pa...</description>
   </item>
   </channel>
 </rss>
