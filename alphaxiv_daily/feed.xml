@@ -6,7 +6,42 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 16 Sep 2026 10:41:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 15:57:33 GMT</lastBuildDate>
+  <item>
+    <title>Efficient Swing Computation for Retrieval in Large-Scale Recommender Systems</title>
+    <link>https://arxiv.org/abs/2609.16850</link>
+    <guid isPermaLink="false">2609.16850</guid>
+    <pubDate>Tue, 15 Sep 2026 08:42:59 GMT</pubDate>
+    <description>Given a user-item graph $G$, a query item $v_q$ and a target item $v_t$, the Swing score $sw(v_q, v_t)$ of the item pair $(v_q, v_t)$ leverages the user-item-user interaction structure to evaluate their similarity. This measure is found to be highly effective in item-to-item (i2i) retrieval task and finds extensive applications in industrial-scale recommender systems. However, existing solutions towards computing Swing scores are either prohibitively expensive due to their quadratic time complex...</description>
+  </item>
+  <item>
+    <title>LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory, with ICE v2 as an Audited Local-First Architecture</title>
+    <link>https://arxiv.org/abs/2609.16730</link>
+    <guid isPermaLink="false">2609.16730</guid>
+    <pubDate>Tue, 15 Sep 2026 06:59:56 GMT</pubDate>
+    <description>Conversational memory changes during use, so endpoint question answering alone cannot establish how a persistent state accumulates, ages, or incorporates revisions. We introduce LSREP, a Longitudinal State-Replay Evaluation Protocol combining ordered replay, explicit lifecycle schedules, repeated probes, evolving reference answers, and mechanism-fidelity checks. Its architectural case study is ICE v2, a local-first memory middleware with typed stores, retrieval fusion, and dynamic context budget...</description>
+  </item>
+  <item>
+    <title>ReliGRec: Reliability-Oriented LLM-Based Generative Recommendation via User-Risk-Aware Prompt Routing</title>
+    <link>https://arxiv.org/abs/2609.16560</link>
+    <guid isPermaLink="false">2609.16560</guid>
+    <pubDate>Tue, 15 Sep 2026 02:56:30 GMT</pubDate>
+    <description>User behavior in real-world recommender systems is heterogeneous. While some users exhibit coherent preferences, others show abrupt interest shifts, bursty interactions, excessive repetition, or inconsistency with collaborative neighborhoods. Such deviations may arise from benign variation or manipulation, including shilling attacks, but do not alone establish malicious intent. Existing robust recommenders exploit user-risk signals through training-time reweighting or graph aggregation, whereas ...</description>
+  </item>
+  <item>
+    <title>Predicting Partial Answer Quality and Utility in Agentic Retrieval-Augmented Generation</title>
+    <link>https://arxiv.org/abs/2609.16453</link>
+    <guid isPermaLink="false">2609.16453</guid>
+    <pubDate>Tue, 15 Sep 2026 00:17:50 GMT</pubDate>
+    <description>Agentic Retrieval-Augmented Generation (RAG) has become a promising paradigm for multi-hop question answering, where a reasoning model iteratively issues queries to a retriever and incorporates newly retrieved context into subsequent reasoning steps. While this iterative process can improve final answer quality, current evaluations of agentic RAG largely focus on end-to-end outcomes and provide limited visibility into how a model&apos;s answer state changes during generation. In this work, we introdu...</description>
+  </item>
+  <item>
+    <title>Evaluating Brand Retrieval and Ranking in Large Language Model Recommendations</title>
+    <link>https://arxiv.org/abs/2609.16304</link>
+    <guid isPermaLink="false">2609.16304</guid>
+    <pubDate>Mon, 14 Sep 2026 20:09:12 GMT</pubDate>
+    <description>Large language models (LLMs) are increasingly used for product recommendation, but evaluating their recommendations presents challenges that differ from conventional information retrieval and recommender systems. LLMs can generate recommendations without an explicit candidate set, and repeated responses to the same query can produce different brands and rankings. We introduce a framework for evaluating open-ended LLM brand recommendations that defines the competitive set independently of model o...</description>
+  </item>
   <item>
     <title>Diagnosing the Fact-Grounding Gap in Multi-Hop Question Answering</title>
     <link>https://arxiv.org/abs/2609.17043</link>
@@ -202,7 +237,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.14985</link>
     <guid isPermaLink="false">2609.14985</guid>
     <pubDate>Mon, 14 Sep 2026 03:44:40 GMT</pubDate>
-    <description>We show how users can create and manipulate causal virtual worlds with large-language-model (LLM) and large-video-model agents. The approach uses feedback fuzzy cognitive maps (FCMs) both to model the granular causal structure of the virtual world and to guide its causal evolution. The local causal rules are partial or fuzzy while the FCM&amp;amp;amp;apos;s feedback structure produces global equilibria that define causal scenarios. A sequence of \emph{dynamical} meta-rules of the form ``If $\mathcal{A}$ then $\m...</description>
+    <description>We show how users can create and manipulate causal virtual worlds with large-language-model (LLM) and large-video-model agents. The approach uses feedback fuzzy cognitive maps (FCMs) both to model the granular causal structure of the virtual world and to guide its causal evolution. The local causal rules are partial or fuzzy while the FCM&amp;amp;amp;amp;apos;s feedback structure produces global equilibria that define causal scenarios. A sequence of \emph{dynamical} meta-rules of the form ``If $\mathcal{A}$ then $\m...</description>
   </item>
   <item>
     <title>VARG: Value-Aware and Ranking-Aligned Generative Retrieval for Dynamic E-commerce Search</title>
@@ -216,7 +251,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.14885</link>
     <guid isPermaLink="false">2609.14885</guid>
     <pubDate>Mon, 14 Sep 2026 01:06:41 GMT</pubDate>
-    <description>LLM-based query reformulation can improve retrieval, but no single reformulation strategy is consistently optimal across queries, domains, retrievers, or model backbones. This creates an inference-time decision problem: ``Given an original query and a pool of candidate reformulations, which one should be issued to the retriever?&amp;amp;amp;apos;&amp;amp;amp;apos;. Existing studies are hard to compare because they use different reformulator pools, retrievers, relevance signals, training labels, and evaluation metrics. We introdu...</description>
+    <description>LLM-based query reformulation can improve retrieval, but no single reformulation strategy is consistently optimal across queries, domains, retrievers, or model backbones. This creates an inference-time decision problem: ``Given an original query and a pool of candidate reformulations, which one should be issued to the retriever?&amp;amp;amp;amp;apos;&amp;amp;amp;amp;apos;. Existing studies are hard to compare because they use different reformulator pools, retrievers, relevance signals, training labels, and evaluation metrics. We introdu...</description>
   </item>
   <item>
     <title>Beyond Benchmark Scores: How Synthetic and Authentic Query Distributions Diverge in RAG Evaluation</title>
@@ -237,7 +272,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.14412</link>
     <guid isPermaLink="false">2609.14412</guid>
     <pubDate>Sun, 13 Sep 2026 10:21:07 GMT</pubDate>
-    <description>Deep research agents answer complex questions through iterative loops of searching, reading, and reasoning. Recent work on reasoning-intensive benchmarks such as BrowseComp-Plus shows that well-configured lexical retrieval can surface high-quality evidence, yet agents may still fail to connect documents carrying evidence to the gold documents. We identify a deep research agent&amp;amp;amp;apos;s first retrieval move as an important design decision for this setting. We introduce Question&amp;amp;amp;apos;s Gambit, a first-move re...</description>
+    <description>Deep research agents answer complex questions through iterative loops of searching, reading, and reasoning. Recent work on reasoning-intensive benchmarks such as BrowseComp-Plus shows that well-configured lexical retrieval can surface high-quality evidence, yet agents may still fail to connect documents carrying evidence to the gold documents. We identify a deep research agent&amp;amp;amp;amp;apos;s first retrieval move as an important design decision for this setting. We introduce Question&amp;amp;amp;amp;apos;s Gambit, a first-move re...</description>
   </item>
   <item>
     <title>Semantic Knowledge Technologies: what the Semantic Web lost sight of, and what it never had</title>
@@ -251,7 +286,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.13993</link>
     <guid isPermaLink="false">2609.13993</guid>
     <pubDate>Sat, 12 Sep 2026 15:10:02 GMT</pubDate>
-    <description>Large language models (LLMs) exhibit strong semantic understanding and preference reasoning capabilities, offering new opportunities for user modeling in recommender systems. Existing LLM-as-Enhancer methods typically distill LLM-derived preference knowledge into lightweight recommenders to avoid costly online LLM inference. However, they often construct distillation knowledge from only one perspective. Prior preference captures users&amp;amp;amp;apos; stable and consistent interests but provides limited guidanc...</description>
+    <description>Large language models (LLMs) exhibit strong semantic understanding and preference reasoning capabilities, offering new opportunities for user modeling in recommender systems. Existing LLM-as-Enhancer methods typically distill LLM-derived preference knowledge into lightweight recommenders to avoid costly online LLM inference. However, they often construct distillation knowledge from only one perspective. Prior preference captures users&amp;amp;amp;amp;apos; stable and consistent interests but provides limited guidanc...</description>
   </item>
   <item>
     <title>ClinAgent: A ReAct-Based Agent for Conversational Access to Clinical Trial Information</title>
@@ -265,7 +300,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.13810</link>
     <guid isPermaLink="false">2609.13810</guid>
     <pubDate>Sat, 12 Sep 2026 08:45:57 GMT</pubDate>
-    <description>One-vs-rest rankers that show each user the top-$K$ of many rare labels usually counter imbalance with a per-label positive-class weight, scale_pos_weight $= n_-/n_+$. Elkan&amp;amp;amp;apos;s identity says such a weight shifts label $j$&amp;amp;amp;apos;s log-odds by $\ln w_j$, so the model ranks by weighted odds rather than by the marginal that is Bayes-optimal for precision@$K$, and suggests inverting the shift afterwards; what a finite learner does with a weight in the thousands, and which repair then works, has not been mea...</description>
+    <description>One-vs-rest rankers that show each user the top-$K$ of many rare labels usually counter imbalance with a per-label positive-class weight, scale_pos_weight $= n_-/n_+$. Elkan&amp;amp;amp;amp;apos;s identity says such a weight shifts label $j$&amp;amp;amp;amp;apos;s log-odds by $\ln w_j$, so the model ranks by weighted odds rather than by the marginal that is Bayes-optimal for precision@$K$, and suggests inverting the shift afterwards; what a finite learner does with a weight in the thousands, and which repair then works, has not been mea...</description>
   </item>
   <item>
     <title>Addressing Cross-Stage Decoupling of Semantic and Collaborative Signals in Generative Recommendation</title>
@@ -321,7 +356,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.12679</link>
     <guid isPermaLink="false">2609.12679</guid>
     <pubDate>Fri, 11 Sep 2026 10:24:56 GMT</pubDate>
-    <description>Construction workers face workplace risks such as fatigue, heat stress, and other physically demanding conditions that can negatively affect their health and safety. Although monitoring these risks is important, timely and personalized health interventions are also needed to help prevent negative impacts on workers&amp;amp;amp;amp;amp;apos; well-being and productivity. To this end, in this paper, we propose a model to capture the interactions between a trust-aware health recommender system and workers who differ in heal...</description>
+    <description>Construction workers face workplace risks such as fatigue, heat stress, and other physically demanding conditions that can negatively affect their health and safety. Although monitoring these risks is important, timely and personalized health interventions are also needed to help prevent negative impacts on workers&amp;amp;amp;amp;amp;amp;apos; well-being and productivity. To this end, in this paper, we propose a model to capture the interactions between a trust-aware health recommender system and workers who differ in heal...</description>
   </item>
   <item>
     <title>Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval</title>
@@ -349,7 +384,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.12766</link>
     <guid isPermaLink="false">2609.12766</guid>
     <pubDate>Fri, 11 Sep 2026 12:18:17 GMT</pubDate>
-    <description>Offline replay should estimate what a discovery system could retrieve at a historical point, yet freezing the corpus leaves interaction memory unconstrained. We formalize point-in-time (PIT) discovery through historical state $(D_t, \theta_t, M_{&amp;amp;amp;amp;amp;amp;lt; i})$ and introduce a paired replay that changes only memory availability. The protocol constructs PIT and full-stream Future views from behavior-only traces and audits selected entries with a Temporal Violation Rate. Across three table-text domains,...</description>
+    <description>Offline replay should estimate what a discovery system could retrieve at a historical point, yet freezing the corpus leaves interaction memory unconstrained. We formalize point-in-time (PIT) discovery through historical state $(D_t, \theta_t, M_{&amp;amp;amp;amp;amp;amp;amp;lt; i})$ and introduce a paired replay that changes only memory availability. The protocol constructs PIT and full-stream Future views from behavior-only traces and audits selected entries with a Temporal Violation Rate. Across three table-text domains,...</description>
   </item>
   <item>
     <title>Learning the Lake: Reliable Experience for Adaptive Data Product Discovery</title>
@@ -363,7 +398,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.12556</link>
     <guid isPermaLink="false">2609.12556</guid>
     <pubDate>Fri, 11 Sep 2026 08:01:29 GMT</pubDate>
-    <description>Long-sequence generative recommendation methods autoregressively model the user&amp;amp;amp;amp;amp;apos;s interaction sequence to generate the next-item representation. Existing methods generally fall into two categories: efficient full-sequence modeling and target-aware context retrieval. Our experiments reveal that as the sequence length increases, the former incurs steadily growing computational cost while its accuracy gains quickly saturate and even degrade due to noise; the latter, though shortening the input sequ...</description>
+    <description>Long-sequence generative recommendation methods autoregressively model the user&amp;amp;amp;amp;amp;amp;apos;s interaction sequence to generate the next-item representation. Existing methods generally fall into two categories: efficient full-sequence modeling and target-aware context retrieval. Our experiments reveal that as the sequence length increases, the former incurs steadily growing computational cost while its accuracy gains quickly saturate and even degrade due to noise; the latter, though shortening the input sequ...</description>
   </item>
   <item>
     <title>ChronicleRec: Pre-training Temporally Anchored Tokens for Lifelong User Modeling</title>
@@ -531,7 +566,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.09878</link>
     <guid isPermaLink="false">2609.09878</guid>
     <pubDate>Wed, 09 Sep 2026 08:31:30 GMT</pubDate>
-    <description>How often does a generative assistant persuade someone to buy, or persuade them not to buy? Conversation logs contain recommendations, but they do not necessarily record subsequent decisions. We audit 317 historical interactions from Aiso&amp;amp;amp;amp;amp;amp;amp;amp;apos;s proprietary research database of licensed, consent-based, de-identified conversations with commercially available AI assistants. Single-agent AI-assisted screening identifies 68 purchase-directed records; collapsing one shared-prefix copy yields 67 retained e...</description>
+    <description>How often does a generative assistant persuade someone to buy, or persuade them not to buy? Conversation logs contain recommendations, but they do not necessarily record subsequent decisions. We audit 317 historical interactions from Aiso&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s proprietary research database of licensed, consent-based, de-identified conversations with commercially available AI assistants. Single-agent AI-assisted screening identifies 68 purchase-directed records; collapsing one shared-prefix copy yields 67 retained e...</description>
   </item>
   <item>
     <title>GANDR: Claim Auditing for Verifiable Legal Answer Generation</title>
@@ -594,7 +629,7 @@ We present ProLiVis 2.0, a r...</description>
     <link>https://arxiv.org/abs/2609.08267</link>
     <guid isPermaLink="false">2609.08267</guid>
     <pubDate>Tue, 08 Sep 2026 05:22:29 GMT</pubDate>
-    <description>Hallucination detection is crucial for large language models (LLMs), as hallucinated content creates significant barriers in applications requiring factual accuracy. Current detection methods mainly depend on internal signals like uncertainty and self-consistency checks, using the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s pre-trained knowledge to identify unreliable outputs. However, pre-trained knowledge may become outdated and has coverage limitations, especially for specialized or recent information. To address these limitati...</description>
+    <description>Hallucination detection is crucial for large language models (LLMs), as hallucinated content creates significant barriers in applications requiring factual accuracy. Current detection methods mainly depend on internal signals like uncertainty and self-consistency checks, using the model&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s pre-trained knowledge to identify unreliable outputs. However, pre-trained knowledge may become outdated and has coverage limitations, especially for specialized or recent information. To address these limitati...</description>
   </item>
   <item>
     <title>Artificial Intelligence-Assisted Digital Inventory of Cultural Heritage &amp; Traditional Knowledge: Case for Indonesian Open Digital Library of Culture</title>
@@ -672,41 +707,6 @@ We present ProLiVis 2.0, a r...</description>
     <guid isPermaLink="false">2609.08161</guid>
     <pubDate>Tue, 08 Sep 2026 02:45:56 GMT</pubDate>
     <description>We describe the Snugi-AI-v2 submission to eRisk 2026 Task 2, the second edition of contextualized early depression detection from Reddit discussions. Our central contribution is a learned MLP stopping policy trained to directly optimize ERDE50, replacing the fixed and tiered threshold strategies used in all prior eRisk Task 2 submissions. Combined with a sustained confidence gate that commits only after N=3 consecutive rounds of high policy confidence, the system reduces false positives caused b...</description>
-  </item>
-  <item>
-    <title>From Citations to Contributions: LLM-Assisted Credit Scoring of Research Articles</title>
-    <link>https://arxiv.org/abs/2609.07673</link>
-    <guid isPermaLink="false">2609.07673</guid>
-    <pubDate>Mon, 07 Sep 2026 16:01:32 GMT</pubDate>
-    <description>Citation-based measures of scientific influence typically treat citations as uniform signals, ignoring the different roles that cited works play in a paper&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s contribution. We introduce contribution-based credit scoring for research articles: a structured citation analysis that decomposes a paper&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s credit between its own original contribution and the prior work it builds on. Motivated by a cooperative-game view of scientific credit, we propose the contribution tree, a hierarchical framework that ...</description>
-  </item>
-  <item>
-    <title>Noēsis: Deterministic-First Retrieval with Two-Tier Context Hydration for Factuality-Critical Queries on Small Local Models</title>
-    <link>https://arxiv.org/abs/2609.07663</link>
-    <guid isPermaLink="false">2609.07663</guid>
-    <pubDate>Mon, 07 Sep 2026 15:49:16 GMT</pubDate>
-    <description>A wrong number is worse than no answer. Across factuality-critical domains -- audience metrics, scheduling and rights in media; dosages and lab values in healthcare; figures and citations in finance and legal -- a confident but fabricated value is more damaging than an honest admission of uncertainty. Yet this is the dominant failure mode we observe on small local language models: even when correct evidence is present in context, models fabricate plausible numbers and timestamps. Recent work cha...</description>
-  </item>
-  <item>
-    <title>Open Tabular Insight Extraction: Where Do We Stand, and Where Should We Go?</title>
-    <link>https://arxiv.org/abs/2609.07629</link>
-    <guid isPermaLink="false">2609.07629</guid>
-    <pubDate>Mon, 07 Sep 2026 15:27:58 GMT</pubDate>
-    <description>Democratizing access to the knowledge held in large corpora of tables such as data lakes is emerging as a central research challenge. Research in this space is advancing and broadening in scope, increasingly supplying the components to satisfy a person&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s insight need end-to-end. Yet these efforts remain fragmented across communities that frame the problem under their own conventions, such as table question answering, text-to-SQL, and data analysis agents, with works six times as likely to cite w...</description>
-  </item>
-  <item>
-    <title>Same Problem, Different Field: Cross-Domain Solution Import via Domain-Stripped Computational Fingerprints</title>
-    <link>https://arxiv.org/abs/2609.07595</link>
-    <guid isPermaLink="false">2609.07595</guid>
-    <pubDate>Mon, 07 Sep 2026 15:06:22 GMT</pubDate>
-    <description>The same underlying computational problem is solved across unrelated fields under different names: recursive Bayesian state estimation appears as a &amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Kalman filter&amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; in control, &amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Bayesian forecasting&amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; in pharmacokinetics, and &amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;data assimilation&amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; in geoscience. Topical and citation-based scientific embeddings cannot see this shared problem. We distill each paper once into a domain- and method-name-stripped faceted computational fingerprint, a free-text mechanism skeleton plus controlled computation...</description>
-  </item>
-  <item>
-    <title>EigenLI: Spectral Approximations to Late Interaction</title>
-    <link>https://arxiv.org/abs/2609.07561</link>
-    <guid isPermaLink="false">2609.07561</guid>
-    <pubDate>Mon, 07 Sep 2026 14:41:46 GMT</pubDate>
-    <description>Late-interaction models such as ColBERT achieve strong effectiveness by representing each document with many token-level vectors, but this expressivity leads to large indexing cost, storage footprints and expensive MaxSim scoring. We show that late-interaction representations exhibit an intrinsic low-rank structure: document token embeddings concentrate in a low-dimensional subspace that preserves most of the retrieval signal. Leveraging this observation, we introduce EigenLI, a spectral approxi...</description>
   </item>
   </channel>
 </rss>
