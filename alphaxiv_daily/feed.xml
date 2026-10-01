@@ -6,20 +6,62 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 30 Sep 2026 11:47:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 03:41:15 GMT</lastBuildDate>
+  <item>
+    <title>PatchHolmes: Agentic Patch Retrieval via Listwise Selection</title>
+    <link>https://arxiv.org/abs/2609.38807</link>
+    <guid isPermaLink="false">2609.38807</guid>
+    <pubDate>Wed, 30 Sep 2026 02:38:22 GMT</pubDate>
+    <description>Patch retrieval, the task of finding the commit that fixes a known vulnerability, is the foundation of vulnerability management workflows, yet 60% to 63% of CVEs in the major advisory databases lack a patch link. We present PatchHolmes, a two-phase patch retrieval system that pairs a hybrid first-stage retriever with an agentic second-stage inspection loop. Unlike pointwise prior work that scores each candidate independently, the Phase 2 agent reads the top-100 listwise: it sees the full candida...</description>
+  </item>
+  <item>
+    <title>Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering</title>
+    <link>https://arxiv.org/abs/2609.38473</link>
+    <guid isPermaLink="false">2609.38473</guid>
+    <pubDate>Tue, 29 Sep 2026 20:04:29 GMT</pubDate>
+    <description>Retrieval-Augmented Generation (RAG) is now the standard way to ground Large Language Models (LLMs) in external knowledge, yet the design space of retrieval pipelines is large and the trade-offs between variants are not well understood, especially on domain-specific corpora at realistic scale. In this work, we present a controlled comparison of six retrieval strategies for scientific question answering: (i) classic top-k dense retrieval, (ii) LLM-based query rephrasing, (iii) query rephrasing fo...</description>
+  </item>
+  <item>
+    <title>AdaM-Rec: Adaptive Modality Routing for Multimodal Recommendation</title>
+    <link>https://arxiv.org/abs/2609.38455</link>
+    <guid isPermaLink="false">2609.38455</guid>
+    <pubDate>Tue, 29 Sep 2026 19:46:31 GMT</pubDate>
+    <description>While recent multimodal recommender systems have demonstrated the effectiveness of incorporating visual and textual information to improve downstream performance, most existing methods rely on static modality fusion, assuming that the relative importance of textual and visual signals remains stable across recommendation scenarios. This design may not fully account for an important variation across recommendation requests: some queries require fine-grained visual cues, whereas others are better s...</description>
+  </item>
+  <item>
+    <title>Doc2LoRA Provides Decodable Representations of Scientific Ideas</title>
+    <link>https://arxiv.org/abs/2609.38374</link>
+    <guid isPermaLink="false">2609.38374</guid>
+    <pubDate>Tue, 29 Sep 2026 18:34:09 GMT</pubDate>
+    <description>Representing scientific papers as points in a space lets us search for similar papers and inquire about how fields relate to one another and drive innovation. Beyond search, the vector space of papers invites generation: mixing papers through simple vector operations creates new points, mirroring combinatorial novelty, the recombination of existing ideas into new ones. However, a mixed point often represents an idea no paper has yet realized, with no papers nearby to identify the idea. We propos...</description>
+  </item>
+  <item>
+    <title>TAGGRAPH: Tag-Augmented Graphs for Graph Retrieval of Agent Persistent Histories</title>
+    <link>https://arxiv.org/abs/2609.38353</link>
+    <guid isPermaLink="false">2609.38353</guid>
+    <pubDate>Tue, 29 Sep 2026 18:15:04 GMT</pubDate>
+    <description>Long-term memory lets LLM agents recall past interactions and remain consistent across sessions, but memory systems are hard to compare because they often vary in representation, indexing, retrieval, and evaluation. We present a controlled evaluation framework based on shared 5W-style conversational memories. Localized graph configurations traverse a common base graph; AdaptiveGraph adds chronological edges and Personalized PageRank diffusion. We also evaluate BM25 over the same extracted notes ...</description>
+  </item>
+  <item>
+    <title>Privacy in Personalized AI Is a System Property, Not Just a Model Property</title>
+    <link>https://arxiv.org/abs/2609.38289</link>
+    <guid isPermaLink="false">2609.38289</guid>
+    <pubDate>Tue, 29 Sep 2026 17:06:35 GMT</pubDate>
+    <description>In personalized AI applications, such as conversational assistants and recommender systems, users interact not with models in isolation but with broader systems that access, infer, and reuse user information across components and over time. While such use of user information is integral to personalization, it also raises important privacy questions. In this paper, we argue that individual model- or component-level analyses may not capture all privacy risks arising in such systems, motivating a s...</description>
+  </item>
   <item>
     <title>Effective Dense Retrieval using Only In-Context Examples</title>
     <link>https://arxiv.org/abs/2609.38099</link>
     <guid isPermaLink="false">2609.38099</guid>
     <pubDate>Tue, 29 Sep 2026 17:44:16 GMT</pubDate>
-    <description>Turning decoder-only large language models (LLMs) into strong dense retrievers typically requires some form of retriever training. In this paper, we ask whether LLMs can instead be prompted to produce effective representations for dense retrieval given only a few in-context examples. To answer this, we introduce RICE (Representations from In-Context Examples), a simple &quot;training-free&quot; approach that extracts high-quality dense representations from LLMs. To do so, RICE conditions the LLM on exampl...</description>
+    <description>Turning decoder-only large language models (LLMs) into strong dense retrievers typically requires some form of retriever training. In this paper, we ask whether LLMs can instead be prompted to produce effective representations for dense retrieval given only a few in-context examples. To answer this, we introduce RICE (Representations from In-Context Examples), a simple &amp;quot;training-free&amp;quot; approach that extracts high-quality dense representations from LLMs. To do so, RICE conditions the LLM on exampl...</description>
   </item>
   <item>
     <title>Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies</title>
     <link>https://arxiv.org/abs/2609.38155</link>
     <guid isPermaLink="false">2609.38155</guid>
     <pubDate>Tue, 29 Sep 2026 17:59:01 GMT</pubDate>
-    <description>Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the &quot;biography&quot; of the particular entity a question concerns. To address this, we introduce Grounded Enti...</description>
+    <description>Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the &amp;quot;biography&amp;quot; of the particular entity a question concerns. To address this, we introduce Grounded Enti...</description>
   </item>
   <item>
     <title>ReMem: Rethinking Perception and Memory in Long-Context Recommendation Agents</title>
@@ -40,7 +82,7 @@
     <link>https://arxiv.org/abs/2609.37226</link>
     <guid isPermaLink="false">2609.37226</guid>
     <pubDate>Tue, 29 Sep 2026 10:39:57 GMT</pubDate>
-    <description>Answering questions and completing tasks over large document collections often requires connecting evidence spread across multiple documents, such as a project&apos;s approval recorded in one, its requirements in another, and its latest status in a third. Recent LLM agents approach this by iteratively searching the full corpus rather than reading only a fixed set of top-ranked documents. However, when the corpus is exposed only as a flat collection of files, a relevant document gives no indication of...</description>
+    <description>Answering questions and completing tasks over large document collections often requires connecting evidence spread across multiple documents, such as a project&amp;apos;s approval recorded in one, its requirements in another, and its latest status in a third. Recent LLM agents approach this by iteratively searching the full corpus rather than reading only a fixed set of top-ranked documents. However, when the corpus is exposed only as a flat collection of files, a relevant document gives no indication of...</description>
   </item>
   <item>
     <title>Optimizing VLP-aligned Multimodal Intent Representation with Correct Visual Instantiation for Zero-Shot Composed Image Retrieval</title>
@@ -96,7 +138,7 @@
     <link>https://arxiv.org/abs/2609.36862</link>
     <guid isPermaLink="false">2609.36862</guid>
     <pubDate>Tue, 29 Sep 2026 07:04:31 GMT</pubDate>
-    <description>Fine-tuning-as-a-service lets users adapt a safety-aligned language model to their own data, but it also creates a harmful fine-tuning attack surface: a small amount of harmful data mixed into an otherwise benign fine-tuning set can degrade the model&apos;s alignment. Two recent alignment-stage defenses address this problem at different levels of the model. Vaccine improves the robustness of hidden embeddings to the representation shifts induced by harmful fine-tuning, whereas Booster simulates harmf...</description>
+    <description>Fine-tuning-as-a-service lets users adapt a safety-aligned language model to their own data, but it also creates a harmful fine-tuning attack surface: a small amount of harmful data mixed into an otherwise benign fine-tuning set can degrade the model&amp;apos;s alignment. Two recent alignment-stage defenses address this problem at different levels of the model. Vaccine improves the robustness of hidden embeddings to the representation shifts induced by harmful fine-tuning, whereas Booster simulates harmf...</description>
   </item>
   <item>
     <title>Does the Unsafe Gradient Survive a Conversation? On the Fragility of Gradient-Based Jailbreak Detection in Multi-Turn Dialogue</title>
@@ -131,7 +173,7 @@
     <link>https://arxiv.org/abs/2609.36359</link>
     <guid isPermaLink="false">2609.36359</guid>
     <pubDate>Mon, 28 Sep 2026 22:47:05 GMT</pubDate>
-    <description>Graph-based approximate nearest neighbor search (ANNS) is widely used for large-scale semantic search. Its indices are constructed primarily based on geometric relationships among embeddings of an input dataset (e.g., documents or images), rather than explicitly optimizing for semantic relevance. However, when using these indices for downstream query retrieval, performance is evaluated based on the semantic relevance of the retrieved results to the query. This creates a fundamental &quot;geometry-sem...</description>
+    <description>Graph-based approximate nearest neighbor search (ANNS) is widely used for large-scale semantic search. Its indices are constructed primarily based on geometric relationships among embeddings of an input dataset (e.g., documents or images), rather than explicitly optimizing for semantic relevance. However, when using these indices for downstream query retrieval, performance is evaluated based on the semantic relevance of the retrieved results to the query. This creates a fundamental &amp;quot;geometry-sem...</description>
   </item>
   <item>
     <title>ThuRunel: Dynamic Decoupling for Structured Advisory Dialogue</title>
@@ -180,7 +222,7 @@
     <link>https://arxiv.org/abs/2609.34951</link>
     <guid isPermaLink="false">2609.34951</guid>
     <pubDate>Mon, 28 Sep 2026 11:41:13 GMT</pubDate>
-    <description>In 2023, AI models answered from training data and hallucinated when it ran out, and businesses were told to seed that knowledge. Models&amp;apos; training knowledge has since given way to live web search, and the advice followed it there: answer-engine optimization, or AEO, now tells businesses to scatter breadcrumbs across forum threads, listicles, and off-site citations, so AI engines are likelier to surface and recommend them. But being surfaced is no longer enough: an agent opens the results and rea...</description>
+    <description>In 2023, AI models answered from training data and hallucinated when it ran out, and businesses were told to seed that knowledge. Models&amp;amp;apos; training knowledge has since given way to live web search, and the advice followed it there: answer-engine optimization, or AEO, now tells businesses to scatter breadcrumbs across forum threads, listicles, and off-site citations, so AI engines are likelier to surface and recommend them. But being surfaced is no longer enough: an agent opens the results and rea...</description>
   </item>
   <item>
     <title>VEX-Bench: Benchmarking Verification Complexity of LLM-Generated Misinformation</title>
@@ -285,7 +327,7 @@
     <link>https://arxiv.org/abs/2609.34899</link>
     <guid isPermaLink="false">2609.34899</guid>
     <pubDate>Mon, 28 Sep 2026 11:05:45 GMT</pubDate>
-    <description>Multi-vector retrievers built on vision-language models lead visual document retrieval (VDR), but they run a multi-billion-parameter query encoder on every search. Distilling this encoder into a small student that queries the teacher&amp;amp;amp;apos;s existing index would remove the bottleneck. The standard recipe, however, matches the teacher&amp;amp;amp;apos;s MaxSim scores and so requires encoding and caching every training page, which can reach terabytes of page tokens. NanoVDR avoids pages entirely by training on the teach...</description>
+    <description>Multi-vector retrievers built on vision-language models lead visual document retrieval (VDR), but they run a multi-billion-parameter query encoder on every search. Distilling this encoder into a small student that queries the teacher&amp;amp;amp;amp;apos;s existing index would remove the bottleneck. The standard recipe, however, matches the teacher&amp;amp;amp;amp;apos;s MaxSim scores and so requires encoding and caching every training page, which can reach terabytes of page tokens. NanoVDR avoids pages entirely by training on the teach...</description>
   </item>
   <item>
     <title>No Attention, No Problem: Rethinking Session-based Recommendation with Pure Convolution</title>
@@ -327,7 +369,7 @@
     <link>https://arxiv.org/abs/2609.33233</link>
     <guid isPermaLink="false">2609.33233</guid>
     <pubDate>Sun, 27 Sep 2026 05:21:51 GMT</pubDate>
-    <description>Scientific literature search often begins with an open research problem rather than a known target paper or a fixed candidate set. We introduce INSPIRE, a benchmark for evaluating agents that search prior literature to make progress on solution-redacted research problems. Each instance pairs a research brief with a target-specific cutoff three months before a later paper and evaluates ranked outputs against graded cited antecedents from that paper&amp;amp;amp;apos;s realized research lineage. Search proceeds ove...</description>
+    <description>Scientific literature search often begins with an open research problem rather than a known target paper or a fixed candidate set. We introduce INSPIRE, a benchmark for evaluating agents that search prior literature to make progress on solution-redacted research problems. Each instance pairs a research brief with a target-specific cutoff three months before a later paper and evaluates ranked outputs against graded cited antecedents from that paper&amp;amp;amp;amp;apos;s realized research lineage. Search proceeds ove...</description>
   </item>
   <item>
     <title>Measuring and Mitigating Identity-Cue Preference Drift in LLM-based Recommender Systems</title>
@@ -362,7 +404,7 @@
     <link>https://arxiv.org/abs/2609.33983</link>
     <guid isPermaLink="false">2609.33983</guid>
     <pubDate>Sun, 27 Sep 2026 22:32:31 GMT</pubDate>
-    <description>Semantic Textual Similarity (STS) methods assume that a document&amp;amp;amp;apos;s lexical content faithfully represents what it asserts. This assumption fails for discursive documents that discuss, compare, critique, and contextualize other positions in the process of articulating their own. The result is semantic diffusion: similarity scores between documents are inflated by vocabulary acquired through discursive engagement rather than substantive alignment. Standard Natural Language Processing (NLP) preproce...</description>
+    <description>Semantic Textual Similarity (STS) methods assume that a document&amp;amp;amp;amp;apos;s lexical content faithfully represents what it asserts. This assumption fails for discursive documents that discuss, compare, critique, and contextualize other positions in the process of articulating their own. The result is semantic diffusion: similarity scores between documents are inflated by vocabulary acquired through discursive engagement rather than substantive alignment. Standard Natural Language Processing (NLP) preproce...</description>
   </item>
   <item>
     <title>Beyond Fixed Features: Architecture-Dependent Sensitivity to Node Representations under Heterophily</title>
@@ -397,7 +439,7 @@
     <link>https://arxiv.org/abs/2609.33447</link>
     <guid isPermaLink="false">2609.33447</guid>
     <pubDate>Sun, 27 Sep 2026 10:55:19 GMT</pubDate>
-    <description>Guideline documents are published as unstructured PDFs whose evidence is locked in visual structures---tables, flowcharts, and graded recommendations---that standard retrieval pipelines flatten into fixed-size text chunks. We cast evidence access as a document image analysis problem: parse each page image into typed structural elements, then retrieve structure-aware evidence units that follow the document&amp;amp;amp;apos;s own layout (sections, table rows, flowchart paths, graded recommendations), each keeping ...</description>
+    <description>Guideline documents are published as unstructured PDFs whose evidence is locked in visual structures---tables, flowcharts, and graded recommendations---that standard retrieval pipelines flatten into fixed-size text chunks. We cast evidence access as a document image analysis problem: parse each page image into typed structural elements, then retrieve structure-aware evidence units that follow the document&amp;amp;amp;amp;apos;s own layout (sections, table rows, flowchart paths, graded recommendations), each keeping ...</description>
   </item>
   <item>
     <title>Robust Hierarchical Structures for Agentic Document Analysis</title>
@@ -411,7 +453,7 @@
     <link>https://arxiv.org/abs/2609.33073</link>
     <guid isPermaLink="false">2609.33073</guid>
     <pubDate>Sun, 27 Sep 2026 01:08:41 GMT</pubDate>
-    <description>In this work, we consider algorithmic harms that may arise as generative models are incorporated into machine learning platforms. We argue that existing harm taxonomies and threat models require extension to (1) address novel causal drivers of well-studied representational and quality-of-service harms; and (2) anticipate and mitigate endogenous harms, such as sanitization, which may arise when system inputs are misaligned with the system designer&amp;amp;amp;apos;s objectives, or the generative model&amp;amp;amp;apos;s inductive...</description>
+    <description>In this work, we consider algorithmic harms that may arise as generative models are incorporated into machine learning platforms. We argue that existing harm taxonomies and threat models require extension to (1) address novel causal drivers of well-studied representational and quality-of-service harms; and (2) anticipate and mitigate endogenous harms, such as sanitization, which may arise when system inputs are misaligned with the system designer&amp;amp;amp;amp;apos;s objectives, or the generative model&amp;amp;amp;amp;apos;s inductive...</description>
   </item>
   <item>
     <title>Overview and Analysis of the RecSys Challenge 2026: Conversational Music Recommendation</title>
@@ -481,7 +523,7 @@
     <link>https://arxiv.org/abs/2609.32215</link>
     <guid isPermaLink="false">2609.32215</guid>
     <pubDate>Sat, 26 Sep 2026 04:21:40 GMT</pubDate>
-    <description>Transformers have redefined sequential recommendation by effectively modeling dynamic user behaviors and long-range dependencies. However, they remain inherently inefficient: standard architectures operate at a fixed rate, allocating comparable computation to every item in a user&amp;amp;amp;amp;apos;s history regardless of its information content. This leads to prohibitive computational overhead on long sequences and increased sensitivity to behavioral noise. To address this, practitioners often resort to lossy seq...</description>
+    <description>Transformers have redefined sequential recommendation by effectively modeling dynamic user behaviors and long-range dependencies. However, they remain inherently inefficient: standard architectures operate at a fixed rate, allocating comparable computation to every item in a user&amp;amp;amp;amp;amp;apos;s history regardless of its information content. This leads to prohibitive computational overhead on long sequences and increased sensitivity to behavioral noise. To address this, practitioners often resort to lossy seq...</description>
   </item>
   <item>
     <title>Rethinking Cross-Channel Importance in Time-Series Forecasting</title>
@@ -523,14 +565,14 @@
     <link>https://arxiv.org/abs/2609.31927</link>
     <guid isPermaLink="false">2609.31927</guid>
     <pubDate>Fri, 25 Sep 2026 19:21:36 GMT</pubDate>
-    <description>MathNet-Retrieve asks a retriever to find, for a math problem, a document stating the same problem. An LLM under one fixed prompt writes each gold document and its near-miss distractors; LLM judges filter them. We call this procedure the &amp;amp;amp;amp;quot;recipe&amp;amp;amp;amp;quot;, training on pairs built the same way &amp;amp;amp;amp;quot;recipe-matching&amp;amp;amp;amp;quot;, and ask how much score it buys beyond the ability the benchmark claims to test. Two models from one base, matched in rows and settings, differ only in the training file: pairs written under the be...</description>
+    <description>MathNet-Retrieve asks a retriever to find, for a math problem, a document stating the same problem. An LLM under one fixed prompt writes each gold document and its near-miss distractors; LLM judges filter them. We call this procedure the &amp;amp;amp;amp;amp;quot;recipe&amp;amp;amp;amp;amp;quot;, training on pairs built the same way &amp;amp;amp;amp;amp;quot;recipe-matching&amp;amp;amp;amp;amp;quot;, and ask how much score it buys beyond the ability the benchmark claims to test. Two models from one base, matched in rows and settings, differ only in the training file: pairs written under the be...</description>
   </item>
   <item>
     <title>FARE: Deep Reinforcement Learning For Fair Exposure Constrained Uncertainty Aware Financial Content Personalization</title>
     <link>https://arxiv.org/abs/2609.31890</link>
     <guid isPermaLink="false">2609.31890</guid>
     <pubDate>Fri, 25 Sep 2026 18:26:24 GMT</pubDate>
-    <description>Content personalization systems in financial services must ensure fair exposure across diverse offerings-a requirement driven by contractual obligations and the need to prevent &amp;amp;amp;amp;quot;rich-get-richer&amp;amp;amp;amp;quot; dynamics where content with high click-through rate (CTR) dominates while other relevant products receive minimal visibility. Share of Voice (SOV) constraints, which guarantee each content category a target fraction of top-position exposure, address this by promoting product diversity and balanced user d...</description>
+    <description>Content personalization systems in financial services must ensure fair exposure across diverse offerings-a requirement driven by contractual obligations and the need to prevent &amp;amp;amp;amp;amp;quot;rich-get-richer&amp;amp;amp;amp;amp;quot; dynamics where content with high click-through rate (CTR) dominates while other relevant products receive minimal visibility. Share of Voice (SOV) constraints, which guarantee each content category a target fraction of top-position exposure, address this by promoting product diversity and balanced user d...</description>
   </item>
   <item>
     <title>MM-VeriRec: Failure-Guided Fusion for Verifiable Agentic Multimodal Recommendation</title>
@@ -565,7 +607,7 @@
     <link>https://arxiv.org/abs/2609.31166</link>
     <guid isPermaLink="false">2609.31166</guid>
     <pubDate>Fri, 25 Sep 2026 11:58:23 GMT</pubDate>
-    <description>Recommender systems have traditionally been developed for platforms. However, this has given rise to many phenomena that may be advantageous for platform lock-in but are a nuisance to users, such as clickbait, filter bubbles, and the spread of fake news. Recently, user-side recommender systems have been proposed as a new paradigm for solving this problem. If users deploy their own recommender systems, they are no longer at the mercy of the platform&amp;amp;amp;amp;amp;apos;s interests. However, building a user-side reco...</description>
+    <description>Recommender systems have traditionally been developed for platforms. However, this has given rise to many phenomena that may be advantageous for platform lock-in but are a nuisance to users, such as clickbait, filter bubbles, and the spread of fake news. Recently, user-side recommender systems have been proposed as a new paradigm for solving this problem. If users deploy their own recommender systems, they are no longer at the mercy of the platform&amp;amp;amp;amp;amp;amp;apos;s interests. However, building a user-side reco...</description>
   </item>
   <item>
     <title>SPADE: Escaping the Popularity-Similarity Frontier to Measure Serendipitous Recommendations</title>
@@ -614,7 +656,7 @@
     <link>https://arxiv.org/abs/2609.30611</link>
     <guid isPermaLink="false">2609.30611</guid>
     <pubDate>Thu, 24 Sep 2026 22:54:42 GMT</pubDate>
-    <description>On Jan. 30, 2026, the U.S. Department of Justice released a mixed-media collection concerning Jeffrey Epstein, including about three million pages of PDFs. We describe the Epstein Files Engine, an A.I. agent The New York Times deployed to investigate the files. The Engine translated reporter questions into Google BigQuery SQL queries across three corpora: Epstein-related releases, the Times&amp;amp;amp;amp;amp;apos;s archive and external, Epstein-related news headlines. It used an LLM to plan queries and returned citati...</description>
+    <description>On Jan. 30, 2026, the U.S. Department of Justice released a mixed-media collection concerning Jeffrey Epstein, including about three million pages of PDFs. We describe the Epstein Files Engine, an A.I. agent The New York Times deployed to investigate the files. The Engine translated reporter questions into Google BigQuery SQL queries across three corpora: Epstein-related releases, the Times&amp;amp;amp;amp;amp;amp;apos;s archive and external, Epstein-related news headlines. It used an LLM to plan queries and returned citati...</description>
   </item>
   <item>
     <title>REALMS: An AI-Assistant Conversational System for Real-Time Exact Audience Sizing over High-Dimensional Nested Profiles</title>
@@ -628,7 +670,7 @@
     <link>https://arxiv.org/abs/2609.30541</link>
     <guid isPermaLink="false">2609.30541</guid>
     <pubDate>Thu, 24 Sep 2026 20:49:53 GMT</pubDate>
-    <description>Optimizing embedding systems for production recommendation pipelines demands systematic exploration that consumes disproportionate engineering effort at scale. We apply Andrej Karpathy&amp;amp;amp;amp;amp;apos;s AutoResearch paradigm -- a large language model that iteratively edits a training script and retains modifications that improve a held-out scalar metric -- to automate this exploration. We report on twelve weeks of running this paradigm at production scale, where iterations consume hours of multi-GPU compute, ev...</description>
+    <description>Optimizing embedding systems for production recommendation pipelines demands systematic exploration that consumes disproportionate engineering effort at scale. We apply Andrej Karpathy&amp;amp;amp;amp;amp;amp;apos;s AutoResearch paradigm -- a large language model that iteratively edits a training script and retains modifications that improve a held-out scalar metric -- to automate this exploration. We report on twelve weeks of running this paradigm at production scale, where iterations consume hours of multi-GPU compute, ev...</description>
   </item>
   <item>
     <title>DOA-SORT: Directional Occlusion-Aware Multi-Object Tracking with Distributional Observations</title>
@@ -664,48 +706,6 @@
     <guid isPermaLink="false">2609.30711</guid>
     <pubDate>Fri, 25 Sep 2026 02:37:48 GMT</pubDate>
     <description>Sequential recommendation optimizes which items to rank, while each displayed slate also shapes subsequent feedback and user state. We study how a trained ranker can support decisions about these future consequences. We introduce UA-TWM, a utility-anchored world-model interface that constructs nearby slate actions, estimates their target-relevant consequences, and selects an alternative subject to utility constraints. The reference slate serves as a fallback when no alternative qualifies. A logg...</description>
-  </item>
-  <item>
-    <title>From UNDRR Reports to Event Records: Schema-Constrained LLM Extraction of Georeferenced Disasters</title>
-    <link>https://arxiv.org/abs/2609.23853</link>
-    <guid isPermaLink="false">2609.23853</guid>
-    <pubDate>Sun, 20 Sep 2026 20:14:51 GMT</pubDate>
-    <description>Disaster-risk-reduction archives describe hazard events in prose that databases such as EM-DAT (Delforge et al., 2025) cannot ingest directly. We present an LLM pipeline that generates candidate georeferenced event records using a controlled hazard vocabulary and fixed schema, retaining evidence for review. Applied to 10,000 documents from PreventionWeb, the knowledge hub managed by UNDRR, it produced 3,572 records from 1,913 documents across 24 hazard types and resolved 81% of location mentions...</description>
-  </item>
-  <item>
-    <title>C3M: Cross-Session Multimodal Memory Maintenance for Long-Horizon Tasks</title>
-    <link>https://arxiv.org/abs/2609.29735</link>
-    <guid isPermaLink="false">2609.29735</guid>
-    <pubDate>Thu, 24 Sep 2026 12:52:27 GMT</pubDate>
-    <description>Long-horizon tasks require preserving and later recovering cross-session evidence under a bounded, query-blind memory budget. Existing compression can discard fine-grained visual cues or conflate semantically similar but incompatible observations. We present C3M, a cross-session multimodal memory organization that maintains a bounded active index over persistent source text-image evidence. Relation-aware updates consolidate safe redundancy while preserving complementary and incompatible records....</description>
-  </item>
-  <item>
-    <title>Seek: Self-Evaluative Exploration for Knowledge Retrieval</title>
-    <link>https://arxiv.org/abs/2609.28980</link>
-    <guid isPermaLink="false">2609.28980</guid>
-    <pubDate>Thu, 24 Sep 2026 03:47:32 GMT</pubDate>
-    <description>LLM-based retrievers and rerankers have advanced passage ranking, yet both paradigms interact with the corpus in a single pass and commit to the resulting candidate set, leaving relevant documents permanently unrecoverable once missed. We introduce Seek, Self-Evaluative Exploration for Knowledge Retrieval, a training-free framework that addresses this limitation through iterative corpus interaction at test time. At each round, an LLM generates pseudo-passages conditioned on accumulated relevance...</description>
-  </item>
-  <item>
-    <title>Return or Revise? Learning When Revision Helps Retrieval-Augmented QA</title>
-    <link>https://arxiv.org/abs/2609.30087</link>
-    <guid isPermaLink="false">2609.30087</guid>
-    <pubDate>Thu, 24 Sep 2026 16:35:54 GMT</pubDate>
-    <description>We consider the decision of whether to return an existing draft answer or revise it using retrieved evidence, as in answer-revision systems. Draft confidence estimates whether the current answer is correct, but the decision requires estimating the effect of a specified revision. For offline training and evaluation, we grade both the returned draft and its candidate revision under the same correctness judge, which makes repair, harm, and the gap to an oracle observable. We call this paired effect...</description>
-  </item>
-  <item>
-    <title>Advancing Model Research in AgentX: Long-Horizon Autonomy for Industrial Recommender Systems</title>
-    <link>https://arxiv.org/abs/2609.30001</link>
-    <guid isPermaLink="false">2609.30001</guid>
-    <pubDate>Thu, 24 Sep 2026 15:45:07 GMT</pubDate>
-    <description>Sustaining industrial recommendation research requires using the results of one experiment to decide what to investigate next. We present AgentX-Model, the next generation of AgentX&amp;amp;amp;amp;amp;amp;amp;amp;apos;s model research framework, which connects proposal development and model experimentation within sandboxes defined by business inputs and prediction tasks. AgentX-Model adopts a dual-agent architecture comprising a Research Agent and a Model Agent. The Research Agent develops independently reviewed proposals from pap...</description>
-  </item>
-  <item>
-    <title>From Interests to Semantic IDs: Retrieval-Grounded Credit Assignment for Generative Recommendation</title>
-    <link>https://arxiv.org/abs/2609.29983</link>
-    <guid isPermaLink="false">2609.29983</guid>
-    <pubDate>Thu, 24 Sep 2026 15:34:11 GMT</pubDate>
-    <description>Semantic IDs (SIDs) encode each catalog item as a short token sequence, enabling generative recommenders to predict the next item autoregressively. Reasoning-enhanced variants, an increasingly common extension, first generate a textual trace and then decode a next-item SID by beam search. Such recommenders are commonly trained with group-relative policy optimization under an exact-match SID reward, which is sparse in large catalogs. Two failure modes follow. When all rollouts in a group miss the...</description>
   </item>
   </channel>
 </rss>
