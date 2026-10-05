@@ -6,7 +6,77 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 02 Oct 2026 11:44:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 13:21:52 GMT</lastBuildDate>
+  <item>
+    <title>Query-aware routing for Cross-lingual performance gains in Encoders</title>
+    <link>https://arxiv.org/abs/2610.02875</link>
+    <guid isPermaLink="false">2610.02875</guid>
+    <pubDate>Fri, 02 Oct 2026 06:12:53 GMT</pubDate>
+    <description>Multilingual encoders can exhibit reduced retrieval effectiveness when queries and relevant documents differ in language, despite strong same-language performance. We investigate whether Finnish and Swedish cross-lingual retrieval can improve while preserving an encoder&apos;s existing same-language performance and document index. We combine a query-only low-rank adapter, trained against frozen document embeddings, with deterministic routing based on query and index languages. Cross-language queries ...</description>
+  </item>
+  <item>
+    <title>MRVQ: One Resident Index for Dimension- and Rate-Elastic Vector Search</title>
+    <link>https://arxiv.org/abs/2610.03651</link>
+    <guid isPermaLink="false">2610.03651</guid>
+    <pubDate>Fri, 02 Oct 2026 17:33:13 GMT</pubDate>
+    <description>Dense-retrieval services must switch among embedding-prefix dimensions and index bit rates as latency, quality, and memory budgets change. Tuning a quantizer separately for each rate gives the best quality, but the retrieval tier then holds several code streams and quantizer states at once. We introduce Matryoshka Residual Vector Quantization (MRVQ), a post-hoc residual quantizer for frozen embeddings. Its maximum-rate code can be truncated two ways: dropping residual stages lowers the rate, and...</description>
+  </item>
+  <item>
+    <title>Adaptive Sparsity Optimization with Learnable Soft Top-K and Per-Term Thresholding for Efficient Retrieval</title>
+    <link>https://arxiv.org/abs/2610.02572</link>
+    <guid isPermaLink="false">2610.02572</guid>
+    <pubDate>Thu, 01 Oct 2026 23:07:33 GMT</pubDate>
+    <description>Recent work on neural sparse retrieval has demonstrated strong relevance by leveraging Large Language Models (LLMs) for semantic term expansion. However, learned models paired with previous sparsification techniques still yield overly long document and query vectors partly due to a large LLM vocabulary, imposing a serious challenge to retrieval time and space efficiency. This paper proposes a scheme for optimizing model sparsity through a synergy of adaptive strategies, including learnable soft ...</description>
+  </item>
+  <item>
+    <title>Learning Query Encoders Can Be Hard Even When Vector Retrieval Is Geometrically Easy</title>
+    <link>https://arxiv.org/abs/2610.02749</link>
+    <guid isPermaLink="false">2610.02749</guid>
+    <pubDate>Fri, 02 Oct 2026 03:22:56 GMT</pubDate>
+    <description>Efficient vector retrieval requires both a corpus geometry that supports retrieving the right documents through vector similarity, and a query encoder that can embed queries near their desired documents in the embedding space. Recent work has studied geometric capacity through the lens of the minimum embedding dimension needed to realize all top-$k$ answer sets of $n$ documents. We study a different notion of geometric capacity--the maximum recall achievable for a frozen document index--and expl...</description>
+  </item>
+  <item>
+    <title>TSGuard: A Real-Time Framework for Detecting and Imputing Missing Data in Streaming Time Series</title>
+    <link>https://arxiv.org/abs/2610.03147</link>
+    <guid isPermaLink="false">2610.03147</guid>
+    <pubDate>Fri, 02 Oct 2026 11:18:04 GMT</pubDate>
+    <description>Streaming sensor applications routinely suffer from delayed or missing observations caused by faults, communication losses, or environmental interference. Although recent imputation methods exploit temporal and spatial dependencies effectively, most either assume offline access to future observations or prioritize throughput without enforcing domain plausibility. We present TSGuard, a real-time demonstration system for monitoring, validating, and imputing missing values in streaming time series....</description>
+  </item>
+  <item>
+    <title>Benchmarking Literature Retrieval for a Model Organism: A Dictyostelium Case Study</title>
+    <link>https://arxiv.org/abs/2610.03130</link>
+    <guid isPermaLink="false">2610.03130</guid>
+    <pubDate>Fri, 02 Oct 2026 10:50:06 GMT</pubDate>
+    <description>Biological literature retrieval systems are often developed and evaluated using broad biomedical corpora and general-purpose search tasks. However, many curated knowledge bases operate in narrower model-organism domains, where the literature is sparse and terminology is organism-specific. We introduce a retrieval benchmark from dictyBase for Dictyostelium, a model organism in cell and developmental biology. The benchmark consists of curator-generated biological queries linked to PubMed-indexed a...</description>
+  </item>
+  <item>
+    <title>When History Misleads: Asymmetric Margin Supervision for Instruction-Guided LLM Generative Recommendation</title>
+    <link>https://arxiv.org/abs/2610.02600</link>
+    <guid isPermaLink="false">2610.02600</guid>
+    <pubDate>Thu, 01 Oct 2026 23:53:42 GMT</pubDate>
+    <description>In instruction-guided generative recommendation, LLM-based recommenders need to balance two goals: responding to the user&apos;s current request and aligning with the preferences in their interaction history. When the two conflict, history events can override the request. We show that turning the effect of individual history events into supervision faces two obstacles. First, the events that most influence a recommendation are not necessarily the ones that support the target item. Second, removing a ...</description>
+  </item>
+  <item>
+    <title>Asterism: Exploring and Synthesizing Scattered Observations into Literature-Grounded Hypotheses and Theories</title>
+    <link>https://arxiv.org/abs/2610.02673</link>
+    <guid isPermaLink="false">2610.02673</guid>
+    <pubDate>Fri, 02 Oct 2026 01:55:14 GMT</pubDate>
+    <description>A theory draws many independent observations into one framework with novel hypotheses. A researcher building such a theory must synthesize observations scattered across many papers, each describing related concepts but often in different terms. Which concepts matter most also depends on their preferences and research questions. Recent approaches scale theory synthesis with LLMs, but automate away choices and intuitions from researchers. We present Asterism, which extracts observations from hundr...</description>
+  </item>
+  <item>
+    <title>On-Premises Multi-Course RAG Tutoring for Business Education: Hardware-Software Trade-offs in a Campus AI Tutor</title>
+    <link>https://arxiv.org/abs/2610.02510</link>
+    <guid isPermaLink="false">2610.02510</guid>
+    <pubDate>Thu, 01 Oct 2026 21:33:46 GMT</pubDate>
+    <description>Campus AI tutors based on retrieval-augmented generation (RAG) must ground answers in assigned course materials while keeping textbooks and student dialogue on institutional infrastructure. We present CourseChat, an on-premises, multi-course RAG tutor for undergraduate business education, deployed behind a campus web gateway and intended for use embedded in Moodle. Six isolated course offerings, each keyed by its own course reference number (CRN), share twin-edge AI hosts running a FastAPI servi...</description>
+  </item>
+  <item>
+    <title>SOLO: Certified-Recall Metric Similarity Search with Scan-Only Sampled Inverted Lists</title>
+    <link>https://arxiv.org/abs/2610.02387</link>
+    <guid isPermaLink="false">2610.02387</guid>
+    <pubDate>Thu, 01 Oct 2026 19:09:03 GMT</pubDate>
+    <description>We present SOLO, an index for approximate nearest-neighbor search in general metric spaces whose serving path contains no ranking heuristic of any kind: a query is routed to the $k_s$ nearest points of a random sample of the database, and every object in the touched posting lists is evaluated with the true distance. Because nothing must outrank anything, recall equals a coverage probability computable from the stored index: one ground-truth pass over a query sample certifies every operating poin...</description>
+  </item>
   <item>
     <title>Optimizing Effective Training Time for Large-Scale Recommendation Systems</title>
     <link>https://arxiv.org/abs/2610.02057</link>
@@ -61,7 +131,7 @@
     <link>https://arxiv.org/abs/2610.01270</link>
     <guid isPermaLink="false">2610.01270</guid>
     <pubDate>Thu, 01 Oct 2026 08:09:37 GMT</pubDate>
-    <description>Personalization encoders compress evolving interaction histories into preference states used to rank items or condition text generation. A task head operating only on this state can miss useful evidence that remains in the frozen encoder&apos;s cached representations for individual timesteps. We study this recoverability gap and propose REPAIR, which compares cached representations with the current preference state in a compact learned coordinate space. It resolves corrective evidence over extended h...</description>
+    <description>Personalization encoders compress evolving interaction histories into preference states used to rank items or condition text generation. A task head operating only on this state can miss useful evidence that remains in the frozen encoder&amp;apos;s cached representations for individual timesteps. We study this recoverability gap and propose REPAIR, which compares cached representations with the current preference state in a compact learned coordinate space. It resolves corrective evidence over extended h...</description>
   </item>
   <item>
     <title>Do Multilingual Encoders Produce Language-Consistent Semantic IDs?</title>
@@ -152,7 +222,7 @@
     <link>https://arxiv.org/abs/2609.40241</link>
     <guid isPermaLink="false">2609.40241</guid>
     <pubDate>Wed, 30 Sep 2026 17:33:43 GMT</pubDate>
-    <description>Large language models (LLMs) have shown promise for recommendation reranking, but their use introduces an important tradeoff between recommendation quality and serving efficiency. We investigate whether a decision-oriented model provides a useful alternative when the reranking task is fundamentally a structured choice among predefined candidate items. Specifically, we conduct a controlled empirical study of Jev, described by TypeSafe AI as a ``System One Model,&amp;amp;apos;&amp;amp;apos; for personalized recommendation ...</description>
+    <description>Large language models (LLMs) have shown promise for recommendation reranking, but their use introduces an important tradeoff between recommendation quality and serving efficiency. We investigate whether a decision-oriented model provides a useful alternative when the reranking task is fundamentally a structured choice among predefined candidate items. Specifically, we conduct a controlled empirical study of Jev, described by TypeSafe AI as a ``System One Model,&amp;amp;amp;apos;&amp;amp;amp;apos; for personalized recommendation ...</description>
   </item>
   <item>
     <title>Generative End-to-end Ad Retrieval at Douyin</title>
@@ -166,14 +236,14 @@
     <link>https://arxiv.org/abs/2609.39358</link>
     <guid isPermaLink="false">2609.39358</guid>
     <pubDate>Wed, 30 Sep 2026 09:16:40 GMT</pubDate>
-    <description>A transformer language model performs a bounded amount of computation per token, and recent work by Vishal Sikka, former CEO of Infosys, argues that this bound limits which tasks a model can carry out or verify (arXiv:2507.07505). We ask how much of the budget beneath that ceiling is spent on work the model has already done. Serving is stateless across requests: a model that answers a second question about a document recomputes the document&amp;amp;apos;s attention state from the first token. On seven real-w...</description>
+    <description>A transformer language model performs a bounded amount of computation per token, and recent work by Vishal Sikka, former CEO of Infosys, argues that this bound limits which tasks a model can carry out or verify (arXiv:2507.07505). We ask how much of the budget beneath that ceiling is spent on work the model has already done. Serving is stateless across requests: a model that answers a second question about a document recomputes the document&amp;amp;amp;apos;s attention state from the first token. On seven real-w...</description>
   </item>
   <item>
     <title>Conversational Capture: A Trajectory-Level Framework for Evaluating Generative Engine Optimization in Multi-turn Human-Agent Interaction</title>
     <link>https://arxiv.org/abs/2609.40069</link>
     <guid isPermaLink="false">2609.40069</guid>
     <pubDate>Wed, 30 Sep 2026 16:23:23 GMT</pubDate>
-    <description>Generative Engine Optimization (GEO) shapes content to increase its likelihood of being cited by answer engines built on retrieval-augmented large language models. GEO is typically evaluated as a single-turn property: for a fixed query, an evaluator measures a source&amp;amp;apos;s visibility in one answer. We argue that the single answer is an inadequate unit of analysis. Human-agent information seeking forms a closed loop: the agent&amp;amp;apos;s answer changes the user&amp;amp;apos;s beliefs and therefore the next question, which...</description>
+    <description>Generative Engine Optimization (GEO) shapes content to increase its likelihood of being cited by answer engines built on retrieval-augmented large language models. GEO is typically evaluated as a single-turn property: for a fixed query, an evaluator measures a source&amp;amp;amp;apos;s visibility in one answer. We argue that the single answer is an inadequate unit of analysis. Human-agent information seeking forms a closed loop: the agent&amp;amp;amp;apos;s answer changes the user&amp;amp;amp;apos;s beliefs and therefore the next question, which...</description>
   </item>
   <item>
     <title>Overview of BioASQ 2026: The fourteenth BioASQ Challenge on Large-Scale Biomedical Semantic Indexing and Question Answering</title>
@@ -272,7 +342,7 @@ We present a systematic evaluation of ASP under strict schema constraints, compa
     <link>https://arxiv.org/abs/2609.38822</link>
     <guid isPermaLink="false">2609.38822</guid>
     <pubDate>Wed, 30 Sep 2026 02:46:59 GMT</pubDate>
-    <description>Anthropic&amp;amp;apos;s Agent Skills package reusable procedural know-how for an LLM agent into this http URL directories, and open-source aggregations have grown past 230,000 skills, making selection rather than authoring the bottleneck. The standing answer in the literature outsources selection to the agent itself: an LLM-mediated retrieval loop that rewrites queries and refines candidates inside the agent&amp;amp;apos;s decision loop, paying LLM tokens on every task. We present SkillSeek, an open-source two-stage ski...</description>
+    <description>Anthropic&amp;amp;amp;apos;s Agent Skills package reusable procedural know-how for an LLM agent into this http URL directories, and open-source aggregations have grown past 230,000 skills, making selection rather than authoring the bottleneck. The standing answer in the literature outsources selection to the agent itself: an LLM-mediated retrieval loop that rewrites queries and refines candidates inside the agent&amp;amp;amp;apos;s decision loop, paying LLM tokens on every task. We present SkillSeek, an open-source two-stage ski...</description>
   </item>
   <item>
     <title>Learning to Route in Visual Space via Multi-Step Embedding Retrieval</title>
@@ -342,14 +412,14 @@ We present a systematic evaluation of ASP under strict schema constraints, compa
     <link>https://arxiv.org/abs/2609.38099</link>
     <guid isPermaLink="false">2609.38099</guid>
     <pubDate>Tue, 29 Sep 2026 17:44:16 GMT</pubDate>
-    <description>Turning decoder-only large language models (LLMs) into strong dense retrievers typically requires some form of retriever training. In this paper, we ask whether LLMs can instead be prompted to produce effective representations for dense retrieval given only a few in-context examples. To answer this, we introduce RICE (Representations from In-Context Examples), a simple &amp;amp;amp;amp;quot;training-free&amp;amp;amp;amp;quot; approach that extracts high-quality dense representations from LLMs. To do so, RICE conditions the LLM on exampl...</description>
+    <description>Turning decoder-only large language models (LLMs) into strong dense retrievers typically requires some form of retriever training. In this paper, we ask whether LLMs can instead be prompted to produce effective representations for dense retrieval given only a few in-context examples. To answer this, we introduce RICE (Representations from In-Context Examples), a simple &amp;amp;amp;amp;amp;quot;training-free&amp;amp;amp;amp;amp;quot; approach that extracts high-quality dense representations from LLMs. To do so, RICE conditions the LLM on exampl...</description>
   </item>
   <item>
     <title>Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies</title>
     <link>https://arxiv.org/abs/2609.38155</link>
     <guid isPermaLink="false">2609.38155</guid>
     <pubDate>Tue, 29 Sep 2026 17:59:01 GMT</pubDate>
-    <description>Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the &amp;amp;amp;amp;quot;biography&amp;amp;amp;amp;quot; of the particular entity a question concerns. To address this, we introduce Grounded Enti...</description>
+    <description>Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the &amp;amp;amp;amp;amp;quot;biography&amp;amp;amp;amp;amp;quot; of the particular entity a question concerns. To address this, we introduce Grounded Enti...</description>
   </item>
   <item>
     <title>ReMem: Rethinking Perception and Memory in Long-Context Recommendation Agents</title>
@@ -370,7 +440,7 @@ We present a systematic evaluation of ASP under strict schema constraints, compa
     <link>https://arxiv.org/abs/2609.37226</link>
     <guid isPermaLink="false">2609.37226</guid>
     <pubDate>Tue, 29 Sep 2026 10:39:57 GMT</pubDate>
-    <description>Answering questions and completing tasks over large document collections often requires connecting evidence spread across multiple documents, such as a project&amp;amp;amp;amp;apos;s approval recorded in one, its requirements in another, and its latest status in a third. Recent LLM agents approach this by iteratively searching the full corpus rather than reading only a fixed set of top-ranked documents. However, when the corpus is exposed only as a flat collection of files, a relevant document gives no indication of...</description>
+    <description>Answering questions and completing tasks over large document collections often requires connecting evidence spread across multiple documents, such as a project&amp;amp;amp;amp;amp;apos;s approval recorded in one, its requirements in another, and its latest status in a third. Recent LLM agents approach this by iteratively searching the full corpus rather than reading only a fixed set of top-ranked documents. However, when the corpus is exposed only as a flat collection of files, a relevant document gives no indication of...</description>
   </item>
   <item>
     <title>Optimizing VLP-aligned Multimodal Intent Representation with Correct Visual Instantiation for Zero-Shot Composed Image Retrieval</title>
@@ -426,7 +496,7 @@ We present a systematic evaluation of ASP under strict schema constraints, compa
     <link>https://arxiv.org/abs/2609.36862</link>
     <guid isPermaLink="false">2609.36862</guid>
     <pubDate>Tue, 29 Sep 2026 07:04:31 GMT</pubDate>
-    <description>Fine-tuning-as-a-service lets users adapt a safety-aligned language model to their own data, but it also creates a harmful fine-tuning attack surface: a small amount of harmful data mixed into an otherwise benign fine-tuning set can degrade the model&amp;amp;amp;amp;apos;s alignment. Two recent alignment-stage defenses address this problem at different levels of the model. Vaccine improves the robustness of hidden embeddings to the representation shifts induced by harmful fine-tuning, whereas Booster simulates harmf...</description>
+    <description>Fine-tuning-as-a-service lets users adapt a safety-aligned language model to their own data, but it also creates a harmful fine-tuning attack surface: a small amount of harmful data mixed into an otherwise benign fine-tuning set can degrade the model&amp;amp;amp;amp;amp;apos;s alignment. Two recent alignment-stage defenses address this problem at different levels of the model. Vaccine improves the robustness of hidden embeddings to the representation shifts induced by harmful fine-tuning, whereas Booster simulates harmf...</description>
   </item>
   <item>
     <title>Does the Unsafe Gradient Survive a Conversation? On the Fragility of Gradient-Based Jailbreak Detection in Multi-Turn Dialogue</title>
@@ -461,7 +531,7 @@ We present a systematic evaluation of ASP under strict schema constraints, compa
     <link>https://arxiv.org/abs/2609.36359</link>
     <guid isPermaLink="false">2609.36359</guid>
     <pubDate>Mon, 28 Sep 2026 22:47:05 GMT</pubDate>
-    <description>Graph-based approximate nearest neighbor search (ANNS) is widely used for large-scale semantic search. Its indices are constructed primarily based on geometric relationships among embeddings of an input dataset (e.g., documents or images), rather than explicitly optimizing for semantic relevance. However, when using these indices for downstream query retrieval, performance is evaluated based on the semantic relevance of the retrieved results to the query. This creates a fundamental &amp;amp;amp;amp;quot;geometry-sem...</description>
+    <description>Graph-based approximate nearest neighbor search (ANNS) is widely used for large-scale semantic search. Its indices are constructed primarily based on geometric relationships among embeddings of an input dataset (e.g., documents or images), rather than explicitly optimizing for semantic relevance. However, when using these indices for downstream query retrieval, performance is evaluated based on the semantic relevance of the retrieved results to the query. This creates a fundamental &amp;amp;amp;amp;amp;quot;geometry-sem...</description>
   </item>
   <item>
     <title>ThuRunel: Dynamic Decoupling for Structured Advisory Dialogue</title>
@@ -510,7 +580,7 @@ We present a systematic evaluation of ASP under strict schema constraints, compa
     <link>https://arxiv.org/abs/2609.34951</link>
     <guid isPermaLink="false">2609.34951</guid>
     <pubDate>Mon, 28 Sep 2026 11:41:13 GMT</pubDate>
-    <description>In 2023, AI models answered from training data and hallucinated when it ran out, and businesses were told to seed that knowledge. Models&amp;amp;amp;amp;amp;apos; training knowledge has since given way to live web search, and the advice followed it there: answer-engine optimization, or AEO, now tells businesses to scatter breadcrumbs across forum threads, listicles, and off-site citations, so AI engines are likelier to surface and recommend them. But being surfaced is no longer enough: an agent opens the results and rea...</description>
+    <description>In 2023, AI models answered from training data and hallucinated when it ran out, and businesses were told to seed that knowledge. Models&amp;amp;amp;amp;amp;amp;apos; training knowledge has since given way to live web search, and the advice followed it there: answer-engine optimization, or AEO, now tells businesses to scatter breadcrumbs across forum threads, listicles, and off-site citations, so AI engines are likelier to surface and recommend them. But being surfaced is no longer enough: an agent opens the results and rea...</description>
   </item>
   <item>
     <title>VEX-Bench: Benchmarking Verification Complexity of LLM-Generated Misinformation</title>
@@ -615,7 +685,7 @@ We present a systematic evaluation of ASP under strict schema constraints, compa
     <link>https://arxiv.org/abs/2609.34899</link>
     <guid isPermaLink="false">2609.34899</guid>
     <pubDate>Mon, 28 Sep 2026 11:05:45 GMT</pubDate>
-    <description>Multi-vector retrievers built on vision-language models lead visual document retrieval (VDR), but they run a multi-billion-parameter query encoder on every search. Distilling this encoder into a small student that queries the teacher&amp;amp;amp;amp;amp;amp;amp;apos;s existing index would remove the bottleneck. The standard recipe, however, matches the teacher&amp;amp;amp;amp;amp;amp;amp;apos;s MaxSim scores and so requires encoding and caching every training page, which can reach terabytes of page tokens. NanoVDR avoids pages entirely by training on the teach...</description>
+    <description>Multi-vector retrievers built on vision-language models lead visual document retrieval (VDR), but they run a multi-billion-parameter query encoder on every search. Distilling this encoder into a small student that queries the teacher&amp;amp;amp;amp;amp;amp;amp;amp;apos;s existing index would remove the bottleneck. The standard recipe, however, matches the teacher&amp;amp;amp;amp;amp;amp;amp;amp;apos;s MaxSim scores and so requires encoding and caching every training page, which can reach terabytes of page tokens. NanoVDR avoids pages entirely by training on the teach...</description>
   </item>
   <item>
     <title>No Attention, No Problem: Rethinking Session-based Recommendation with Pure Convolution</title>
@@ -637,76 +707,6 @@ We present a systematic evaluation of ASP under strict schema constraints, compa
     <guid isPermaLink="false">2609.34393</guid>
     <pubDate>Mon, 28 Sep 2026 06:07:53 GMT</pubDate>
     <description>Cross-modal hashing enables efficient retrieval by encoding heterogeneous data into compact binary codes. Recent methods exploit fine-grained relations encoded in multi-label training structure, yet none of them constrains how those relations survive as consistent candidate rankings in finite, multi-length Hamming spaces, which we term the relevance resolution bottleneck (RRB). To address the RRB, we propose MultiBit, which transfers relevance resolution from multi-label structure to multi-lengt...</description>
-  </item>
-  <item>
-    <title>Correcting to Predict: Pseudo-Value Correction for Multimodal Attribute Value Extraction</title>
-    <link>https://arxiv.org/abs/2609.34383</link>
-    <guid isPermaLink="false">2609.34383</guid>
-    <pubDate>Mon, 28 Sep 2026 05:59:19 GMT</pubDate>
-    <description>Product attribute value extraction (AVE) is a fundamental task in e-commerce, aiming to identify specific values of predefined attributes from multimodal product profiles such as text and images. While multimodal large language models (MLLMs) have shown promise for AVE, they face challenges in extracting implicit attributes that require joint reasoning over visual and textual cues, often confusing semantically similar values. However, existing methods often fail to resolve such ambiguities becau...</description>
-  </item>
-  <item>
-    <title>When Harness Beats Scale, and When Reading Beats Both</title>
-    <link>https://arxiv.org/abs/2609.34366</link>
-    <guid isPermaLink="false">2609.34366</guid>
-    <pubDate>Mon, 28 Sep 2026 05:42:51 GMT</pubDate>
-    <description>We describe our system for DocSem, the document-grounded quantitative reasoning shared task at DocInsights 2026, and analyze why it succeeded on labeled data and failed on the test set. The pipeline pairs hybrid block retrieval with Program-of-Thoughts (PoT) generation executed in a sandboxed interpreter, self-consistency sampling, and entity enrichment from chunk-level knowledge graphs. On our held-out split, application architecture moved the metrics far more than model scale did: PoT added 0....</description>
-  </item>
-  <item>
-    <title>Inspire: Benchmarking Scientific Literature Search for Open Research Problems</title>
-    <link>https://arxiv.org/abs/2609.33233</link>
-    <guid isPermaLink="false">2609.33233</guid>
-    <pubDate>Sun, 27 Sep 2026 05:21:51 GMT</pubDate>
-    <description>Scientific literature search often begins with an open research problem rather than a known target paper or a fixed candidate set. We introduce INSPIRE, a benchmark for evaluating agents that search prior literature to make progress on solution-redacted research problems. Each instance pairs a research brief with a target-specific cutoff three months before a later paper and evaluates ranked outputs against graded cited antecedents from that paper&amp;amp;amp;amp;amp;amp;amp;apos;s realized research lineage. Search proceeds ove...</description>
-  </item>
-  <item>
-    <title>Measuring and Mitigating Identity-Cue Preference Drift in LLM-based Recommender Systems</title>
-    <link>https://arxiv.org/abs/2609.34229</link>
-    <guid isPermaLink="false">2609.34229</guid>
-    <pubDate>Mon, 28 Sep 2026 03:35:06 GMT</pubDate>
-    <description>In large language model-based recommender systems, identity cues embedded in prompts can steer recommendations toward group-level patterns even when the underlying behavioral evidence remains unchanged. We introduce PromptShift, an interpretable, training-free framework for quantifying and mitigating such identity-cue preference drift. We define Drift as the divergence, in both item membership and ranking order, between a recommendation list generated under an identity-cued prompt and the refere...</description>
-  </item>
-  <item>
-    <title>When Does Selection Replace Extraction? A Pre-Registered Test of Agent Memory with a Typed Decision Model</title>
-    <link>https://arxiv.org/abs/2609.34227</link>
-    <guid isPermaLink="false">2609.34227</guid>
-    <pubDate>Mon, 28 Sep 2026 03:34:07 GMT</pubDate>
-    <description>Does conversational memory need LLM-extracted facts, or is selecting the right raw turns enough? Published results disagree. Extraction-based systems report gains from distilled facts. Recent studies find raw history with good ranking does as well, but disagree about whether ranking matters. We ran a pre-registered study on held-out LoCoMo conversations and LongMemEval. At a tight budget on LoCoMo, raw turns selected by a single call to Jev, a typed decision model, are non-inferior to an LLM-ext...</description>
-  </item>
-  <item>
-    <title>RidgeRank: Efficient Visual Document Reranking via Score Fusion and a Shallow Linear Readout</title>
-    <link>https://arxiv.org/abs/2609.34192</link>
-    <guid isPermaLink="false">2609.34192</guid>
-    <pubDate>Mon, 28 Sep 2026 03:05:48 GMT</pubDate>
-    <description>Multimodal language models rerank visual document retrieval results accurately, but scoring every candidate page at full cost makes them slow. Some methods that compress these rerankers need relevance labels to regain accuracy, and they rank by the reranker score alone. RidgeRank measures how much relevance signal the reranker score lacks and recovers it from the retriever score through a closed-form fusion rule. Maximizing a correlation objective gives the optimal fusion weight, along with the ...</description>
-  </item>
-  <item>
-    <title>STITCH-RAG: Spatio-Temporal Influence Tracing over Topic Hypergraphs for Multi-Hop Retrieval-Augmented Generation</title>
-    <link>https://arxiv.org/abs/2609.34127</link>
-    <guid isPermaLink="false">2609.34127</guid>
-    <pubDate>Mon, 28 Sep 2026 02:05:31 GMT</pubDate>
-    <description>Multi-hop retrieval-augmented generation requires a retriever to connect evidence distributed across documents while preserving a concise, faithful generation context. Existing indexes leave two complementary gaps: chunk-based RAG can break cross-passage evidence chains, whereas an unlabeled pairwise projection without generating-topic provenance cannot jointly preserve topic-level co-participation and per-occurrence entity descriptions. We propose STITCH-RAG, a hypergraph-based framework with t...</description>
-  </item>
-  <item>
-    <title>High-Level Text Preprocessing for Semantic Similarity Analysis of Discursive Texts: A Framework and Empirical Demonstration</title>
-    <link>https://arxiv.org/abs/2609.33983</link>
-    <guid isPermaLink="false">2609.33983</guid>
-    <pubDate>Sun, 27 Sep 2026 22:32:31 GMT</pubDate>
-    <description>Semantic Textual Similarity (STS) methods assume that a document&amp;amp;amp;amp;amp;amp;amp;apos;s lexical content faithfully represents what it asserts. This assumption fails for discursive documents that discuss, compare, critique, and contextualize other positions in the process of articulating their own. The result is semantic diffusion: similarity scores between documents are inflated by vocabulary acquired through discursive engagement rather than substantive alignment. Standard Natural Language Processing (NLP) preproce...</description>
-  </item>
-  <item>
-    <title>Beyond Fixed Features: Architecture-Dependent Sensitivity to Node Representations under Heterophily</title>
-    <link>https://arxiv.org/abs/2609.33764</link>
-    <guid isPermaLink="false">2609.33764</guid>
-    <pubDate>Sun, 27 Sep 2026 17:03:21 GMT</pubDate>
-    <description>Graph Neural Networks (GNNs) perform well on homophilic graphs but struggle in heterophilic settings, where connected nodes often carry dissimilar labels. Existing evaluations typically compare architectures under a fixed node-feature representation, leaving unclear whether conclusions about heterophily robustness remain stable as the input representation changes. We address this question by constructing parallel feature variants of two large-scale heterophilic benchmarks, Roman-Empire and Amazo...</description>
-  </item>
-  <item>
-    <title>Concurrent Coded Signal-Multiplexing Ranging for Half-Duplex Asynchronous Networks</title>
-    <link>https://arxiv.org/abs/2609.33753</link>
-    <guid isPermaLink="false">2609.33753</guid>
-    <pubDate>Sun, 27 Sep 2026 16:52:17 GMT</pubDate>
-    <description>Signal-multiplexing network ranging (SM-NR) shares broadcasts across node pairs, but its sequential operation leads to a ranging cycle that grows linearly with network size. This paper proposes a concurrent coded SM-NR (CC-SM-NR) framework for asynchronous half-duplex networks. Firstly, the CC-SM-NR protocol coordinates concurrent transmissions through binary transmit-listen codewords. The transmit-listen schedule defined by these codewords ensures reciprocal observations subject to a finite con...</description>
   </item>
   </channel>
 </rss>
