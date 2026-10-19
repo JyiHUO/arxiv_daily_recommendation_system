@@ -6,7 +6,21 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 16 Oct 2026 02:47:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 02:53:03 GMT</lastBuildDate>
+  <item>
+    <title>Code Skill Server: A Large-Scale Search Engine for Code Generation Skills</title>
+    <link>https://arxiv.org/abs/2610.23186</link>
+    <guid isPermaLink="false">2610.23186</guid>
+    <pubDate>Fri, 16 Oct 2026 09:23:51 GMT</pubDate>
+    <description>Agent skills have proven to be an effective technique for improving agent ability on specific tasks, including software engineering, natural science, and mathematics. During such a process, using agent skills often involves manually discovering and organizing skills from heterogeneous sources, while existing skill retrieval methods mainly focus on selecting relevant skills from established skill libraries. However, with the rapidly increasing number and variety of reusable agent skills, manually...</description>
+  </item>
+  <item>
+    <title>Reasoning Reranking with Semantic IDs as the Sole Item Representation</title>
+    <link>https://arxiv.org/abs/2610.22797</link>
+    <guid isPermaLink="false">2610.22797</guid>
+    <pubDate>Fri, 16 Oct 2026 01:21:47 GMT</pubDate>
+    <description>Reasoning rerankers write a rationale before ranking a candidate slate, and existing systems read item metadata to do so, even though generative recommenders increasingly represent items as compact Semantic IDs (SIDs). Ranking from SIDs alone has two appeals: SID prompts are far shorter than the matched item text, and although item codes are fixed from content, the backbone learns their token embeddings in part from user-item interaction sequences, so the tokens can carry behavioral signal that ...</description>
+  </item>
   <item>
     <title>CARA: Causally Guided Retrieval Agent for Question Answering</title>
     <link>https://arxiv.org/abs/2610.22017</link>
@@ -33,7 +47,7 @@
     <link>https://arxiv.org/abs/2610.21731</link>
     <guid isPermaLink="false">2610.21731</guid>
     <pubDate>Thu, 15 Oct 2026 11:48:37 GMT</pubDate>
-    <description>Web search allows LLMs to access up-to-date information, but it remains unclear why they sometimes produce outdated answers even when relevant evidence is available. To study this problem, we construct temporal facts whose values changed after the models&apos; training cutoffs. We evaluate one proprietary model under deployed web search and six open-weight model configurations under controlled retrieval. We find that models often answer from search snippets without opening the source pages, which is ...</description>
+    <description>Web search allows LLMs to access up-to-date information, but it remains unclear why they sometimes produce outdated answers even when relevant evidence is available. To study this problem, we construct temporal facts whose values changed after the models&amp;apos; training cutoffs. We evaluate one proprietary model under deployed web search and six open-weight model configurations under controlled retrieval. We find that models often answer from search snippets without opening the source pages, which is ...</description>
   </item>
   <item>
     <title>VoteGEO-Bench: Measuring the Impact of Generative Engine Optimization on Electoral Visibility</title>
@@ -54,7 +68,7 @@
     <link>https://arxiv.org/abs/2610.21267</link>
     <guid isPermaLink="false">2610.21267</guid>
     <pubDate>Thu, 15 Oct 2026 05:00:58 GMT</pubDate>
-    <description>Modern agents select tools from registries, but exposing entire registries incurs high token costs and can impair selection as they grow. We present TRACER, a retrieval front-end that indexes observed tool-call sequences in a trie and ranks continuations using a learned blend of empirical and contextual priors. On a mixed retail-and-telecom $\tau^2$ environment, TRACER improves GPT-5.4&apos;s tool-selection accuracy by 4.7 points while reducing input tokens per step by 80%, exposing just 5 of 128 too...</description>
+    <description>Modern agents select tools from registries, but exposing entire registries incurs high token costs and can impair selection as they grow. We present TRACER, a retrieval front-end that indexes observed tool-call sequences in a trie and ranks continuations using a learned blend of empirical and contextual priors. On a mixed retail-and-telecom $\tau^2$ environment, TRACER improves GPT-5.4&amp;apos;s tool-selection accuracy by 4.7 points while reducing input tokens per step by 80%, exposing just 5 of 128 too...</description>
   </item>
   <item>
     <title>RecSoup: Efficient Model Merging Approach for Controllable Multi-Objective Recommendation</title>
@@ -103,7 +117,7 @@
     <link>https://arxiv.org/abs/2610.20664</link>
     <guid isPermaLink="false">2610.20664</guid>
     <pubDate>Wed, 14 Oct 2026 08:39:52 GMT</pubDate>
-    <description>On-policy distillation (OPD) has recently emerged as a promising approach for transferring the capabilities of large agents to compact students. In deep search, where agents iteratively retrieve external evidence, a teacher&apos;s preference among plausible queries before retrieval may not predict which queries will return useful evidence. Standard OPD nevertheless supervises each student query from the preceding context alone, inducing a failure mode we term \textbf{\textit{evidence-blind supervisio...</description>
+    <description>On-policy distillation (OPD) has recently emerged as a promising approach for transferring the capabilities of large agents to compact students. In deep search, where agents iteratively retrieve external evidence, a teacher&amp;apos;s preference among plausible queries before retrieval may not predict which queries will return useful evidence. Standard OPD nevertheless supervises each student query from the preceding context alone, inducing a failure mode we term \textbf{\textit{evidence-blind supervisio...</description>
   </item>
   <item>
     <title>Twenty Days Later: A Pre-Registered Test of History-Based Forecasts of Brand Mentions in Gemini Answers</title>
@@ -159,7 +173,7 @@
     <link>https://arxiv.org/abs/2610.19528</link>
     <guid isPermaLink="false">2610.19528</guid>
     <pubDate>Wed, 14 Oct 2026 03:45:40 GMT</pubDate>
-    <description>Retrieving external knowledge can improve large language model (LLM) translation by providing supplementary information such as idiom interpretations and terminology. However, existing retrieval-augmented machine translation systems typically apply predefined retrieval strategies uniformly across all inputs. We argue that translation operates in a partial-evidence regime: LLM&amp;apos;s parametric knowledge suffices for many inputs, while external evidence benefits a subset and usually supports rather th...</description>
+    <description>Retrieving external knowledge can improve large language model (LLM) translation by providing supplementary information such as idiom interpretations and terminology. However, existing retrieval-augmented machine translation systems typically apply predefined retrieval strategies uniformly across all inputs. We argue that translation operates in a partial-evidence regime: LLM&amp;amp;apos;s parametric knowledge suffices for many inputs, while external evidence benefits a subset and usually supports rather th...</description>
   </item>
   <item>
     <title>AdCoEvo: A Co-Evolving Multi-Agent Advertising Delivery System</title>
@@ -194,7 +208,7 @@
     <link>https://arxiv.org/abs/2610.17986</link>
     <guid isPermaLink="false">2610.17986</guid>
     <pubDate>Tue, 13 Oct 2026 08:54:15 GMT</pubDate>
-    <description>A common practice in instance retrieval is to grow the gallery size to improve a benchmark&amp;amp;apos;s discrimination capability. One prominent example is ILIAS, which adds up to 100 million distractor images. The prevailing assumption is that faithful evaluation demands web scale, and that indexing all 100M images through the backbone is the unavoidable price of a comparable number. That price is steep: hundreds of GPU-hours and ~200 GB of descriptors per model, paid again for every method or ablation. W...</description>
+    <description>A common practice in instance retrieval is to grow the gallery size to improve a benchmark&amp;amp;amp;apos;s discrimination capability. One prominent example is ILIAS, which adds up to 100 million distractor images. The prevailing assumption is that faithful evaluation demands web scale, and that indexing all 100M images through the backbone is the unavoidable price of a comparable number. That price is steep: hundreds of GPU-hours and ~200 GB of descriptors per model, paid again for every method or ablation. W...</description>
   </item>
   <item>
     <title>SimInter: Evidence-Grounded User Simulation with Interview-Based Profile Enrichment for Conversational Recommender Systems</title>
@@ -306,7 +320,7 @@
     <link>https://arxiv.org/abs/2610.17768</link>
     <guid isPermaLink="false">2610.17768</guid>
     <pubDate>Tue, 13 Oct 2026 05:54:42 GMT</pubDate>
-    <description>A model trained on readers&amp;amp;amp;apos; highlights can show a newcomer where earlier readers converged on a page, even on pages with few readers. A year of stronger language models suggests two upgrades: use them directly, or use them as teachers. We compare both with a third, more reader data, on one social highlighting platform, with the comparisons, the selection rules and a sealed set of fresh pages fixed in advance. On 215 development pages, seven language models released by October 2026 rank sentences...</description>
+    <description>A model trained on readers&amp;amp;amp;amp;apos; highlights can show a newcomer where earlier readers converged on a page, even on pages with few readers. A year of stronger language models suggests two upgrades: use them directly, or use them as teachers. We compare both with a third, more reader data, on one social highlighting platform, with the comparisons, the selection rules and a sealed set of fresh pages fixed in advance. On 215 development pages, seven language models released by October 2026 rank sentences...</description>
   </item>
   <item>
     <title>RALI@iKAT 2026: Retrieval-aware User Profile Denoising via Personalized Conversational Dense Retrieval</title>
@@ -348,7 +362,7 @@
     <link>https://arxiv.org/abs/2610.16137</link>
     <guid isPermaLink="false">2610.16137</guid>
     <pubDate>Mon, 12 Oct 2026 03:53:47 GMT</pubDate>
-    <description>Memory ranking is the stage in personalized Large Language Models (LLMs) that decides which of the candidate memories returned by a retriever enter the limited context, so that the answer is grounded in the right parts of the user&amp;amp;amp;apos;s history. Existing memory rankers operate in a single pass, scoring each candidate once against the raw query and cutting the ranked list at a fixed top-K. The single pass misses memories that the answer needs but that look unrelated to the query on their own, and the...</description>
+    <description>Memory ranking is the stage in personalized Large Language Models (LLMs) that decides which of the candidate memories returned by a retriever enter the limited context, so that the answer is grounded in the right parts of the user&amp;amp;amp;amp;apos;s history. Existing memory rankers operate in a single pass, scoring each candidate once against the raw query and cutting the ranked list at a fixed top-K. The single pass misses memories that the answer needs but that look unrelated to the query on their own, and the...</description>
   </item>
   <item>
     <title>UniSGR-V2: Stepwise Target-Side Feature Anticipation and Crossing for Generative Recommendation</title>
@@ -383,14 +397,14 @@
     <link>https://arxiv.org/abs/2610.16940</link>
     <guid isPermaLink="false">2610.16940</guid>
     <pubDate>Mon, 12 Oct 2026 15:17:03 GMT</pubDate>
-    <description>Nearest neighbor search algorithms are widely used and have a long history, but we find that key implementation details are seldom reviewed in articles about them. These details can materially impact performance, and thus change the conclusions one makes about a given algorithm&amp;amp;amp;apos;s superiority. In this article, we highlight these impacts by reviewing the Cover Tree as an example, producing RustKNN, a unified Rust implementation of three construction variants of the Cover Tree with three query mode...</description>
+    <description>Nearest neighbor search algorithms are widely used and have a long history, but we find that key implementation details are seldom reviewed in articles about them. These details can materially impact performance, and thus change the conclusions one makes about a given algorithm&amp;amp;amp;amp;apos;s superiority. In this article, we highlight these impacts by reviewing the Cover Tree as an example, producing RustKNN, a unified Rust implementation of three construction variants of the Cover Tree with three query mode...</description>
   </item>
   <item>
     <title>Comparing GenAI to Machine Learning and Manual Review for eDiscovery</title>
     <link>https://arxiv.org/abs/2610.16925</link>
     <guid isPermaLink="false">2610.16925</guid>
     <pubDate>Mon, 12 Oct 2026 15:08:40 GMT</pubDate>
-    <description>Keeling et al. [Keeling2026Generative] report on a case study recently conducted by Redgrave LLP in which they assert that Relativity&amp;amp;amp;apos;s Generative AI Review tool (aiR) achieved 88% recall while Relativity Assisted Learning (RAL), its machine-learning tool, achieved 64% recall. These results are not comparable because the methods employed have different objectives, because of inter-assessor disagreement, and because they represent different recall-precision and cost-benefit trade-offs. Our analys...</description>
+    <description>Keeling et al. [Keeling2026Generative] report on a case study recently conducted by Redgrave LLP in which they assert that Relativity&amp;amp;amp;amp;apos;s Generative AI Review tool (aiR) achieved 88% recall while Relativity Assisted Learning (RAL), its machine-learning tool, achieved 64% recall. These results are not comparable because the methods employed have different objectives, because of inter-assessor disagreement, and because they represent different recall-precision and cost-benefit trade-offs. Our analys...</description>
   </item>
   <item>
     <title>From Volpiano to Pixels: 30,000 Lines of OMR Ground Truth for Medieval Chant</title>
@@ -467,7 +481,7 @@
     <link>https://arxiv.org/abs/2610.15506</link>
     <guid isPermaLink="false">2610.15506</guid>
     <pubDate>Sun, 11 Oct 2026 10:13:25 GMT</pubDate>
-    <description>Collaborative filtering predicts user-item interactions from implicit feedback. We focus on matrix factorization (MF) trained with the Bayesian Personalized Ranking loss. This loss updates each user embedding only through that user&amp;amp;amp;apos;s observed items and sampled negatives, so sparse feedback gives MF few constraints. To constrain each user through other users, we propose Pathwise Alignment for Collaborative Filtering (PACF), which trains MF with one network shared by all training pairs. At points ...</description>
+    <description>Collaborative filtering predicts user-item interactions from implicit feedback. We focus on matrix factorization (MF) trained with the Bayesian Personalized Ranking loss. This loss updates each user embedding only through that user&amp;amp;amp;amp;apos;s observed items and sampled negatives, so sparse feedback gives MF few constraints. To constrain each user through other users, we propose Pathwise Alignment for Collaborative Filtering (PACF), which trains MF with one network shared by all training pairs. At points ...</description>
   </item>
   <item>
     <title>Federated Semantic Residuals for Multimodal Recommendation</title>
@@ -544,7 +558,7 @@
     <link>https://arxiv.org/abs/2610.14631</link>
     <guid isPermaLink="false">2610.14631</guid>
     <pubDate>Sat, 10 Oct 2026 06:29:27 GMT</pubDate>
-    <description>Jev&amp;amp;amp;apos;s documented interface evaluates typed questions independently against shared evidence. We audit request independence in seven open Jev-style checkpoints on 276 constructed three-passage states from 92 TREC retrieval queries. Paired interventions separately change requested questions, displayed evidence, and candidate eligibility. Request expansion induces strict binary flips in 9.1%/8.0% of Nimble&amp;amp;amp;apos;s judgments and changes 21.4%/18.9% of selection-or-abstention actions in TREC DL2019/2020 und...</description>
+    <description>Jev&amp;amp;amp;amp;apos;s documented interface evaluates typed questions independently against shared evidence. We audit request independence in seven open Jev-style checkpoints on 276 constructed three-passage states from 92 TREC retrieval queries. Paired interventions separately change requested questions, displayed evidence, and candidate eligibility. Request expansion induces strict binary flips in 9.1%/8.0% of Nimble&amp;amp;amp;amp;apos;s judgments and changes 21.4%/18.9% of selection-or-abstention actions in TREC DL2019/2020 und...</description>
   </item>
   <item>
     <title>Fine-Tuning Strategy, Not Just Data: A Statistically Rigorous Audit of Gender and Stereotypical Bias in Embedding Models for HR Recommendation Systems</title>
@@ -579,7 +593,7 @@
     <link>https://arxiv.org/abs/2610.14474</link>
     <guid isPermaLink="false">2610.14474</guid>
     <pubDate>Sat, 10 Oct 2026 02:06:48 GMT</pubDate>
-    <description>Medication recommendations seek to deliver personalized drug combinations based on patients&amp;amp;amp;amp;apos; clinical information, where ensuring transparent decision-making and personalized safety are of paramount importance. However, existing approaches predominantly operate as ``black boxes&amp;amp;amp;amp;apos;&amp;amp;amp;amp;apos;, offering limited interpretability and hindering clinician trust. Furthermore, they typically rely on fixed, patient-agnostic safety constraints, neglecting the heterogeneity of risk tolerance across individuals, which ...</description>
+    <description>Medication recommendations seek to deliver personalized drug combinations based on patients&amp;amp;amp;amp;amp;apos; clinical information, where ensuring transparent decision-making and personalized safety are of paramount importance. However, existing approaches predominantly operate as ``black boxes&amp;amp;amp;amp;amp;apos;&amp;amp;amp;amp;amp;apos;, offering limited interpretability and hindering clinician trust. Furthermore, they typically rely on fixed, patient-agnostic safety constraints, neglecting the heterogeneity of risk tolerance across individuals, which ...</description>
   </item>
   <item>
     <title>LLM-based User-Product Relevance Evaluation for Dynamic Product Advertising</title>
@@ -663,7 +677,7 @@
     <link>https://arxiv.org/abs/2610.13296</link>
     <guid isPermaLink="false">2610.13296</guid>
     <pubDate>Fri, 09 Oct 2026 09:44:47 GMT</pubDate>
-    <description>High-precision retrieval over external knowledge bases is essential for LLM agents to operate effectively. However, existing Information Retrieval (IR) research primarily optimizes query-side retrievers (e.g., ColBERT, BGE) and generators (e.g., Self-RAG, GraphRAG), while reducing corpus-side representation to chunking. This leaves index-side quality an underexplored lever. We propose Pre-Retrieval Index Modeling &amp;amp;amp;amp;amp;amp;amp; Enhancement (PRIME), an index-side optimization framework built on two comple...</description>
+    <description>High-precision retrieval over external knowledge bases is essential for LLM agents to operate effectively. However, existing Information Retrieval (IR) research primarily optimizes query-side retrievers (e.g., ColBERT, BGE) and generators (e.g., Self-RAG, GraphRAG), while reducing corpus-side representation to chunking. This leaves index-side quality an underexplored lever. We propose Pre-Retrieval Index Modeling &amp;amp;amp;amp;amp;amp;amp;amp; Enhancement (PRIME), an index-side optimization framework built on two comple...</description>
   </item>
   <item>
     <title>GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports</title>
@@ -691,21 +705,7 @@
     <link>https://arxiv.org/abs/2610.13128</link>
     <guid isPermaLink="false">2610.13128</guid>
     <pubDate>Fri, 09 Oct 2026 07:21:36 GMT</pubDate>
-    <description>Question answering over large heterogeneous document collections requires first finding the right passages and then reading them, yet current retrieval-augmented agents give one model both kinds of tools and let it schedule itself. We present KnowForge, a pipeline separated by job: a hybrid-retrieval knowledge-point index; a Locator agent that can only search; a code-scheduled bridge judge that forces the missing second hop; a typed, size-bounded evidence pool that merges every search&amp;amp;amp;amp;amp;amp;apos;s ranking;...</description>
-  </item>
-  <item>
-    <title>LIFT: A Lifecycle-aware Interaction Factorization Transformer for Unified Retrieval and Ranking</title>
-    <link>https://arxiv.org/abs/2610.10556</link>
-    <guid isPermaLink="false">2610.10556</guid>
-    <pubDate>Tue, 29 Sep 2026 05:50:33 GMT</pubDate>
-    <description>Cascaded recommender systems use the same user history for retrieval and ranking, while the two stages have access to different information at different points of an interaction. We propose the Lifecycle-aware Interaction Factorization Transformer (LIFT), which decomposes each interaction into ordered Request, Item, Context, and Action states and models them as a causal sequence. Retrieval reads the Request state, while ranking reads the Context state, allowing both tasks to share history modeli...</description>
-  </item>
-  <item>
-    <title>SAIL: Scientific Agentic Intelligence via a Science-Aware Loop</title>
-    <link>https://arxiv.org/abs/2610.11451</link>
-    <guid isPermaLink="false">2610.11451</guid>
-    <pubDate>Thu, 08 Oct 2026 08:04:22 GMT</pubDate>
-    <description>We introduce SAIL, an open model with 35B total and 3B active parameters for literature research, scientific coding, and multi-step research workflows. SAIL is developed through a science-aware improvement loop: agents built on frontier AI models analyze its task failures and construct training tasks that address the underlying capability gaps. The diagnosis examines search and evidence selection in literature tasks, scientific assumptions and reasoning in coding, and planning and revision in lo...</description>
+    <description>Question answering over large heterogeneous document collections requires first finding the right passages and then reading them, yet current retrieval-augmented agents give one model both kinds of tools and let it schedule itself. We present KnowForge, a pipeline separated by job: a hybrid-retrieval knowledge-point index; a Locator agent that can only search; a code-scheduled bridge judge that forces the missing second hop; a typed, size-bounded evidence pool that merges every search&amp;amp;amp;amp;amp;amp;amp;apos;s ranking;...</description>
   </item>
   </channel>
 </rss>
