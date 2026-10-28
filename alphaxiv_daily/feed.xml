@@ -6,7 +6,21 @@
     <description>每6小时更新，推荐 alphaxiv 上最近30天 cs.IR 热门论文</description>
     <language>zh-CN</language>
     <atom:link href="https://github.com/JyiHUO/arxiv_daily_recommendation_system/raw/main/alphaxiv_daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 11:27:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 03:37:56 GMT</lastBuildDate>
+  <item>
+    <title>Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG</title>
+    <link>https://arxiv.org/abs/2610.36915</link>
+    <guid isPermaLink="false">2610.36915</guid>
+    <pubDate>Tue, 27 Oct 2026 09:43:21 GMT</pubDate>
+    <description>When the sources retrieved for a query disagree, the right response depends on why they disagree: a question with several valid answers, a contested topic, stale information and a false source each call for different behaviour. Cattan et al. (2025) showed that telling a generator the conflict type improves its responses by about 24 points, but that predicting the type is hard even for frontier LLMs. We study whether typed decision models, which return probabilities over fixed options in a single...</description>
+  </item>
+  <item>
+    <title>Monitor Accuracy Isn&apos;t the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors</title>
+    <link>https://arxiv.org/abs/2610.36544</link>
+    <guid isPermaLink="false">2610.36544</guid>
+    <pubDate>Tue, 27 Oct 2026 02:59:21 GMT</pubDate>
+    <description>Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action identity for an independent clean restart with zero monitoring overhead, we show analytically that a monitor with fixed 90% accuracy can swing from a five-percentage-point loss to a 35-point gain in success rate, depending solely on the replacement attempt&apos;s residual-budget success probability. We introduce two techniques for ev...</description>
+  </item>
   <item>
     <title>Unified Heterogeneous Feature Interaction via Effective-Rank Scaling for Recommender Systems</title>
     <link>https://arxiv.org/abs/2610.35318</link>
@@ -54,7 +68,7 @@
     <link>https://arxiv.org/abs/2610.35240</link>
     <guid isPermaLink="false">2610.35240</guid>
     <pubDate>Mon, 26 Oct 2026 11:24:16 GMT</pubDate>
-    <description>India&apos;s historical public archives present severe computer vision and document image analysis challenges: decades of parliamentary records survive only as degraded, multi-column scanned pages featuring mixed scripts, complex layouts, and dense visual noise where OCR failure is the primary obstacle to information retrieval. We present an end-to-end framework that couples vision-based layout segmentation and multi-script OCR with an agentic retrieval-augmented generation (RAG) pipeline. Our approa...</description>
+    <description>India&amp;apos;s historical public archives present severe computer vision and document image analysis challenges: decades of parliamentary records survive only as degraded, multi-column scanned pages featuring mixed scripts, complex layouts, and dense visual noise where OCR failure is the primary obstacle to information retrieval. We present an end-to-end framework that couples vision-based layout segmentation and multi-script OCR with an agentic retrieval-augmented generation (RAG) pipeline. Our approa...</description>
   </item>
   <item>
     <title>Tiny Suffix Arrays</title>
@@ -131,7 +145,7 @@
     <link>https://arxiv.org/abs/2610.35840</link>
     <guid isPermaLink="false">2610.35840</guid>
     <pubDate>Mon, 26 Oct 2026 17:53:30 GMT</pubDate>
-    <description>In agentic search, a document can match an agent-generated sub-query without helping answer the user&apos;s original question. Conventional rerankers score documents against the sub-query alone, overlooking the broader task and the agent&apos;s reasoning. We introduce the Agent-Context-Aware Reranker (ACARe), a compact 4B LLM trained to rerank documents using this context when available. Across multiple benchmarks and agent families, ACARe improves retrieval quality over its base reranker while reducing s...</description>
+    <description>In agentic search, a document can match an agent-generated sub-query without helping answer the user&amp;apos;s original question. Conventional rerankers score documents against the sub-query alone, overlooking the broader task and the agent&amp;apos;s reasoning. We introduce the Agent-Context-Aware Reranker (ACARe), a compact 4B LLM trained to rerank documents using this context when available. Across multiple benchmarks and agent families, ACARe improves retrieval quality over its base reranker while reducing s...</description>
   </item>
   <item>
     <title>DPE-Rec: Diversity-Preserving and Efficient Diffusion Language Model Recommendation for Bundle Construction</title>
@@ -204,7 +218,7 @@
     <description>Scientific literature in materials physics is growing faster than researchers can manually inspect it, yet most retrieval tools rely on keyword matching or generic question answering that ignores domain-specific structure in PDF files. This paper presents an end-to-end pipeline that transforms arXiv superconductivity publications into a searchable corpus with structured metadata and retrieval-augmented question answering. The system combines thematic corpus construction, domain-aware extraction ...</description>
   </item>
   <item>
-    <title>Beyond &quot;[at]&quot;: A Large-Scale Measurement of Email Address Presentation on Computer Science Scholars&apos; Homepages</title>
+    <title>Beyond &amp;quot;[at]&amp;quot;: A Large-Scale Measurement of Email Address Presentation on Computer Science Scholars&amp;apos; Homepages</title>
     <link>https://arxiv.org/abs/2610.35499</link>
     <guid isPermaLink="false">2610.35499</guid>
     <pubDate>Mon, 26 Oct 2026 14:27:15 GMT</pubDate>
@@ -285,7 +299,7 @@
     <link>https://arxiv.org/abs/2610.33435</link>
     <guid isPermaLink="false">2610.33435</guid>
     <pubDate>Sat, 24 Oct 2026 04:24:45 GMT</pubDate>
-    <description>Generative retrieval replaces nearest-neighbor search with token-by-token decoding of an item&apos;s semantic ID (SID). But existing SID-based methods primarily use L levels of tokens sequentially to represent each item in the input history. As a result, a fixed context window holds L times fewer items than it would with one embedding per item. We present PinGER, a generative retriever deployed at Pinterest that retains SID outputs while making input histories compact, built on three ideas. (1) An as...</description>
+    <description>Generative retrieval replaces nearest-neighbor search with token-by-token decoding of an item&amp;apos;s semantic ID (SID). But existing SID-based methods primarily use L levels of tokens sequentially to represent each item in the input history. As a result, a fixed context window holds L times fewer items than it would with one embedding per item. We present PinGER, a generative retriever deployed at Pinterest that retains SID outputs while making input histories compact, built on three ideas. (1) An as...</description>
   </item>
   <item>
     <title>DyHist: Query-Aware Historical Dynamics Modeling for Temporal Knowledge Graph Extrapolation</title>
@@ -321,7 +335,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.33168</link>
     <guid isPermaLink="false">2610.33168</guid>
     <pubDate>Fri, 23 Oct 2026 18:01:30 GMT</pubDate>
-    <description>Offline evaluation of click-through rate (CTR) models still defaults to random splits, although deployed models score future traffic and downstream systems consume calibrated probabilities. On Avazu (40.4M impressions) we train logistic regression (LR), DeepFM, and DCN-v2 under two rolling temporal origins and a random split, three seeds per arm, and recalibrate each test day with Platt scaling and isotonic regression fitted on the preceding hours. At origin 1&apos;s nearest test day, random splits r...</description>
+    <description>Offline evaluation of click-through rate (CTR) models still defaults to random splits, although deployed models score future traffic and downstream systems consume calibrated probabilities. On Avazu (40.4M impressions) we train logistic regression (LR), DeepFM, and DCN-v2 under two rolling temporal origins and a random split, three seeds per arm, and recalibrate each test day with Platt scaling and isotonic regression fitted on the preceding hours. At origin 1&amp;apos;s nearest test day, random splits r...</description>
   </item>
   <item>
     <title>TriageRAG: Failure-Aware Self-Training for Adapting Retrieval-Augmented Language Models to Specialized Domains</title>
@@ -349,7 +363,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.32464</link>
     <guid isPermaLink="false">2610.32464</guid>
     <pubDate>Fri, 23 Oct 2026 10:30:55 GMT</pubDate>
-    <description>Information retrieval has long been focusing on connecting people with information they need to complete their tasks. Recently, the meaning of this has changed dramatically as more and more AI agents now consume, retain, and act on information on a user&amp;amp;apos;s behalf. Consequently, information management now also takes place \emph{inside} the agent in the form of memory management. In this perspective paper, we argue that \emph{agentic memory management} (AMM), which studies the structure, analysis, ...</description>
+    <description>Information retrieval has long been focusing on connecting people with information they need to complete their tasks. Recently, the meaning of this has changed dramatically as more and more AI agents now consume, retain, and act on information on a user&amp;amp;amp;apos;s behalf. Consequently, information management now also takes place \emph{inside} the agent in the form of memory management. In this perspective paper, we argue that \emph{agentic memory management} (AMM), which studies the structure, analysis, ...</description>
   </item>
   <item>
     <title>Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation</title>
@@ -426,14 +440,14 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.31821</link>
     <guid isPermaLink="false">2610.31821</guid>
     <pubDate>Thu, 22 Oct 2026 18:59:15 GMT</pubDate>
-    <description>How well a poetry archive can be searched depends on what the user still remembers, not only on what the model understands. We show this for Classical Arabic poetry, benchmarking nine dense encoders and BM25 over two corpora, three indexing modes and two evaluation protocols. Which retriever wins is governed by how much of a poem&amp;amp;apos;s wording the query still carries. On tip-of-the-tongue queries BM25 leads every dense encoder, including an 8B state-of-the-art model (0.746 vs. 0.717 Recall@5); on ab...</description>
+    <description>How well a poetry archive can be searched depends on what the user still remembers, not only on what the model understands. We show this for Classical Arabic poetry, benchmarking nine dense encoders and BM25 over two corpora, three indexing modes and two evaluation protocols. Which retriever wins is governed by how much of a poem&amp;amp;amp;apos;s wording the query still carries. On tip-of-the-tongue queries BM25 leads every dense encoder, including an 8B state-of-the-art model (0.746 vs. 0.717 Recall@5); on ab...</description>
   </item>
   <item>
     <title>Hierarchical GTV Estimation: Bridging the Gap between Container-Level Ranking and Item-Level Conversion</title>
     <link>https://arxiv.org/abs/2610.32420</link>
     <guid isPermaLink="false">2610.32420</guid>
     <pubDate>Fri, 23 Oct 2026 09:50:06 GMT</pubDate>
-    <description>Emerging e-commerce platforms, such as live-streaming and Online-to-Offline (O2O) services, inherently operate under a &amp;amp;amp;quot;Container-based&amp;amp;amp;quot; display paradigm. In this setting, a critical granularity mismatch exists: the platform performs ranking and estimation at the container level (e.g., livestream rooms or stores), whereas the actual transactions occur at the item level within these containers. This structural discrepancy complicates Gross Transaction Value (GTV) estimation, introducing unique ch...</description>
+    <description>Emerging e-commerce platforms, such as live-streaming and Online-to-Offline (O2O) services, inherently operate under a &amp;amp;amp;amp;quot;Container-based&amp;amp;amp;amp;quot; display paradigm. In this setting, a critical granularity mismatch exists: the platform performs ranking and estimation at the container level (e.g., livestream rooms or stores), whereas the actual transactions occur at the item level within these containers. This structural discrepancy complicates Gross Transaction Value (GTV) estimation, introducing unique ch...</description>
   </item>
   <item>
     <title>System One models Are Not Better Rerankers</title>
@@ -503,7 +517,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.30932</link>
     <guid isPermaLink="false">2610.30932</guid>
     <pubDate>Thu, 22 Oct 2026 08:54:16 GMT</pubDate>
-    <description>Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users&amp;amp;amp;amp;amp;apos; behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a real...</description>
+    <description>Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users&amp;amp;amp;amp;amp;amp;apos; behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results. We introduce UserArena, a real...</description>
   </item>
   <item>
     <title>Automated Enrichment Analysis with GraphRAG: Efficient Multi-Database ORA Extraction and Biological Interpretation</title>
@@ -545,7 +559,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.30423</link>
     <guid isPermaLink="false">2610.30423</guid>
     <pubDate>Wed, 21 Oct 2026 20:32:56 GMT</pubDate>
-    <description>CTR, MRR, and behavioral NDCG assume the user sees ranked results and acts on them. In an agentic assistant, a generation layer consumes retrieval output first, and that assumption breaks in three ways. The agent reads the results before the user does (who). The user&amp;amp;amp;amp;amp;apos;s action can come several turns or sessions after retrieval (when). Outcomes blend retrieved content with the model&amp;amp;amp;amp;amp;apos;s own knowledge (what caused it). We call this the attribution gap. We propose Layered Agentic Retrieval Assessment ...</description>
+    <description>CTR, MRR, and behavioral NDCG assume the user sees ranked results and acts on them. In an agentic assistant, a generation layer consumes retrieval output first, and that assumption breaks in three ways. The agent reads the results before the user does (who). The user&amp;amp;amp;amp;amp;amp;apos;s action can come several turns or sessions after retrieval (when). Outcomes blend retrieved content with the model&amp;amp;amp;amp;amp;amp;apos;s own knowledge (what caused it). We call this the attribution gap. We propose Layered Agentic Retrieval Assessment ...</description>
   </item>
   <item>
     <title>Chunk Recomputation under Real Document Revisions: Measuring Update Cost and Retrieval Quality of Fixed, Recursive, and Content-Defined Chunking</title>
@@ -566,7 +580,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.31011</link>
     <guid isPermaLink="false">2610.31011</guid>
     <pubDate>Thu, 22 Oct 2026 09:46:52 GMT</pubDate>
-    <description>Formalized mathematics libraries such as Lean&amp;amp;amp;amp;amp;apos;s \texttt{mathlib} provide machine-verifiable representations of mathematical knowledge, including definitions, theorems, and their relationships. If effectively connected to informal mathematical resources, formal mathematics could help uncover previously implicit links between mathematical concepts and improve access to existing formalizations. However, connections between informal and formal mathematics libraries are currently sparse and unsystema...</description>
+    <description>Formalized mathematics libraries such as Lean&amp;amp;amp;amp;amp;amp;apos;s \texttt{mathlib} provide machine-verifiable representations of mathematical knowledge, including definitions, theorems, and their relationships. If effectively connected to informal mathematical resources, formal mathematics could help uncover previously implicit links between mathematical concepts and improve access to existing formalizations. However, connections between informal and formal mathematics libraries are currently sparse and unsystema...</description>
   </item>
   <item>
     <title>PAIR: Preference-Aligned Intent Retrieval for Premium People Recommendation at LinkedIn</title>
@@ -629,7 +643,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.30612</link>
     <guid isPermaLink="false">2610.30612</guid>
     <pubDate>Thu, 22 Oct 2026 02:24:08 GMT</pubDate>
-    <description>Hybrid retrieval, which fuses a sparse lexical retriever with a dense neural one, is widely recommended in the software documentation surveyed in September 2026, usually with reciprocal rank fusion (RRF), on the strength of aggregate gains. We ask what fusion costs on individual queries, treating &amp;amp;amp;amp;amp;amp;quot;do not fuse&amp;amp;amp;amp;amp;amp;quot; as a first-class outcome, in the setting in which hybrid retrieval is deployed: a standard Anserini BM25, five dense encoders spanning 22M-596M parameters and three model generations, a le...</description>
+    <description>Hybrid retrieval, which fuses a sparse lexical retriever with a dense neural one, is widely recommended in the software documentation surveyed in September 2026, usually with reciprocal rank fusion (RRF), on the strength of aggregate gains. We ask what fusion costs on individual queries, treating &amp;amp;amp;amp;amp;amp;amp;quot;do not fuse&amp;amp;amp;amp;amp;amp;amp;quot; as a first-class outcome, in the setting in which hybrid retrieval is deployed: a standard Anserini BM25, five dense encoders spanning 22M-596M parameters and three model generations, a le...</description>
   </item>
   <item>
     <title>Getting a GRIP on Graph-Based Search for Learned Sparse Retrieval</title>
@@ -643,7 +657,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.30365</link>
     <guid isPermaLink="false">2610.30365</guid>
     <pubDate>Wed, 21 Oct 2026 19:28:32 GMT</pubDate>
-    <description>Web-searching Large Language Models (LLMs) have changed how users seek online information: instead of sifting through ranked lists of links, users read synthesized answers. This shift creates a new LLM vulnerability: a data-void exploit. Disinformers publish their narratives in search spaces where relevant and reliable content is scarce, i.e. data voids, then rely on the LLM&amp;amp;amp;amp;amp;amp;apos;s web-search to retrieve and then use, cite, or list those pages in its responses to data-void seeking prompts. Unlike cla...</description>
+    <description>Web-searching Large Language Models (LLMs) have changed how users seek online information: instead of sifting through ranked lists of links, users read synthesized answers. This shift creates a new LLM vulnerability: a data-void exploit. Disinformers publish their narratives in search spaces where relevant and reliable content is scarce, i.e. data voids, then rely on the LLM&amp;amp;amp;amp;amp;amp;amp;apos;s web-search to retrieve and then use, cite, or list those pages in its responses to data-void seeking prompts. Unlike cla...</description>
   </item>
   <item>
     <title>RAG Components Are Not Independently Rankable</title>
@@ -671,7 +685,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.30128</link>
     <guid isPermaLink="false">2610.30128</guid>
     <pubDate>Wed, 21 Oct 2026 17:58:06 GMT</pubDate>
-    <description>Existing sequential recommenders usually allocate a fixed computational budget to every item in a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s interaction history, regardless of the item&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require. Most converge after shallow processing while a critical minority only stabilizes at full depth. (2) Suboptimality of fixed al...</description>
+    <description>Existing sequential recommenders usually allocate a fixed computational budget to every item in a user&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s interaction history, regardless of the item&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require. Most converge after shallow processing while a critical minority only stabilizes at full depth. (2) Suboptimality of fixed al...</description>
   </item>
   <item>
     <title>Generative Recommenders Forget the Long Tail: Restoring Memorization in Retrieval and Ranking</title>
@@ -685,7 +699,7 @@ In this paper, we introduce Holo-N...</description>
     <link>https://arxiv.org/abs/2610.28929</link>
     <guid isPermaLink="false">2610.28929</guid>
     <pubDate>Tue, 20 Oct 2026 21:06:13 GMT</pubDate>
-    <description>This technical report documents the design and implementation of Scriptorium, a digital library search interface designed to support multi-human, multi-AI collaboration: full cross-user transparency of search activity combined with a Manager--Worker architecture of seven role-specialized generative AI agents. A companion short demonstration paper describes Scriptorium&amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s interaction design; because a demonstration format is constrained to a few pages, it necessarily omits most implementation deta...</description>
+    <description>This technical report documents the design and implementation of Scriptorium, a digital library search interface designed to support multi-human, multi-AI collaboration: full cross-user transparency of search activity combined with a Manager--Worker architecture of seven role-specialized generative AI agents. A companion short demonstration paper describes Scriptorium&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;apos;s interaction design; because a demonstration format is constrained to a few pages, it necessarily omits most implementation deta...</description>
   </item>
   <item>
     <title>pplx-embed-v2-late Technical Report</title>
@@ -693,20 +707,6 @@ In this paper, we introduce Holo-N...</description>
     <guid isPermaLink="false">2610.29523</guid>
     <pubDate>Wed, 21 Oct 2026 10:10:26 GMT</pubDate>
     <description>In this report, we introduce pplx-embed-v2-late, a pair of 0.6B and 9B multilingual and multimodal late-interaction models. Both models achieve state-of-the-art results within their respective size classes across a range of text, image, and visual document retrieval benchmarks. On visual document retrieval tasks, pplx-embed-v2-late-0.6b is competitive with models several times larger than itself. The models are trained via representation distillation from an 18B teacher. Consequently, they share...</description>
-  </item>
-  <item>
-    <title>Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?</title>
-    <link>https://arxiv.org/abs/2610.29520</link>
-    <guid isPermaLink="false">2610.29520</guid>
-    <pubDate>Wed, 21 Oct 2026 10:06:29 GMT</pubDate>
-    <description>Retrieval-based in-context learning (ICL) enables large language models (LLMs) to predict tabular labels from similar examples, but it remains unclear whether LLM inference improves on direct voting over those same examples. We address this question by comparing four general-purpose LLMs with distance-weighted nearest-neighbor voting (Distance-KNN) using identical retrieved neighbors across 19 tabular classification datasets. With the number of demonstrations fixed, enlarging the retrieval candi...</description>
-  </item>
-  <item>
-    <title>What the Author Wrote, What the Agent Reads: Silent Cue Loss in Enterprise Document Ingestion</title>
-    <link>https://arxiv.org/abs/2610.30026</link>
-    <guid isPermaLink="false">2610.30026</guid>
-    <pubDate>Wed, 21 Oct 2026 16:51:25 GMT</pubDate>
-    <description>Enterprise agents act on documents. Before an agent can follow a policy, answer a compliance question or file a ticket, some ingestion layer must turn a Word file or PDF into tokens - and that layer is where an agent deployed in the wild silently loses information. We show that one layer is lost by every mainstream converter - the meaning an author encodes in how text looks - and that the loss makes agents confidently wrong rather than visibly incomplete. We build a task from 76 real policy docu...</description>
   </item>
   </channel>
 </rss>
